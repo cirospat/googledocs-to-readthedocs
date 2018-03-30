@@ -132,8 +132,6 @@ Aspetti di GGeditor
 
 --------
 
---------
-
 .. _h292a20344d21577179215c531d397512:
 
 Contenuti di questo documento 
@@ -146,8 +144,6 @@ Contenuti di questo documento
     come-usarlo
     tutorial
     user-guide
-
---------
 
 --------
 
