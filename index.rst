@@ -1,4 +1,6 @@
 
+|REPLACE1|
+
 .. _h403f631c642863610673372f386278:
 
 Da Google Doc a Read the Docs
@@ -47,7 +49,7 @@ Video tutorial di funzionamento di GGeditor
 ===========================================
 
 
-|REPLACE1|
+|REPLACE2|
 
 |
 
@@ -148,10 +150,10 @@ Contenuti di questo documento
 --------
 
 
-|REPLACE2|
-
-
 |REPLACE3|
+
+
+|REPLACE4|
 
 
 .. bottom of content
@@ -180,8 +182,11 @@ Contenuti di questo documento
 
 .. |REPLACE1| raw:: html
 
-    <iframe width="100%" height="380" src="https://www.youtube.com/embed/PUswAbvpE7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 .. |REPLACE2| raw:: html
+
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/PUswAbvpE7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+.. |REPLACE3| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -206,7 +211,7 @@ Contenuti di questo documento
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE3| raw:: html
+.. |REPLACE4| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
