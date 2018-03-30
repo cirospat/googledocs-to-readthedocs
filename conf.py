@@ -38,4 +38,3 @@ def setup(app):
 #latex_documents = []
 latex_logo = "static/ods.png"
 html_logo = "static/ods.png"
-html_short_title = "cirospat"
