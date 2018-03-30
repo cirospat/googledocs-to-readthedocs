@@ -17,7 +17,7 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
 .. admonition:: Importante
 
-    Questa pagina che state leggendo deriva direttamente da \ |LINK2|\ 
+    Questa pagina che state leggendo deriva direttamente da \ |LINK2|\ )
 
 |
 
