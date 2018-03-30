@@ -61,18 +61,18 @@ Il processo che svolge GGeditor
 \ |IMG2|\ 
 
 
-+-----------+------------+-----------------+----------+
-|Google Docs|GGeditor    |Github           |Read      |
-|           |addon       |                 | the Docs |
-+===========+============+=================+==========+
-|\ |IMG3|\  |\ |IMG4|\   |\ |IMG5|\        |\ |IMG6|\ |
-+-----------+------------+-----------------+----------+
-|edita      |trasmette   |Github prepara   |espone    |
-|           |            |                 |          |
-|→          |doc a Github|per pubblicazione|documento |
-|           |            |                 |          |
-|           |→           |→                |online    |
-+-----------+------------+-----------------+----------+
++----------+------------+-----------------+----------+
+|Google    |GGeditor    |Github           |Read      |
+|Docs      |addon       |                 |the Docs  |
++==========+============+=================+==========+
+|\ |IMG3|\ |\ |IMG4|\   |\ |IMG5|\        |\ |IMG6|\ |
++----------+------------+-----------------+----------+
+|edita     |trasmette   |Github prepara   |espone    |
+|          |            |                 |          |
+|→         |doc a Github|per pubblicazione|documento |
+|          |            |                 |          |
+|          |→           |→                |online    |
++----------+------------+-----------------+----------+
 
 |
 
