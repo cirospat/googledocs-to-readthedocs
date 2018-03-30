@@ -193,11 +193,6 @@ Note colorate di vario tipo
 
     (content of Change-me)
 
---------
-
-
-|REPLACE1|
-
 |
 
 .. _h496a7729534b3e4c36782439686453:
@@ -210,6 +205,12 @@ Altre (tante) funzioni di GGeditor
 \ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor.
 
 \ |LINK3|\  espone le funzioni abbastanza bene.
+
+
+|REPLACE1|
+
+
+|REPLACE2|
 
 
 .. bottom of content
@@ -243,6 +244,9 @@ Altre (tante) funzioni di GGeditor
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+.. |REPLACE2| raw:: html
+
+    <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 .. |LINK1| raw:: html
 
