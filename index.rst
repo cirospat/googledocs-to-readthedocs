@@ -58,17 +58,29 @@ Il processo che svolge GGeditor
 
 \ |IMG2|\ 
 
+\ |IMG3|\ \ |STYLE2|\  
 
-+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|\ |STYLE2|\ \ |IMG3|\                                                    |\ |STYLE3|\ \ |IMG4|\                                                                                   |\ |STYLE4|\                                                                                                |\ |STYLE5|\ \ |IMG6|\                                                                                                                                                                                         |
-|                                                                         |                                                                                                        |                                                                                                           |                                                                                                                                                                                                              |
-|                                                                         |                                                                                                        |\ |IMG5|\                                                                                                  |                                                                                                                                                                                                              |
-+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|scrivi facilmente testo in un documento senza conoscere il linguaggio RST|GG editor è un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github|Il progetto sul repository di Github è fondamentale per esporre il documento da pubblicare su Read the Docs|Read the Docs è la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo |
-|                                                                         |                                                                                                        |                                                                                                           |                                                                                                                                                                                                              |
-+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+(scrivi facilmente testo in un documento senza conoscere il linguaggio RST)
 
-[in questa tabella: \ |STYLE6|\ ]
+\ |STYLE3|\  
+
+\ |IMG4|\ \ |STYLE4|\  
+
+(GG editor è un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github)
+
+\ |STYLE5|\  
+
+\ |IMG5|\ \ |STYLE6|\ 
+
+(Il progetto sul repository di Github è fondamentale per esporre il documento da pubblicare su Read the Docs)
+
+\ |STYLE7|\  
+
+\ |IMG6|\ \ |STYLE8|\ 
+
+(Read the Docs è la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo)
+
+Questo è il processo svolto da GGeditor: da Google Docs a GGeditor a Github a Readthedocs
 
 |
 
@@ -148,13 +160,17 @@ Contenuti di questo documento
 
 .. |STYLE2| replace:: **da Google Docs**
 
-.. |STYLE3| replace:: **a GGeditor**
+.. |STYLE3| replace:: **a**
 
-.. |STYLE4| replace:: **a Github**
+.. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **a Readthedocs**
+.. |STYLE5| replace:: **a**
 
-.. |STYLE6| replace:: **il processo svolto da GGeditor: da Google Docs a GGeditor a Github a Readthedocs**
+.. |STYLE6| replace:: **Github**
+
+.. |STYLE7| replace:: **a**
+
+.. |STYLE8| replace:: **Readthedocs**
 
 
 .. |REPLACE1| raw:: html
