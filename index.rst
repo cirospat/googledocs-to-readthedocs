@@ -15,7 +15,7 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 \ |LINK1|\  è un componente plug-in che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità di condivisione dei documenti in gruppo.
 
 
-.. admonition:: Importante
+..  Important:: 
 
     Questa pagina che state leggendo deriva direttamente da \ |LINK2|\ )
 
@@ -35,7 +35,7 @@ GGeditor ed i file RST
 |
 
 
-.. admonition:: GG editor
+..  Important:: 
 
     \ |LINK3|\  é un plug-in di Google Docs che serve a generare file \ |STYLE1|\  (\ |LINK4|\ ) direttamente da Google Docs. Il file RST generato può essere compilato nel repository di Github direttamente dall'editor GG. La documentazione così creata su Google Docs può essere ospitata da \ |LINK5|\  venendo aggiornata automaticamente ad ogni aggiornamento del Google Docs
 
