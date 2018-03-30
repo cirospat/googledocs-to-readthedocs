@@ -65,17 +65,16 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 
     #. e l'attività di compilazione (commit di Github).
 
-.. admonition:: Importante
+..  Important:: 
 
     #. Quando nomini il tuo documento Google Doc, il nome del documento non necessita del suffisso "\ |STYLE0|\ ".
     
     #. Per legare il file del Google Doc sul repository del progetto (Github), Github  ha bisogno del suffisso ".rst". Il suffisso sarà automaticamente creato da GGeditor. Se nomini manualmente tu il file su Github allora aggiungi il suffisso "\ |STYLE1|\ " (sulla directory "docs" di Github).
-    
 
 |
 
 
-.. admonition:: Importante
+..  Tip:: 
 
     il contenuto di questa pagina che state leggendo è in \ |LINK2|\ 
 
