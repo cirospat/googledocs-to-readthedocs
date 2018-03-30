@@ -58,6 +58,8 @@ Il processo che svolge GGeditor
 
 \ |IMG2|\ 
 
+|
+
 \ |STYLE2|\ 
 
 \ |IMG3|\  \ |STYLE3|\  
@@ -164,15 +166,15 @@ Contenuti di questo documento
 
 .. |STYLE3| replace:: **Google Docs**
 
-.. |STYLE4| replace:: **a**
+.. |STYLE4| replace:: **a ↓**
 
 .. |STYLE5| replace:: **GGeditor**
 
-.. |STYLE6| replace:: **a**
+.. |STYLE6| replace:: **a ↓**
 
 .. |STYLE7| replace:: **Github**
 
-.. |STYLE8| replace:: **a**
+.. |STYLE8| replace:: **a ↓**
 
 .. |STYLE9| replace:: **Readthedocs**
 
