@@ -40,7 +40,7 @@ Committing
 \ |IMG3|\ Se solo il testo è stato modificato nel Doc, puoi evitare di flaggare il tasto “Commit images” per escludere il commit a Github delle immagini, questo porterà a una riduzione dei tempi dell'effettuazione del processo di commit.
 
 
-.. admonition:: Nota
+..  Note:: 
 
     Il GGeditor manterrà i file immagini su una cartella ("static") del progetto su Github. Se nel Doc vengono modificate immagini o anche vengono cancellate o sostituite, ogni volta bisogna cliccare su "commit images".
 
