@@ -60,29 +60,38 @@ Il processo che svolge GGeditor
 
 \ |IMG2|\ 
 
+
++----------+----------------------+--------------------------------+-----------------------+
+|\ |IMG3|\ |\ |IMG4|\             |\ |IMG5|\                       |\ |IMG6|\              |
++----------+----------------------+--------------------------------+-----------------------+
+|edita     |trasmette doc a Github|Github prepara per pubblicazione|espone documento online|
+|          |                      |                                |                       |
+|→         |→                     |→                               |                       |
++----------+----------------------+--------------------------------+-----------------------+
+
 |
 
 \ |STYLE2|\ 
 
-\ |IMG3|\  \ |STYLE3|\  
+\ |IMG7|\  \ |STYLE3|\  
 
 (scrivi facilmente testo in un documento senza conoscere il linguaggio RST)
 
 \ |STYLE4|\  
 
-\ |IMG4|\ \ |STYLE5|\  
+\ |IMG8|\ \ |STYLE5|\  
 
 (GG editor è un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github)
 
 \ |STYLE6|\  
 
-\ |IMG5|\ \ |STYLE7|\ 
+\ |IMG9|\ \ |STYLE7|\ 
 
 (Il progetto sul repository di Github è fondamentale per esporre il documento da pubblicare su Read the Docs)
 
 \ |STYLE8|\  
 
-\ |IMG6|\ \ |STYLE9|\ 
+\ |IMG10|\ \ |STYLE9|\ 
 
 (Read the Docs è la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo)
 
@@ -95,7 +104,7 @@ Questo è il processo svolto da GGeditor: da Google Docs a GGeditor a Github a R
 I file che GGeditor genera automaticamente su Github
 ====================================================
 
-\ |IMG7|\ 
+\ |IMG11|\ 
 
 [immagine del repository di Github che mostra come i file RST vengono generati direttamente dall'interno di Google Docs tramite il plug-in GGeditor]
 
@@ -245,8 +254,8 @@ Contenuti di questo documento
    :width: 504 px
 
 .. |IMG3| image:: static/index_3.png
-   :height: 76 px
-   :width: 57 px
+   :height: 64 px
+   :width: 49 px
 
 .. |IMG4| image:: static/index_4.png
    :height: 32 px
@@ -260,6 +269,22 @@ Contenuti di questo documento
    :height: 33 px
    :width: 134 px
 
-.. |IMG7| image:: static/index_7.png
+.. |IMG7| image:: static/index_3.png
+   :height: 76 px
+   :width: 57 px
+
+.. |IMG8| image:: static/index_4.png
+   :height: 32 px
+   :width: 134 px
+
+.. |IMG9| image:: static/index_5.png
+   :height: 45 px
+   :width: 49 px
+
+.. |IMG10| image:: static/index_6.png
+   :height: 33 px
+   :width: 134 px
+
+.. |IMG11| image:: static/index_7.png
    :height: 226 px
    :width: 500 px
