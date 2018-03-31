@@ -1,8 +1,8 @@
 
-.. _h173d7e6025122d52416c522b151f715e:
+.. _h3ea173a382bc75126d3a223054245a:
 
-Licenza, chi sono e altro
-*************************
+Licenza, chi sono e ringraziamenti
+**********************************
 
 .. _h1482f5a3e68357570156a275b155066:
 
