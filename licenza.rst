@@ -16,11 +16,11 @@ Questo tutorial viene rilasciato con licenza \ |LINK1|\ .
 Chi sono e perché questo tutorial
 =================================
 
-Ciro Spataro, dipendente del Comune di Palermo impegnato su open data e digitalizzazione di processi e servizi. 
+Sono Ciro Spataro, dipendente del Comune di Palermo impegnato su open data e digitalizzazione di processi e servizi. 
 
-Civic hacker con la passione della condivisione della conoscenza.
+Civic hacker (\ |LINK2|\ ) con la passione della condivisione della conoscenza.
 
-Mi piace moltissimo \ |LINK2|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
+Mi piace moltissimo \ |LINK3|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -32,7 +32,7 @@ Mi piace moltissimo \ |LINK2|\  quale piattaforma per la pubblicazione di docume
 Iniziate le pubblicazioni su Read the Docs
 ==========================================
 
-\ |LINK3|\  di pubblicazioni su Read the Docs, realizzato in collaborazione con altre persone che condividono la cultura dell’architettura dell’informazione in un documento.
+\ |LINK4|\  di pubblicazioni su Read the Docs, realizzato in collaborazione con altre persone che condividono la cultura dell’architettura dell’informazione in un documento.
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -44,13 +44,15 @@ Iniziate le pubblicazioni su Read the Docs
 Un ringraziamento a Hsin Yuan Yeh
 =================================
 
-\ |LINK4|\  espone le funzioni svolte dal plugin abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh).
+\ |LINK5|\  espone le funzioni svolte dal plugin abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh).
 
 Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
 
 Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio). Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema al quale sta cercando una soluzione per rilasciare una seconda release del plugin.
 
 \ |IMG1|\ 
+
+Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici a pubblicare documenti su Read the Docs, al posto degli scomodi PDF.
 
 
 |REPLACE1|
@@ -97,13 +99,17 @@ Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito dur
 
 .. |LINK2| raw:: html
 
-    <a href="http://readthedocs.io/" target="_blank">Read the Docs</a>
+    <a href="http://opendatasicilia.it" target="_blank">Opendatasicilia</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5QDGhwYWE1gXsousI_KRF_VEJGcj144ybek4yGu-EDO92oKRQAXf82FnBOYowZ8IFhqEpiKX3wxM/pubhtml" target="_blank">Qui un catalogo</a>
+    <a href="http://readthedocs.io/" target="_blank">Read the Docs</a>
 
 .. |LINK4| raw:: html
+
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5QDGhwYWE1gXsousI_KRF_VEJGcj144ybek4yGu-EDO92oKRQAXf82FnBOYowZ8IFhqEpiKX3wxM/pubhtml" target="_blank">Qui un catalogo</a>
+
+.. |LINK5| raw:: html
 
     <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
 
