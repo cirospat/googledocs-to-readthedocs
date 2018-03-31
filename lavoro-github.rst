@@ -73,20 +73,20 @@ Creare un file dandogli il nome “conf.py” e all’interno incollare il segue
 
 ..  Important:: 
 
-    Nella pagine del codice sostituire:
-
-* project \ |STYLE1|\  'CHANGE-THIS' al posto di CHANGE-THIS mettere il nome del titolo progetto che si vuole far comparire su Read the Docs;
-
-* copyright \ |STYLE2|\  '2016, CHANGE-THIS' al posto di CHANGE-THIS mettere la licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
-
-.. code:: 
-
-    project = 'CHANGE-THIS' al posto di CHANGE-THIS mettere il nome del titolo progetto che si vuole far comparire su Read the Docs;
+    Nella pagine del codice sostituire i seguenti parametri:
 
 
 .. code:: 
 
-    copyright = '2016, CHANGE-THIS' al posto di CHANGE-THIS mettere la licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
+    project = 'CHANGE-THIS'
+
+al posto di CHANGE-THIS (dentro gli apici  '  ') editare il nome del titolo progetto che si vuole far comparire su Read the Docs;
+
+.. code:: 
+
+    copyright = '2016, CHANGE-THIS' 
+
+al posto di CHANGE-THIS (dentro gli apici  '  ') editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
 
 .. _h31165d707f7077b24286a5e24323a2d:
 
@@ -99,7 +99,3 @@ Ecco tutto il lavoro da fare su Github
 
 
 .. |STYLE0| replace:: **l’unico lavoro che c’è da fare sull’account di Github**
-
-.. |STYLE1| replace:: **=**
-
-.. |STYLE2| replace:: **=**
