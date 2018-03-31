@@ -29,7 +29,7 @@ Un ringraziamento a Hsin Yuan Yeh
 
 \ |LINK3|\  espone le funzioni svolte dal plugin abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh).
 
-Ha fatto un gran lavoro
+Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
 
 Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio). Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema al quale sta cercando una soluzione per rilasciare una seconda release del plugin.
 
