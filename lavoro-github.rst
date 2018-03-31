@@ -11,7 +11,11 @@ Con il metodo proposto in questo tutorial, \ |STYLE0|\  è il seguente.
 Creare il nome del progetto
 ===========================
 
+Creare il nome del progetto.
+
 E scrivere nel file READ.ME la descrizione di cosa contiene quel progetto.
+
+Il nome del progetto sarà richiamato dal plugin GGeditor, come il repository in cui inviare i Google Doc ai quali lavoreremo. 
 
 .. _h5431481c17334b93c28187b18275111:
 
