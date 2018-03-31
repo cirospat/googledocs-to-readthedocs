@@ -4,7 +4,7 @@
 
 Questo progetto è il repository del tutorial [Da Google Doc a Read the Docs](http://googledocs.readthedocs.io/it/latest/).
 
-Traduzione in italiano del Tutorial [GGEditor](http://ggeditor.readthedocs.io)
+Traduzione in italiano del Tutorial [GGEditor](http://ggeditor.readthedocs.io) che spiega come utilizzare un plugin di [Google Doc](https://gsuite.google.com/intl/it/products/docs) per compilare il Doc su Github permettendo così a [Read the Docs](https://readthedocs.org) di esporre documenti (partendo da Google Doc).
 
 
 # Licenza
