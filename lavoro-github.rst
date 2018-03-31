@@ -6,10 +6,10 @@ Il lavoro da fare su Github
 
 Con il metodo proposto in questo tutorial, \ |STYLE0|\  è il seguente.
 
-.. _h67656a17d554b4e5466df117c585e:
+.. _h27d37777d6f59f417f254b4fa3a:
 
-Creare il nome del progetto
-===========================
+1. Creare il nome del progetto
+==============================
 
 Creare il nome del progetto.
 
@@ -17,10 +17,10 @@ E scrivere nel file READ.ME la descrizione di cosa contiene quel progetto.
 
 Il nome del progetto sarà richiamato dal plugin GGeditor, come il repository in cui inviare i Google Doc ai quali lavoreremo. 
 
-.. _h5431481c17334b93c28187b18275111:
+.. _h777c557c582d38262c7972186a6c3026:
 
-Creare un file “conf.py”
-========================
+2. Creare un file “conf.py”
+===========================
 
 Creare un file dandogli il nome “conf.py” e all’interno incollare il seguente codice
 
@@ -88,12 +88,28 @@ al posto di CHANGE-THIS (dentro gli apici) editare il nome del titolo progetto c
 
 al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
 
-.. _h31165d707f7077b24286a5e24323a2d:
+.. _h1485f695e393f6b591579642211623:
 
-Finito 
-=======
+Una configurazione leggera ed efficace 
+=======================================
 
-Ecco tutto il lavoro da fare su Github
+Con le due azioni di sopra si conclude tutto il lavoro da svolgere su Github, quindi questa soluzione si presta a chi non ha dimestichezza con il linguaggio RST. 
+
+Una configurazione molto leggera ma efficace in termini di risultati di pubblicazione di un documento su Read the Docs.
+
+\ |IMG1|\ 
+
+Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor direttamente nel repository Github abbiamo:
+
+* una directory “static” che contiene soltanto immagini “.png” che sono le immagini che incolliamo nel Google Doc e che nell’azione del Commit, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella “static”;
+
+* un file README.md che è un file di descrizione del progetto, che provvediamo a scrivere noi per far capire al lettore che cosa contiene il repository Github in questione;
+
+* i file “.rst” che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
+
+* il file “conf.py” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK1|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor.
+
+Dalla descrizione di questi file si comprende come l’intero pacchetto su Githb è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuti del file “conf.py” ma che non dobbiamo nemmeno creare perchè lo copiamo dal tutorial.
 
 
 |REPLACE1|
@@ -136,3 +152,12 @@ Ecco tutto il lavoro da fare su Github
 .. |REPLACE2| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+.. |LINK1| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-3-conf-py" target="_blank">Il codice del file “conf.py” viene fornito nel tutorial di GGeditor</a>
+
+
+.. |IMG1| image:: static/lavoro-github_1.png
+   :height: 322 px
+   :width: 601 px
