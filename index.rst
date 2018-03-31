@@ -10,7 +10,9 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
 
 Oggi il formato PDF rappresenta il principale formato di testo per la pubblicazione di documenti sia da parte della Pubblica Amministrazione che dai soggetti privati.
 
-Purtroppo il PDF è un formato che non si adatta ai display piccoli dei dispositivi mobili, ed oggi la fruizione dei contenuti del web è molto consistente sui dispositivi mobili. In più il formato PDF non consente un agevole e facile ricerca di parole all'interno del documento.
+#. Purtroppo il PDF è un formato che non si adatta ai display piccoli dei dispositivi mobili, ed oggi la fruizione dei contenuti del web è molto consistente sui dispositivi mobili. 
+
+#. In più il formato PDF non consente un agevole e facile ricerca di parole all'interno del documento.
 
 Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più rispondente alle esigenze di fruibilità di contenuti documentali su display di dimensioni contenute (smartphone, tablet).
 
