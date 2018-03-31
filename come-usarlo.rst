@@ -9,7 +9,7 @@ Come usarlo
 Per i principianti dei file RST
 ===============================
 
-\ |STYLE0|\   
+Se sei all’inizio della conoscenza dei file RST (restructuredText) e ti senti un po confuso sul come inserire i tuoi documenti sul portale di Read the Docs, questo strumento fa per te. Con GGeditor e questo piccolo tutorial tradotto in italiano dal tutorial originale, spero che potrai essere assistito nel realizzare il tuo lavoro in maniera facile e veloce. 
 
 |
 
@@ -18,18 +18,34 @@ Per i principianti dei file RST
 Il plug-in di Google Doc
 ========================
 
-Per prima cosa si va su "Componenti aggiuntivi" e si scarica e si installa il plug-in su Google Doc \ |IMG1|\  
+Per prima cosa da Google Doc si va su "Componenti aggiuntivi", si cerca  e si installa il plug-in “GGeditor” \ |IMG1|\  
 
 così si può cominciare ad usare il set di strumenti del menù che appare se clicchiamo su "componenti aggiuntivi", poi su "GGeditor" e poi ancora su "Show Markup Panel".
 
 |
+
+.. _h493657176f3a69a446e5e556f6275:
+
+I settings dell’account Github
+==============================
+
+\ |IMG2|\ 
+
+Dalla finestra “settings” è possibile agganciare il proprio account Github al plugin GGeditor in maniera tale che ogni volta che vogliamo commissionare un Google Doc su Gihub, cliccando su “Commit to Github” è possibile visualizzare l’elenco dei nostri repository su Github. Si seleziona quel repository che ci interessa sul quale intendiamo lavorare e si procede con l’azione di Commit del Google Doc.
+
+L’operazione è molto semplice e alla portata di tutti perchè non richiede particolari conoscenze specifiche.
+
+.. _h476834441945532458b3a21604f4747:
+
+|
+=
 
 .. _h96481b373011705e781746f262f0:
 
 Il Markup Panel
 ===============
 
-Cliccando su su "Show Markup Panel" viene visualizzato questo pannello.\ |IMG2|\  
+Cliccando su su "Show Markup Panel" viene visualizzato questo pannello.\ |IMG3|\  
 
 che ci consente di inserire sul documento in Google Doc:
 
@@ -200,11 +216,20 @@ Note colorate di vario tipo
 Altre (tante) funzioni di GGeditor
 ==================================
 
-\ |IMG3|\ 
+\ |IMG4|\ 
 
-\ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor.
+\ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE0|\ , quindi con la sintassi tipica di questo linguaggio.
 
-\ |LINK3|\  espone le funzioni abbastanza bene.
+.. _h2a134943434130395172b293d13a:
+
+Un ringraziamento a Hsin Yuan Yeh
+=================================
+
+\ |LINK3|\  espone le funzioni svolte dal plugin abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh).
+
+Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio). Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema al quale sta cercando una soluzione per rilasciare una seconda release del plugin.
+
+\ |IMG5|\ 
 
 
 |REPLACE1|
@@ -216,7 +241,7 @@ Altre (tante) funzioni di GGeditor
 .. bottom of content
 
 
-.. |STYLE0| replace:: *If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the RTD website. Now, with the GGeditor and this tutorial, I hope it can help you to get jobs done quicker and easier.*
+.. |STYLE0| replace:: **conversione del contenuto del nostro Google Doc in un file formato RST**
 
 
 .. |REPLACE1| raw:: html
@@ -266,9 +291,17 @@ Altre (tante) funzioni di GGeditor
    :width: 485 px
 
 .. |IMG2| image:: static/come-usarlo_2.png
+   :height: 213 px
+   :width: 601 px
+
+.. |IMG3| image:: static/come-usarlo_3.png
    :height: 496 px
    :width: 292 px
 
-.. |IMG3| image:: static/come-usarlo_3.png
+.. |IMG4| image:: static/come-usarlo_4.png
    :height: 294 px
    :width: 290 px
+
+.. |IMG5| image:: static/come-usarlo_5.png
+   :height: 106 px
+   :width: 601 px
