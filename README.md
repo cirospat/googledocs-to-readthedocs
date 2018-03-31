@@ -1,6 +1,6 @@
 # googledocs-to-readthedocs
 
-[foto1]: https://github.com/iapyeh/GGeditor/raw/master/static/README_1.png "GGeditor"
+![GGeditor](https://github.com/iapyeh/GGeditor/raw/master/static/README_1.png)  
 
 Questo progetto è il repository del tutorial [Da Google Doc a Read the Docs](http://googledocs.readthedocs.io/it/latest/).
 
