@@ -148,6 +148,7 @@ Contenuti di questo documento
     come-usarlo
     tutorial
     user-guide
+    licenza
 
 --------
 
