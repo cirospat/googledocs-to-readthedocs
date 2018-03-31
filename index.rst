@@ -1,6 +1,23 @@
 
 |REPLACE1|
 
+.. _h292a20344d21577179215c531d397512:
+
+Contenuti di questo documento 
+******************************
+
+
+.. toctree:: indice
+    :maxdepth: 3
+
+    come-usarlo
+    tutorial
+    lavoro-github
+    user-guide
+    licenza
+
+--------
+
 .. _h403f631c642863610673372f386278:
 
 Da Google Doc a Read the Docs
@@ -133,23 +150,6 @@ Aspetti di GGeditor
 #. Supporta account multipli per compilare i file nei repository di diversi account Github.
 
 #. Supporta la conversione di tabelle con i tags HTML to let look-and-feel come la stessa cosa possibile per i blogger.
-
---------
-
-.. _h292a20344d21577179215c531d397512:
-
-Contenuti di questo documento 
-******************************
-
-
-.. toctree:: indice
-    :maxdepth: 3
-
-    come-usarlo
-    tutorial
-    lavoro-github
-    user-guide
-    licenza
 
 --------
 
