@@ -70,12 +70,15 @@ Creare un file dandogli il nome “conf.py” e all’interno incollare il segue
     #latex_documents = []
     
 
-Nella pagine del codice sostituire:
 
-* project \ |STYLE1|\  'CHANGE-THIS' al posto di CHANGE-THIS mettere il nome del titolo progetto che si vuole far comparire su Read the Docs;
+..  Important:: 
 
-* copyright \ |STYLE2|\  '2016, CHANGE-THIS' al posto di CHANGE-THIS mettere la licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
-* 
+    Nella pagine del codice sostituire:
+    
+    * project \ |STYLE1|\  'CHANGE-THIS' al posto di CHANGE-THIS mettere il nome del titolo progetto che si vuole far comparire su Read the Docs;
+    
+    * copyright \ |STYLE2|\  '2016, CHANGE-THIS' al posto di CHANGE-THIS mettere la licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
+    * 
 
 .. _h31165d707f7077b24286a5e24323a2d:
 
