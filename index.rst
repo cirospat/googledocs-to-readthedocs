@@ -62,6 +62,11 @@ Il processo che svolge GGeditor
 
 \ |IMG3|\ + 
 
+--------
+
+
+|REPLACE3|
+
 
 +----------+------------+-----------------+-----------+
 |Google    |GGeditor    |Github           |Read       |
@@ -166,15 +171,15 @@ Contenuti di questo documento
 --------
 
 
-|REPLACE3|
+|REPLACE4|
 
 --------
 
 
-|REPLACE4|
-
-
 |REPLACE5|
+
+
+|REPLACE6|
 
 
 .. bottom of content
@@ -209,6 +214,37 @@ Contenuti di questo documento
     <iframe width="100%" height="380" src="https://www.youtube.com/embed/PUswAbvpE7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 .. |REPLACE3| raw:: html
 
+    <table style="width: 603px; height: 296px;" border="1">
+    <tbody>
+    <tr style="height: 18px;">
+    <td style="width: 171px; height: 18px;"><span style="color: #0000ff;"><b>da&nbsp;</b><b>Google Docs&nbsp;</b></span></td>
+    <td style="width: 148px; height: 18px;"><span style="color: #0000ff;"><b>&rArr; a GGeditor</b></span></td>
+    <td style="width: 125px; height: 18px;"><span style="color: #0000ff;"><strong><span><b>&rArr;</b></span>&nbsp;a Github</strong></span></td>
+    <td style="width: 139px; height: 18px;"><span style="color: #0000ff;"><strong><span><b>&rArr;&nbsp;</b></span>a Readthedocs</strong></span></td>
+    </tr>
+    <tr style="height: 78.75px;">
+    <td style="width: 171px; height: 78.75px;"></td>
+    <td style="width: 148px; height: 78.75px;"></td>
+    <td style="width: 125px; height: 78.75px;"></td>
+    <td style="width: 139px; height: 78.75px;"></td>
+    </tr>
+    <tr style="height: 148px;">
+    <td style="width: 171px; height: 148px;"><span style="color: #ff0000;">(scrivi facilmente testo in un documento senza conoscere il linguaggio RST)</span></td>
+    <td style="width: 148px; height: 148px;">
+    <p><span style="font-weight: 400; color: #ff0000;">(GG editor &egrave; un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github)</span></p>
+    </td>
+    <td style="width: 125px; height: 148px;">
+    <p><span style="font-weight: 400; color: #ff0000;">(Il progetto sul repository di Github &egrave; fondamentale per esporre il documento da pubblicare su Read the Docs)</span></p>
+    </td>
+    <td style="width: 139px; height: 148px;">
+    <p><span style="font-weight: 400; color: #ff0000;">(Read the Docs &egrave; la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo)</span></p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    
+.. |REPLACE4| raw:: html
+
     <h3>Servizi di<span>&nbsp;</span><a href="http://opendatasicilia.it/" rel="nofollow">OpendataSicilia</a></h3>
     <p><a href="http://accussi.opendatasicilia.it/index.html" rel="nofollow"><img src="https://camo.githubusercontent.com/24bc1b1450d155db547405fa90d92b6b34f4a132/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f616363757373695f66617669636f6e2e706e67" alt="accussi" width="32" height="32" data-canonical-src="https://cirospat.github.io/maps/img/accussi_favicon.png" /></a>&nbsp; &nbsp;&nbsp;<a href="http://nonportale.opendatasicilia.it/index.html" rel="nofollow"><img src="https://camo.githubusercontent.com/7ad90a32a27ec7b68b3f5d1c9aec83d0bf5e4120/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f6e6f6e706f7274616c655f66617669636f6e2e706e67" alt="non portale" width="32" height="32" data-canonical-src="https://cirospat.github.io/maps/img/nonportale_favicon.png" /></a>&nbsp;<span>&nbsp;</span><a href="http://petrusino.opendatasicilia.it/index.html" rel="nofollow"><img src="https://camo.githubusercontent.com/acae135c1a21da78bfd3423518810cd5465a8642/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f706574727573696e6f5f66617669636f6e2e706e67" alt="petrusino" width="32" height="32" data-canonical-src="https://cirospat.github.io/maps/img/petrusino_favicon.png" /></a></p>
     <p><a href="http://albopop.it/" rel="nofollow">Albo Pop&nbsp;</a>/&nbsp;<a href="http://www.foiapop.it/" rel="nofollow">FOIA Pop&nbsp;</a>/&nbsp;<a href="http://www.visualcad.it/" rel="nofollow">Visual CAD</a></p>
@@ -221,7 +257,7 @@ Contenuti di questo documento
     <li>l'account <a href="http://twitter.com/opendatasicilia" target="_blank" rel="noopener">twitter</a>;</li>
     <li>il canale <a href="http://opendatasicilia.slack.com" target="_blank" rel="noopener">Slack</a><span>&nbsp;</span>(<a href="http://slack.opendatasicilia.it" target="_blank" rel="noopener">per iscriversi</a>).</li>
     </ul>
-.. |REPLACE4| raw:: html
+.. |REPLACE5| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -246,7 +282,7 @@ Contenuti di questo documento
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE5| raw:: html
+.. |REPLACE6| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
