@@ -25,7 +25,9 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
 |
 
-\ |STYLE0|\  consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto- paragrafi).
+..  Note:: 
+
+    \ |STYLE0|\  consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto- paragrafi).
 
 .. _h3092c7d75e1f5a466f42767b37185:
 
