@@ -21,7 +21,7 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
 ..  Important:: 
 
-    Questa pagina che state leggendo deriva direttamente da \ |LINK2|\ )
+    Questa pagina che state leggendo deriva direttamente da \ |LINK2|\ 
 
 |
 
@@ -29,10 +29,10 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
     \ |STYLE0|\  consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto- paragrafi).
 
-.. _h3092c7d75e1f5a466f42767b37185:
+.. _h535d282d67317d3f2141705427f786d:
 
-GGeditor ed i file RST
-======================
+GGeditor ed i file formato RST
+==============================
 
 \ |IMG1|\ 
 
@@ -64,9 +64,7 @@ Il processo che svolge GGeditor
 
 \ |IMG2|\ 
 
-Questo è il processo svolto da GGeditor: 
-
-da Google Docs a GGeditor a Github a Readthedocs
+[Questo è il processo svolto da GGeditor: da Google Docs a GGeditor a Github a Readthedocs]
 
 \ |STYLE2|\ 
 
@@ -245,7 +243,7 @@ Contenuti di questo documento
 
 .. |LINK2| raw:: html
 
-    <a href="https://docs.google.com/document/d/1MEiFKrAxPg5pM5WuspQwo1Pnf54a77IjblL9UuvrHew/edit?usp=sharing" target="_blank">questo doc sul Google Drive</a>
+    <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/edit?usp=sharing" target="_blank">questo doc sul Google Drive</a>
 
 .. |LINK3| raw:: html
 
