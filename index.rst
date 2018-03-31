@@ -60,28 +60,26 @@ Il processo che svolge GGeditor
 
 \ |IMG2|\ 
 
-\ |IMG3|\ + 
-
 --------
 
 
 |REPLACE3|
 
 
-+----------+------------+-----------------+-----------+
-|Google    |GGeditor    |Github           |Read       |
-|Docs      |addon       |                 |the Docs   |
-+==========+============+=================+===========+
-|\ |IMG7|\ |\ |IMG8|\   |\ |IMG9|\        |\ |IMG10|\ |
-+----------+------------+-----------------+-----------+
-|edita     |trasmette   |Github prepara   |espone     |
-|          |            |                 |           |
-|→         |doc a Github|per pubblicazione|documento  |
-|          |            |                 |           |
-|          |→           |→                |online     |
-+----------+------------+-----------------+-----------+
++----------+------------+-----------------+----------+
+|Google    |GGeditor    |Github           |Read      |
+|Docs      |addon       |                 |the Docs  |
++==========+============+=================+==========+
+|\ |IMG3|\ |\ |IMG4|\   |\ |IMG5|\        |\ |IMG6|\ |
++----------+------------+-----------------+----------+
+|edita     |trasmette   |Github prepara   |espone    |
+|          |            |                 |          |
+|→         |doc a Github|per pubblicazione|documento |
+|          |            |                 |          |
+|          |→           |→                |online    |
++----------+------------+-----------------+----------+
 
-|
+\ |IMG7|\  + 
 
 \ |STYLE2|\ 
 
@@ -320,20 +318,20 @@ Contenuti di questo documento
    :width: 49 px
 
 .. |IMG4| image:: static/index_4.png
-   :height: 29 px
-   :width: 120 px
+   :height: 32 px
+   :width: 134 px
 
 .. |IMG5| image:: static/index_5.png
-   :height: 44 px
+   :height: 45 px
    :width: 49 px
 
 .. |IMG6| image:: static/index_6.png
-   :height: 32 px
-   :width: 133 px
+   :height: 33 px
+   :width: 134 px
 
 .. |IMG7| image:: static/index_3.png
-   :height: 64 px
-   :width: 49 px
+   :height: 76 px
+   :width: 57 px
 
 .. |IMG8| image:: static/index_4.png
    :height: 32 px
