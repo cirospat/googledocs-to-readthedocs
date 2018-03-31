@@ -60,7 +60,7 @@ Il processo che svolge GGeditor
 
 \ |IMG2|\ 
 
-\ |IMG3|\ \ |IMG4|\ 
+\ |IMG3|\ + 
 
 
 +----------+------------+-----------------+-----------+
@@ -288,12 +288,12 @@ Contenuti di questo documento
    :width: 120 px
 
 .. |IMG5| image:: static/index_5.png
-   :height: 37 px
-   :width: 42 px
+   :height: 44 px
+   :width: 49 px
 
 .. |IMG6| image:: static/index_6.png
-   :height: 33 px
-   :width: 137 px
+   :height: 32 px
+   :width: 133 px
 
 .. |IMG7| image:: static/index_3.png
    :height: 64 px
