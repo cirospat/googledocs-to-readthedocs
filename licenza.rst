@@ -22,12 +22,29 @@ Civic hacker con la passione della condivisione della conoscenza.
 
 Mi piace moltissimo \ |LINK2|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
 
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
+.. _h4c4429484d5e267f2550343b314f7d:
+
+Iniziate le pubblicazioni su Read the Docs
+==========================================
+
+\ |LINK3|\  di pubblicazioni su Read the Docs, realizzato in collaborazione con altre persone che condividono la cultura dell’architettura dell’informazione in un documento.
+
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
 .. _h2a134943434130395172b293d13a:
 
 Un ringraziamento a Hsin Yuan Yeh
 =================================
 
-\ |LINK3|\  espone le funzioni svolte dal plugin abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh).
+\ |LINK4|\  espone le funzioni svolte dal plugin abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh).
 
 Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
 
@@ -83,6 +100,10 @@ Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito dur
     <a href="http://readthedocs.io/" target="_blank">Read the Docs</a>
 
 .. |LINK3| raw:: html
+
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5QDGhwYWE1gXsousI_KRF_VEJGcj144ybek4yGu-EDO92oKRQAXf82FnBOYowZ8IFhqEpiKX3wxM/pubhtml" target="_blank">Qui un catalogo</a>
+
+.. |LINK4| raw:: html
 
     <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
 
