@@ -80,13 +80,13 @@ Creare un file dandogli il nome “conf.py” e all’interno incollare il segue
 
     project = 'CHANGE-THIS'
 
-al posto di CHANGE-THIS (dentro gli apici  '  ') editare il nome del titolo progetto che si vuole far comparire su Read the Docs;
+al posto di CHANGE-THIS (dentro gli apici) editare il nome del titolo progetto che si vuole far comparire su Read the Docs;
 
 .. code:: 
 
     copyright = '2016, CHANGE-THIS' 
 
-al posto di CHANGE-THIS (dentro gli apici  '  ') editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
+al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
 
 .. _h31165d707f7077b24286a5e24323a2d:
 
