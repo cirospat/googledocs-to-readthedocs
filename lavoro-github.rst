@@ -101,15 +101,15 @@ Una configurazione molto leggera ma efficace in termini di risultati di pubblica
 
 Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor direttamente nel repository Github abbiamo:
 
-* una directory “static” che contiene soltanto immagini “.png” che sono le immagini che incolliamo nel Google Doc e che nell’azione del Commit, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella “static”;
+* una directory “\ |STYLE1|\ ” che contiene soltanto immagini “.png” che sono le immagini che incolliamo nel Google Doc e che nell’azione del Commit, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella “static”;
 
-* un file README.md che è un file di descrizione del progetto, che provvediamo a scrivere noi per far capire al lettore che cosa contiene il repository Github in questione;
+* un file “\ |STYLE2|\ ” che è un file di descrizione del progetto, che provvediamo a scrivere noi per far capire al lettore che cosa contiene il repository Github in questione;
 
-* i file “.rst” che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
+* i file “\ |STYLE3|\ ” che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
 
-* il file “conf.py” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK1|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor.
+* il file “\ |STYLE4|\ ” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK1|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor.
 
-Dalla descrizione di questi file si comprende come l’intero pacchetto su Githb è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuti del file “conf.py” ma che non dobbiamo nemmeno creare perchè lo copiamo dal tutorial.
+Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuti del file “\ |STYLE5|\ ” ma che non dobbiamo nemmeno creare perchè lo copiamo dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza.
 
 
 |REPLACE1|
@@ -122,6 +122,16 @@ Dalla descrizione di questi file si comprende come l’intero pacchetto su Githb
 
 
 .. |STYLE0| replace:: **l’unico lavoro che c’è da fare sull’account di Github**
+
+.. |STYLE1| replace:: **static**
+
+.. |STYLE2| replace:: **README.md**
+
+.. |STYLE3| replace:: **.rst**
+
+.. |STYLE4| replace:: **conf.py**
+
+.. |STYLE5| replace:: **conf.py**
 
 
 .. |REPLACE1| raw:: html
