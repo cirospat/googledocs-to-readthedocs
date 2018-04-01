@@ -6,6 +6,8 @@
 Da Google Doc a Read the Docs
 *****************************
 
+\ |IMG1|\ 
+
 Questo documento rappresenta una via facile per migliorare la qualità dei documenti pubblicati sul web.
 
 Oggi il formato PDF rappresenta il principale formato di testo per la pubblicazione di documenti sia da parte della Pubblica Amministrazione che dai soggetti privati.
@@ -34,7 +36,7 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 GGeditor ed i file formato  .rst
 ================================
 
-\ |IMG1|\ 
+\ |IMG2|\ 
 
 [il plugin GGeditor installabile da Google Docs (cercalo nei "Componenti aggiuntivi")]
 
@@ -62,31 +64,31 @@ Video tutorial di funzionamento di GGeditor
 Il processo che svolge GGeditor
 ===============================
 
-\ |IMG2|\ 
+\ |IMG3|\ 
 
 [Questo è il processo svolto da GGeditor: da Google Docs a GGeditor a Github a Readthedocs]
 
 \ |STYLE2|\ 
 
-\ |IMG3|\  \ |STYLE3|\  
+\ |IMG4|\  \ |STYLE3|\  
 
 (scrivi facilmente testo in un documento senza conoscere il linguaggio RST)
 
 \ |STYLE4|\  
 
-\ |IMG4|\ \ |STYLE5|\  
+\ |IMG5|\ \ |STYLE5|\  
 
 (GG editor è un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github)
 
 \ |STYLE6|\  
 
-\ |IMG5|\ \ |STYLE7|\ 
+\ |IMG6|\ \ |STYLE7|\ 
 
 (Il progetto sul repository di Github è fondamentale per esporre il documento da pubblicare su Read the Docs)
 
 \ |STYLE8|\  
 
-\ |IMG6|\ \ |STYLE9|\ 
+\ |IMG7|\ \ |STYLE9|\ 
 
 (Read the Docs è la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo)
 
@@ -97,7 +99,7 @@ Il processo che svolge GGeditor
 I file che GGeditor genera automaticamente su Github
 ====================================================
 
-\ |IMG7|\ 
+\ |IMG8|\ 
 
 [immagine del repository di Github che mostra come i file RST vengono generati direttamente dall'interno di Google Docs tramite il plug-in GGeditor]
 
@@ -257,29 +259,33 @@ Aspetti di GGeditor
 
 
 .. |IMG1| image:: static/index_1.png
-   :height: 172 px
-   :width: 273 px
-
-.. |IMG2| image:: static/index_2.png
    :height: 250 px
    :width: 504 px
 
-.. |IMG3| image:: static/index_3.png
+.. |IMG2| image:: static/index_2.png
+   :height: 172 px
+   :width: 273 px
+
+.. |IMG3| image:: static/index_1.png
+   :height: 250 px
+   :width: 504 px
+
+.. |IMG4| image:: static/index_3.png
    :height: 76 px
    :width: 57 px
 
-.. |IMG4| image:: static/index_4.png
+.. |IMG5| image:: static/index_4.png
    :height: 32 px
    :width: 134 px
 
-.. |IMG5| image:: static/index_5.png
+.. |IMG6| image:: static/index_5.png
    :height: 45 px
    :width: 49 px
 
-.. |IMG6| image:: static/index_6.png
+.. |IMG7| image:: static/index_6.png
    :height: 33 px
    :width: 134 px
 
-.. |IMG7| image:: static/index_7.png
+.. |IMG8| image:: static/index_7.png
    :height: 226 px
    :width: 500 px
