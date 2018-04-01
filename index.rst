@@ -1,6 +1,18 @@
 
 |REPLACE1|
 
+
+..  Hint:: 
+
+    ϕ HTML
+
+    <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
 .. _h665d21375b31295a27127e504a2d4d:
 
 Indice [da Google_Docs a Read_the_Docs] 
