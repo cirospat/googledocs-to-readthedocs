@@ -10,6 +10,7 @@ Indice [da Google_Docs a Read_the_Docs]
 .. toctree:: indice
     :maxdepth: 3
 
+    index
     tutorial
     come-usarlo
     lavoro-github
