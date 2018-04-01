@@ -9,7 +9,7 @@
 
 .. toctree:: 
     :maxdepth: 3
-    :caption: Indice [da Google_Docs a Read_the_Docs
+    :caption: Indice 
 
     tutorial
     come-usarlo
