@@ -47,10 +47,10 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
     \ |STYLE0|\  consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto- paragrafi).
 
-.. _h535d282d67317d3f2141705427f786d:
+.. _h64552c6174542573751e1232e73f79:
 
-GGeditor ed i file formato RST
-==============================
+GGeditor ed i file formato  .rst
+================================
 
 \ |IMG1|\ 
 
