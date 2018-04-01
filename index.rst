@@ -53,7 +53,7 @@ GGeditor ed i file formato RST
 
 \ |IMG1|\ 
 
-[il plug-in GGeditor installabile da Google Docs (cercalo nei "Componenti aggiuntivi")]
+[il plugin GGeditor installabile da Google Docs (cercalo nei "Componenti aggiuntivi")]
 
 |
 
