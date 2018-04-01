@@ -1,10 +1,10 @@
 
 |REPLACE1|
 
-.. _h665d21375b31295a27127e504a2d4d:
+.. _h2c1d74277104e41780968148427e:
 
-Indice [da Google_Docs a Read_the_Docs] 
-****************************************
+
+
 
 
 .. toctree:: 
