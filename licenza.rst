@@ -44,13 +44,27 @@ Iniziate le pubblicazioni su Read the Docs
 Un ringraziamento a Hsin Yuan Yeh
 =================================
 
-\ |LINK5|\  espone le funzioni svolte dal plugin abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh).
+\ |IMG1|\ 
+
+\ |LINK5|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh), non madrelingua inglese.
 
 Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
 
-Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio). Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema al quale sta cercando una soluzione per rilasciare una seconda release del plugin.
+Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio e un messaggio di error in taiwanese) nella procedura di Commit del Google Doc a Github. 
 
-\ |IMG1|\ 
+Ho aperto una issue (\ |LINK6|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del plugin. Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo
+
+\ |IMG2|\ 
+
+la cosa da fare è andare in “Setting” dove si trova un tasto rosso di “Reset” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository
+
+\ |IMG3|\ 
+
+L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github.
+
+Grazie Hsin Yuan Yeh!
+
+------
 
 Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici a pubblicare documenti su Read the Docs, al posto degli scomodi PDF.
 
@@ -62,6 +76,9 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 
 .. bottom of content
+
+
+.. |STYLE0| replace:: **plugin**
 
 
 .. |REPLACE1| raw:: html
@@ -113,7 +130,19 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
     <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
 
+.. |LINK6| raw:: html
+
+    <a href="https://github.com/iapyeh/GGeditor/issues/1" target="_blank">https://github.com/iapyeh/GGeditor/issues/1</a>
+
 
 .. |IMG1| image:: static/licenza_1.png
    :height: 106 px
+   :width: 601 px
+
+.. |IMG2| image:: static/licenza_2.png
+   :height: 192 px
+   :width: 430 px
+
+.. |IMG3| image:: static/licenza_3.png
+   :height: 194 px
    :width: 601 px
