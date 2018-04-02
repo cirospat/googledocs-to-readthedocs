@@ -66,7 +66,12 @@ Grazie Hsin Yuan Yeh!
 
 ------
 
-Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici a pubblicare documenti su Read the Docs, al posto degli scomodi PDF.
+.. _h255a42478e181f05a20251656621c:
+
+Che sia usato nella Pubblica Amministrazione
+============================================
+
+Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs, al posto degli scomodi PDF. Chi, interessato ad utilizzare questo strumento, necessiterà di un aiuto, sono disponibile ``c.spataro@comune.palermo.it``.
 
 
 |REPLACE1|
