@@ -8,7 +8,7 @@ Da Google Doc direttamente a Read the Docs con GGeditor
 
 \ |IMG1|\ 
 
-Questo documento rappresenta una via facile per migliorare la qualità dei documenti pubblicati sul web, ed è la traduzione in italiano del tutorial \ |LINK1|\ .
+Questo documento rappresenta una via facile per migliorare la qualità dei documenti pubblicati sul web, ed è la traduzione in italiano del \ |LINK1|\ .
 
 \ |LINK2|\  è un componente plugin che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
@@ -120,7 +120,7 @@ Le principali funzioni di GGeditor sono:
 
 .. |LINK1| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">GGeditor</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">tutorial GGeditor</a>
 
 .. |LINK2| raw:: html
 
