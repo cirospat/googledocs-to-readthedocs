@@ -35,10 +35,7 @@ Dalla finestra “settings” è possibile agganciare il proprio account Github 
 
 L’operazione è molto semplice e alla portata di tutti perchè non richiede particolari conoscenze specifiche.
 
-.. _h476834441945532458b3a21604f4747:
-
 |
-=
 
 .. _h96481b373011705e781746f262f0:
 
@@ -54,6 +51,23 @@ che ci consente di inserire sul documento in Google Doc:
 * Codice da illustrare in una pagina HTML;
 
 * Tabella dell'indice dei contenuti (cioè il titolo delle pagine che compongono l'indice dei contenuti).
+
+|
+
+.. _h4e3124764f272f2e5140635c69434d1a:
+
+La costruzione dell’indice del documento
+========================================
+
+Dal Markup Panel è possibile costruire l’indice del documento da visionare su Read the Docs.
+
+Una volta inserita la maschera come di seguito rappresentato, basta editare il titolo delle altre pagine Google Doc che avete creato dentro la stessa directory di Google Drive. Sul file .rst che GGeditor crea verrà creato un indice che a sua volta verrà visualizzato su Read the Docs.
+
+La procedura è di estrema facilità. 
+
+Dopo ``:caption:`` è possibile scrivere il nome che si vuole dare all’indice, o semplicemente scrivere “indice”. Ogni volta che si crea un nuovo Google Doc da agganciare all’indice basta riportare il titolo del Google Doc in questa maschera.
+
+\ |IMG4|\ 
 
 |
 
@@ -216,7 +230,7 @@ Note colorate di vario tipo
 Altre (tante) funzioni di GGeditor
 ==================================
 
-\ |IMG4|\ 
+\ |IMG5|\ 
 
 \ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE0|\ , quindi con la sintassi tipica di questo linguaggio.
 
@@ -284,5 +298,9 @@ Altre (tante) funzioni di GGeditor
    :width: 292 px
 
 .. |IMG4| image:: static/come-usarlo_4.png
+   :height: 269 px
+   :width: 276 px
+
+.. |IMG5| image:: static/come-usarlo_5.png
    :height: 294 px
    :width: 290 px
