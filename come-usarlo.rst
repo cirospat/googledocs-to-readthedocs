@@ -232,6 +232,8 @@ Altre (tante) funzioni di GGeditor
 
 \ |IMG5|\ 
 
+Inline Markups, Table, Image, Conversion.
+
 \ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE0|\ , quindi con la sintassi tipica di questo linguaggio.
 
 
