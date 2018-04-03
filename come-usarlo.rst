@@ -18,7 +18,9 @@ Se sei all’inizio della conoscenza dei file RST (restructuredText) e ti senti 
 Il plug-in di Google Doc
 ========================
 
-Per prima cosa da Google Doc si va su "Componenti aggiuntivi", si cerca  e si installa il plug-in “GGeditor” \ |IMG1|\  
+Per prima cosa da Google Doc si va su "Componenti aggiuntivi", si cerca  e si installa il plug-in “GGeditor”
+
+\ |IMG1|\  
 
 così si può cominciare ad usare il set di strumenti del menù che appare se clicchiamo su "componenti aggiuntivi", poi su "GGeditor" e poi ancora su "Show Markup Panel".
 
