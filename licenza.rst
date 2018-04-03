@@ -54,7 +54,9 @@ Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito dur
 
 Ho aperto una issue (\ |LINK6|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del plugin. 
 
-Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo ↓ \ |IMG2|\ 
+Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo ↓
+
+ \ |IMG2|\ 
 
 la cosa da fare è andare in “Componenti aggiuntivi”, “GGeditor” e “Setting” dove si trova un tasto rosso di “Reset” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository
 
