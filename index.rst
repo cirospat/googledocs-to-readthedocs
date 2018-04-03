@@ -124,7 +124,7 @@ Le principali funzioni di GGeditor sono:
 
 .. |LINK2| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/" target="_blank">GGeditor</a>
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
 
 
 .. |IMG1| image:: static/index_1.png
