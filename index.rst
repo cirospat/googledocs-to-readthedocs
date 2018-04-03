@@ -1,10 +1,15 @@
 
 |REPLACE1|
 
+.. _h596731762684c4e2874776566584d53:
+
+Caratteristiche di GGeditor
+***************************
+
 .. _h403f631c642863610673372f386278:
 
 Da Google Doc a Read the Docs
-*****************************
+=============================
 
 \ |IMG1|\ 
 
@@ -18,7 +23,7 @@ Oggi il formato PDF rappresenta il principale formato di testo per la pubblicazi
 
 Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più rispondente alle esigenze di fruibilità di contenuti documentali su display di dimensioni contenute (smartphone, tablet).
 
-\ |LINK1|\  è un componente plug-in che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità di condivisione dei documenti in gruppo.
+\ |LINK1|\  è un componente plugin che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità di condivisione dei documenti in gruppo.
 
 
 ..  Important:: 
@@ -31,10 +36,10 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
     \ |STYLE0|\  consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto-paragrafi).
 
-.. _h64552c6174542573751e1232e73f79:
+.. _h1c765674446f622753454677197e1964:
 
-GGeditor ed i file formato  .rst
-================================
+GGeditor ed i file formato  “.rst“
+==================================
 
 \ |IMG2|\ 
 
@@ -105,10 +110,10 @@ I file che GGeditor genera automaticamente su Github
 
 |
 
-.. _h50b7ed1b74462d6e213e4c2f2e2b23:
+.. _h475c2f797977612375a2c7e55546823:
 
-Aspetti di GGeditor
-===================
+Funzioni di GGeditor
+====================
 
 #. Facile inizio per chi non ha dimestichezza con i file RST, anche per chi non ha idea dei marcatori di RST.
 
@@ -134,7 +139,7 @@ Aspetti di GGeditor
 
 #. Supporta account multipli per compilare i file nei repository di diversi account Github.
 
-#. Supporta la conversione di tabelle con i tags HTML to let look-and-feel come la stessa cosa possibile per i blogger.
+#. Supporta la conversione di tabelle con i tags HTML to let look-and-feel e la stessa cosa è possibile per i blogger.
 
 --------
 
@@ -143,6 +148,7 @@ Aspetti di GGeditor
     :maxdepth: 3
     :caption: Indice 
 
+    gdocs-rtd
     tutorial
     come-usarlo
     lavoro-github
