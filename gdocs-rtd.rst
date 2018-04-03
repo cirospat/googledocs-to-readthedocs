@@ -19,6 +19,8 @@ Oggi il formato PDF rappresenta il principale formato di testo per la pubblicazi
 
 Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più rispondente alle esigenze di fruibilità di contenuti documentali su display di dimensioni contenute (smartphone, tablet).
 
+``GGeditor`` soddisfa questi requisiti rendendo la fruizione di un documento online un esperienza gradevole.
+
 
 ..  Important:: 
 
