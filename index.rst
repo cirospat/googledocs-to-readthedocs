@@ -140,13 +140,6 @@ Aspetti di GGeditor
 
 
 .. toctree:: 
-    :maxdepth: 2
-    :caption: 
-
-    index
-
-
-.. toctree:: 
     :maxdepth: 3
     :caption: Indice 
 
