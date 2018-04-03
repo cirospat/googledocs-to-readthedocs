@@ -52,11 +52,11 @@ Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la con
 
 Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio e un messaggio di error in taiwanese) nella procedura di Commit del Google Doc a Github. 
 
-Ho aperto una issue (\ |LINK6|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del plugin. Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo
+Ho aperto una issue (\ |LINK6|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del plugin. 
 
-\ |IMG2|\ 
+Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo ↓ \ |IMG2|\ 
 
-la cosa da fare è andare in “Setting” dove si trova un tasto rosso di “Reset” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository
+la cosa da fare è andare in “Componenti aggiuntivi”, “GGeditor” e “Setting” dove si trova un tasto rosso di “Reset” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository
 
 \ |IMG3|\ 
 
