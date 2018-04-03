@@ -140,8 +140,8 @@ Aspetti di GGeditor
 
 
 .. toctree:: 
-    :maxdepth: 3
-    :caption:
+    :maxdepth: 2
+    :caption: Google doc to Read the Docs
 
     index
 
