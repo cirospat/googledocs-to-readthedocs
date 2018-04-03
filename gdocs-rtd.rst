@@ -30,7 +30,7 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
 ..  Note:: 
 
-    \ |STYLE0|\  consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto-paragrafi).
+    ``GGeditor`` consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto-paragrafi).
 
 .. _h64552c6174542573751e1232e73f79:
 
@@ -46,7 +46,7 @@ GGeditor ed i file formato  .rst
 
 ..  Important:: 
 
-    \ |LINK2|\  é un plug-in di Google Docs, creato dal taiwanese Hsin Yuan Yeh, che serve a generare file \ |STYLE1|\  (\ |LINK3|\ ) direttamente da Google Docs. Il file RST generato può essere compilato nel repository di Github direttamente dall'editor GG. La documentazione così creata su Google Docs può essere ospitata da \ |LINK4|\  venendo aggiornata automaticamente ad ogni aggiornamento del Google Docs
+    \ |LINK2|\  é un plug-in di Google Docs, creato dal taiwanese Hsin Yuan Yeh, che serve a generare file \ |STYLE0|\  (\ |LINK3|\ ) direttamente da Google Docs. Il file RST generato può essere compilato nel repository di Github direttamente dall'editor GG. La documentazione così creata su Google Docs può essere ospitata da \ |LINK4|\  venendo aggiornata automaticamente ad ogni aggiornamento del Google Docs
 
 |
 
@@ -69,27 +69,27 @@ Il processo che svolge GGeditor
 
 [Questo è il processo svolto da ``GGeditor``: da Google Docs a GGeditor a Github a Readthedocs]
 
-\ |STYLE2|\ 
+\ |STYLE1|\ 
 
-\ |IMG4|\  \ |STYLE3|\  
+\ |IMG4|\  \ |STYLE2|\  
 
 Scrivi facilmente testo in un documento senza conoscere il linguaggio RST)
 
-\ |STYLE4|\  
+\ |STYLE3|\  
 
-\ |IMG5|\ \ |STYLE5|\  
+\ |IMG5|\ \ |STYLE4|\  
 
 ``GGeditor`` è un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github
 
-\ |STYLE6|\  
+\ |STYLE5|\  
 
-\ |IMG6|\ \ |STYLE7|\ 
+\ |IMG6|\ \ |STYLE6|\ 
 
 Il progetto sul repository di Github è fondamentale per esporre il documento da pubblicare su Read the Docs
 
-\ |STYLE8|\  
+\ |STYLE7|\  
 
-\ |IMG7|\ \ |STYLE9|\ 
+\ |IMG7|\ \ |STYLE8|\ 
 
 Read the Docs è la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo
 
@@ -111,25 +111,23 @@ I file che GGeditor genera automaticamente su Github
 .. bottom of content
 
 
-.. |STYLE0| replace:: **GGeditor**
+.. |STYLE0| replace:: **RST**
 
-.. |STYLE1| replace:: **RST**
+.. |STYLE1| replace:: **da**
 
-.. |STYLE2| replace:: **da**
+.. |STYLE2| replace:: **Google Docs**
 
-.. |STYLE3| replace:: **Google Docs**
+.. |STYLE3| replace:: **a ↓**
 
-.. |STYLE4| replace:: **a ↓**
+.. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **GGeditor**
+.. |STYLE5| replace:: **a ↓**
 
-.. |STYLE6| replace:: **a ↓**
+.. |STYLE6| replace:: **Github**
 
-.. |STYLE7| replace:: **Github**
+.. |STYLE7| replace:: **a ↓**
 
-.. |STYLE8| replace:: **a ↓**
-
-.. |STYLE9| replace:: **Readthedocs**
+.. |STYLE8| replace:: **Readthedocs**
 
 
 .. |REPLACE1| raw:: html
