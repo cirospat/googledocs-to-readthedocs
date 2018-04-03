@@ -39,7 +39,7 @@ GGeditor ed i file formato  .rst
 
 \ |IMG2|\ 
 
-[il plugin GGeditor installabile da Google Docs (cercalo nei "Componenti aggiuntivi")]
+[il plugin ``GGeditor`` installabile da Google Docs (cercalo nei "Componenti aggiuntivi")]
 
 |
 
@@ -67,31 +67,31 @@ Il processo che svolge GGeditor
 
 \ |IMG3|\ 
 
-[Questo è il processo svolto da GGeditor: da Google Docs a GGeditor a Github a Readthedocs]
+[Questo è il processo svolto da ``GGeditor``: da Google Docs a GGeditor a Github a Readthedocs]
 
 \ |STYLE2|\ 
 
 \ |IMG4|\  \ |STYLE3|\  
 
-(scrivi facilmente testo in un documento senza conoscere il linguaggio RST)
+Scrivi facilmente testo in un documento senza conoscere il linguaggio RST)
 
 \ |STYLE4|\  
 
 \ |IMG5|\ \ |STYLE5|\  
 
-(GG editor è un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github)
+``GGeditor`` è un plug-in di Google Docs che automatizza il lavoro di compilazione sul repository di Github
 
 \ |STYLE6|\  
 
 \ |IMG6|\ \ |STYLE7|\ 
 
-(Il progetto sul repository di Github è fondamentale per esporre il documento da pubblicare su Read the Docs)
+Il progetto sul repository di Github è fondamentale per esporre il documento da pubblicare su Read the Docs
 
 \ |STYLE8|\  
 
 \ |IMG7|\ \ |STYLE9|\ 
 
-(Read the Docs è la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo)
+Read the Docs è la piattaforma che espone documenti con un efficace architettura dei contenuti, in un formato usabile da tutte le dimensioni di display e che permette una facile ricerca di parole nel testo
 
 |
 
@@ -102,7 +102,7 @@ I file che GGeditor genera automaticamente su Github
 
 \ |IMG8|\ 
 
-[immagine del repository di Github che mostra come i file RST vengono generati direttamente dall'interno di Google Docs tramite il plug-in GGeditor]
+[immagine del repository di Github che mostra come i file RST vengono generati direttamente dall'interno di Google Docs tramite il plugin ``GGeditor``]
 
 
 |REPLACE2|
