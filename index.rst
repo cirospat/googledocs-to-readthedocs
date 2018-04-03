@@ -143,7 +143,6 @@ Aspetti di GGeditor
     :maxdepth: 3
     :caption: Indice 
 
-    index
     tutorial
     come-usarlo
     lavoro-github
