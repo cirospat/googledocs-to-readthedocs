@@ -23,9 +23,9 @@ Come installare GGeditor
 
 L'editor GG parte da uno scenario composto da 2 situazioni:
 
-#. Tu già hai un repository di progetto su Github, 
+#. Tu già hai un repository di progetto su \ |STYLE0|\ , 
 
-#. Tu già hai un progetto su Readthedocs.or che è in diretta relazione al repository su Github.
+#. Tu già hai un progetto su \ |STYLE1|\  che è in diretta relazione al repository su Github.
 
 Github e Readthedocs accettano formati RST o Markup. Hai bisogno di costruire la documentazione in uno di questi due formati. 
 
@@ -67,9 +67,9 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 
 ..  Important:: 
 
-    #. Quando nomini il tuo documento Google Doc, il nome del documento non necessita del suffisso "\ |STYLE0|\ ".
+    #. Quando nomini il tuo documento Google Doc, il nome del documento non necessita del suffisso "\ |STYLE2|\ ".
     
-    #. Per legare il file del Google Doc sul repository del progetto (Github), Github  ha bisogno del suffisso ".rst". Il suffisso sarà automaticamente creato da GGeditor. Se nomini manualmente tu il file su Github allora aggiungi il suffisso "\ |STYLE1|\ " (sulla directory "docs" di Github).
+    #. Per legare il file del Google Doc sul repository del progetto (Github), Github  ha bisogno del suffisso "\ |STYLE3|\ ". Il suffisso sarà automaticamente creato da GGeditor. Se nomini manualmente tu il file su Github allora aggiungi il suffisso "\ |STYLE4|\ " (sulla directory "docs" di Github).
 
 |
 
@@ -87,9 +87,15 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 .. bottom of content
 
 
-.. |STYLE0| replace:: **.rst**
+.. |STYLE0| replace:: **Github**
 
-.. |STYLE1| replace:: **.rst**
+.. |STYLE1| replace:: **Readthedocs.org**
+
+.. |STYLE2| replace:: **.rst**
+
+.. |STYLE3| replace:: **.rst**
+
+.. |STYLE4| replace:: **.rst**
 
 
 .. |REPLACE1| raw:: html
