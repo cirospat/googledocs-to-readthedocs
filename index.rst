@@ -43,34 +43,6 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
     
     * Supporta la conversione di tabelle con i tags HTML to let look-and-feel e la stessa cosa è possibile per i blogger.
 
-\ |STYLE0|\ :
-
-#. Facile inizio per chi non ha dimestichezza con i file RST, anche per chi non ha idea dei marcatori di RST.
-
-#. Alimentato da Google Docs. Quasi la totalità di quello che vedi su Google Docs è quello che ottieni su Readthedocs. Lo stesso è per l'intero gruppo di lavoro.
-
-#. Un click per commissionare il lavoro sul repository di Github.
-
-#. Puoi vedere in anteprima il file RST generato dall'interno di Google Docs e scaricarlo nel tuo PC.
-
-#. Supporta headings, bold, italic, hyperlink, subscript e superscript.
-
-#. Supporta note a margine, immagini, liste di articolo e tabelle.
-
-#. Supporta caratteri a larghezza intera (CKJ) nelle intestazioni e nelle tabelle.
-
-#. Supporta i link interni ai bookmarks, headings e le Google Docs tabelle native di contenuti (in document table of contents).
-
-#. Supporta i link relativi ai file RST generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
-
-#. Supporta la tabella dei contenuti  (cross-document table of content (.. toctree::)) per fare generare l'indice a Readthedocs.
-
-#. Supporta tutti gli stili di "admonitions" di Readthedocs.
-
-#. Supporta account multipli per compilare i file nei repository di diversi account Github.
-
-#. Supporta la conversione di tabelle con i tags HTML to let look-and-feel e la stessa cosa è possibile per i blogger.
-
 --------
 
 
@@ -100,9 +72,6 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
 
 
 .. bottom of content
-
-
-.. |STYLE0| replace:: **Le principali funzioni di GGeditor sono**
 
 
 .. |REPLACE1| raw:: html
