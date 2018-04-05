@@ -8,7 +8,7 @@ Da Google Doc direttamente a Read the Docs con GGeditor
 
 \ |IMG1|\ 
 
-Questo documento rappresenta una via facile per migliorare la qualità dei documenti pubblicati sul web, ed è la traduzione in italiano del \ |LINK1|\ . 
+Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . 
 
 Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 
