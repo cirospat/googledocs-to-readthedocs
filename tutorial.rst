@@ -133,7 +133,7 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 
 .. |LINK2| raw:: html
 
-    <a href="https://docs.google.com/document/d/1H5CXu8rhCuryrG6NVjfgfk4csYezuw1dN4s0eg1tmhY/edit?usp=sharing" target="_blank">questo Google Doc</a>
+    <a href="https://docs.google.com/document/d/1K-DgqG44wYnkti_tG1ULCx5utpDcWuTVeAI4158nXhQ" target="_blank">questo Google Doc</a>
 
 
 .. |IMG1| image:: static/tutorial_1.png
