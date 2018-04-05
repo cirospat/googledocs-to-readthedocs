@@ -52,12 +52,58 @@ Committing
     
     Comunque se vedi immagini vecchie e non rispondenti all'ultima versione del Doc, elimina la cache del browser o controlla sul repository di Github la corrispondenza delle foto di Doc con quelle nella cartella "static" su Github.
 
+.. _h534e17712232613c42586df1412f1b:
+
+Limitazioni 
+============
+
+\ |LINK1|\  da Google Doc sui file reST:
+
+* Comments. This is not supported by the reST.
+
+* Drawing objects. Because there is no API to get it as an image.
+
+* List styles. The list style is defined by the CSS settings in the html page.
+
+* Math equations. Because this is no API to get it as an image.
+
+* Multi-columns. This is not supported by the reST.
+
+* Page break. This is not able to apply to a html page.
+
+* Page header and page footer. This is not supported by the reST.
+
+* Page numbering. This is not able to apply to a html page.
+
+* Internal link to heading does not work. Currently there is no API to identifiy the target heading element. Please use “Bookmark“ instead.
+
+* Bold and italic styles in footnote content does not exposed by Doc’s API. Which means bold and italic text is rendered as normal text in footnote content.
+
+.. _h664e1b56760748493264151c256561:
+
+Strumenti per i più esperti
+***************************
+
 .. _h132d7f7f1b3e1a3d73666d401101e7d:
 
 Conversione
 ===========
 
-Per la \ |STYLE0|\  si fa riferimento a \ |LINK1|\ 
+Per la \ |STYLE0|\  del testo da Google Doc al formato RST (e anche previsto il download del file RST) si fa riferimento a \ |LINK2|\ .
+
+.. _h2b426234521b486d3a6d7e3d167d91b:
+
+Api Docs
+========
+
+Per \ |STYLE1|\  si fa riferimento a \ |LINK3|\ .
+
+.. _h2e427c26763f767566236c4a5e2d6c14:
+
+Backend
+=======
+
+Documentazione specificata nel \ |LINK4|\ . Si fa \ |LINK5|\ .
 
 
 |REPLACE1|
@@ -70,6 +116,8 @@ Per la \ |STYLE0|\  si fa riferimento a \ |LINK1|\
 
 
 .. |STYLE0| replace:: **conversione**
+
+.. |STYLE1| replace:: **API document for a Python module**
 
 
 .. |REPLACE1| raw:: html
@@ -103,7 +151,23 @@ Per la \ |STYLE0|\  si fa riferimento a \ |LINK1|\
 
 .. |LINK1| raw:: html
 
+    <a href="http://ggeditor.readthedocs.io/en/latest/Limitations.html" target="_blank">Funzioni non supportate</a>
+
+.. |LINK2| raw:: html
+
     <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html#conversion" target="_blank">questo paragrafo del tutorial di GGeditor</a>
+
+.. |LINK3| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">questo paragrafo del tutorial di GGeditor</a>
+
+.. |LINK4| raw:: html
+
+    <a href="http://google.github.io/styleguide/pyguide.html" target="_blank">Google Python Style Guide</a>
+
+.. |LINK5| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/api/backend.html" target="_blank">riferimento a questo paragrafo del tutorial di GGeditor</a>
 
 
 .. |IMG1| image:: static/user-guide_1.png
