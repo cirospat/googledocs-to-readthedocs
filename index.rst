@@ -19,6 +19,11 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 |
 
 
+.. code:: 
+
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 .. admonition:: Le principali funzioni di GGeditor sono
 
     * Facile inizio per chi non ha dimestichezza con i file RST, anche per chi non ha idea dei marcatori di RST.
