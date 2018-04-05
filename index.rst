@@ -87,7 +87,7 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 .. |REPLACE2| raw:: html
 
     <iframe width="100%" height="380" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    Breve video introduttivo
+    Breve video introduttivo (2’10”)
 .. |REPLACE3| raw:: html
 
     <p><img src="http://siciliahub.github.io/mappe/carto_omira/lib/images/opendatasicilia.png" alt="" width="91" height="104" />&nbsp;&nbsp;<strong>S</strong><strong>ervizi di&nbsp;<span style="color: #3366ff;"><a href="http://opendatasicilia.it/" rel="nofollow noopener" style="color: #3366ff;" target="_blank">OpendataSicilia</a></span></strong></p>
