@@ -12,6 +12,8 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
 
 Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 
+\ |IMG2|\ 
+
 \ |LINK3|\  è un componente plugin che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
 |
@@ -139,3 +141,7 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 .. |IMG1| image:: static/index_1.png
    :height: 250 px
    :width: 504 px
+
+.. |IMG2| image:: static/index_2.png
+   :height: 132 px
+   :width: 216 px
