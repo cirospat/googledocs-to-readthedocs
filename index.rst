@@ -12,6 +12,8 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
 
 \ |LINK2|\  è un componente plugin che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
+|
+
 
 .. admonition:: Le principali funzioni di GGeditor sono
 
@@ -25,11 +27,11 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
     
     * Supporta headings, bold, italic, hyperlink, subscript e superscript.
     
-    * Support note a margine, immagini, liste di articolo e tabelle.
+    * Supporta note a margine, immagini, liste di articolo e tabelle.
     
     * Supporta caratteri a larghezza intera (CKJ) nelle intestazioni e nelle tabelle.
     
-    * Support i link interni ai bookmarks, headings e le Google Docs tabelle native di contenuti (in document table of contents).
+    * Supporta i link interni ai bookmarks, headings e le Google Docs tabelle native di contenuti (in document table of contents).
     
     * Supporta i link relativi ai file RST generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
     
@@ -53,11 +55,11 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
 
 #. Supporta headings, bold, italic, hyperlink, subscript e superscript.
 
-#. Support note a margine, immagini, liste di articolo e tabelle.
+#. Supporta note a margine, immagini, liste di articolo e tabelle.
 
 #. Supporta caratteri a larghezza intera (CKJ) nelle intestazioni e nelle tabelle.
 
-#. Support i link interni ai bookmarks, headings e le Google Docs tabelle native di contenuti (in document table of contents).
+#. Supporta i link interni ai bookmarks, headings e le Google Docs tabelle native di contenuti (in document table of contents).
 
 #. Supporta i link relativi ai file RST generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
 
