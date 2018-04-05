@@ -12,7 +12,7 @@ Questo documento rappresenta una via facile per migliorare la qualità dei docum
 
 \ |LINK2|\  è un componente plugin che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Le principali funzioni di GGeditor sono:
+\ |STYLE0|\ :
 
 #. Facile inizio per chi non ha dimestichezza con i file RST, anche per chi non ha idea dei marcatori di RST.
 
@@ -69,6 +69,9 @@ Le principali funzioni di GGeditor sono:
 
 
 .. bottom of content
+
+
+.. |STYLE0| replace:: **Le principali funzioni di GGeditor sono**
 
 
 .. |REPLACE1| raw:: html
