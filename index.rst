@@ -16,12 +16,8 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 
 \ |LINK3|\  è un componente plugin che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-|
 
-
-.. code:: 
-
-    <iframe width="100%" height="380" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+|REPLACE2|
 
 
 .. admonition:: Le principali funzioni di GGeditor sono
@@ -69,15 +65,15 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 --------
 
 
-|REPLACE2|
+|REPLACE3|
 
 --------
 
 
-|REPLACE3|
-
-
 |REPLACE4|
+
+
+|REPLACE5|
 
 
 .. bottom of content
@@ -87,6 +83,9 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 .. |REPLACE2| raw:: html
+
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+.. |REPLACE3| raw:: html
 
     <p><img src="http://siciliahub.github.io/mappe/carto_omira/lib/images/opendatasicilia.png" alt="" width="91" height="104" />&nbsp;&nbsp;<strong>S</strong><strong>ervizi di&nbsp;<span style="color: #3366ff;"><a href="http://opendatasicilia.it/" rel="nofollow noopener" style="color: #3366ff;" target="_blank">OpendataSicilia</a></span></strong></p>
     <p><a href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/24bc1b1450d155db547405fa90d92b6b34f4a132/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f616363757373695f66617669636f6e2e706e67" alt="accussi" width="46" height="46" /></a>&nbsp; &nbsp; &nbsp;<a href="http://nonportale.opendatasicilia.it/index.html" rel="nofollow noopener" target="_blank"><img src="https://camo.githubusercontent.com/7ad90a32a27ec7b68b3f5d1c9aec83d0bf5e4120/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f6e6f6e706f7274616c655f66617669636f6e2e706e67" alt="non portale" width="41" height="41" data-canonical-src="https://cirospat.github.io/maps/img/nonportale_favicon.png" /></a>&nbsp; &nbsp; &nbsp;<a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/acae135c1a21da78bfd3423518810cd5465a8642/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f706574727573696e6f5f66617669636f6e2e706e67" alt="petrusino" width="47" height="47" /></a>&nbsp;&nbsp;</p>
@@ -101,7 +100,7 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
     <li>il canale <a href="http://opendatasicilia.slack.com" target="_blank" rel="noopener">Slack</a><span>&nbsp;</span>(<a href="http://slack.opendatasicilia.it" target="_blank" rel="noopener">per iscriversi</a>).</li>
     </ul>
     
-.. |REPLACE3| raw:: html
+.. |REPLACE4| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -126,7 +125,7 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE4| raw:: html
+.. |REPLACE5| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
