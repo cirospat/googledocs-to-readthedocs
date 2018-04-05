@@ -19,6 +19,8 @@ Nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 
 |REPLACE2|
 
+|
+
 
 .. admonition:: Le principali funzioni di GGeditor sono
 
