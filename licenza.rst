@@ -11,33 +11,30 @@ Licenza per questo tutorial
 
 Questo tutorial viene rilasciato con licenza \ |LINK1|\ .
 
+|
+
 .. _h2b72783b52451b1466716442d68d:
 
 Chi sono e perché questo tutorial
 =================================
 
-Sono Ciro Spataro, dipendente del Comune di Palermo impegnato su open data e digitalizzazione di processi e servizi. 
+Sono \ |LINK2|\ , dipendente del Comune di Palermo impegnato su \ |LINK3|\  e digitalizzazione di processi e servizi. 
 
-Civic hacker (\ |LINK2|\ ) con la passione della condivisione della conoscenza.
+Civic hacker (\ |LINK4|\ ) con la passione della condivisione della conoscenza.
 
-Mi piace moltissimo \ |LINK3|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
+Mi piace moltissimo \ |LINK5|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
 
-.. _h2c1d74277104e41780968148427e:
-
-
-
+|
 
 .. _h4c4429484d5e267f2550343b314f7d:
 
 Iniziate le pubblicazioni su Read the Docs
 ==========================================
 
-\ |LINK4|\  di pubblicazioni su Read the Docs, realizzato in collaborazione con altre persone che condividono la cultura dell’architettura dell’informazione in un documento.
-
-.. _h2c1d74277104e41780968148427e:
+\ |LINK6|\  di pubblicazioni su Read the Docs, realizzato in collaborazione con altre persone che condividono la cultura dell’architettura dell’informazione in un documento.
 
 
-
+|
 
 .. _h2a134943434130395172b293d13a:
 
@@ -46,13 +43,13 @@ Un ringraziamento a Hsin Yuan Yeh
 
 \ |IMG1|\ 
 
-\ |LINK5|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh), non madrelingua inglese.
+\ |LINK7|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh), non madrelingua inglese.
 
 Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
 
 Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio e un messaggio di error in taiwanese) nella procedura di Commit del Google Doc a Github. 
 
-Ho aperto una issue (\ |LINK6|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del plugin. 
+Ho aperto una issue (\ |LINK8|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del plugin. 
 
 Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo ↓
 
@@ -66,7 +63,7 @@ L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedur
 
 Grazie Hsin Yuan Yeh!
 
-------
+|
 
 .. _h255a42478e181f05a20251656621c:
 
@@ -123,21 +120,29 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |LINK2| raw:: html
 
-    <a href="http://opendatasicilia.it" target="_blank">Opendatasicilia</a>
+    <a href="http://cirospat.readthedocs.io" target="_blank">Ciro Spataro</a>
 
 .. |LINK3| raw:: html
 
-    <a href="http://readthedocs.io/" target="_blank">Read the Docs</a>
+    <a href="https://opendata.comune.palermo.it/" target="_blank">open data</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5QDGhwYWE1gXsousI_KRF_VEJGcj144ybek4yGu-EDO92oKRQAXf82FnBOYowZ8IFhqEpiKX3wxM/pubhtml" target="_blank">Qui un catalogo</a>
+    <a href="http://opendatasicilia.it" target="_blank">Opendatasicilia</a>
 
 .. |LINK5| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
+    <a href="http://readthedocs.io/" target="_blank">Read the Docs</a>
 
 .. |LINK6| raw:: html
+
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5QDGhwYWE1gXsousI_KRF_VEJGcj144ybek4yGu-EDO92oKRQAXf82FnBOYowZ8IFhqEpiKX3wxM/pubhtml" target="_blank">Qui un catalogo</a>
+
+.. |LINK7| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
+
+.. |LINK8| raw:: html
 
     <a href="https://github.com/iapyeh/GGeditor/issues/1" target="_blank">https://github.com/iapyeh/GGeditor/issues/1</a>
 
