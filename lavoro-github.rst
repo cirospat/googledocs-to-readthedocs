@@ -155,7 +155,7 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * il file “\ |STYLE5|\ ” che sarà dentro la directory “static”.
 
-Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuti del file “\ |STYLE6|\ ” ma che non dobbiamo nemmeno creare perchè lo copiamo dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza.
+Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file “\ |STYLE6|\ ” e del file “\ |STYLE7|\ ” ma che non dobbiamo nemmeno creare perchè copiamo i contenuti dei file dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza (questo per il file “\ |STYLE8|\ ”).
 
 
 |REPLACE1|
@@ -180,6 +180,10 @@ Dalla descrizione di questi file si comprende come l’intero pacchetto su Githu
 .. |STYLE5| replace:: **theme_overrides.css**
 
 .. |STYLE6| replace:: **conf.py**
+
+.. |STYLE7| replace:: **theme_overrides.css**
+
+.. |STYLE8| replace:: **conf.py**
 
 
 .. |REPLACE1| raw:: html
