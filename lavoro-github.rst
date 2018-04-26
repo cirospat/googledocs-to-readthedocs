@@ -88,6 +88,48 @@ al posto di CHANGE-THIS (dentro gli apici) editare il nome del titolo progetto c
 
 al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
 
+.. _h364e2610747f2d35715a71447530282f:
+
+3. Creare il file “theme_overrides.css”
+=======================================
+
+Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html di Read the Docs si crea questo file nella directory “static”. Basta copiare il codice qui di seguito in un file che chiameremo, appunto, “theme_overrides.css” dentro la cartella “static”.
+
+
+.. code-block:: python
+    :linenos:
+
+    .wy-table-responsive table td, .wy-table-responsive table th {
+       white-space: inherit;
+    }
+    
+    .wy-table-responsive table th {
+       background-color: #f0f0f0;
+    }
+    
+    .line-block, .docutils.footnote {
+        line-height: 24px;
+    }
+    
+    .admonition {
+        margin-bottom: 20px;
+        line-height:24px;
+    }
+    
+    .admonition > *:not(:first-child){
+        /* draw a boder around a admonition */
+        border-left: solid 1px #b59e9e;
+        border-right: solid 1px #b59e9e;
+        padding: 12px;
+        margin: -12px -12px -12px -12px;
+        margin-bottom: -12px !important;
+    }
+    .admonition > .last, .admonition- > .last{
+        /* draw a boder around a admonition */
+        border-bottom: solid 1px #b59e9e !important;
+    }
+    
+
 .. _h1485f695e393f6b591579642211623:
 
 Una configurazione leggera ed efficace 
@@ -107,9 +149,11 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * i file “\ |STYLE3|\ ” che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
 
-* il file “\ |STYLE4|\ ” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK1|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor.
+* il file “\ |STYLE4|\ ” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK1|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor;
 
-Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuti del file “\ |STYLE5|\ ” ma che non dobbiamo nemmeno creare perchè lo copiamo dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza.
+* il file “\ |STYLE5|\ ” che sarà dentro la directory “static”.
+
+Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuti del file “\ |STYLE6|\ ” ma che non dobbiamo nemmeno creare perchè lo copiamo dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza.
 
 
 |REPLACE1|
@@ -131,7 +175,9 @@ Dalla descrizione di questi file si comprende come l’intero pacchetto su Githu
 
 .. |STYLE4| replace:: **conf.py**
 
-.. |STYLE5| replace:: **conf.py**
+.. |STYLE5| replace:: **theme_overrides.css**
+
+.. |STYLE6| replace:: **conf.py**
 
 
 .. |REPLACE1| raw:: html
