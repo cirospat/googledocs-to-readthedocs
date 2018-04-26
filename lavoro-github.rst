@@ -130,6 +130,8 @@ Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html 
     }
     
 
+(guarda \ |LINK1|\ ).
+
 .. _h1485f695e393f6b591579642211623:
 
 Una configurazione leggera ed efficace 
@@ -149,7 +151,7 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * i file “\ |STYLE3|\ ” che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
 
-* il file “\ |STYLE4|\ ” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK1|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor;
+* il file “\ |STYLE4|\ ” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK2|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor;
 
 * il file “\ |STYLE5|\ ” che sarà dentro la directory “static”.
 
@@ -210,6 +212,10 @@ Dalla descrizione di questi file si comprende come l’intero pacchetto su Githu
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 .. |LINK1| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-4-theme-overrides-css" target="_blank">qui</a>
+
+.. |LINK2| raw:: html
 
     <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-3-conf-py" target="_blank">Il codice del file “conf.py” viene fornito nel tutorial di GGeditor</a>
 
