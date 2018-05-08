@@ -27,3 +27,7 @@
     /* draw a boder around a admonition */
     border-bottom: solid 1px #b59e9e !important;
 }
+
+.wy-side-nav-search {
+    background-color: #7b90f9;
+}
