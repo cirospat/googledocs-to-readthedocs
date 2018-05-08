@@ -31,3 +31,7 @@
 .wy-side-nav-search {
     background-color: #7b90f9;
 }
+
+h1, h2, h3 {
+    color: #176a90 !important;
+}
