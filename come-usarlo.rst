@@ -238,6 +238,15 @@ Inline Markups, Table, Image, Conversion.
 
 \ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE0|\ , quindi con la sintassi tipica di questo linguaggio.
 
+.. _h5e47743d14d4a78484827c42059:
+
+Conversione di testo da Google doc a file .RST per il download
+==============================================================
+
+Il componente aggiuntivo GG editor permette anche la funzione di conversione del testo in linguaggio .RST (vedi \ |LINK3|\  per le funzioni complete di conversione). Praticamente è possibile, tramite una finestra dedicata, far convertire a GGeditor testo direttamente in linguaggio .RST.  Si può convertire tutto il testo, una parte, o ad esempio una tabella. Ci sono delle regole di conversione già illustrate nella stessa finestra denominata “Conversion”. Una volta convertito il testo appare un messaggio di avvenuta conversione ed è possibile effettuare il download del testo convertito in formato .RST oppure selezionarlo e copiarlo in un editor testuale per un ulteriore riuso.
+
+\ |IMG6|\ 
+
 
 |REPLACE1|
 
@@ -288,6 +297,10 @@ Inline Markups, Table, Image, Conversion.
 
     <a href="http://ggeditor.readthedocs.io/en/latest/Examples.html" target="_blank">qui (esempi)</a>
 
+.. |LINK3| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html#conversion" target="_blank">link</a>
+
 
 .. |IMG1| image:: static/come-usarlo_1.png
    :height: 109 px
@@ -308,3 +321,7 @@ Inline Markups, Table, Image, Conversion.
 .. |IMG5| image:: static/come-usarlo_5.png
    :height: 294 px
    :width: 290 px
+
+.. |IMG6| image:: static/come-usarlo_6.png
+   :height: 274 px
+   :width: 601 px
