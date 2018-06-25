@@ -27,17 +27,17 @@ Creare nel repo una cartella ``_templates``, e all’interno della cartella crea
 
 Tutto qui.
 
+La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
+
 C'è un feed RSS per le note di ogni pagina HTML. Ad esempio:
-
-\ |LINK2|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
-
-C'è anche in formato JSON:
 
 \ |LINK3|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
-Tanti modi per seguire, e per attivare eventuali notifiche automatiche.
+C'è anche in formato JSON:
 
-La procedura è stata definita da \ |LINK4|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
+\ |LINK4|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
+
+Tanti modi per seguire i commenti sulle pagine di Read the Docs, e per attivare eventuali notifiche automatiche.
 
 
 .. bottom of content
@@ -49,13 +49,13 @@ La procedura è stata definita da \ |LINK4|\  al quale va un ringraziamento per 
 
 .. |LINK2| raw:: html
 
-    <a href="https://hypothes.is/stream.rss?uri=" target="_blank">https://hypothes.is/stream.rss?uri=</a>
+    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://hypothes.is/api/search?url=" target="_blank">https://hypothes.is/api/search?url=</a>
+    <a href="https://hypothes.is/stream.rss?uri=" target="_blank">https://hypothes.is/stream.rss?uri=</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
+    <a href="https://hypothes.is/api/search?url=" target="_blank">https://hypothes.is/api/search?url=</a>
 
