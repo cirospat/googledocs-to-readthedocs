@@ -29,15 +29,15 @@ Tutto qui.
 
 C'è un feed RSS per le note di ogni pagina HTML. Ad esempio:
 
-https://hypothes.is/stream.rss?uri=``url-di-readthedocs``/``pagina-specifica-del-documento-readthedocs``.html
+\ |LINK2|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
 C'è anche in formato JSON:
 
-https://hypothes.is/api/search?url=``url-di-readthedocs``/``pagina-specifica-del-documento-readthedocs``.html
+\ |LINK3|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
 Tanti modi per seguire, e per attivare eventuali notifiche automatiche.
 
-La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
+La procedura è stata definita da \ |LINK4|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
 
 
 .. bottom of content
@@ -48,6 +48,14 @@ La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per 
     <a href="https://web.hypothes.is/" target="_blank">hypothes.is</a>
 
 .. |LINK2| raw:: html
+
+    <a href="https://hypothes.is/stream.rss?uri=" target="_blank">https://hypothes.is/stream.rss?uri=</a>
+
+.. |LINK3| raw:: html
+
+    <a href="https://hypothes.is/api/search?url=" target="_blank">https://hypothes.is/api/search?url=</a>
+
+.. |LINK4| raw:: html
 
     <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
 
