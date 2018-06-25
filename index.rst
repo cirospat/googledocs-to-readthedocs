@@ -63,6 +63,7 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
     lavoro-github
     user-guide
     hypothesis-partecipazione
+    pubblicare-su-docs-italia
     licenza
 
 --------
