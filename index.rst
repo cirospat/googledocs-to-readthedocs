@@ -68,6 +68,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     tutorial
     come-usarlo
     lavoro-github
+    lavoro-rtd
     user-guide
     hypothesis-partecipazione
     pubblicare-su-docs-italia
