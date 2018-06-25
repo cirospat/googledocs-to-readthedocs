@@ -14,9 +14,7 @@ e lasciare Tipo del Deposito Codice selezionato su Git.
 
 A quel punto verrà messo in collegamento il vostro progetto di Github con la piattaforma di Red the Docs. 
 
-Una primissima cosa da fare è andare su Amministrazione e settare la lingua italiana.
-
-Questo consentirà a Read the Docs di aggiungere al titolo del vostro progetto la desinenza ``/it/latest``. Il documento è in italiano quindi prende la desinenza ``/it``. Questa impostazione permetterà alle note colorate di avere un titolo italiano (“Nota” al posto di “Note”, “Avvertimento” al posto di “Warning”, ecc.).
+Una primissima cosa da fare è andare su Amministrazione e settare la lingua italiana. Questo consentirà a Read the Docs di aggiungere al titolo del vostro progetto la desinenza ``/it/latest``. Il documento è in italiano quindi prende la desinenza ``/it``. Questa impostazione permetterà alle note colorate di avere un titolo italiano (“Nota” al posto di “Note”, “Avvertimento” al posto di “Warning”, ecc.).
 
 Esempio: come-creare-guida.readthedocs.io/it/latest
 
