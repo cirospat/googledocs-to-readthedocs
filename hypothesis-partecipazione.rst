@@ -37,7 +37,7 @@ C'è anche in formato JSON:
 
 \ |LINK5|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
-Tanti modi per seguire i commenti sulle pagine di Read the Docs, e per attivare eventuali notifiche automatiche.
+Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per attivare eventuali notifiche automatiche.
 
 |
 
