@@ -6,6 +6,8 @@ Pubblicare con il design di Docs Italia
 
 Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiuntivo di Google doc, GGeditor, per pubblicare un documento su Read the Docs ma con il design di \ |LINK1|\  ecco alcune cose da tenere in considerazione al fine di non commettere errori che - alla fine - potrebbero non fare compilare la costruzione (build) del documento su Read the Docs e quindi pregiudicare la visualizzazione delle pagine HTML.
 
+|
+
 .. _h639194313702264d773f76407a5175:
 
 Uso corretto degli apici e doppi apici nel file ‘conf.py’
@@ -31,6 +33,8 @@ Su ``setting_doc_vesion`` e su ``setting_doc_release`` va la dicitura  ``’vers
     settings_basename = 'nome_progetto'
     settings_file_name = 'nome_progetto'
 
+|
+
 .. _h7c46341e76355a731f401733c315462:
 
 Uso corretto dei titoli dei file Google doc dentro il toctree del file index
@@ -38,7 +42,9 @@ Uso corretto dei titoli dei file Google doc dentro il toctree del file index
 
 Nell'editing del nome dei file dei capitoli sul toctree, nel Google doc dell'index, deve essere inserito il suffisso ``.rst``. Senza l’aggiunta del suffisso sulla pagina ‘index’ del progetto Read the Docs non comparirà la struttura dell’indice.
 
-Nel caso della pubblicazione su Read the Docs \ |STYLE0|\ , (\ |STYLE1|\ ) l’assenza di  questo suffisso ``.rst``per ogni file nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente.
+Nel caso della pubblicazione su Read the Docs \ |STYLE0|\ , (\ |STYLE1|\ ) l’assenza di  questo suffisso ``.rst`` per ogni file nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente.
+
+|
 
 .. _h1573c382a5663265f406c5380716d:
 
@@ -55,12 +61,14 @@ Quindi l’istruzione
 
 non deve essere data in questo caso. Se viene data la compilazione su Read the Docs fallisce.
 
+|
+
 .. _h552735384b632f4a3983f297514485:
 
 Un progetto da clonare per la pubblicazione con il design Docs Italia
 *********************************************************************
 
-A titolo di progetto tipo, da clonare su Github, per un esigenza di un nuovo progetto di pubblicazione con il design Docs Italia, può essere usato  questo repo: \ |LINK2|\  dove sono stati effettuati i dovuti controlli nel file ``conf.py`` che permette un esatta compilazione su Read the Docs, ottenendo lo status verde di passed \ |LINK3|\ . 
+A titolo di \ |LINK2|\ , da clonare su Github, per un esigenza di un nuovo progetto di pubblicazione con il design Docs Italia, può essere usato questo repo: \ |LINK3|\  dove sono stati effettuati i dovuti controlli nel file ``conf.py`` che permette un esatta compilazione su Read the Docs, ottenendo lo status verde di passed \ |LINK4|\ . 
 
 
 .. bottom of content
@@ -77,9 +85,13 @@ A titolo di progetto tipo, da clonare su Github, per un esigenza di un nuovo pro
 
 .. |LINK2| raw:: html
 
-    <a href="https://github.com/cirospat/joppy" target="_blank">https://github.com/cirospat/joppy</a>
+    <a href="http://joppy.readthedocs.io" target="_blank">progetto tipo</a>
 
 .. |LINK3| raw:: html
+
+    <a href="https://github.com/cirospat/joppy" target="_blank">https://github.com/cirospat/joppy</a>
+
+.. |LINK4| raw:: html
 
     <a href="https://readthedocs.org/projects/joppy/" target="_blank">https://readthedocs.org/projects/joppy/</a>
 
