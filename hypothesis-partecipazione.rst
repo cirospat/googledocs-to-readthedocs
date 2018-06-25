@@ -1,0 +1,44 @@
+
+.. _h6d46677b7505a86515774b7b35546d:
+
+Hypothes.is per partecipare ad un documento su Read the Docs
+############################################################
+
+Al fine di permettere la partecipazione di utenti che intendono commentare un documento pubblicato su Read the Docs viene in aiuto la piattaforma \ |LINK1|\ .
+
+Di seguito vengono esposte dettagliatamente le procedure da seguire per integrare hypothes.is su Read the Docs.
+
+A
+
+Aggiungere templates_path = ['_templates'] al file  conf.py.
+
+B
+
+Creare nel repo una cartella _templates, e all’interno della cartella creare un file layout.html ed in questo file inserire il seguente codice:
+
+{% extends "!layout.html" %}
+{% block extrahead %}
+{{ super() }}
+    <script src="\ |LINK2|\ " async></script>
+{% endblock %}
+
+Tutto qui.
+
+La procedura è stata definita da \ |LINK3|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
+
+
+.. bottom of content
+
+
+.. |LINK1| raw:: html
+
+    <a href="https://web.hypothes.is/" target="_blank">hypothes.is</a>
+
+.. |LINK2| raw:: html
+
+    <a href="https://hypothes.is/embed.js" target="_blank">https://hypothes.is/embed.js</a>
+
+.. |LINK3| raw:: html
+
+    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
+
