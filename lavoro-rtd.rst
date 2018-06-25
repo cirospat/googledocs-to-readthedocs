@@ -37,7 +37,7 @@ Considerato che avevamo scelto come titolo del nostro progetto su Read the Docs:
     \ |STYLE2|\ 
     
     Diversamente Read the Docs alla sezione i miei progetti, darà un messaggio in colore rosso di «failed». In questo caso c’è qualche problema e bisogna ripercorrere tutti i passaggi fatti da quando si è iniziato a lavorare sul sito di Read the Docs. 
-    La compilazione su Read the Docs ha incontrato qualche problema, e quando si presenta questo caso la prima cosa da fare è andare nel file ``conf.py`` dentro il repository del progetto su Github e verificare le istruzioni date. Generalmente se si presenta un problema nella compilazione di Read the Docs, il problema sta dentro questo file. Una volta individuato e risolto il problema automaticamente Read the Docs comincerà a compilare le istruzione del file ``conf.py``di Github e dara il bollino verde di passed (cioè compilazione effettuata con successo).
+    La compilazione su Read the Docs ha incontrato qualche problema, e quando si presenta questo caso la prima cosa da fare è andare nel file ``conf.py`` dentro il repository del progetto su Github e verificare le istruzioni date. Generalmente se si presenta un problema nella compilazione di Read the Docs, il problema sta dentro questo file. Una volta individuato e risolto il problema automaticamente Read the Docs comincerà a compilare le istruzione del file ``conf.py`` di Github e dara il bollino verde di passed (cioè compilazione effettuata con successo).
 
 Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento nella nuova modalità di pubblicazione e visualizzazione su Read the Docs o Docs Italia.
 
