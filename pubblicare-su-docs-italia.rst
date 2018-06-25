@@ -63,7 +63,6 @@ non deve essere data in questo caso. Se viene data la compilazione su Read the D
 
 Può essere editato cancelletto prima:
 
-
 .. code:: 
 
     # html_logo = "images/logo.png"
@@ -81,6 +80,11 @@ A titolo di \ |LINK2|\ , da clonare su Github, per un esigenza di un nuovo proge
 
 Qui il file ``conf.py`` \ |LINK5|\ . 
 
+|
+
+
+|REPLACE1|
+
 
 .. bottom of content
 
@@ -89,6 +93,32 @@ Qui il file ``conf.py`` \ |LINK5|\ .
 
 .. |STYLE1| replace:: **cioè senza il design Docs Italia elaborato dal Team Digitale per i documenti della PA**
 
+
+.. |REPLACE1| raw:: html
+
+    <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
+    
+    <div id="disqus_thread"></div>
+    <script>
+    
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://guida-readthedocs.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 .. |LINK1| raw:: html
 
