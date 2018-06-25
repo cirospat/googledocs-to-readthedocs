@@ -6,6 +6,8 @@ Il lavoro da fare su Github
 
 Con il metodo proposto in questo tutorial, \ |STYLE0|\  è il seguente.
 
+|
+
 .. _h27d37777d6f59f417f254b4fa3a:
 
 1. Creare il nome del progetto
@@ -16,6 +18,8 @@ Creare il nome del progetto.
 E scrivere nel file READ.ME la descrizione di cosa contiene quel progetto.
 
 Il nome del progetto sarà richiamato dal plugin GGeditor, come il repository in cui inviare i Google Doc ai quali lavoreremo. 
+
+|
 
 .. _h777c557c582d38262c7972186a6c3026:
 
@@ -88,12 +92,14 @@ al posto di CHANGE-THIS (dentro gli apici) editare il nome del titolo progetto c
 
 al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
 
-.. _h364e2610747f2d35715a71447530282f:
+|
 
-3. Creare il file “theme_overrides.css”
-=======================================
+.. _h657a453c413f207c58413846774e759:
 
-Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html di Read the Docs si crea questo file nella directory “static”. Basta copiare il codice qui di seguito in un file che chiameremo, appunto, “theme_overrides.css” dentro la cartella “static”.
+3. Creare il file “theme_overrides.css” e inserirlo dentro la cartella “static”
+===============================================================================
+
+Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html di Read the Docs si crea questo file nella directory ``static``. Basta copiare il codice qui di seguito in un file che chiameremo, appunto, ``theme_overrides.css`` dentro la cartella ``static``.
 
 
 .. code-block:: python
@@ -131,6 +137,8 @@ Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html 
     
 
 (guarda \ |LINK1|\ ).
+
+|
 
 .. _h1485f695e393f6b591579642211623:
 
