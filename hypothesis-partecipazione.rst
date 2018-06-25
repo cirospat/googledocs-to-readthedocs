@@ -27,15 +27,15 @@ Creare nel repo una cartella ``_templates``, e all’interno della cartella crea
 
 Tutto qui.
 
-La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
+La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs. Andrea ha sperimentato per la prima volta  l’applicazione di questa procedura sul progetto del \ |LINK3|\ .
 
 C'è un feed RSS per le note di ogni pagina HTML. Ad esempio:
 
-\ |LINK3|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
+\ |LINK4|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
 C'è anche in formato JSON:
 
-\ |LINK4|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
+\ |LINK5|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
 Tanti modi per seguire i commenti sulle pagine di Read the Docs, e per attivare eventuali notifiche automatiche.
 
@@ -53,9 +53,13 @@ Tanti modi per seguire i commenti sulle pagine di Read the Docs, e per attivare 
 
 .. |LINK3| raw:: html
 
-    <a href="https://hypothes.is/stream.rss?uri=" target="_blank">https://hypothes.is/stream.rss?uri=</a>
+    <a href="http://forumpa-librobianco-innovazione-2018.readthedocs.io" target="_blank">Libro bianco dell’innovazione della PA, 2018, del ForumPA</a>
 
 .. |LINK4| raw:: html
+
+    <a href="https://hypothes.is/stream.rss?uri=" target="_blank">https://hypothes.is/stream.rss?uri=</a>
+
+.. |LINK5| raw:: html
 
     <a href="https://hypothes.is/api/search?url=" target="_blank">https://hypothes.is/api/search?url=</a>
 
