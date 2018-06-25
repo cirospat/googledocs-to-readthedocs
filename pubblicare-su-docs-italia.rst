@@ -79,6 +79,8 @@ Un progetto da clonare per la pubblicazione con il design Docs Italia
 
 A titolo di \ |LINK2|\ , da clonare su Github, per un esigenza di un nuovo progetto di pubblicazione con il design Docs Italia, può essere usato questo repo: \ |LINK3|\  dove sono stati effettuati i dovuti controlli nel file ``conf.py`` che permette un esatta compilazione su Read the Docs, ottenendo lo status verde di passed \ |LINK4|\ . 
 
+Qui il file ``conf.py`` \ |LINK5|\ . 
+
 
 .. bottom of content
 
@@ -103,4 +105,8 @@ A titolo di \ |LINK2|\ , da clonare su Github, per un esigenza di un nuovo proge
 .. |LINK4| raw:: html
 
     <a href="https://readthedocs.org/projects/joppy/" target="_blank">https://readthedocs.org/projects/joppy/</a>
+
+.. |LINK5| raw:: html
+
+    <a href="https://github.com/cirospat/joppy/blob/master/conf.py" target="_blank">https://github.com/cirospat/joppy/blob/master/conf.py</a>
 
