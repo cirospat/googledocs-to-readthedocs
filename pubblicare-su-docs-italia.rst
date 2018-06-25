@@ -63,6 +63,7 @@ non deve essere data in questo caso. Se viene data la compilazione su Read the D
 
 Può essere editato cancelletto prima:
 
+
 .. code:: 
 
     # html_logo = "images/logo.png"
