@@ -27,6 +27,16 @@ Creare nel repo una cartella ``_templates``, e all’interno della cartella crea
 
 Tutto qui.
 
+C'è un feed RSS per le note di ogni pagina HTML. Ad esempio:
+
+https://hypothes.is/stream.rss?uri=``url-di-readthedocs``/``pagina-specifica-del-documento-readthedocs``.html
+
+C'è anche in formato JSON:
+
+https://hypothes.is/api/search?url=``url-di-readthedocs``/``pagina-specifica-del-documento-readthedocs``.html
+
+Tanti modi per seguire, e per attivare eventuali notifiche automatiche.
+
 La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
 
 
