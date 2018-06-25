@@ -4,7 +4,9 @@
 .. _h3d36331c7272261a3f654118715c385f:
 
 Da Google Doc direttamente a Read the Docs con GGeditor
-*******************************************************
+#######################################################
+
+Passando automaticamente da Github!
 
 \ |IMG1|\ 
 
