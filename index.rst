@@ -4,17 +4,24 @@
 .. _h3d36331c7272261a3f654118715c385f:
 
 Da Google Doc direttamente a Read the Docs con GGeditor
-=======================================================
+*******************************************************
 
 \ |IMG1|\ 
 
-Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . 
+Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
-Questo documento nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
+Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
+
+.. _h28105e656d4d48041184d771d3b4a1a:
+
+GGeditor
+========
 
 \ |IMG2|\ 
 
-\ |LINK3|\  è un componente plugin che si installa direttamente da Google Doc della suite di Google Drive. Google Drive (e i suoi servizi) oggi è molto usato anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+\ |LINK4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+
+Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
 
 |REPLACE2|
@@ -22,7 +29,7 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 |
 
 
-.. admonition:: Le principali funzioni di GGeditor sono
+.. admonition:: Le principali funzioni e punti di forza di GGeditor sono
 
     * Facile inizio per chi non ha dimestichezza con i file RST, anche per chi non ha idea dei marcatori di RST.
     
@@ -140,9 +147,13 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 
 .. |LINK2| raw:: html
 
-    <a href="http://come-creare-guida.readthedocs.io/it/latest/" target="_blank">Come abbiamo creato un «Read the Docs» per pubblicare documenti pubblici su Docs Italia</a>
+    <a href="http://googledocs.readthedocs.io/it/latest/pubblicare-su-docs-italia.html" target="_blank">Docs Italia</a>
 
 .. |LINK3| raw:: html
+
+    <a href="http://come-creare-guida.readthedocs.io/it/latest/" target="_blank">Come abbiamo creato un «Read the Docs» per pubblicare documenti pubblici su Docs Italia</a>
+
+.. |LINK4| raw:: html
 
     <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
 
