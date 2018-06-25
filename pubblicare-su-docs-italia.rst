@@ -21,7 +21,7 @@ Nel file ``conf.py`` che si trova nel repo di Github, i doppi apici (“) vanno 
 
 Nel resto dei settings vanno solo i singoli apici (‘).
 
-Su ``setting_doc_vesion`` e su ``setting_doc_release`` va la dicitura  ``’version: latest’`` (dentro apici singoli).
+Su ``setting_doc_version`` e su ``setting_doc_release`` va la dicitura  ``’version: latest’`` (dentro apici singoli).
 
 
 .. code:: 
