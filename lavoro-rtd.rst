@@ -34,7 +34,7 @@ Messaggi di ‘passing’ e ‘failing’ sul pannello di controllo di Read the 
 
     \ |STYLE1|\ 
     
-    Se non ci sono errori commessi durante le procedure spiegate fino ad ora, tutto andrà a buon fine, e Read the Docs darà il messaggio in colore verde di «passing» al nostro progetto, significa che il nostro progetto è - quindi - online. La compilazione (build) su Read the Docs avviene con successo.
+    Se non ci sono errori commessi durante le procedure spiegate fino ad ora, tutto andrà a buon fine, e Read the Docs darà il messaggio in colore verde di «passing» al nostro progetto, significa che il nostro progetto è - quindi - online. La compilazione (build) su Read the Docs avviene con successo e ogni cambiamento che effettuiamo sul file del Google doc, viene commissionato a Github e compilato in tempo reale su Read the Docs, apparendo immediatamente sulle pagine HTML. La “build” su Read the Docs viene eseguita correttamente.
 
 
 .. admonition:: Avviso di failing
