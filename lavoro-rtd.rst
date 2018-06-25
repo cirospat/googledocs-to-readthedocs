@@ -6,11 +6,11 @@ Il lavoro da fare su Read the Docs
 
 Questa rappresenta la fase finale del lavoro ed è molto semplice come operazioni da effettuare. Una volta completato il lavoro di compilazione su Github, bisogna andare su \ |LINK1|\  e (dopo aver creato il relativo account) importare il progetto, già creato, da Github.
 
-Nella finestra, su URL del Deposito Codice bisogna scrivere l’URL del progetto che avete creato su Github, e quindi scegliere il nome del progetto, esempio:
+Nella finestra, su URL del Deposito Codice, bisogna scrivere l’URL del progetto che avete creato su Github, e quindi scegliere il nome del progetto, ad esempio:
 
 “\ |STYLE0|\ ”
 
-e lasciare Tipo del Deposito Codice selezionato su Git.
+e lasciare “Tipo del Deposito Codice” selezionato su “Git”.
 
 A quel punto verrà messo in collegamento il vostro progetto di Github con la piattaforma di Red the Docs. 
 
