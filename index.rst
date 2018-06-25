@@ -62,6 +62,7 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
     come-usarlo
     lavoro-github
     user-guide
+    hypothesis-partecipazione
     licenza
 
 --------
