@@ -22,19 +22,21 @@ Esempio: come-creare-guida.readthedocs.io/it/latest
 
 A questo punto il progetto di Github è compilato su Read the Docs.
 
-Considerato che avevamo scelto come titolo del nostro progetto su Read the Docs: “linee guida open data comune vattelapesca”, l”URL compilato da Read the Docs per vedere il nostro progetto sarà: \ |STYLE0|\ 
+Considerato che avevamo scelto come titolo del nostro progetto su Read the Docs: “linee guida open data comune vattelapesca”, l”URL compilato da Read the Docs per vedere il nostro progetto sarà: 
+
+| ``linee-guida-open-data-comune-vattelapesca.readthedocs.io``
 
 
 .. admonition:: Avviso di passing
 
-    \ |STYLE1|\ 
+    \ |STYLE0|\ 
     
     Se non ci sono errori commessi durante le procedure spiegate fino ad ora, tutto andrà a buon fine, e Read the Docs darà il messaggio in colore verde di «passing» al nostro progetto, significa che il nostro progetto è - quindi - online. La compilazione (build) su Read the Docs avviene con successo.
 
 
 .. admonition:: Avviso di failing
 
-    \ |STYLE2|\ 
+    \ |STYLE1|\ 
     
     Diversamente Read the Docs alla sezione i miei progetti, darà un messaggio in colore rosso di «failed». In questo caso c’è qualche problema e bisogna ripercorrere tutti i passaggi fatti da quando si è iniziato a lavorare sul sito di Read the Docs. 
     La compilazione su Read the Docs ha incontrato qualche problema, e quando si presenta questo caso la prima cosa da fare è andare nel file ``conf.py`` dentro il repository del progetto su Github e verificare le istruzioni date. Generalmente se si presenta un problema nella compilazione di Read the Docs, il problema sta dentro questo file. Una volta individuato e risolto il problema automaticamente Read the Docs comincerà a compilare le istruzione del file ``conf.py`` di Github e dara il bollino verde di passed (cioè compilazione effettuata con successo).
@@ -47,11 +49,9 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 .. bottom of content
 
 
-.. |STYLE0| replace:: **linee-guida-open-data-comune-vattelapesca.readthedocs.io**
+.. |STYLE0| replace:: **Procedura andata a buon fine: «passing»**
 
-.. |STYLE1| replace:: **Procedura andata a buon fine: «passing»**
-
-.. |STYLE2| replace:: **Procedura con Errore: «failing»**
+.. |STYLE1| replace:: **Procedura con Errore: «failing»**
 
 
 .. |LINK1| raw:: html
