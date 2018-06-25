@@ -24,10 +24,10 @@ Considerato che avevamo scelto come titolo del nostro progetto su Read the Docs:
 
 | ``linee-guida-open-data-comune-vattelapesca.readthedocs.io``
 
-.. _h204215777e804f3e5c1e4d32e41f50:
+.. _h684482d484317635c64347543807d51:
 
-Messaggi di passing e failing sul pannello di controllo di Read the Docs
-************************************************************************
+Messaggi di ‘passing’ e ‘failing’ sul pannello di controllo di Read the Docs
+****************************************************************************
 
 
 .. admonition:: Avviso di passing
