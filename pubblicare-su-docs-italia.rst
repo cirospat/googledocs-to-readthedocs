@@ -61,6 +61,14 @@ Quindi l’istruzione
 
 non deve essere data in questo caso. Se viene data la compilazione su Read the Docs fallisce.
 
+Può essere editato cancelletto prima:
+
+.. code:: 
+
+    # html_logo = "images/logo.png"
+
+così facendo l’istruzione non ha effetto in quanto tutto ciò che viene dopo cancelletto sul file ``conf.py`` rappresenta un testo di commento e non un'istruzione da eseguire. 
+
 |
 
 .. _h552735384b632f4a3983f297514485:
