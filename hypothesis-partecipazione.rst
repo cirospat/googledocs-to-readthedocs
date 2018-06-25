@@ -10,21 +10,24 @@ Di seguito vengono esposte dettagliatamente le procedure da seguire per integrar
 
 A
 
-Aggiungere templates_path = ['_templates'] al file  conf.py.
+Aggiungere ``templates_path = ['_templates']`` al file  ``conf.py``.
 
 B
 
-Creare nel repo una cartella _templates, e all’interno della cartella creare un file layout.html ed in questo file inserire il seguente codice:
+Creare nel repo una cartella ``_templates``, e all’interno della cartella creare un file ``layout.html`` ed in questo file inserire il seguente codice:
 
-{% extends "!layout.html" %}
-{% block extrahead %}
-{{ super() }}
-    <script src="\ |LINK2|\ " async></script>
-{% endblock %}
+
+.. code:: 
+
+    {% extends "!layout.html" %}
+    {% block extrahead %}
+    {{ super() }}
+        <script src="https://hypothes.is/embed.js" async></script>
+    {% endblock %}
 
 Tutto qui.
 
-La procedura è stata definita da \ |LINK3|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
+La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs.
 
 
 .. bottom of content
@@ -35,10 +38,6 @@ La procedura è stata definita da \ |LINK3|\  al quale va un ringraziamento per 
     <a href="https://web.hypothes.is/" target="_blank">hypothes.is</a>
 
 .. |LINK2| raw:: html
-
-    <a href="https://hypothes.is/embed.js" target="_blank">https://hypothes.is/embed.js</a>
-
-.. |LINK3| raw:: html
 
     <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
 
