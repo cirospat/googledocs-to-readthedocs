@@ -66,7 +66,7 @@ Può essere editato cancelletto prima:
 
 .. code:: 
 
-    html_logo = "images/logo.png"
+    # html_logo = "images/logo.png"
 
 così facendo l’istruzione non ha effetto in quanto tutto ciò che viene dopo cancelletto sul file ``conf.py`` rappresenta un testo di commento e non un'istruzione da eseguire. 
 
