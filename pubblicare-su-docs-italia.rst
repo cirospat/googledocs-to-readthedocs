@@ -133,6 +133,13 @@ E qui di seguito le uniche cose da personalizzare nel file ``conf.py``:
     settings_basename = 'cambiami'
     settings_file_name = 'cambiami'
 
+Se sul sito Read the Docs avete dato, ad esempio, come titolo al progetto “\ |STYLE10|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così
+
+.. code:: 
+
+    settings_basename = 'linee-guida-open-data-comune-vattelapesca'
+    settings_file_name = 'linee-guida-open-data-comune-vattelapesca'
+
 |
 
 
@@ -161,6 +168,8 @@ E qui di seguito le uniche cose da personalizzare nel file ``conf.py``:
 .. |STYLE8| replace:: **Docs Italia**
 
 .. |STYLE9| replace:: **passed**
+
+.. |STYLE10| replace:: **linee guida open data comune vattelapesca**
 
 
 .. |REPLACE1| raw:: html
