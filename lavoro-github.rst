@@ -149,7 +149,7 @@ Una configurazione del progetto Github molto leggera ma efficace in termini di r
 
 Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor direttamente nel repository Github abbiamo:
 
-* una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE1|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``;
+* una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE1|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``. La cartella ``static`` viene generata automaticamente dal plugin GGeditor;
 
 * un file ``README.md`` che è un file di descrizione del progetto, che provvediamo a editare noi su Github per far capire al lettore che cosa contiene il repository Github in questione;
 
@@ -157,7 +157,7 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * il file ``conf.py`` che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK2|\ . Basta creare un file nel repository Github, dargli il nome di ``conf.py`` e fare un copia  e incolla dal paragrafo del tutorial di GGeditor;
 
-* il file ``theme_overrides.css`` che sarà dentro la directory ``static``.
+* il file ``theme_overrides.css`` che creeremo dentro la directory ``static``.
 
 Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file ``conf.py`` e del file ``theme_overrides.css`` ma che non dobbiamo nemmeno creare perchè copiamo i contenuti dei file dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza (questo solo per il file ``conf.py``).
 
