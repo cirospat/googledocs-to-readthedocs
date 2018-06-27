@@ -117,9 +117,21 @@ così facendo l’istruzione non ha effetto in quanto tutto ciò che viene dopo 
 Un ‘progetto tipo’ da clonare per la pubblicazione con il design Docs Italia
 ****************************************************************************
 
-A titolo di \ |LINK4|\ , da clonare su Github, per l’esigenza di creazione di un nuovo progetto di pubblicazione con il design Docs Italia, può essere usato questo repository su Github: \ |LINK5|\  dove sono state effettuate le necessarie verifiche nel file ``conf.py`` che permette un esatta compilazione del progetto sul design Docs Italia, ottenendo lo status verde di \ |STYLE8|\  \ |LINK6|\ . 
+A titolo di \ |LINK4|\ , da clonare su Github, per l’esigenza di creazione di un nuovo progetto di pubblicazione con il design \ |STYLE8|\ , può essere usato questo repository su Github: \ |LINK5|\  dove sono state effettuate le necessarie verifiche nel file ``conf.py`` che permette un esatta compilazione del progetto sul design Docs Italia, ottenendo lo status verde di \ |STYLE9|\  \ |LINK6|\ . 
 
 Qui il file ``conf.py`` \ |LINK7|\ . 
+
+E qui di seguito le uniche cose da personalizzare nel file ``conf.py``:
+
+.. code:: 
+
+    settings_project_name = "cambiami"
+    settings_copyright_copyleft = 'Comune di ...'
+    settings_editor_name = 'Comune di ...'
+    settings_doc_version = 'version: latest'
+    settings_doc_release = 'version: latest'
+    settings_basename = 'cambiami'
+    settings_file_name = 'cambiami'
 
 |
 
@@ -146,7 +158,9 @@ Qui il file ``conf.py`` \ |LINK7|\ .
 
 .. |STYLE7| replace:: **Docs Italia**
 
-.. |STYLE8| replace:: **passed**
+.. |STYLE8| replace:: **Docs Italia**
+
+.. |STYLE9| replace:: **passed**
 
 
 .. |REPLACE1| raw:: html
