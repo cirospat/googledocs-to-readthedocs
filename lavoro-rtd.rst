@@ -20,7 +20,7 @@ Esempio: come-creare-guida.readthedocs.io/it/latest
 
 A questo punto il progetto di Github è compilato su Read the Docs.
 
-Considerato che avevamo scelto come titolo del nostro progetto su Read the Docs: “linee guida open data comune vattelapesca”, l”URL compilato da Read the Docs per vedere il nostro progetto sarà: 
+Considerato che avevamo scelto come titolo del nostro progetto su Read the Docs: “\ |STYLE3|\ ”, l”URL compilato da Read the Docs per vedere il nostro progetto sarà: 
 
 | ``linee-guida-open-data-comune-vattelapesca.readthedocs.io``
 
@@ -32,19 +32,19 @@ Messaggi di ‘passing’ e ‘failing’ sul pannello di controllo di Read the 
 
 .. admonition:: Avviso di passing
 
-    \ |STYLE3|\ 
+    \ |STYLE4|\ 
     
-    Se non ci sono errori commessi durante le procedure spiegate fino ad ora, tutto andrà a buon fine, e Read the Docs darà il messaggio in colore verde di «passing» al nostro progetto, significa che il nostro progetto è - quindi - online. La compilazione (build) su Read the Docs avviene con successo e ogni cambiamento che effettuiamo sul file del Google doc, viene commissionato a Github e compilato in tempo reale su Read the Docs, apparendo immediatamente sulle pagine HTML. La “build” su Read the Docs viene eseguita correttamente.
+    Se non ci sono errori commessi durante le procedure spiegate fino ad ora, tutto andrà a buon fine, e Read the Docs darà il messaggio in colore verde di «\ |STYLE5|\ » al nostro progetto, significa che il nostro progetto è - quindi - online. La compilazione (build) su Read the Docs avviene con successo e ogni modifica che effettuiamo sul file del Google doc, viene commissionato a Github e compilato in tempo reale su Read the Docs, apparendo immediatamente sulle pagine HTML. La “build” su Read the Docs viene eseguita correttamente.
 
 
 .. admonition:: Avviso di failing
 
-    \ |STYLE4|\ 
+    \ |STYLE6|\ 
     
-    Diversamente Read the Docs alla sezione i miei progetti, darà un messaggio in colore rosso di «failed». In questo caso c’è qualche problema e bisogna ripercorrere tutti i passaggi fatti da quando si è iniziato a lavorare sul sito di Read the Docs. 
-    La compilazione su Read the Docs ha incontrato qualche problema, e quando si presenta questo caso la prima cosa da fare è andare nel file ``conf.py`` dentro il repository del progetto su Github e verificare le istruzioni date. Generalmente se si presenta un problema nella compilazione di Read the Docs, il problema sta dentro questo file. Una volta individuato e risolto il problema automaticamente Read the Docs comincerà a compilare le istruzione del file ``conf.py`` di Github e dara il bollino verde di passed (cioè compilazione effettuata con successo).
+    Se sono stati commessi errori nella procedura finora illustrata, Read the Docs alla sezione “i miei progetti”, darà un messaggio in colore rosso di «\ |STYLE7|\ ». In questo caso c’è qualche problema da qualche parte e bisogna ripercorrere tutti i passaggi fatti da quando si è iniziato a lavorare a partire dai file su Google doc fino a quanto eseguito sul sito di Read the Docs. 
+    La compilazione su Read the Docs ha incontrato qualche problema, e quando si presenta questo caso la prima cosa da fare è andare nel file ``conf.py`` - dentro il repository del progetto su Github - e verificare le istruzioni date dentro questo file. Generalmente se si presenta un problema nella compilazione di Read the Docs, il problema sta dentro questo file. Una volta individuato e risolto il problema, Read the Docs comincerà automaticamente a compilare le istruzione del file ``conf.py`` di Github e dara il bollino verde di «passed» (cioè la compilazione è effettuata con successo).
 
-Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento nella nuova modalità di pubblicazione e visualizzazione su Read the Docs o Docs Italia.
+Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento nella nuova modalità di pubblicazione e visualizzazione con lo stile Read the Docs o con il design Docs Italia.
 
 [Questa pagina è \ |LINK2|\  del tutorial “\ |LINK3|\ ” (a cura di Pablo Persico, Andrea Borruso e Ciro Spataro) ed ulteriormente arricchita].
 
@@ -63,9 +63,15 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 
 .. |STYLE2| replace:: **Red the Docs**
 
-.. |STYLE3| replace:: **Procedura andata a buon fine: «passing»**
+.. |STYLE3| replace:: **linee guida open data comune vattelapesca**
 
-.. |STYLE4| replace:: **Procedura con Errore: «failing»**
+.. |STYLE4| replace:: **Procedura andata a buon fine: «passing»**
+
+.. |STYLE5| replace:: **passing**
+
+.. |STYLE6| replace:: **Procedura con Errore: «failing»**
+
+.. |STYLE7| replace:: **failed**
 
 
 .. |REPLACE1| raw:: html
