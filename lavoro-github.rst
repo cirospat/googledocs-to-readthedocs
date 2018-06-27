@@ -163,6 +163,8 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file “\ |STYLE6|\ ” e del file “\ |STYLE7|\ ” ma che non dobbiamo nemmeno creare perchè copiamo i contenuti dei file dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza (questo per il file “\ |STYLE8|\ ”).
 
+|
+
 .. _h3b2f757d416e3b147b5b2c477c6b75:
 
 Inserire un logo in alto a sinistra nel design “Read the Docs”
