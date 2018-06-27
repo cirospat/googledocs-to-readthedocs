@@ -165,10 +165,10 @@ Dalla descrizione di questi file si comprende come l’intero pacchetto su Githu
 
 |
 
-.. _h3b2f757d416e3b147b5b2c477c6b75:
+.. _h15816766a462d462c4a264e604e1360:
 
-Inserire un logo in alto a sinistra nel design “Read the Docs”
-==============================================================
+Inserire un logo in alto a sinistra nel design Read the Docs 
+=============================================================
 
 Per inserire un immagine in alto a sinistra nel design di “Read the Docs” basta andare nel file ``conf.py`` e alla fine inserire questo codice:
 
