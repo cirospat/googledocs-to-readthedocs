@@ -4,9 +4,15 @@
 Pubblicare con il design di Docs Italia
 #######################################
 
-Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiuntivo di Google doc, GGeditor, per pubblicare un documento su Read the Docs ma con il design di \ |LINK1|\ , ecco alcune cose da tenere in considerazione al fine di non commettere errori che - alla fine - potrebbero non fare compilare la costruzione (build) del documento su Read the Docs e quindi pregiudicare la visualizzazione delle pagine HTML.
+Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiuntivo di Google doc, GGeditor, per pubblicare un documento su Read the Docs ma con il design di \ |LINK1|\ , ecco alcune cose da tenere in considerazione al fine di non commettere errori che - alla fine - potrebbero non fare compilare la costruzione (build) del documento su Read the Docs e quindi pregiudicare la visualizzazione delle pagine HTML. Docs Italia parte dallo stile semplice di Read the Docs ma viene arricchito, dal Team Trasformazione Digitale, di header e footer nella visualizzazione delle pagine html e di alcune novità in termini di personalizzazioni nella visualizzazione di alcuni contenuti testuali.
 
-Ci sono piccole differenze nel file ``conf.py`` del progetto con lo stile  Read the Docs rispetto al file ``conf.py`` del progetto con il design Docs Italia. Basta conoscerle e si eviteranno errori. Il file ``conf.py`` sul progetto Github è il cuore della configurazione che permette la corretta visualizzazione delle pagine html!
+Ci sono differenze nel file ``conf.py`` del progetto con lo stile basic  \ |STYLE0|\  rispetto al file ``conf.py`` del progetto con il design \ |STYLE1|\  del Team Trasformazione Digitale. Basta conoscerle e si eviteranno errori. Il file ``conf.py`` sul progetto Github è il cuore della configurazione che permette la corretta visualizzazione delle pagine html!
+
+* \ |LINK2|\  un esempio di file ``conf.py`` del progetto con lo stile basic  \ |STYLE2|\ .
+
+* \ |LINK3|\  un esempio di file ``conf.py`` del progetto con lo stile basic  \ |STYLE3|\ .
+
+Di seguito alcuni accorgimenti da tenere presenti nel lavoro da fare.
 
 |
 
@@ -44,7 +50,38 @@ Uso corretto dei titoli dei file Google doc dentro il toctree del file index
 
 Nell'editing del nome dei file dei capitoli sul toctree, nel Google doc dell'index, deve essere inserito il suffisso ``.rst``. Senza l’aggiunta del suffisso, sulle pagine html dello stile Docs Italia non comparirà la struttura dell’indice in home page.
 
-Nel caso della pubblicazione su Read the Docs \ |STYLE0|\ , (\ |STYLE1|\ ) l’assenza di  questo suffisso ``.rst`` per ogni file elencato nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente sulle pagine html di Read the Docs.
+Nel caso della pubblicazione su Read the Docs \ |STYLE4|\ , (\ |STYLE5|\ ) l’assenza di  questo suffisso ``.rst`` per ogni file elencato nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente sulle pagine html di Read the Docs.
+
+Esempio di indice nel Google doc “index” nel caso di progetto \ |STYLE6|\ : si nota l’assenza del suffisso ``.rst`` ad ogni titolo dei file elencati nel toctree
+
+.. code:: 
+
+    .. toctree::
+        :maxdepth: 3
+        :caption: Indice
+    
+        gdocs-rtd
+        tutorial
+        come-usarlo
+        lavoro-github
+        lavoro-rtd
+        user-guide
+        hypothesis-partecipazione
+        pubblicare-su-docs-italia
+        licenza
+
+Esempio di indice nel Google doc “index” nel caso di progetto \ |STYLE7|\ : si nota la presenza del suffisso ``.rst`` ad ogni titolo dei file elencati nel toctree
+
+.. code:: 
+
+    .. toctree::
+        :maxdepth: 3
+        :caption: Indice dei contenuti
+    
+        CARTA-SERVIZI-BIBLIOTECA-capitolo-1.rst
+        CARTA-SERVIZI-BIBLIOTECA-capitolo-2.rst
+        CARTA-SERVIZI-BIBLIOTECA-capitolo-3.rst
+        CARTA-SERVIZI-BIBLIOTECA-appendice.rst
 
 |
 
@@ -73,14 +110,14 @@ così facendo l’istruzione non ha effetto in quanto tutto ciò che viene dopo 
 
 |
 
-.. _h552735384b632f4a3983f297514485:
+.. _h682146b5f1b604e4e625585a4c3b49:
 
-Un progetto da clonare per la pubblicazione con il design Docs Italia
-*********************************************************************
+Un ‘progetto tipo’ da clonare per la pubblicazione con il design Docs Italia
+****************************************************************************
 
-A titolo di \ |LINK2|\ , da clonare su Github, per un esigenza di un nuovo progetto di pubblicazione con il design Docs Italia, può essere usato questo repo: \ |LINK3|\  dove sono stati effettuati i dovuti controlli nel file ``conf.py`` che permette un esatta compilazione su Read the Docs, ottenendo lo status verde di passed \ |LINK4|\ . 
+A titolo di \ |LINK4|\ , da clonare su Github, per l’esigenza di creazione di un nuovo progetto di pubblicazione con il design Docs Italia, può essere usato questo repository su Github: \ |LINK5|\  dove sono state effettuate le necessarie verifiche nel file ``conf.py`` che permette un esatta compilazione del progetto sul design Docs Italia, ottenendo lo status verde di \ |STYLE8|\  \ |LINK6|\ . 
 
-Qui il file ``conf.py`` \ |LINK5|\ . 
+Qui il file ``conf.py`` \ |LINK7|\ . 
 
 |
 
@@ -91,9 +128,23 @@ Qui il file ``conf.py`` \ |LINK5|\ .
 .. bottom of content
 
 
-.. |STYLE0| replace:: **versione basic**
+.. |STYLE0| replace:: **Read the Docs**
 
-.. |STYLE1| replace:: **cioè senza il design Docs Italia elaborato dal Team Digitale per i documenti della PA**
+.. |STYLE1| replace:: **Docs Italia**
+
+.. |STYLE2| replace:: **Read the Docs**
+
+.. |STYLE3| replace:: **Docs Italia**
+
+.. |STYLE4| replace:: **versione basic**
+
+.. |STYLE5| replace:: **cioè senza il design Docs Italia elaborato dal Team Digitale per i documenti della PA**
+
+.. |STYLE6| replace:: **Read the Docs**
+
+.. |STYLE7| replace:: **Docs Italia**
+
+.. |STYLE8| replace:: **passed**
 
 
 .. |REPLACE1| raw:: html
@@ -128,17 +179,25 @@ Qui il file ``conf.py`` \ |LINK5|\ .
 
 .. |LINK2| raw:: html
 
-    <a href="http://joppy.readthedocs.io" target="_blank">progetto tipo</a>
+    <a href="https://github.com/cirospat/googledocs-to-readthedocs/blob/master/conf.py" target="_blank">Qui</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://github.com/cirospat/joppy" target="_blank">https://github.com/cirospat/joppy</a>
+    <a href="https://github.com/cirospat/joppy/blob/master/conf.py" target="_blank">Qui</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://readthedocs.org/projects/joppy/" target="_blank">https://readthedocs.org/projects/joppy/</a>
+    <a href="http://joppy.readthedocs.io" target="_blank">progetto tipo</a>
 
 .. |LINK5| raw:: html
+
+    <a href="https://github.com/cirospat/joppy" target="_blank">https://github.com/cirospat/joppy</a>
+
+.. |LINK6| raw:: html
+
+    <a href="https://readthedocs.org/projects/joppy/" target="_blank">https://readthedocs.org/projects/joppy/</a>
+
+.. |LINK7| raw:: html
 
     <a href="https://github.com/cirospat/joppy/blob/master/conf.py" target="_blank">https://github.com/cirospat/joppy/blob/master/conf.py</a>
 
