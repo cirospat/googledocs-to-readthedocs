@@ -153,9 +153,7 @@ Una configurazione molto leggera ma efficace in termini di risultati di pubblica
 
 Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor direttamente nel repository Github abbiamo:
 
-* una directory “\ |STYLE1|\ ” che contiene soltanto immagini “.png” che sono le immagini che incolliamo nel Google Doc e che nell’azione del Commit, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella “static”;
-
-* un file “\ |STYLE2|\ ” che è un file di descrizione del progetto, che provvediamo a scrivere noi per far capire al lettore che cosa contiene il repository Github in questione;
+* una directory “\ |STYLE1|\ ” che contiene soltanto immagini “.png” che sono le immagini che incolliamo nel Google Doc e che nell’azione del Commit, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella “static”;un file “\ |STYLE2|\ ” che è un file di descrizione del progetto, che provvediamo a scrivere noi per far capire al lettore che cosa contiene il repository Github in questione;
 
 * i file “\ |STYLE3|\ ” che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
 
@@ -164,6 +162,24 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 * il file “\ |STYLE5|\ ” che sarà dentro la directory “static”.
 
 Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file “\ |STYLE6|\ ” e del file “\ |STYLE7|\ ” ma che non dobbiamo nemmeno creare perchè copiamo i contenuti dei file dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza (questo per il file “\ |STYLE8|\ ”).
+
+|
+
+.. _h3b2f757d416e3b147b5b2c477c6b75:
+
+Inserire un logo in alto a sinistra nel design “Read the Docs”
+==============================================================
+
+Per inserire un immagine in alto a sinistra nel design di “Read the Docs” basta andare nel file ``conf.py`` e alla fine inserire questo codice:
+
+.. code:: 
+
+    latex_logo = "static/immagine.png"
+    html_logo = "static/immagine.png"
+
+avendo cura di caricare il file ``immagine.png`` nella cartella ``static``.
+
+|
 
 
 |REPLACE1|
