@@ -15,9 +15,9 @@ Con il metodo proposto in questo tutorial, \ |STYLE0|\  è il seguente.
 
 Creare il nome del progetto.
 
-E scrivere nel file READ.ME la descrizione di cosa contiene quel progetto.
+Scrivere nel file ``READ.ME`` la descrizione di cosa contiene quel progetto (un po di metadatazione del progetto).
 
-Il nome del progetto sarà richiamato dal plugin GGeditor, come il repository in cui inviare i Google Doc ai quali lavoreremo. 
+Il nome del progetto sarà richiamato dal plugin GGeditor una volta richiamato l’account Github ed editati user e password. Appariranno su un pannello i vari repository Github del nostro account e si sceglierà quello a cui inviare i Google Doc ai quali lavoreremo. 
 
 |
 
@@ -26,10 +26,7 @@ Il nome del progetto sarà richiamato dal plugin GGeditor, come il repository in
 2. Creare un file “conf.py”
 ===========================
 
-Creare un file dandogli il nome “conf.py” e all’interno incollare il seguente codice
-
-=
-
+Creare un file dandogli il nome ``conf.py`` e all’interno incollare il seguente codice
 
 .. code-block:: python
     :linenos:
@@ -101,7 +98,6 @@ al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si int
 
 Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html di Read the Docs si crea questo file nella directory ``static``. Basta copiare il codice qui di seguito in un file che chiameremo, appunto, ``theme_overrides.css`` dentro la cartella ``static``.
 
-
 .. code-block:: python
     :linenos:
 
@@ -147,21 +143,21 @@ Una configurazione leggera ed efficace
 
 Con le due azioni di sopra si conclude tutto il lavoro da svolgere su Github, quindi questa soluzione si presta a chi non ha dimestichezza con il linguaggio RST. 
 
-Una configurazione molto leggera ma efficace in termini di risultati di pubblicazione di un documento su Read the Docs.
+Una configurazione del progetto Github molto leggera ma efficace in termini di risultati di pubblicazione di un documento sul design Read the Docs.
 
 \ |IMG1|\ 
 
 Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor direttamente nel repository Github abbiamo:
 
-* una directory “\ |STYLE1|\ ” che contiene soltanto immagini “.png” che sono le immagini che incolliamo nel Google Doc e che nell’azione del Commit, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella “static”;un file “\ |STYLE2|\ ” che è un file di descrizione del progetto, che provvediamo a scrivere noi per far capire al lettore che cosa contiene il repository Github in questione;
+* una directory ``static`` che contiene soltanto immagini “.png” che sono le immagini che incolliamo nel Google Doc e che nell’azione del Commit, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella “static”;un file ``README.md`` che è un file di descrizione del progetto, che provvediamo a scrivere noi per far capire al lettore che cosa contiene il repository Github in questione;
 
-* i file “\ |STYLE3|\ ” che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
+* i file ``.rst`` che sono i Google Doc convertiti automaticamente in file “.rst” dal plugin GGeditor e inviati nel repository Github;
 
-* il file “\ |STYLE4|\ ” che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK2|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor;
+* il file ``conf.py`` che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK2|\ . Basta creare un file nel repository Github, dargli il nome di “conf.py” e fare un copia  e incolla dal paragrafo del tutorial di GGeditor;
 
-* il file “\ |STYLE5|\ ” che sarà dentro la directory “static”.
+* il file ``theme_overrides.css`` che sarà dentro la directory “static”.
 
-Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file “\ |STYLE6|\ ” e del file “\ |STYLE7|\ ” ma che non dobbiamo nemmeno creare perchè copiamo i contenuti dei file dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza (questo per il file “\ |STYLE8|\ ”).
+Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file ``conf.py`` e del file ``theme_overrides.css`` ma che non dobbiamo nemmeno creare perchè copiamo i contenuti dei file dal tutorial, andando a scrivere al suo interno solo il nome del documento da pubblicare e il tipo di licenza (questo solo per il file ``conf.py``).
 
 |
 
@@ -230,22 +226,6 @@ il codice “\ |LINK4|\ ” può essere cambiato con i codici di tantissimi altr
 
 
 .. |STYLE0| replace:: **l’unico lavoro che c’è da fare sull’account di Github**
-
-.. |STYLE1| replace:: **static**
-
-.. |STYLE2| replace:: **README.md**
-
-.. |STYLE3| replace:: **.rst**
-
-.. |STYLE4| replace:: **conf.py**
-
-.. |STYLE5| replace:: **theme_overrides.css**
-
-.. |STYLE6| replace:: **conf.py**
-
-.. |STYLE7| replace:: **theme_overrides.css**
-
-.. |STYLE8| replace:: **conf.py**
 
 
 .. |REPLACE1| raw:: html
