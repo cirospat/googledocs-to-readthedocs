@@ -133,7 +133,7 @@ E qui di seguito le uniche cose da personalizzare nel file ``conf.py``:
     settings_basename = 'cambiami'
     settings_file_name = 'cambiami'
 
-Se sul sito Read the Docs avete dato, ad esempio, come titolo al progetto “\ |STYLE10|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così
+Se sul sito Read the Docs avete dato, ad esempio, come al progetto il titolo  “\ |STYLE10|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così
 
 .. code:: 
 
