@@ -29,6 +29,13 @@ Tutto qui.
 
 La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs. Andrea ha sperimentato per la prima volta  l’applicazione di questa procedura sul progetto del \ |LINK3|\ .
 
+|
+
+.. _ha4d55555d1c27693371432ac737318:
+
+Le annotazioni su hypothes.is disponibili in tempo reale in un feed RSS o in un formato Json
+********************************************************************************************
+
 \ |STYLE0|\ . Ad esempio:
 
 \ |LINK4|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
