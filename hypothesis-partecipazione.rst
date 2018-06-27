@@ -36,7 +36,7 @@ La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per 
 
 ..  Note:: 
 
-    Guarda, ad esempio, il feed RSS del Libro bianco dell’innovazione della PA 2018 del FPA: \ |LINK5|\  
+    Guarda, ad esempio, il feed RSS delle annotazioni postate dagli utenti come commenti al Libro bianco dell’innovazione della PA 2018 del FPA: \ |LINK5|\  
 
 \ |STYLE1|\ :
 
