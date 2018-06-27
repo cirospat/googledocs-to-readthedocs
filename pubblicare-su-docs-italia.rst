@@ -4,7 +4,11 @@
 Pubblicare con il design di Docs Italia
 #######################################
 
-Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiuntivo di Google doc, GGeditor, per pubblicare un documento su Read the Docs ma con il design di \ |LINK1|\ , ecco alcune cose da tenere in considerazione al fine di non commettere errori che - alla fine - potrebbero non fare compilare la costruzione (build) del documento su Read the Docs e quindi pregiudicare la visualizzazione delle pagine HTML. Docs Italia parte dallo stile semplice di Read the Docs ma viene arricchito, dal Team Trasformazione Digitale, di header e footer nella visualizzazione delle pagine html e di alcune novità in termini di personalizzazioni nella visualizzazione di alcuni contenuti testuali.
+Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiuntivo di Google doc, GGeditor, per pubblicare un documento su Read the Docs ma con il design di \ |LINK1|\ , ecco alcune cose da tenere in considerazione al fine di non commettere errori che - alla fine - potrebbero non fare compilare la costruzione (build) del documento su Read the Docs e quindi pregiudicare la visualizzazione delle pagine HTML. 
+
+\ |IMG1|\ 
+
+Docs Italia parte dallo stile semplice di Read the Docs ma viene arricchito, dal Team Trasformazione Digitale, di “header” e “footer” nella visualizzazione delle pagine html e di alcune novità in termini di personalizzazioni nella visualizzazione di alcuni contenuti testuali.
 
 Ci sono differenze nel file ``conf.py`` del progetto con lo stile basic  \ |STYLE0|\  rispetto al file ``conf.py`` del progetto con il design \ |STYLE1|\  del Team Trasformazione Digitale. Basta conoscerle e si eviteranno errori. Il file ``conf.py`` sul progetto Github è il cuore della configurazione che permette la corretta visualizzazione delle pagine html e la visualizzazione degli aggiornamenti fatti nelle pagine Google doc!
 
@@ -236,3 +240,7 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 
     <a href="https://readthedocs.org/projects/joppy/builds/7397980/" target="_blank">https://readthedocs.org/projects/joppy/builds/7397980</a>
 
+
+.. |IMG1| image:: static/pubblicare-su-docs-italia_1.png
+   :height: 257 px
+   :width: 601 px
