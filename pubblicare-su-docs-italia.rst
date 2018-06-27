@@ -121,7 +121,7 @@ A titolo di \ |LINK4|\ , da clonare su Github, per l’esigenza di creazione di 
 
 * Qui il file ``conf.py`` = \ |LINK7|\ . 
 
-* Qui i dettagli dell’ultima compilazione sulla piatatforma Read the Docs del progetto \ |LINK8|\  in esame = \ |LINK9|\ .
+* Qui i dettagli dell’ultima compilazione del progetto \ |LINK8|\  in esame sulla piattaforma Read the Docs = \ |LINK9|\ .
 
 E qui di seguito gli unici campi da personalizzare nel file ``conf.py``:
 
