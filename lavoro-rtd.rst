@@ -6,15 +6,15 @@ Il lavoro da fare su Read the Docs
 
 Questa rappresenta la fase finale del lavoro ed è molto semplice come operazioni da effettuare. Una volta completato il lavoro di compilazione su Github, bisogna andare su \ |LINK1|\  e (dopo aver creato il relativo account) importare il progetto, già creato, da Github.
 
-Nella finestra, su URL del Deposito Codice, bisogna scrivere l’URL del progetto che avete creato su Github, e quindi scegliere il nome del progetto, ad esempio:
+Nella finestra, su “URL del Deposito Codice”, bisogna scrivere l’URL del progetto che avete creato su Github, e quindi scegliere il nome del progetto, ad esempio:
 
 “\ |STYLE0|\ ”
 
 e lasciare “Tipo del Deposito Codice” selezionato su “Git”.
 
-A quel punto verrà messo in collegamento il vostro progetto di Github con la piattaforma di Red the Docs. 
+A quel punto verrà messo in collegamento il vostro progetto di \ |STYLE1|\  con il progetto su \ |STYLE2|\ . 
 
-Una primissima cosa da fare è andare su Amministrazione e settare la lingua italiana. Questo consentirà a Read the Docs di aggiungere al titolo del vostro progetto la desinenza ``/it/latest``. Il documento è in italiano quindi prende la desinenza ``/it``. Questa impostazione permetterà alle note colorate di avere un titolo italiano (“Nota” al posto di “Note”, “Avvertimento” al posto di “Warning”, ecc.).
+Una primissima azione da compiere è andare su “Amministrazione” e settare la lingua italiana. Questo consentirà a Read the Docs di aggiungere al titolo del vostro progetto la desinenza ``/it/latest``. Il documento è in italiano quindi prende la desinenza ``/it``. Questa impostazione permetterà alle note colorate che avete creato su Google doc di avere un titolo italiano (“Nota” al posto di “Note”, “Avvertimento” al posto di “Warning”, “Attenzione” al posto di “Attention” ecc.).
 
 Esempio: come-creare-guida.readthedocs.io/it/latest
 
@@ -32,14 +32,14 @@ Messaggi di ‘passing’ e ‘failing’ sul pannello di controllo di Read the 
 
 .. admonition:: Avviso di passing
 
-    \ |STYLE1|\ 
+    \ |STYLE3|\ 
     
     Se non ci sono errori commessi durante le procedure spiegate fino ad ora, tutto andrà a buon fine, e Read the Docs darà il messaggio in colore verde di «passing» al nostro progetto, significa che il nostro progetto è - quindi - online. La compilazione (build) su Read the Docs avviene con successo e ogni cambiamento che effettuiamo sul file del Google doc, viene commissionato a Github e compilato in tempo reale su Read the Docs, apparendo immediatamente sulle pagine HTML. La “build” su Read the Docs viene eseguita correttamente.
 
 
 .. admonition:: Avviso di failing
 
-    \ |STYLE2|\ 
+    \ |STYLE4|\ 
     
     Diversamente Read the Docs alla sezione i miei progetti, darà un messaggio in colore rosso di «failed». In questo caso c’è qualche problema e bisogna ripercorrere tutti i passaggi fatti da quando si è iniziato a lavorare sul sito di Read the Docs. 
     La compilazione su Read the Docs ha incontrato qualche problema, e quando si presenta questo caso la prima cosa da fare è andare nel file ``conf.py`` dentro il repository del progetto su Github e verificare le istruzioni date. Generalmente se si presenta un problema nella compilazione di Read the Docs, il problema sta dentro questo file. Una volta individuato e risolto il problema automaticamente Read the Docs comincerà a compilare le istruzione del file ``conf.py`` di Github e dara il bollino verde di passed (cioè compilazione effettuata con successo).
@@ -59,9 +59,13 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 
 .. |STYLE0| replace:: **linee guida open data comune vattelapesca**
 
-.. |STYLE1| replace:: **Procedura andata a buon fine: «passing»**
+.. |STYLE1| replace:: **Github**
 
-.. |STYLE2| replace:: **Procedura con Errore: «failing»**
+.. |STYLE2| replace:: **Red the Docs**
+
+.. |STYLE3| replace:: **Procedura andata a buon fine: «passing»**
+
+.. |STYLE4| replace:: **Procedura con Errore: «failing»**
 
 
 .. |REPLACE1| raw:: html
