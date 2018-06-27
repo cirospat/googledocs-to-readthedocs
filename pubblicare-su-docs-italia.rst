@@ -4,7 +4,9 @@
 Pubblicare con il design di Docs Italia
 #######################################
 
-Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiuntivo di Google doc, GGeditor, per pubblicare un documento su Read the Docs ma con il design di \ |LINK1|\  ecco alcune cose da tenere in considerazione al fine di non commettere errori che - alla fine - potrebbero non fare compilare la costruzione (build) del documento su Read the Docs e quindi pregiudicare la visualizzazione delle pagine HTML.
+Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiuntivo di Google doc, GGeditor, per pubblicare un documento su Read the Docs ma con il design di \ |LINK1|\ , ecco alcune cose da tenere in considerazione al fine di non commettere errori che - alla fine - potrebbero non fare compilare la costruzione (build) del documento su Read the Docs e quindi pregiudicare la visualizzazione delle pagine HTML.
+
+Ci sono piccole differenze nel file ``conf.py`` del progetto con lo stile  Read the Docs rispetto al file ``conf.py`` del progetto con il design Docs Italia. Basta conoscerle e si eviteranno errori. Il file ``conf.py`` sul progetto Github è il cuore della configurazione che permette la corretta visualizzazione delle pagine html!
 
 |
 
@@ -13,7 +15,7 @@ Se una Pubblica Amministrazione vuole sfruttare il servizio del componente aggiu
 Uso corretto degli apici e doppi apici nel file ‘conf.py’
 *********************************************************
 
-Nel file ``conf.py`` che si trova nel repo di Github, i doppi apici (“) vanno solo nel primo campo:
+Nel file ``conf.py`` che si trova nel repository di Github, i doppi apici (“) vanno solo nel primo campo:
 
 .. code:: 
 
@@ -40,9 +42,9 @@ Su ``setting_doc_version`` e su ``setting_doc_release`` va la dicitura  ``’ver
 Uso corretto dei titoli dei file Google doc dentro il toctree del file index
 ****************************************************************************
 
-Nell'editing del nome dei file dei capitoli sul toctree, nel Google doc dell'index, deve essere inserito il suffisso ``.rst``. Senza l’aggiunta del suffisso sulla pagina ‘index’ del progetto Read the Docs non comparirà la struttura dell’indice.
+Nell'editing del nome dei file dei capitoli sul toctree, nel Google doc dell'index, deve essere inserito il suffisso ``.rst``. Senza l’aggiunta del suffisso, sulle pagine html dello stile Docs Italia non comparirà la struttura dell’indice in home page.
 
-Nel caso della pubblicazione su Read the Docs \ |STYLE0|\ , (\ |STYLE1|\ ) l’assenza di  questo suffisso ``.rst`` per ogni file nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente.
+Nel caso della pubblicazione su Read the Docs \ |STYLE0|\ , (\ |STYLE1|\ ) l’assenza di  questo suffisso ``.rst`` per ogni file elencato nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente sulle pagine html di Read the Docs.
 
 |
 
