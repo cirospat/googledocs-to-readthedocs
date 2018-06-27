@@ -29,13 +29,18 @@ Tutto qui.
 
 La procedura è stata definita da \ |LINK2|\  al quale va un ringraziamento per questa importante integrazione su Read the Docs. Andrea ha sperimentato per la prima volta  l’applicazione di questa procedura sul progetto del \ |LINK3|\ .
 
-C'è un feed RSS per le note di ogni pagina HTML. Ad esempio:
+\ |STYLE0|\ . Ad esempio:
 
 \ |LINK4|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
-C'è anche in formato JSON:
 
-\ |LINK5|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
+..  Note:: 
+
+    Guarda, ad esempio, il feed RSS del Libro bianco dell’innovazione della PA 2018 del FPA: \ |LINK5|\  
+
+\ |STYLE1|\ :
+
+\ |LINK6|\  ``url-di-readthedocs`` / ``pagina-specifica-del-documento-readthedocs``.html
 
 Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per attivare eventuali notifiche automatiche.
 
@@ -46,6 +51,11 @@ Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per at
 
 
 .. bottom of content
+
+
+.. |STYLE0| replace:: **C'è un feed RSS per le note di ogni pagina HTML**
+
+.. |STYLE1| replace:: **C'è anche in formato JSON**
 
 
 .. |REPLACE1| raw:: html
@@ -91,6 +101,10 @@ Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per at
     <a href="https://hypothes.is/stream.rss?uri=" target="_blank">https://hypothes.is/stream.rss?uri=</a>
 
 .. |LINK5| raw:: html
+
+    <a href="http://dev.ondata.it/projs/people/andy/librobiancoforumpa/feedContributi.xml" target="_blank">http://dev.ondata.it/projs/people/andy/librobiancoforumpa/feedContributi.xml</a>
+
+.. |LINK6| raw:: html
 
     <a href="https://hypothes.is/api/search?url=" target="_blank">https://hypothes.is/api/search?url=</a>
 
