@@ -119,9 +119,11 @@ Un ‘progetto tipo’ da clonare per la pubblicazione con il design Docs Italia
 
 A titolo di \ |LINK4|\ , da clonare su Github, per l’esigenza di creazione di un nuovo progetto di pubblicazione con il design \ |STYLE8|\ , può essere usato questo repository su Github: \ |LINK5|\  dove sono state effettuate le necessarie verifiche nel file ``conf.py`` che permette un esatta compilazione del progetto sul design Docs Italia, ottenendo lo status verde di \ |STYLE9|\  \ |LINK6|\ . 
 
-Qui il file ``conf.py`` \ |LINK7|\ . 
+* Qui il file ``conf.py`` = \ |LINK7|\ . 
 
-E qui di seguito le uniche cose da personalizzare nel file ``conf.py``:
+* Qui i dettagli dell’ultima compilazione sulla piatatforma Read the Docs del progetto \ |LINK8|\  in esame = \ |LINK9|\ .
+
+E qui di seguito gli unici campi da personalizzare nel file ``conf.py``:
 
 .. code:: 
 
@@ -133,7 +135,7 @@ E qui di seguito le uniche cose da personalizzare nel file ``conf.py``:
     settings_basename = 'cambiami'
     settings_file_name = 'cambiami'
 
-Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |STYLE10|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così
+Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |STYLE10|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così:
 
 .. code:: 
 
@@ -225,4 +227,12 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 .. |LINK7| raw:: html
 
     <a href="https://github.com/cirospat/joppy/blob/master/conf.py" target="_blank">https://github.com/cirospat/joppy/blob/master/conf.py</a>
+
+.. |LINK8| raw:: html
+
+    <a href="https://github.com/cirospat/joppy" target="_blank">Github</a>
+
+.. |LINK9| raw:: html
+
+    <a href="https://readthedocs.org/projects/joppy/builds/7397980/" target="_blank">https://readthedocs.org/projects/joppy/builds/7397980</a>
 
