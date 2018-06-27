@@ -179,6 +179,44 @@ avendo cura di caricare il file ``immagine.png`` nella cartella ``static``.
 
 |
 
+.. _h775782304944104a63b1778f5f7e:
+
+Cambiare il colore di sfondo del rettangolo in alto a sinistra
+==============================================================
+
+Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si riporta il codice da inserire sul file ``theme_overrides.css`` che si trova dentro la cartella ``static``:
+
+.. code:: 
+
+    }
+    
+    .wy-side-nav-search {
+        background-color: #7b90f9;
+    }
+
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK3|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+
+|
+
+.. _h42f507fa1c6a29605c5a1a3a442f:
+
+Cambiare il colore dei titoli dei capitoli, paragrafi, sottoparagrafi, ecc.
+===========================================================================
+
+Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, paragrafi, sottoparagrafi, ecc. Sempre sul file ``theme_overrides.css`` si riporta il seguente codice:
+
+.. code:: 
+
+    }
+    
+    h1, h2, h3 {
+        color: #176a90 !important;
+    }
+
+il codice “\ |LINK4|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+
+|
+
 
 |REPLACE1|
 
@@ -244,6 +282,14 @@ avendo cura di caricare il file ``immagine.png`` nella cartella ``static``.
 .. |LINK2| raw:: html
 
     <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-3-conf-py" target="_blank">Il codice del file “conf.py” viene fornito nel tutorial di GGeditor</a>
+
+.. |LINK3| raw:: html
+
+    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+
+.. |LINK4| raw:: html
+
+    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
 
 .. |IMG1| image:: static/lavoro-github_1.png
