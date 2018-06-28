@@ -173,7 +173,7 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 
 .. |STYLE8| replace:: **Docs Italia**
 
-.. |STYLE9| replace:: **passed**
+.. |STYLE9| replace:: **passing**
 
 .. |STYLE10| replace:: **linee guida open data comune vattelapesca**
 
