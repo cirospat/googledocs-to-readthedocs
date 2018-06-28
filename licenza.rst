@@ -22,7 +22,7 @@ Sono \ |LINK2|\ , dipendente del Comune di Palermo impegnato su \ |LINK3|\  e di
 
 Civic hacker (\ |LINK4|\ ) con la passione della condivisione della conoscenza.
 
-Mi piace moltissimo \ |LINK5|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
+Mi piace moltissimo \ |LINK5|\  e \ |LINK6|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
 
 |
 
@@ -31,7 +31,7 @@ Mi piace moltissimo \ |LINK5|\  quale piattaforma per la pubblicazione di docume
 Iniziate le pubblicazioni su Read the Docs
 ==========================================
 
-\ |LINK6|\  di pubblicazioni su Read the Docs, realizzato in collaborazione con altre persone che condividono la cultura dell’architettura dell’informazione in un documento.
+\ |LINK7|\  di pubblicazioni realizzate sullo stile di Read the Docs, molte delle quali in collaborazione con altre persone che condividono la cultura dell’architettura dell’informazione del documento.
 
 
 |
@@ -43,19 +43,21 @@ Un ringraziamento a Hsin Yuan Yeh
 
 \ |IMG1|\ 
 
-\ |LINK7|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (Hsin Yuan Yeh), non madrelingua inglese.
+\ |LINK8|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (\ |STYLE1|\ ), non madrelingua inglese.
 
 Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
 
 Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio e un messaggio di error in taiwanese) nella procedura di Commit del Google Doc a Github. 
 
-Ho aperto una issue (\ |LINK8|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del plugin. 
+Ho aperto una issue (\ |LINK9|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del componente aggiuntivo \ |STYLE2|\ . 
 
-Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo ↓
+Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo 
+
+↓
 
  \ |IMG2|\ 
 
-la cosa da fare è andare in “Componenti aggiuntivi”, “GGeditor” e “Setting” dove si trova un tasto rosso di “Reset” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository
+la cosa da fare è andare in “\ |STYLE3|\ ”, poi “\ |STYLE4|\ ” e quindi su “\ |STYLE5|\ ” dove si trova un tasto rosso di “\ |STYLE6|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
 
 \ |IMG3|\ 
 
@@ -70,7 +72,7 @@ Grazie Hsin Yuan Yeh!
 Che sia usato nella Pubblica Amministrazione
 ============================================
 
-Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs, al posto degli scomodi PDF. Chi, interessato ad utilizzare questo strumento, necessiterà di un aiuto, sono disponibile ``c.spataro@comune.palermo.it``.
+Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs e con lo stile Docs Italia, al posto degli scomodi PDF. Per chi fosse interessato ad utilizzare questo strumento, sono disponibile a fornire aiuto: il mio contatto è  ``c.spataro@comune.palermo.it``.
 
 
 |REPLACE1|
@@ -83,6 +85,18 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 
 .. |STYLE0| replace:: **plugin**
+
+.. |STYLE1| replace:: **Hsin Yuan Yeh**
+
+.. |STYLE2| replace:: **GGeditor**
+
+.. |STYLE3| replace:: **Componenti aggiuntivi**
+
+.. |STYLE4| replace:: **GGeditor**
+
+.. |STYLE5| replace:: **Setting**
+
+.. |STYLE6| replace:: **Reset**
 
 
 .. |REPLACE1| raw:: html
@@ -136,13 +150,17 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |LINK6| raw:: html
 
-    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5QDGhwYWE1gXsousI_KRF_VEJGcj144ybek4yGu-EDO92oKRQAXf82FnBOYowZ8IFhqEpiKX3wxM/pubhtml" target="_blank">Qui un catalogo</a>
+    <a href="https://docs.developers.italia.it/" target="_blank">Docs Italia</a>
 
 .. |LINK7| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5QDGhwYWE1gXsousI_KRF_VEJGcj144ybek4yGu-EDO92oKRQAXf82FnBOYowZ8IFhqEpiKX3wxM/pubhtml" target="_blank">Qui un primo catalogo</a>
 
 .. |LINK8| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
+
+.. |LINK9| raw:: html
 
     <a href="https://github.com/iapyeh/GGeditor/issues/1" target="_blank">https://github.com/iapyeh/GGeditor/issues/1</a>
 
