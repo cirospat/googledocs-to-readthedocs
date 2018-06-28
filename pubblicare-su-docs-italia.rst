@@ -12,9 +12,9 @@ Docs Italia parte dallo stile semplice di Read the Docs ma viene arricchito, dal
 
 Ci sono differenze nel file ``conf.py`` del progetto con lo stile basic  \ |STYLE0|\  rispetto al file ``conf.py`` del progetto con il design \ |STYLE1|\  del Team Trasformazione Digitale. Basta conoscerle e si eviteranno errori. Il file ``conf.py`` sul progetto Github è il cuore della configurazione che permette la corretta visualizzazione delle pagine html e la visualizzazione degli aggiornamenti fatti nelle pagine Google doc!
 
-* \ |LINK2|\  un esempio di file ``conf.py`` del progetto con lo stile basic  \ |STYLE2|\ .
+* \ |LINK2|\  un esempio di file ``conf.py`` del progetto con lo stile di base  \ |STYLE2|\ .
 
-* \ |LINK3|\  un esempio di file ``conf.py`` del progetto con lo stile basic  \ |STYLE3|\ .
+* \ |LINK3|\  un esempio di file ``conf.py`` del progetto con lo stile \ |STYLE3|\ .
 
 Evidente la differenza di istruzioni date nei due file.
 
