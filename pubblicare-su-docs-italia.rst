@@ -91,6 +91,30 @@ Esempio di indice nel Google doc “index” nel caso di progetto \ |STYLE7|\ : 
 
 |
 
+.. _hb5a1a3c6113552b7c3063392b532a:
+
+Settaggi del file ‘conf.py’ nella sezione “Options for LaTeX output”
+********************************************************************
+
+Nella sezione ``options for LaTex output`` dare le istruzioni seguendo esattamente questo codice di seguito riportato:
+
+.. code:: 
+
+    # -- Options for LaTeX output ------------------------------
+    
+    latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
+    
+    # The font size ('10pt', '11pt' or '12pt').
+    #'pointsize': '10pt',
+    
+    # Additional stuff for the LaTeX preamble.
+    #'preamble': '',
+    }
+
+|
+
 .. _h1573c382a5663265f406c5380716d:
 
 HTML Logo
