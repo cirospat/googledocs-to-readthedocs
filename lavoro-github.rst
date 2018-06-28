@@ -177,6 +177,8 @@ Per inserire un immagine in alto a sinistra nel design di “Read the Docs” ba
 
 avendo cura di caricare il file ``immagine.png`` nella cartella ``static``.
 
+Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+
 |
 
 .. _h775782304944104a63b1778f5f7e:
@@ -196,6 +198,8 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
 
 il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK3|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
+Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+
 |
 
 .. _h42f507fa1c6a29605c5a1a3a442f:
@@ -214,6 +218,8 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
     }
 
 il codice “\ |LINK4|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+
+Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
