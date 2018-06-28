@@ -124,7 +124,7 @@ HTML Logo
 
 Sui documenti pubblicati con il design Docs Italia non c’è la possibilità di fare visualizzare un logo/immagine in alto a sinistra come, invece, avviene con la versione Read the Docs basic.
 
-Quindi l’istruzione 
+Quindi sul file ``conf.py`` l’istruzione seguente
 
 .. code:: 
 
