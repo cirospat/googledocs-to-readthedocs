@@ -18,7 +18,7 @@ Una volta cliccato OK per il commit s Github, verrà creato un file RST sulla ca
 
 ..  Attention:: 
 
-    E' importante sapere che prima di effettuare questa operazione illustrata nella figura di sopra, è necessario creare il nome del progetto su Github, in maniera tale che quando seguiamo le operazioni della figura (dalla 1 alla 5) indichiamo a Github il nome del progetto nel quale GGeditor deve andare a creare il file che prende lo stesso nome del titolo del Google Doc, in più GGeditor provvede ad aggiungere il suffisso ".rst" dentro la directory "doc" di Github.
+    E' importante sapere che prima di effettuare questa operazione illustrata nella figura di sopra, è necessario creare il nome del progetto su Github, in maniera tale che quando seguiamo le operazioni della figura (dalla 1 alla 5) indichiamo a Github il nome del progetto nel quale GGeditor deve andare a creare il file che prende lo stesso nome del titolo del Google Doc, in più GGeditor provvede ad aggiungere il suffisso ".rst" dentro la directory madre di Github.
 
 If you want to commit to a new file. Please
 
@@ -42,15 +42,15 @@ Committing
 
 ..  Note:: 
 
-    Il GGeditor manterrà i file immagini su una cartella ("static") del progetto su Github. Se nel Doc vengono modificate immagini o anche vengono cancellate o sostituite, ogni volta bisogna cliccare su "commit images".
+    GGeditor posizionerà i file immagini presenti nel Google doc sulla cartella ``static`` del progetto su Github. Se nel Google doc vengono modificate immagini o anche vengono cancellate o sostituite, ogni volta bisogna cliccare sul componente aggiuntivo GGeditor e quindi su "commit images".
 
 
 ..  Attention:: 
 
-    Se avete molte immagini in un Doc, il che significa molte immagono da caricare su Github tramite GGeditor, potrebbe succedere di incontrare situazioni di immagini rotte nelle corrispondenti pagine HTML di Read the Docs.
-    Questo perchè il processo di rigenerazione delle pagine HTML è ancora in corso, non dovete -quindi- preoccuparvi. In questo caso dovete aspettare ancora un po che finisca il processo di costruzione delle stesse pagine su Read the Docs. Oppure se le immagini non compaiono ancora nelle pagine HTML, un ultima cosa da fare è andare nella pagina "Administration" del progetto su Read the Docs e cliccare su "Saving".
+    Se avete molte immagini in un Doc, il che significa molte immagini da caricare su Github tramite GGeditor, potrebbe succedere di incontrare situazioni di immagini rotte nelle corrispondenti pagine HTML di Read the Docs.
+    Questo perché il processo di rigenerazione delle pagine HTML è ancora in corso, non dovete -quindi- preoccuparvi. In questo caso dovete aspettare ancora un po che finisca il processo di costruzione delle stesse pagine su Read the Docs. Oppure se le immagini non compaiono ancora nelle pagine HTML, un ultima cosa da fare è andare nella pagina "\ |STYLE0|\ " del progetto su Read the Docs e cliccare su "\ |STYLE1|\ ".
     
-    Comunque se vedi immagini vecchie e non rispondenti all'ultima versione del Doc, elimina la cache del browser o controlla sul repository di Github la corrispondenza delle foto di Doc con quelle nella cartella "static" su Github.
+    Comunque se vedi immagini vecchie e non rispondenti all'ultima versione del Doc, elimina la cache del browser o controlla sul repository di Github la corrispondenza delle foto del Google doc con quelle nella cartella ``static`` su Github.
 
 .. _h534e17712232613c42586df1412f1b:
 
@@ -59,7 +59,7 @@ Limitazioni
 
 \ |LINK1|\  da Google Doc sui file reST:
 
-* Comments. This is not supported by the reST.
+* Comments. This is not supported by the reST\ [#F1]_\ .
 
 * Drawing objects. Because there is no API to get it as an image.
 
@@ -89,14 +89,14 @@ Strumenti per i più esperti
 Conversione
 ===========
 
-Per la \ |STYLE0|\  del testo da Google Doc al formato RST (e anche previsto il download del file RST) si fa riferimento a \ |LINK2|\ .
+Per la \ |STYLE2|\  del testo da Google Doc al formato RST (e anche previsto il download del file RST) si fa riferimento a \ |LINK2|\ .
 
 .. _h2b426234521b486d3a6d7e3d167d91b:
 
 Api Docs
 ========
 
-Per \ |STYLE1|\  si fa riferimento a \ |LINK3|\ .
+Per \ |STYLE3|\  si fa riferimento a \ |LINK3|\ .
 
 .. _h2e427c26763f767566236c4a5e2d6c14:
 
@@ -115,9 +115,13 @@ Documentazione specificata nel \ |LINK4|\ . Si fa \ |LINK5|\ .
 .. bottom of content
 
 
-.. |STYLE0| replace:: **conversione**
+.. |STYLE0| replace:: **Administration**
 
-.. |STYLE1| replace:: **API document for a Python module**
+.. |STYLE1| replace:: **Saving**
+
+.. |STYLE2| replace:: **conversione**
+
+.. |STYLE3| replace:: **API document for a Python module**
 
 
 .. |REPLACE1| raw:: html
@@ -169,6 +173,11 @@ Documentazione specificata nel \ |LINK4|\ . Si fa \ |LINK5|\ .
 
     <a href="http://ggeditor.readthedocs.io/en/latest/api/backend.html" target="_blank">riferimento a questo paragrafo del tutorial di GGeditor</a>
 
+
+
+.. rubric:: Footnotes
+
+.. [#f1]  per i commenti usa il servizio di hypothes.is illustrato in  `questa pagina de tutorial <http://googledocs.readthedocs.io/it/latest/hypothesis-partecipazione.html>`__ 
 
 .. |IMG1| image:: static/user-guide_1.png
    :height: 494 px
