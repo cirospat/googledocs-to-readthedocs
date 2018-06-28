@@ -49,48 +49,6 @@ Su ``setting_doc_version`` e su ``setting_doc_release`` va la dicitura  ``’ver
 
 |
 
-.. _h7c46341e76355a731f401733c315462:
-
-Uso corretto dei titoli dei file Google doc dentro il toctree del file index
-****************************************************************************
-
-Nell'editing del nome dei file dei capitoli sul toctree, nel Google doc dell'index, deve essere inserito il suffisso ``.rst``. Senza l’aggiunta del suffisso, sulle pagine html dello stile Docs Italia non comparirà la struttura dell’indice in home page.
-
-Nel caso della pubblicazione su Read the Docs \ |STYLE4|\ , (\ |STYLE5|\ ) l’assenza di  questo suffisso ``.rst`` per ogni file elencato nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente sulle pagine html di Read the Docs.
-
-Esempio di indice nel Google doc “index” nel caso di progetto \ |STYLE6|\ : si nota l’assenza del suffisso ``.rst`` ad ogni titolo dei file elencati nel toctree
-
-.. code:: 
-
-    .. toctree::
-        :maxdepth: 3
-        :caption: Indice
-    
-        gdocs-rtd
-        tutorial
-        come-usarlo
-        lavoro-github
-        lavoro-rtd
-        user-guide
-        hypothesis-partecipazione
-        pubblicare-su-docs-italia
-        licenza
-
-Esempio di indice nel Google doc “index” nel caso di progetto \ |STYLE7|\ : si nota la presenza del suffisso ``.rst`` ad ogni titolo dei file elencati nel toctree
-
-.. code:: 
-
-    .. toctree::
-        :maxdepth: 3
-        :caption: Indice dei contenuti
-    
-        CARTA-SERVIZI-BIBLIOTECA-capitolo-1.rst
-        CARTA-SERVIZI-BIBLIOTECA-capitolo-2.rst
-        CARTA-SERVIZI-BIBLIOTECA-capitolo-3.rst
-        CARTA-SERVIZI-BIBLIOTECA-appendice.rst
-
-|
-
 .. _hb5a1a3c6113552b7c3063392b532a:
 
 Settaggi del file ‘conf.py’ nella sezione “Options for LaTeX output”
@@ -112,6 +70,50 @@ Nella sezione ``options for LaTex output`` dare le istruzioni seguendo esattamen
     # Additional stuff for the LaTeX preamble.
     #'preamble': '',
     }
+
+Praticamente l’istruzione  ``'papersize': 'a4paper',`` \ |STYLE4|\  avere davanti il simbolo del cancelletto (#).
+
+|
+
+.. _h7c46341e76355a731f401733c315462:
+
+Uso corretto dei titoli dei file Google doc dentro il toctree del file index
+****************************************************************************
+
+Nell'editing del nome dei file dei capitoli sul toctree, nel Google doc dell'index, deve essere inserito il suffisso ``.rst``. Senza l’aggiunta del suffisso, sulle pagine html dello stile Docs Italia non comparirà la struttura dell’indice in home page.
+
+Nel caso della pubblicazione su Read the Docs \ |STYLE5|\ , (\ |STYLE6|\ ) l’assenza di  questo suffisso ``.rst`` per ogni file elencato nel toctree del file ‘index’ non costituisce un problema e l’indice viene visualizzato ugualmente sulle pagine html di Read the Docs.
+
+Esempio di indice nel Google doc “index” nel caso di progetto \ |STYLE7|\ : si nota l’assenza del suffisso ``.rst`` ad ogni titolo dei file elencati nel toctree
+
+.. code:: 
+
+    .. toctree::
+        :maxdepth: 3
+        :caption: Indice
+    
+        gdocs-rtd
+        tutorial
+        come-usarlo
+        lavoro-github
+        lavoro-rtd
+        user-guide
+        hypothesis-partecipazione
+        pubblicare-su-docs-italia
+        licenza
+
+Esempio di indice nel Google doc “index” nel caso di progetto \ |STYLE8|\ : si nota la presenza del suffisso ``.rst`` ad ogni titolo dei file elencati nel toctree
+
+.. code:: 
+
+    .. toctree::
+        :maxdepth: 3
+        :caption: Indice dei contenuti
+    
+        CARTA-SERVIZI-BIBLIOTECA-capitolo-1.rst
+        CARTA-SERVIZI-BIBLIOTECA-capitolo-2.rst
+        CARTA-SERVIZI-BIBLIOTECA-capitolo-3.rst
+        CARTA-SERVIZI-BIBLIOTECA-appendice.rst
 
 |
 
@@ -145,7 +147,7 @@ così facendo l’istruzione non ha effetto in quanto tutto ciò che viene dopo 
 Un ‘progetto tipo’ da clonare per la pubblicazione con il design Docs Italia
 ****************************************************************************
 
-A titolo di \ |LINK4|\ , da clonare su Github, per l’esigenza di creazione di un nuovo progetto di pubblicazione con il design \ |STYLE8|\ , può essere usato questo repository su Github: \ |LINK5|\  dove sono state effettuate le necessarie verifiche nel file ``conf.py`` che permette un esatta compilazione del progetto sul design Docs Italia, ottenendo lo status verde di \ |STYLE9|\  \ |LINK6|\ . 
+A titolo di \ |LINK4|\ , da clonare su Github, per l’esigenza di creazione di un nuovo progetto di pubblicazione con il design \ |STYLE9|\ , può essere usato questo repository su Github: \ |LINK5|\  dove sono state effettuate le necessarie verifiche nel file ``conf.py`` che permette un esatta compilazione del progetto sul design Docs Italia, ottenendo lo status verde di \ |STYLE10|\  \ |LINK6|\ . 
 
 * Qui il file ``conf.py`` = \ |LINK7|\ . 
 
@@ -163,7 +165,7 @@ E qui di seguito gli unici campi da personalizzare nel file ``conf.py``:
     settings_basename = 'cambiami'
     settings_file_name = 'cambiami'
 
-Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |STYLE10|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così:
+Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |STYLE11|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così:
 
 .. code:: 
 
@@ -187,19 +189,21 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 
 .. |STYLE3| replace:: **Docs Italia**
 
-.. |STYLE4| replace:: **versione basic**
+.. |STYLE4| replace:: **non deve**
 
-.. |STYLE5| replace:: **cioè senza il design Docs Italia elaborato dal Team Digitale per i documenti della PA**
+.. |STYLE5| replace:: **versione basic**
 
-.. |STYLE6| replace:: **Read the Docs**
+.. |STYLE6| replace:: **cioè senza il design Docs Italia elaborato dal Team Digitale per i documenti della PA**
 
-.. |STYLE7| replace:: **Docs Italia**
+.. |STYLE7| replace:: **Read the Docs**
 
 .. |STYLE8| replace:: **Docs Italia**
 
-.. |STYLE9| replace:: **passing**
+.. |STYLE9| replace:: **Docs Italia**
 
-.. |STYLE10| replace:: **linee guida open data comune vattelapesca**
+.. |STYLE10| replace:: **passing**
+
+.. |STYLE11| replace:: **linee guida open data comune vattelapesca**
 
 
 .. |REPLACE1| raw:: html
