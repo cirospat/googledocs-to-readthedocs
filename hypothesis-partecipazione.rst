@@ -43,7 +43,8 @@ Le annotazioni su hypothes.is disponibili in tempo reale in un feed RSS o in un 
 
 ..  Note:: 
 
-    Guarda, ad esempio, il feed RSS delle annotazioni postate dagli utenti come commenti al Libro bianco dell’innovazione della PA 2018 del FPA: \ |LINK5|\  
+    Guarda, ad esempio, il feed RSS delle annotazioni postate dagli utenti come commenti ad un apagina del Libro bianco dell’innovazione della PA 2018: 
+    \ |LINK5|\  
 
 Esempio di visualizzazione del feed rss dei commenti ad una pagina (html) del Libro bianco innovazione PA 2018 
 
@@ -116,7 +117,7 @@ Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per at
 
 .. |LINK5| raw:: html
 
-    <a href="http://dev.ondata.it/projs/people/andy/librobiancoforumpa/feedContributi.xml" target="_blank">http://dev.ondata.it/projs/people/andy/librobiancoforumpa/feedContributi.xml</a>
+    <a href="https://hypothes.is/stream.rss?uri=https://forumpa-librobianco-innovazione-2018.readthedocs.io/it/latest/2-nuovi-processi.html" target="_blank">https://hypothes.is/stream.rss?uri=https://forumpa-librobianco-innovazione-2018.readthedocs.io/it/latest/2-nuovi-processi.html</a>
 
 .. |LINK6| raw:: html
 
