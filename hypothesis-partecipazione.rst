@@ -43,7 +43,7 @@ Le annotazioni su hypothes.is disponibili in tempo reale in un feed RSS o in un 
 
 ..  Note:: 
 
-    Guarda, ad esempio, il feed RSS delle annotazioni postate dagli utenti come commenti ad un apagina del Libro bianco dell’innovazione della PA 2018: 
+    Guarda, ad esempio, il feed RSS delle annotazioni postate dagli utenti come commenti ad una pagina del Libro bianco dell’innovazione della PA 2018: 
     \ |LINK5|\  
 
 Esempio di visualizzazione del feed rss dei commenti ad una pagina (html) del Libro bianco innovazione PA 2018 
