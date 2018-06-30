@@ -165,12 +165,24 @@ E qui di seguito gli unici campi da personalizzare nel file ``conf.py``:
     settings_basename = 'cambiami_nome'
     settings_file_name = 'cambiami_nome'
 
-Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |STYLE11|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così:
+Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |STYLE11|\ ”, allora nel campo ``settings_basename`` e nel campo ``settings_file_name`` date lo stesso nome così:
 
 .. code:: 
 
     settings_basename = 'linee-guida-open-data-comune-vattelapesca'
     settings_file_name = 'linee-guida-open-data-comune-vattelapesca'
+
+
+.. admonition:: Un ultimo consiglio per semplificare il lavoro
+
+    Cercate di dare lo stesso nome al progetto su Github, nel file ``conf.py`` di Github, e al progetto Read the Docs:
+    
+    * su Github = Github/\ |STYLE12|\ 
+    
+    * sul file ``conf.py`` di Github, rispettivamente nei due campi ``settings_basename`` e ``settings_file_name`` = \ |STYLE13|\ 
+    
+    * su Read the Docs = \ |STYLE14|\ 
+    Questo vi consentirà di avere informazioni omogenee sui diversi ambienti dove andrete a lavorare, eliminando elementi che possono essere causa di errori.
 
 |
 
@@ -204,6 +216,12 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 .. |STYLE10| replace:: **passing**
 
 .. |STYLE11| replace:: **linee guida open data comune vattelapesca**
+
+.. |STYLE12| replace:: **linee guida open data comune vattelapesca**
+
+.. |STYLE13| replace:: **linee-guida-open-data-comune-vattelapesca**
+
+.. |STYLE14| replace:: **linee guida open data comune vattelapesca**
 
 
 .. |REPLACE1| raw:: html
