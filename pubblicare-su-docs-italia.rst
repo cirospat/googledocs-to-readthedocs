@@ -182,7 +182,7 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
     * sul file ``conf.py`` di Github, rispettivamente nei due campi ``settings_basename`` e ``settings_file_name`` = \ |STYLE13|\ 
     
     * su Read the Docs = \ |STYLE14|\ 
-    Questo vi consentirà di avere informazioni omogenee sui diversi ambienti dove andrete a lavorare, eliminando elementi che possono essere causa di errori.
+    Questo vi consentirà di avere informazioni omogenee sui diversi ambienti dove andrete a lavorare, eliminando elementi che possono essere causa di errori o di confusione.
 
 |
 
