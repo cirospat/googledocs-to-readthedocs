@@ -157,13 +157,13 @@ E qui di seguito gli unici campi da personalizzare nel file ``conf.py``:
 
 .. code:: 
 
-    settings_project_name = "cambiami"
+    settings_project_name = "cambiami_nome"
     settings_copyright_copyleft = 'Comune di ...'
     settings_editor_name = 'Comune di ...'
     settings_doc_version = 'version: latest'
     settings_doc_release = 'version: latest'
-    settings_basename = 'cambiami'
-    settings_file_name = 'cambiami'
+    settings_basename = 'cambiami_nome'
+    settings_file_name = 'cambiami_nome'
 
 Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |STYLE11|\ ”, allora nel campo ``settings_basename`` e nel file ``settings_file_name`` date lo stesso nome così:
 
