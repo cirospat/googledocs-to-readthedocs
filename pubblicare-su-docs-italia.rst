@@ -177,7 +177,7 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 
     Cercate di dare lo stesso nome al progetto su Github, nel file ``conf.py`` di Github, e al progetto Read the Docs:
     
-    * su Github il nome del progetto da creare = Github/\ |STYLE12|\ 
+    * su Github il nome del progetto da creare = github/nome_account/\ |STYLE12|\ 
     
     * sul file ``conf.py`` di Github, rispettivamente nei due campi ``settings_basename`` e ``settings_file_name`` = \ |STYLE13|\ 
     
