@@ -48,7 +48,7 @@ Questa pagina vuole essere un supporto a coloro che intendono approfondire la co
 
 .. |STYLE2| replace:: **il linguaggio Markdown nel linguaggio RST**
 
-.. |STYLE3| replace:: **per più linguaggi di programmazione, per esempio con Markdown**
+.. |STYLE3| replace:: **per più linguaggi di programmazione, incluso RST**
 
 .. |STYLE4| replace:: **utile per facilitare la scrittura nel linguaggio RST**
 
