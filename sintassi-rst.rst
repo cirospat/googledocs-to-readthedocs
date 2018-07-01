@@ -4,11 +4,11 @@
 Sintassi del linguaggio reStructuredText (RST)
 ##############################################
 
-Questa pagina vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione reStructuredText (RST). Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio RST.
+Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione \ |STYLE0|\ . Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio RST.
 
 ..  Hint:: 
 
-    \ |STYLE0|\ 
+    \ |STYLE1|\ 
     
     * \ |LINK1|\  guida alla sintassi del linguaggio RST, utile per capire nel dettaglio come funziona; 
     
@@ -22,19 +22,19 @@ Questa pagina vuole essere un supporto a coloro che intendono approfondire la co
     
     * \ |LINK6|\ , aspetti in comune tra il linguaggio RST e Markdown.
 
-\ |LINK7|\  \ |STYLE1|\  
+\ |LINK7|\  \ |STYLE2|\  
 
 |REPLACE1|
 
-\ |LINK8|\  \ |STYLE2|\ 
+\ |LINK8|\  \ |STYLE3|\ 
 
 |REPLACE2|
 
-\ |LINK9|\  \ |STYLE3|\ 
+\ |LINK9|\  \ |STYLE4|\ 
 
 |REPLACE3|
 
-\ |LINK10|\  \ |STYLE4|\ 
+\ |LINK10|\  \ |STYLE5|\ 
 
 |REPLACE4|
 
@@ -42,15 +42,17 @@ Questa pagina vuole essere un supporto a coloro che intendono approfondire la co
 .. bottom of content
 
 
-.. |STYLE0| replace:: **Specifiche del linguaggio reStructuredText (RST). Guide, editor e convertitori online**
+.. |STYLE0| replace:: **reStructuredText (RST)**
 
-.. |STYLE1| replace:: **per il linguaggio reStructuredText**
+.. |STYLE1| replace:: **Specifiche del linguaggio reStructuredText (RST). Guide, editor e convertitori online**
 
-.. |STYLE2| replace:: **il linguaggio Markdown nel linguaggio RST**
+.. |STYLE2| replace:: **per il linguaggio reStructuredText**
 
-.. |STYLE3| replace:: **per più linguaggi di programmazione, incluso RST**
+.. |STYLE3| replace:: **il linguaggio Markdown nel linguaggio RST**
 
-.. |STYLE4| replace:: **utile per facilitare la scrittura nel linguaggio RST**
+.. |STYLE4| replace:: **per più linguaggi di programmazione, incluso RST**
+
+.. |STYLE5| replace:: **utile per facilitare la scrittura nel linguaggio RST**
 
 
 .. |REPLACE1| raw:: html
