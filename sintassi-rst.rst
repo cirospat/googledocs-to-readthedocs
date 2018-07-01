@@ -6,6 +6,7 @@ Sintassi del linguaggio reStructuredText (RST)
 
 Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione \ |STYLE0|\ . Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio RST.
 
+
 ..  Hint:: 
 
     \ |STYLE1|\ 
@@ -22,22 +23,6 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
     
     * \ |LINK6|\ , aspetti in comune tra il linguaggio RST e Markdown.
 
-\ |LINK7|\  \ |STYLE2|\  
-
-|REPLACE1|
-
-\ |LINK8|\  \ |STYLE3|\ 
-
-|REPLACE2|
-
-\ |LINK9|\  \ |STYLE4|\ 
-
-|REPLACE3|
-
-\ |LINK10|\  \ |STYLE5|\ 
-
-|REPLACE4|
-
 
 .. bottom of content
 
@@ -46,27 +31,6 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
 
 .. |STYLE1| replace:: **Specifiche del linguaggio reStructuredText (RST). Guide, editor e convertitori online**
 
-.. |STYLE2| replace:: **per il linguaggio reStructuredText**
-
-.. |STYLE3| replace:: **il linguaggio Markdown nel linguaggio RST**
-
-.. |STYLE4| replace:: **per più linguaggi di programmazione, incluso RST**
-
-.. |STYLE5| replace:: **utile per facilitare la scrittura nel linguaggio RST**
-
-
-.. |REPLACE1| raw:: html
-
-    <iframe width="100%" height="700px" frameBorder="0" src="http://rst.ninjs.org/"></iframe>
-.. |REPLACE2| raw:: html
-
-    <iframe width="100%" height="700px" frameBorder="0" src="http://pandoc.org/try/"></iframe>
-.. |REPLACE3| raw:: html
-
-    <iframe width="100%" height="700px" frameBorder="0" src="http://truben.no/table/"></iframe>
-.. |REPLACE4| raw:: html
-
-    <iframe width="100%" height="1000px" frameBorder="0" src="http://docutils.sourceforge.net/docs/user/rst/quickref.html"></iframe>
 
 .. |LINK1| raw:: html
 
@@ -91,20 +55,4 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
 .. |LINK6| raw:: html
 
     <a href="https://gist.github.com/dupuy/1855764" target="_blank">https://gist.github.com/dupuy/1855764</a>
-
-.. |LINK7| raw:: html
-
-    <a href="http://rst.ninjs.org/" target="_blank">Editor</a>
-
-.. |LINK8| raw:: html
-
-    <a href="http://pandoc.org/try" target="_blank">Tool per convertire</a>
-
-.. |LINK9| raw:: html
-
-    <a href="http://truben.no/table/" target="_blank">Editor di tabelle</a>
-
-.. |LINK10| raw:: html
-
-    <a href="http://docutils.sourceforge.net/docs/user/links.html#editors" target="_blank">Guida</a>
 
