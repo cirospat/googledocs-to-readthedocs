@@ -74,6 +74,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     user-guide
     hypothesis-partecipazione
     pubblicare-su-docs-italia
+    sintassi-rst
     licenza
 
 --------
