@@ -4,6 +4,7 @@
 Sintassi del linguaggio reStructuredText (RST)
 ##############################################
 
+Questa pagina vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione reStructuredText (RST). Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio RST.
 
 ..  Hint:: 
 
