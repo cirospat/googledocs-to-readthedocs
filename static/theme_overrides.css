@@ -38,3 +38,6 @@ h1, h2, h3 {
 
 /* testo caption menu sx */
 .wy-nav-side {color: #7b90f9;}
+
+/* adatta il nav-content a fullhd e si elimina lo spazio vuoto piccolo a destra */
+.wy-nav-content {max-width: 1920px;}
