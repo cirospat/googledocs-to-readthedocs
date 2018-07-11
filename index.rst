@@ -1,10 +1,10 @@
 
 |REPLACE1|
 
-.. _h3d36331c7272261a3f654118715c385f:
+.. _h305104c304e4b5e363d34c61406852:
 
-Da Google Doc direttamente a Read the Docs con GGeditor
-#######################################################
+Da Google Doc direttamente a Read the Docs con ``GGeditor``
+###########################################################
 
 Passando automaticamente da Github!
 
