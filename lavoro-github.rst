@@ -70,6 +70,9 @@ Creare un file dandogli il nome ``conf.py`` e all’interno incollare il seguent
     """
     #latex_documents = []
     
+    # inserire un logo in alto a sinistra (mettendo l’immagine nella cartella “static”)
+    latex_logo = "static/immagine.jpg"
+    html_logo = "static/immagine.jpg"
 
 
 ..  Important:: 
@@ -130,6 +133,10 @@ Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html 
         /* draw a boder around a admonition */
         border-bottom: solid 1px #b59e9e !important;
     }
+    
+    /* adatta il nav-content a fullhd e si elimina lo spazio vuoto piccolo a destra */
+    .wy-nav-content {max-width: 1920px;} 
+    
     
 
 (guarda \ |LINK1|\ ).
