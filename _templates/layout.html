@@ -1,0 +1,29 @@
+{% extends "!layout.html" %}
+{% block extrahead %}
+    {{ super() }}
+
+<!-- css back top -->
+<link href=" http://cirospat.readthedocs.io/it/latest/_static/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+<link href=" http://cirospat.readthedocs.io/it/latest/_static/backTop.css" rel="stylesheet" type="text/css" />
+<!-- Script -->
+<script type="text/javascript" src=" http://cirospat.readthedocs.io/it/latest/_static/jquery.min.js"></script> 
+{% endblock %}
+
+{% block footer %}
+      {{ super() }}
+      <div class="footerc">
+          <a id='backTop'>Back To Top</a>
+ <!-- script toptoback automatico mobile/desktop -->  
+ <script type="text/javascript" src=" http://cirospat.readthedocs.io/it/latest/_static/jquery.backTop.min.js"></script>
+<script>
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 400,
+                    'speed' : 300,
+                    'color' : 'green',
+					
+					                });
+            });
+        </script>
+      </div>
+{% endblock %}
