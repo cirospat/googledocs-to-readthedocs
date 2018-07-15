@@ -94,7 +94,7 @@ al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si int
 
 \ |STYLE1|\ 
 
-\ |STYLE2|\  Se si vuole far visualizzare un logo sulla parte in alto a sinistra, si procede in questo modo: alla fine del codice del file conf.py, bisogna scrivere: 
+Se si vuole far visualizzare un logo sulla parte in alto a sinistra, si procede in questo modo: alla fine del codice del file conf.py, bisogna scrivere: 
 
 .. code:: 
 
@@ -173,7 +173,7 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * il file ``conf.py`` che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK2|\ . Basta creare un file nel repository Github, dargli il nome di ``conf.py`` e fare un copia  e incolla dal paragrafo del tutorial di GGeditor. Questo file lo creiamo noi;
 
-* una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE3|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``. Questa cartella ``static`` viene generata automaticamente dal plugin GGeditor;
+* una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE2|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``. Questa cartella ``static`` viene generata automaticamente dal plugin GGeditor;
 
 * il file ``theme_overrides.css`` che creeremo noidentro la directory ``static``.
 
@@ -255,11 +255,9 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 
 .. |STYLE0| replace:: **l’unico lavoro che c’è da fare sull’account di Github**
 
-.. |STYLE1| replace:: **| Logo**
+.. |STYLE1| replace:: **Logo**
 
-.. |STYLE2| replace:: **|**
-
-.. |STYLE3| replace:: **Commit**
+.. |STYLE2| replace:: **Commit**
 
 
 .. |REPLACE1| raw:: html
