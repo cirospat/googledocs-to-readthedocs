@@ -201,6 +201,68 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 
 |
 
+.. _h76707323ea2c4a39744e2f14a2a48:
+
+Inserire la freccia “back to the top” nella pagina html
+=======================================================
+
+\ |IMG2|\ 
+
+Al fine di permettere di risalire rapidamente in alto nella pagina html, torna comoda l’icona a forma di freccia sulla parte destra in basso della stessa pagina. 
+
+Di seguito la procedura per ottenere la freccia “back to the top”.
+
+Creare la cartella ``_templates`` e all’interno di essa creare il file ``layout.html`` e copiare il seguente codice:
+
+.. code-block:: python
+    :linenos:
+
+    {% extends "!layout.html" %}
+    {% block extrahead %}
+    {{ super() }}
+    
+    <!-- css back top →
+    <link href=" http://cirospat.readthedocs.io/it/latest/_static/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+    <link href=" http://cirospat.readthedocs.io/it/latest/_static/backTop.css" rel="stylesheet" type="text/css" />
+    <!-- Script →
+    <script type="text/javascript" src=" http://cirospat.readthedocs.io/it/latest/_static/jquery.min.js"></script> 
+    {% endblock %}
+    
+    {% block footer %}
+          {{ super() }}
+          <div class="footerc">
+              <a id='backTop'>Back To Top</a>
+    <!-- script toptoback automatico mobile/desktop -->  
+    <script type="text/javascript" src=" http://cirospat.readthedocs.io/it/latest/_static/jquery.backTop.min.js"></script>
+    <script>
+                      $(document).ready( function() {
+                          $('#backTop').backTop({
+                             'position' : 400,
+                             'speed' : 500,
+                             'color' : 'green',
+    
+                                                    });
+    
+          });
+    
+          </script>
+         </div>
+    {% endblock %}
+
+Nella cartella ``static`` creare i file:
+
+* jquerysctipttop.css
+
+* backTop.css
+
+* jquery.min.js
+
+* jquery.backTop.min.js
+
+copiando il codice dai rispettivi file dentro questa cartella: \ |LINK3|\  e inserendo un immagine come questa contenuta qui dentro:  \ |LINK4|\  
+
+|
+
 .. _h775782304944104a63b1778f5f7e:
 
 Cambiare il colore di sfondo del rettangolo in alto a sinistra
@@ -216,7 +278,7 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
         background-color: #7b90f9;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK3|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK5|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -237,7 +299,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK4|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK6|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -299,9 +361,17 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 
 .. |LINK3| raw:: html
 
-    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+    <a href="https://github.com/cirospat/newproject/tree/master/docs/static" target="_blank">https://github.com/cirospat/newproject/tree/master/docs/static</a>
 
 .. |LINK4| raw:: html
+
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png</a>
+
+.. |LINK5| raw:: html
+
+    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+
+.. |LINK6| raw:: html
 
     <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
@@ -309,3 +379,7 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 .. |IMG1| image:: static/lavoro-github_1.png
    :height: 322 px
    :width: 601 px
+
+.. |IMG2| image:: static/lavoro-github_2.png
+   :height: 49 px
+   :width: 49 px
