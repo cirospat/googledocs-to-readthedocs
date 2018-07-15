@@ -263,7 +263,7 @@ copiando il codice dai rispettivi file.
 
 Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK7|\ .
 
-Le 4 url del codice di cui sopra dovranno essere di questo tipo: ``http://cirospat.readthedocs.io/it/latest/_static/`` dove la prima parte ‘\ |LINK8|\ ’ dovrà essere sostituito dal nome che si è dato al proprio progetto sulla piattaforma Read the Docs.  
+Le 4 url del codice di cui sopra dovranno essere di questo tipo: ``http://cirospat.readthedocs.io/it/latest/_static/`` dove la prima parte ``cirospat`` dovrà essere sostituito dal nome che si è dato al proprio progetto sulla piattaforma Read the Docs.  
 
 |
 
@@ -282,7 +282,7 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
         background-color: #7b90f9;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK9|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK8|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -303,7 +303,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK9|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -385,13 +385,9 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 
 .. |LINK8| raw:: html
 
-    <a href="http://cirospat.readthedocs.io/it/latest/_static" target="_blank">cirospat</a>
-
-.. |LINK9| raw:: html
-
     <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
 
-.. |LINK10| raw:: html
+.. |LINK9| raw:: html
 
     <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
