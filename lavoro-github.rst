@@ -92,7 +92,7 @@ al posto di CHANGE-THIS (dentro gli apici) editare il nome del titolo progetto c
 
 al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
 
-\ |STYLE1|\  
+\ |STYLE1|\ 
 
 \ |STYLE2|\  Se si vuole far visualizzare un logo sulla parte in alto a sinistra, si procede in questo modo: alla fine del codice del file conf.py, bisogna scrivere: 
 
@@ -255,7 +255,7 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 
 .. |STYLE0| replace:: **l’unico lavoro che c’è da fare sull’account di Github**
 
-.. |STYLE1| replace:: **Logo**
+.. |STYLE1| replace:: **| Logo**
 
 .. |STYLE2| replace:: **|**
 
