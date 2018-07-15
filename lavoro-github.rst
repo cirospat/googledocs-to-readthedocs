@@ -251,17 +251,19 @@ Creare la cartella ``_templates`` e all’interno di essa creare il file ``layou
 
 Nella cartella ``static`` creare i file:
 
-* jquerysctipttop.css
+* \ |LINK3|\ 
 
-* backTop.css
+* \ |LINK4|\ 
 
-* jquery.min.js
+* \ |LINK5|\ 
 
-* jquery.backTop.min.js
+* \ |LINK6|\ 
 
-copiando il codice dai rispettivi file dentro questa cartella: \ |LINK3|\ .
+copiando il codice dai rispettivi file.
 
-Sempre dento la cartella ``static``,  inserire un immagine come questa contenuta qui dentro:  \ |LINK4|\  
+Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK7|\ .
+
+Le 4 url del codice di cui sopra dovranno essere di questo tipo: \`\`\ |LINK8|\ /…\`\` dove la prima parte ‘\ |LINK9|\ ’ dovrà essere sostituito dal nome che si è dato al proprio progetto sulla piattaforma Read the Docs.  
 
 |
 
@@ -280,7 +282,7 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
         background-color: #7b90f9;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK5|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK10|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -301,7 +303,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK6|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK11|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -363,17 +365,37 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 
 .. |LINK3| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/tree/master/docs/static" target="_blank">https://github.com/cirospat/newproject/tree/master/docs/static</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquerysctipttop.css" target="_blank">jquerysctipttop.css</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/backTop.css" target="_blank">backTop.css</a>
 
 .. |LINK5| raw:: html
 
-    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery.min.js" target="_blank">jquery.min.js</a>
 
 .. |LINK6| raw:: html
+
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery.backTop.min.js" target="_blank">jquery.backTop.min.js</a>
+
+.. |LINK7| raw:: html
+
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png</a>
+
+.. |LINK8| raw:: html
+
+    <a href="http://cirospat.readthedocs.io/it/latest/_static" target="_blank">http://cirospat.readthedocs.io/it/latest/_static</a>
+
+.. |LINK9| raw:: html
+
+    <a href="http://cirospat.readthedocs.io/it/latest/_static" target="_blank">cirospat</a>
+
+.. |LINK10| raw:: html
+
+    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+
+.. |LINK11| raw:: html
 
     <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
