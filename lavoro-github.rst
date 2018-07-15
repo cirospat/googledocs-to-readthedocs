@@ -259,7 +259,9 @@ Nella cartella ``static`` creare i file:
 
 * jquery.backTop.min.js
 
-copiando il codice dai rispettivi file dentro questa cartella: \ |LINK3|\  e inserendo un immagine come questa contenuta qui dentro:  \ |LINK4|\  
+copiando il codice dai rispettivi file dentro questa cartella: \ |LINK3|\ .
+
+Sempre dento la cartella ``static``,  inserire un immagine come questa contenuta qui dentro:  \ |LINK4|\  
 
 |
 
