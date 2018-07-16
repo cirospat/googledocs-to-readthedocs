@@ -272,7 +272,7 @@ Le 4 url del codice di cui sopra dovranno essere di questo tipo: ``http://cirosp
 Inserire lateralmente icone per la condivisione delle pagine html di RTD sui social network
 ===========================================================================================
 
-Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK8|\ . Una volta creato l’account su ‘addthis’ è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
+Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK8|\ . Una volta creato l’account su \ |STYLE3|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
 
 .. code:: 
 
@@ -340,6 +340,8 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 .. |STYLE1| replace:: **Logo**
 
 .. |STYLE2| replace:: **Commit**
+
+.. |STYLE3| replace:: **addthis**
 
 
 .. |REPLACE1| raw:: html
