@@ -279,7 +279,7 @@ Al fine di permettere la condivisione delle pagine del documento Read the Docs s
     <!-- Go to www.addthis.com/dashboard to customize your tools --> 
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4c36adc4260026"></script>
 
-e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) prima di ``{% endblock %}``. Tutto qui
+e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) prima di ``{% endblock %}``. Tutto qui.
 
 |
 
