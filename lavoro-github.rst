@@ -267,6 +267,22 @@ Le 4 url del codice di cui sopra dovranno essere di questo tipo: ``http://cirosp
 
 |
 
+.. _h6631023425f4c283e54125761f485c:
+
+Inserire lateralmente icone per la condivisione delle pagine html di RTD sui social network
+===========================================================================================
+
+Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK8|\ . Una volta creato l’account su ‘addthis’ è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
+
+.. code:: 
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4c36adc4260026"></script>
+
+e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) prima di ``{% endblock %}``. Tutto qui
+
+|
+
 .. _h775782304944104a63b1778f5f7e:
 
 Cambiare il colore di sfondo del rettangolo in alto a sinistra
@@ -282,7 +298,7 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
         background-color: #7b90f9;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK8|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK9|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -303,7 +319,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK9|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
@@ -385,9 +401,13 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 
 .. |LINK8| raw:: html
 
-    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+    <a href="https://www.addthis.com" target="_blank">https://www.addthis.com</a>
 
 .. |LINK9| raw:: html
+
+    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+
+.. |LINK10| raw:: html
 
     <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
