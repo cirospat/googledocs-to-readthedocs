@@ -198,7 +198,9 @@ Per inserire un immagine in alto a sinistra nel design di “Read the Docs” ba
 
 avendo cura di caricare il file ``immagine.png`` nella cartella ``static``.
 
-Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+..  Attention:: 
+
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
