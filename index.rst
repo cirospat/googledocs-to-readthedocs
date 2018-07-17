@@ -119,7 +119,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     
     <p><button class="btn btn-pill btn-success" type="button">Fornisce testo in HTML, EPUB e PDF</button></p>
     
-    <p><button class="btn btn-pill btn-success" type="button">Disponibilità online del codice sorgente</button></p>
+    <p><button class="btn btn-pill btn-success" type="button">Codice sorgente del testo online</button></p>
     
     <p><button class="btn btn-pill btn-info"type="button">E’ elegante e bello da vedere</button></p>
 .. |REPLACE3| raw:: html
