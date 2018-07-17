@@ -324,7 +324,7 @@ il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi alt
 
 ..  Attention:: 
 
-    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+    Queste istruzioni (cambio colore ai titoli, paragrafi,..) non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
