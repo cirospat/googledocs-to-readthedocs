@@ -301,7 +301,9 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
 
 il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK9|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
-Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+..  Attention:: 
+
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
@@ -324,7 +326,7 @@ il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi alt
 
 ..  Attention:: 
 
-    Queste istruzioni (cambio colore ai titoli, paragrafi,..) non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
