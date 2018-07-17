@@ -4,7 +4,8 @@
 Il lavoro da fare su Github
 ***************************
 
-Con il metodo proposto in questo tutorial, \ |STYLE0|\  è il seguente.
+
+|REPLACE1|
 
 |
 
@@ -92,7 +93,7 @@ al posto di CHANGE-THIS (dentro gli apici) editare il nome del titolo progetto c
 
 al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si intende adottare per il rilascio della pubblicazione su Read the Docs.
 
-\ |STYLE1|\ 
+\ |STYLE0|\ 
 
 Se si vuole far visualizzare un logo sulla parte in alto a sinistra, si procede in questo modo: alla fine del codice del file conf.py, bisogna scrivere: 
 
@@ -173,7 +174,7 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * il file ``conf.py`` che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK2|\ . Basta creare un file nel repository Github, dargli il nome di ``conf.py`` e fare un copia  e incolla dal paragrafo del tutorial di GGeditor. Questo file lo creiamo noi;
 
-* una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE2|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``. Questa cartella ``static`` viene generata automaticamente dal plugin GGeditor;
+* una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE1|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``. Questa cartella ``static`` viene generata automaticamente dal plugin GGeditor;
 
 * il file ``theme_overrides.css`` che creeremo noidentro la directory ``static``.
 
@@ -272,7 +273,7 @@ Le 4 url del codice di cui sopra dovranno essere di questo tipo: ``http://cirosp
 Inserire lateralmente icone per la condivisione delle pagine html di RTD sui social network
 ===========================================================================================
 
-Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK8|\ . Una volta creato l’account su \ |STYLE3|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
+Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK8|\ . Una volta creato l’account su \ |STYLE2|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
 
 .. code:: 
 
@@ -326,25 +327,26 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
 |
 
 
-|REPLACE1|
-
-
 |REPLACE2|
+
+
+|REPLACE3|
 
 
 .. bottom of content
 
 
-.. |STYLE0| replace:: **l’unico lavoro che c’è da fare sull’account di Github**
+.. |STYLE0| replace:: **Logo**
 
-.. |STYLE1| replace:: **Logo**
+.. |STYLE1| replace:: **Commit**
 
-.. |STYLE2| replace:: **Commit**
-
-.. |STYLE3| replace:: **addthis**
+.. |STYLE2| replace:: **addthis**
 
 
 .. |REPLACE1| raw:: html
+
+    Con il metodo proposto in questo tutorial, il lavoro che c’è da fare sull’account di &nbsp;&nbsp;<button class="btn btn-pill btn-info"type="button"><strong>Github</strong></button>&nbsp;&nbsp; è il seguente.
+.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -369,7 +371,7 @@ Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Do
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE2| raw:: html
+.. |REPLACE3| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
