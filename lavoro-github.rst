@@ -322,7 +322,9 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
 
 il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
-Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+..  Attention:: 
+
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
