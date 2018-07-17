@@ -14,6 +14,15 @@ Le spiegazioni contenute in questo documento rappresentano una via facile per mi
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 
+.. _h387bd41572c6e60811453b41204663:
+
+Vantaggi dell’uso di “Read the Docs”
+====================================
+
+L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE1|\ ”:
+
+|REPLACE2|
+
 .. _h28105e656d4d48041184d771d3b4a1a:
 
 GGeditor
@@ -26,7 +35,7 @@ GGeditor
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
 
-|REPLACE2|
+|REPLACE3|
 
 |
 
@@ -80,18 +89,23 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 --------
 
 
-|REPLACE3|
+|REPLACE4|
 
 --------
-
-
-|REPLACE4|
 
 
 |REPLACE5|
 
 
+|REPLACE6|
+
+
 .. bottom of content
+
+
+.. |STYLE0| replace:: **Read the Docs**
+
+.. |STYLE1| replace:: **PDF**
 
 
 .. |REPLACE1| raw:: html
@@ -99,9 +113,18 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 .. |REPLACE2| raw:: html
 
+    <p><span class="btn btn-danger btn-xs">Responsive, per tutti i display</span></p>
+    
+    <p><button type="button" class="btn btn-xs btn-pill btn-warning">Funzioni avanzate di ricerca testo</button></p>
+    
+    <p><button class="btn btn-pill btn-success" type="button">Fornisce testo in HTML, EPUB e PDF</button></p>
+    
+    <p><button class="btn btn-pill btn-info"type="button">E’ elegante e bello da vedere</button>
+.. |REPLACE3| raw:: html
+
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE3| raw:: html
+.. |REPLACE4| raw:: html
 
     <p><img src="http://siciliahub.github.io/mappe/carto_omira/lib/images/opendatasicilia.png" alt="" width="91" height="104" />&nbsp;&nbsp;<strong>S</strong><strong>ervizi di&nbsp;<span style="color: #3366ff;"><a href="http://opendatasicilia.it/" rel="nofollow noopener" style="color: #3366ff;" target="_blank">OpendataSicilia</a></span></strong></p>
     <p><a href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/24bc1b1450d155db547405fa90d92b6b34f4a132/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f616363757373695f66617669636f6e2e706e67" alt="accussi" width="46" height="46" /></a>&nbsp; &nbsp; &nbsp;<a href="http://nonportale.opendatasicilia.it/index.html" rel="nofollow noopener" target="_blank"><img src="https://camo.githubusercontent.com/7ad90a32a27ec7b68b3f5d1c9aec83d0bf5e4120/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f6e6f6e706f7274616c655f66617669636f6e2e706e67" alt="non portale" width="41" height="41" data-canonical-src="https://cirospat.github.io/maps/img/nonportale_favicon.png" /></a>&nbsp; &nbsp; &nbsp;<a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/acae135c1a21da78bfd3423518810cd5465a8642/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f706574727573696e6f5f66617669636f6e2e706e67" alt="petrusino" width="47" height="47" /></a>&nbsp;&nbsp;</p>
@@ -116,7 +139,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <li>il canale <a href="http://opendatasicilia.slack.com" target="_blank" rel="noopener">Slack</a><span>&nbsp;</span>(<a href="http://slack.opendatasicilia.it" target="_blank" rel="noopener">per iscriversi</a>).</li>
     </ul>
     
-.. |REPLACE4| raw:: html
+.. |REPLACE5| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -141,7 +164,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE5| raw:: html
+.. |REPLACE6| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
