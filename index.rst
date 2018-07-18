@@ -19,6 +19,12 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 Vantaggi dell’uso di “Read the Docs”
 ====================================
 
+
+.. sidebar:: **Per questo tutorial i seguenti ringraziamenti particolari**
+    :subtitle: ringraziare queste persone è importante perché hanno permesso di ampliare le possibilità d’uso di Read the Docs come piattaforma di pubblicazione documentale
+
+    Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico
+
 L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE1|\ ”:
 
 |REPLACE2|
