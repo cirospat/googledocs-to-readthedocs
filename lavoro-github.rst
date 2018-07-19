@@ -220,37 +220,41 @@ Creare la cartella ``_templates`` e all’interno di essa creare il file ``layou
 .. code-block:: python
     :linenos:
 
-    {% extends "!layout.html" %}
-    {% block extrahead %}
-    {{ super() }}
+    <link href="{{ pathto("_static/theme_overrides.css", True) }}" rel="stylesheet" type="text/css" />
     
-    <!-- css back top →
-    <link href=" http://cirospat.readthedocs.io/it/latest/_static/jquerysctipttop.css" rel="stylesheet" type="text/css" />
-    <link href=" http://cirospat.readthedocs.io/it/latest/_static/backTop.css" rel="stylesheet" type="text/css" />
-    <!-- Script →
-    <script type="text/javascript" src=" http://cirospat.readthedocs.io/it/latest/_static/jquery.min.js"></script> 
-    {% endblock %}
+    <!-- css back top -->
+    <!--<link href="../_static/jquerysctipttop.css" rel="stylesheet" type="text/css" />-->
+    <link href="{{ pathto("_static/jquerysctipttop.css", True) }}" rel="stylesheet" type="text/css" />
+    <!--<link href="../_static/backTop.css" rel="stylesheet" type="text/css" />-->
+    <link href="{{ pathto("_static/backTop.css", True) }}" rel="stylesheet" type="text/css" />
+    <!-- Script -->
+    <!--<script type="text/javascript" src="../_static/jquery.min.js"></script> -->
+    <script type="text/javascript" src="{{ pathto("_static/jquery.min.js", True) }}"></script> 
+     {% endblock %}
+    
     
     {% block footer %}
           {{ super() }}
+    	   <!-- script Back To Top  -->
           <div class="footerc">
               <a id='backTop'>Back To Top</a>
-    <!-- script toptoback automatico mobile/desktop -->  
-    <script type="text/javascript" src=" http://cirospat.readthedocs.io/it/latest/_static/jquery.backTop.min.js"></script>
+     <!-- script toptoback automatico mobile/desktop -->  
+     <!-- <script type="text/javascript" src="../_static/jquery.backTop.min.js"></script> -->
+    <script type="text/javascript" src="{{ pathto("_static/jquery.backTop.min.js", True) }}"></script>
     <script>
-                      $(document).ready( function() {
-                          $('#backTop').backTop({
-                             'position' : 400,
-                             'speed' : 500,
-                             'color' : 'green',
+                $(document).ready( function() {
+                    $('#backTop').backTop({
+                        'position' : 400,
+                        'speed' : 300,
+                        'color' : 'green',
     
-                                                    });
+    					                });
+                });
+            </script>
+          </div>
     
-          });
-    
-          </script>
-         </div>
     {% endblock %}
+    
 
 Nella cartella ``static`` creare i file:
 
@@ -264,9 +268,7 @@ Nella cartella ``static`` creare i file:
 
 copiando il codice dai rispettivi file.
 
-Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK7|\ .
-
-Le 4 url del codice di cui sopra dovranno essere di questo tipo: ``http://cirospat.readthedocs.io/it/latest/_static/`` dove la prima parte ``cirospat`` dovrà essere sostituito dal nome che si è dato al proprio progetto sulla piattaforma Read the Docs.  
+Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK7|\ . 
 
 |
 
