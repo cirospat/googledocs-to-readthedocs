@@ -8,15 +8,16 @@ Passando automaticamente da Github!
 
 \ |IMG1|\ 
 
-
-.. sidebar:: **Per questo tutorial i seguenti ringraziamenti particolari**
-    :subtitle: ringraziare queste persone è importante perché hanno permesso di ampliare le possibilità d’uso di Read the Docs come piattaforma di pubblicazione documentale
-
-    Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico
-
 Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
+
+
+.. admonition:: Per questo tutorial i seguenti ringraziamenti particolari
+
+    Ringraziare queste persone è importante perché hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
+    
+    Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico.
 
 |
 
