@@ -30,6 +30,8 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |REPLACE1|
 
+|
+
 .. _h28105e656d4d48041184d771d3b4a1a:
 
 GGeditor
@@ -94,6 +96,11 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     licenza
 
 --------
+
+.. _h76f5da654649526d52795a54407f13:
+
+Community opendatasicilia
+=========================
 
 
 |REPLACE3|
