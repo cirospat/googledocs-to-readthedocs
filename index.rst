@@ -145,22 +145,16 @@ Siamo un gruppo di cittadini con diverse storie, competenze, professioni. Siamo 
     <p><a href="http://albopop.it/" rel="nofollow noopener" target="_blank">Albo Pop</a>&nbsp; &nbsp;&nbsp;<a href="http://www.foiapop.it/" rel="nofollow noopener" target="_blank">FOIA Pop</a>&nbsp; &nbsp;&nbsp;<a href="http://www.visualcad.it/" rel="nofollow noopener" target="_blank">Visual CAD</a>&nbsp;<strong>&nbsp;</strong></p>
     <p>Licenza&nbsp;<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener" target="_blank"><img alt="Licenza Creative Commons" src="https://camo.githubusercontent.com/d1b3cb5c3bc0b0de6fb5445b1657c03464125482/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792d73612f342e302f38307831352e706e67" data-canonical-src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></p>
     <p><strong>OpendataSicilia</strong> &egrave; una iniziativa civica condivisa da pi&ugrave; persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Siamo anche su:</p>
-    <ul style="list-style-type: disc;">
     
-    <li>la <span style="color: #0000ff;"><a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank" rel="noopener" style="color: #0000ff;">mailing list</a></span> di lavoro;</li>
+    <p>la <span style="color: #0000ff;"><a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank" rel="noopener" style="color: #0000ff;">mailing list</a></span> di lavoro;</p>
     
-    <li>il <a href="http://opendatasicilia.it" target="_blank" rel="noopener"><span style="color: #3366ff;">blog</span></a>;</li>
+    <p>il <a href="http://opendatasicilia.it" target="_blank" rel="noopener"><span style="color: #3366ff;">blog</span></a>;</p>
     
-    <li>il gruppo <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank" rel="noopener">facebook</a>;</li>
+    <p>il gruppo <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank" rel="noopener">facebook</a>;</p>
     
-    <li>il canale <a href="http://opendatasicilia.slack.com" target="_blank" rel="noopener">Slack</a><span>&nbsp;</span>(<a href="http://slack.opendatasicilia.it" target="_blank" rel="noopener">per iscriversi</a>).</li>
+    <p>il canale <a href="http://opendatasicilia.slack.com" target="_blank" rel="noopener">Slack</a><span>&nbsp;</span>(<a href="http://slack.opendatasicilia.it" target="_blank" rel="noopener">per iscriversi</a>).</p>
     
-    <li>l'account <span style="color: #3366ff;"><a href="http://twitter.com/opendatasicilia" target="_blank" rel="noopener" style="color: #3366ff;">twitter</a></span>;</li>
-    
-    <a href="https://twitter.com/opendatasicilia?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @opendatasicilia</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    
-    </ul>
-    
+    <p><a href="https://twitter.com/opendatasicilia?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @opendatasicilia</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 .. |REPLACE4| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
