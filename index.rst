@@ -152,7 +152,7 @@ Canali di comunicazione di opendatasicilia:
     Breve video introduttivo (2’10”)
 .. |REPLACE3| raw:: html
 
-    <p><span style="background-color: #ffffff;">Servizi di <a href="http://opendatasicilia.it/" target="_blank" rel="noopener">opendatasicilia</a></span></p>
+    <p><span style="background-color: #ffffff;">Servizi di <a href="http://opendatasicilia.it/" target="_blank" rel="noopener">opendatasicilia:</a></span></p>
     
     <p><a title="accuss&igrave; tutorial catalogue" href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/24bc1b1450d155db547405fa90d92b6b34f4a132/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f616363757373695f66617669636f6e2e706e67" alt="accussi" width="41" height="41" /></a>&nbsp;accuss&igrave;&nbsp; &nbsp; &nbsp;<a title="petrusino" href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/acae135c1a21da78bfd3423518810cd5465a8642/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f706574727573696e6f5f66617669636f6e2e706e67" alt="petrusino" width="41" height="41" /></a>&nbsp;petrusino</p>
     
@@ -214,7 +214,7 @@ Canali di comunicazione di opendatasicilia:
 
 .. |LINK5| raw:: html
 
-    <a href="http://opendatasicilia.it/author/cirospat/" target="_blank">opendatasicilia</a>
+    <a href="http://opendatasicilia.it/" target="_blank">opendatasicilia</a>
 
 .. |LINK6| raw:: html
 
