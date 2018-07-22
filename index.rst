@@ -102,7 +102,19 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 Community opendatasicilia
 =========================
 
-Siamo un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volontà di contribuire a migliorare la qualità della vita della nostra comunità. Lo vogliamo fare con spirito di collaborazione e concretezza.
+\ |IMG3|\ 
+
+\ |LINK5|\ , [community sulla cultura dei dati aperti] → è una iniziativa civica condivisa da più persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volontà di contribuire a migliorare la qualità della vita della nostra comunità. Lo vogliamo fare con spirito di collaborazione e concretezza. 
+
+Canali di comunicazione di opendatasicilia:
+
+* la \ |LINK6|\  di lavoro (forum);
+
+* il \ |LINK7|\ ;
+
+* il gruppo \ |LINK8|\ ;
+
+* il canale \ |LINK9|\  (\ |LINK10|\ ).
 
 |REPLACE3|
 
@@ -140,22 +152,21 @@ Siamo un gruppo di cittadini con diverse storie, competenze, professioni. Siamo 
     Breve video introduttivo (2’10”)
 .. |REPLACE3| raw:: html
 
-    <p><img src="http://siciliahub.github.io/mappe/carto_omira/lib/images/opendatasicilia.png" alt="" width="91" height="104" />&nbsp;&nbsp;<strong>S</strong><strong>ervizi di&nbsp;<span style="color: #3366ff;"><a href="http://opendatasicilia.it/" rel="nofollow noopener" style="color: #3366ff;" target="_blank">OpendataSicilia</a></span></strong></p>
-    <p><a href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/24bc1b1450d155db547405fa90d92b6b34f4a132/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f616363757373695f66617669636f6e2e706e67" alt="accussi" width="46" height="46" /></a>&nbsp; &nbsp; &nbsp;<a href="http://nonportale.opendatasicilia.it/index.html" rel="nofollow noopener" target="_blank"><img src="https://camo.githubusercontent.com/7ad90a32a27ec7b68b3f5d1c9aec83d0bf5e4120/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f6e6f6e706f7274616c655f66617669636f6e2e706e67" alt="non portale" width="41" height="41" data-canonical-src="https://cirospat.github.io/maps/img/nonportale_favicon.png" /></a>&nbsp; &nbsp; &nbsp;<a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/acae135c1a21da78bfd3423518810cd5465a8642/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f706574727573696e6f5f66617669636f6e2e706e67" alt="petrusino" width="47" height="47" /></a>&nbsp;&nbsp;</p>
-    <p><a href="http://albopop.it/" rel="nofollow noopener" target="_blank">Albo Pop</a>&nbsp; &nbsp;&nbsp;<a href="http://www.foiapop.it/" rel="nofollow noopener" target="_blank">FOIA Pop</a>&nbsp; &nbsp;&nbsp;<a href="http://www.visualcad.it/" rel="nofollow noopener" target="_blank">Visual CAD</a>&nbsp;<strong>&nbsp;</strong>
-    </p>
+    <p><span style="background-color: #ffffff;">Servizi di <a href="http://opendatasicilia.it/" target="_blank" rel="noopener">opendatasicilia</a></span></p>
     
-    <p><strong>OpendataSicilia</strong> &egrave; una iniziativa civica condivisa da pi&ugrave; persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Siamo anche su:</p>
+    <p><a title="accuss&igrave; tutorial catalogue" href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/24bc1b1450d155db547405fa90d92b6b34f4a132/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f616363757373695f66617669636f6e2e706e67" alt="accussi" width="41" height="41" /></a>&nbsp;accuss&igrave;&nbsp; &nbsp; &nbsp;<a title="petrusino" href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/acae135c1a21da78bfd3423518810cd5465a8642/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f706574727573696e6f5f66617669636f6e2e706e67" alt="petrusino" width="41" height="41" /></a>&nbsp;petrusino</p>
     
-    <p>la <span style="color: #0000ff;"><a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank" rel="noopener" style="color: #0000ff;">mailing list</a></span> di lavoro;</p>
+    <p><a title="non portale open data regione sicilia" href="http://nonportale.opendatasicilia.it/index.html" target="_blank" rel="nofollow noopener">
     
-    <p>il <a href="http://opendatasicilia.it" target="_blank" rel="noopener"><span style="color: #3366ff;">blog</span></a>;</p>
+    <img src="https://camo.githubusercontent.com/7ad90a32a27ec7b68b3f5d1c9aec83d0bf5e4120/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f6e6f6e706f7274616c655f66617669636f6e2e706e67" alt="non portale" width="41" height="41" data-canonical-src="https://cirospat.github.io/maps/img/nonportale_favicon.png" /></a>&nbsp;non portale&nbsp;&nbsp;<a title="albopo" href="http://albopop.it/" target="_blank" rel="noopener">
     
-    <p>il gruppo <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank" rel="noopener">facebook</a>;</p>
+    <img src="http://albopop.it/images/logo.png" width="41" height="41" /></a>&nbsp;albopop&nbsp;&nbsp;</p>
     
-    <p>il canale <a href="http://opendatasicilia.slack.com" target="_blank" rel="noopener">Slack</a><span>&nbsp;</span>(<a href="http://slack.opendatasicilia.it" target="_blank" rel="noopener">per iscriversi</a>).</p>
+    <p><a title="foia pop" href="http://foiapop.it/" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/5mPgjmfRCJ6mgv0-OjTNj8i_CiYEaMnXZ3LHs48QCQG7X2AiG9L87f8LgCKw2l2hMuHZmoBRIhuybiHWJgBEixT6mjL8YrEV9_4SpR0fPsVPPptqqc_fW16cA9th5jxVTuExQXQWAzu5kqYBDgtWpCVeTPw4OX2Fml6AVBMfmzO3gNL2H5jvRdGrqAV67P3Nrl-bJDvqlwXna3gAWikjxZRJzk925fBbth-h0Vs577x1fVD69y_Q7DWMBTjUgR9Y5YuKpoMGO6RfSY1zkcCEXdncFGf7uIk6EB2zvQvLeVDt4pqJFlf0JRbK4WLR7SsAvfKCz0cmlYkiRi4K9KalWnK1RhO08k2xsfZGsKf9aIVqL_K-r8SlW9HJ0cFkwcTRRD8lDPqurdxkIUKsYMY9Fx8MspczsPijqlJeu_AgsMPMwJjppfmgP951LS6fVgu99Csso2JaGk9BN0BWYpLk8e7pqBrvF0fR0jIBfiIAnzVj1loh4bER3n1W9FG0nvrh67fsngfMozKzDSBHvFoXchJoG2e83-r1CwWoEQK3tDazIhkpZkxzLCLJYi4fASURZPsi2a0XEsGxn7h70K4s6AWuQo8R6hMLenbpeG0=s53-no" alt="" width="44" height="44" /></a>&nbsp;foiapop&nbsp; &nbsp;&nbsp;<a title="visual cad" href="http://www.visualcad.it/" target="_blank" rel="noopener">
     
-    <p><a href="https://twitter.com/opendatasicilia?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @opendatasicilia</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+    <img src="https://lh3.googleusercontent.com/zMrMz72sJ1JjKagZKoq-1gbg8TTLWIggKZ67vBsNRTUaUcd2Pm7dKGQXTVrl_bEQFbzG2DMYx06bmW-oN8VndQ2vqOHiibkKEMLjnS0AneovCNx58hyoaH3PqzxCt__5MKqYjepqzVbC7pNbQ1SEUaWtDGmcCReqV6bYaKLHCi6VIN5R18DjmIuVTh3nbUJYjbVsd2upIBITuJGKuErtFYzNk_f-nZ88I3W4KDbgHWBDVWf5Wx5My_b40QacDemr4YhVgSsJMQ9Si6inPNnJF9N9d2BcxW__sy8FSNll87wzH_Sk0Pw0a7e7oDjq0y4VNw0LJzXLl0KDBc-c3HX7GWrb2xY9VnUl2-hkaGID9g1nyvNMmSMreynpyn5Az9iqQ5KlcVJT7GehDHODDEeH25ktD3Nb3a2mmOv12SXh1ULuwIBWoqXFcRdFMSKG42XpR2Qs3tzj7RaE9kPKsCdmrr6AvbfNeELgQNBIJLKmPenJib5rgt-ddEhJr518SM2Ma5OGmW4uBQdooTAgxESB6Ir71qTBaXv9XcL_1_wBLbYC06PvKb3YoXnAl0Opx_zCR1bNMl5-yCpO58d7FEddNhmxKzcVQOOc-QWtEek=w192-h132-no" alt="" width="60" height="41" /></a>&nbsp;visualcad</p>
+    
+    <p><a class="twitter-follow-button" href="https://twitter.com/opendatasicilia?ref_src=twsrc%5Etfw" data-show-count="false">Follow @opendatasicilia</a></p>
 .. |REPLACE4| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
@@ -201,6 +212,30 @@ Siamo un gruppo di cittadini con diverse storie, competenze, professioni. Siamo 
 
     <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
 
+.. |LINK5| raw:: html
+
+    <a href="http://opendatasicilia.it/author/cirospat/" target="_blank">opendatasicilia</a>
+
+.. |LINK6| raw:: html
+
+    <a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank">mailing list</a>
+
+.. |LINK7| raw:: html
+
+    <a href="http://opendatasicilia.it/" target="_blank">blog</a>
+
+.. |LINK8| raw:: html
+
+    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">facebook</a>
+
+.. |LINK9| raw:: html
+
+    <a href="http://opendatasicilia.slack.com/" target="_blank">Slack</a>
+
+.. |LINK10| raw:: html
+
+    <a href="http://slack.opendatasicilia.it/" target="_blank">per iscriversi</a>
+
 
 .. |IMG1| image:: static/index_1.png
    :height: 250 px
@@ -209,3 +244,7 @@ Siamo un gruppo di cittadini con diverse storie, competenze, professioni. Siamo 
 .. |IMG2| image:: static/index_2.png
    :height: 132 px
    :width: 216 px
+
+.. |IMG3| image:: static/index_3.png
+   :height: 110 px
+   :width: 96 px
