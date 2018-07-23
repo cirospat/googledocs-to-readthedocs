@@ -137,6 +137,18 @@ Canali di comunicazione di opendatasicilia:
 
 .. |REPLACE1| raw:: html
 
+    <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></strong>
+    
+    <strong><span style="background-color: #105618; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Funzioni avanzate di ricerca testo</span></strong>
+    
+    <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Fornisce testo in HTML, EPUB e PDF</span></strong>
+    
+    <strong><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span></strong>
+    
+    <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span></strong>
+    
+    ---
+    
     <p><span class="btn btn-danger btn-xs">Responsive, per tutti i display</span></p>
     
     <p><button type="button" class="btn btn-xs btn-pill btn-warning">Funzioni avanzate di ricerca testo</button></p>
