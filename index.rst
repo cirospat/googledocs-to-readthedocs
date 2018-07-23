@@ -137,7 +137,7 @@ Canali di comunicazione di opendatasicilia:
 
 .. |REPLACE1| raw:: html
 
-    <p><strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></strong></p>
+    <p><strong><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></strong></p>
     
     <p><strong><span style="background-color: #105618; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Funzioni avanzate di ricerca testo</span></strong></p>
     
@@ -146,18 +146,6 @@ Canali di comunicazione di opendatasicilia:
     <p><strong><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span></strong></p>
     
     <p><strong><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span></strong></p>
-    
-    ---
-    
-    <p><span class="btn btn-danger btn-xs">Responsive, per tutti i display</span></p>
-    
-    <p><button type="button" class="btn btn-xs btn-pill btn-warning">Funzioni avanzate di ricerca testo</button></p>
-    
-    <p><button class="btn btn-pill btn-success" type="button">Fornisce testo in HTML, EPUB e PDF</button></p>
-    
-    <p><button class="btn btn-pill btn-success" type="button">Codice sorgente del testo online</button></p>
-    
-    <p><button class="btn btn-pill btn-info"type="button">E’ elegante e bello da vedere</button></p>
 .. |REPLACE2| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
