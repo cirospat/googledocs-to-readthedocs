@@ -105,11 +105,9 @@ Community opendatasicilia
 .. raw:: html
     
 
-    <embed>
+    <embed><a href="
 
-       <p><a href="
-
-\ |LINK5|\ "></p>
+\ |LINK5|\ ">
 
     </embed> 
 
