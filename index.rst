@@ -102,38 +102,35 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 Community opendatasicilia
 =========================
 
+
+|REPLACE3|
+
 .. raw:: html
-    
-
-    <embed><a href="
-
-\ |LINK5|\ ">
-
-    </embed> 
+   :file: https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html    
 
 \ |IMG3|\ 
 
-\ |LINK6|\ , [community sulla cultura dei dati aperti] → è una iniziativa civica condivisa da più persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volontà di contribuire a migliorare la qualità della vita della nostra comunità. Lo vogliamo fare con spirito di collaborazione e concretezza. 
+\ |LINK5|\ , [community sulla cultura dei dati aperti] → è una iniziativa civica condivisa da più persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volontà di contribuire a migliorare la qualità della vita della nostra comunità. Lo vogliamo fare con spirito di collaborazione e concretezza. 
 
 Canali di comunicazione di opendatasicilia:
 
-* la \ |LINK7|\  di lavoro (forum Google group);
+* la \ |LINK6|\  di lavoro (forum Google group);
 
-* il \ |LINK8|\ ;
+* il \ |LINK7|\ ;
 
-* il gruppo \ |LINK9|\ ;
+* il gruppo \ |LINK8|\ ;
 
-* il canale \ |LINK10|\  (\ |LINK11|\ ).
+* il canale \ |LINK9|\  (\ |LINK10|\ ).
 
-|REPLACE3|
+|REPLACE4|
 
 --------
 
 
-|REPLACE4|
-
-
 |REPLACE5|
+
+
+|REPLACE6|
 
 
 .. bottom of content
@@ -161,6 +158,9 @@ Canali di comunicazione di opendatasicilia:
     Breve video introduttivo (2’10”)
 .. |REPLACE3| raw:: html
 
+    https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html
+.. |REPLACE4| raw:: html
+
     <p><span style="background-color: #ffffff;">Servizi di <a href="http://opendatasicilia.it/" target="_blank" rel="noopener">opendatasicilia</a></span></p>
     <p><a title="accuss&igrave; tutorial catalogue" href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/24bc1b1450d155db547405fa90d92b6b34f4a132/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f616363757373695f66617669636f6e2e706e67" alt="accussi" width="41" height="41" /></a>&nbsp;<a href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener">accuss&igrave;</a>&nbsp; &nbsp; &nbsp;<a title="petrusino" href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"><img src="https://camo.githubusercontent.com/acae135c1a21da78bfd3423518810cd5465a8642/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f706574727573696e6f5f66617669636f6e2e706e67" alt="petrusino" width="41" height="41" /></a>&nbsp;<a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener">petrusino</a></p>
     <p><a title="non portale open data regione sicilia" href="http://nonportale.opendatasicilia.it/index.html" target="_blank" rel="nofollow noopener"> <img src="https://camo.githubusercontent.com/7ad90a32a27ec7b68b3f5d1c9aec83d0bf5e4120/68747470733a2f2f6369726f737061742e6769746875622e696f2f6d6170732f696d672f6e6f6e706f7274616c655f66617669636f6e2e706e67" alt="non portale" width="41" height="41" data-canonical-src="https://cirospat.github.io/maps/img/nonportale_favicon.png" /></a>&nbsp;<a href="http://nonportale.opendatasicilia.it/index.html" target="_blank" rel="noopener">non portale</a>&nbsp;&nbsp;<a title="albopo" href="http://albopop.it/" target="_blank" rel="noopener"><img src="http://albopop.it/images/logo.png" width="41" height="41" /></a>&nbsp;<a href="http://albopop.it/" target="_blank" rel="noopener">albopop</a>&nbsp;&nbsp;</p>
@@ -168,7 +168,7 @@ Canali di comunicazione di opendatasicilia:
     <p><a title="hfcqgis" href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/re2PpwOiIpZRKnmU2ZTk1xfoPxjk4xs3pc4yfbZkegGkmldMDujSCNWOSutMpmRo05YrS023YgeRfrt2Qg1_fpmw2_6gOpNPoyo_zMm7M14izw554KdGWbzvImZgNeQ_WX5Aho5zNL1kIZpyljZxW95WnX3KFBGzZdJ_NTZfwIK1iZQcooP5BLRQjJ9yrRS3-vg1Gm_Gor4xNlI6fXAV__ElF9A5R_Q4w--BbbOgd5yR2TWGvndO2Ol3CArQhhaf5WEcrzHtRV2l5wPRgopVgjf-Ysb33uKSa4hqt0sl0OYQLO4fwjhgOm2P1q5K-im7pMT61x9ePSgDi7G4t-MvxqjFDUnDlke614hazUshTcCPhVw2l6fxSdr_4q9XA8bHNtHs3s1N6tc4RUfSI6YK2jpPiEG1Ru_iD2slFPRrGAIS0cLaUiyLPIZuhngRvHOrkORlZlhl4gebM_Vh-xzQtPIdo3yiQZhDyorx0X1sJ0Mi6mQceqUPI-LpWANi8dp-jxKzotOHmaSUSFWtrmqjE4CECMSUNj8PwXSgEAjXUtyq641gpXcXRKdEI6mdF-yplGEKzxIsXmNCxuCt4OSEpw85X5JUwehxEXnuPlM=w256-h65-no" alt="" width="173" height="44" /></a> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank" rel="noopener">campi Qgis</a></p>
     <p><a class="twitter-follow-button" href="https://twitter.com/opendatasicilia?ref_src=twsrc%5Etfw" data-show-count="false">Follow @opendatasicilia</a></p>
     
-.. |REPLACE4| raw:: html
+.. |REPLACE5| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -193,7 +193,7 @@ Canali di comunicazione di opendatasicilia:
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE5| raw:: html
+.. |REPLACE6| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -215,29 +215,25 @@ Canali di comunicazione di opendatasicilia:
 
 .. |LINK5| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/opendatasicilia.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/opendatasicilia.html</a>
+    <a href="http://opendatasicilia.it/" target="_blank">opendatasicilia</a>
 
 .. |LINK6| raw:: html
 
-    <a href="http://opendatasicilia.it/" target="_blank">opendatasicilia</a>
+    <a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank">mailing list</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank">mailing list</a>
+    <a href="http://opendatasicilia.it/" target="_blank">blog</a>
 
 .. |LINK8| raw:: html
 
-    <a href="http://opendatasicilia.it/" target="_blank">blog</a>
+    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">Facebook</a>
 
 .. |LINK9| raw:: html
 
-    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">Facebook</a>
-
-.. |LINK10| raw:: html
-
     <a href="http://opendatasicilia.slack.com/" target="_blank">Slack</a>
 
-.. |LINK11| raw:: html
+.. |LINK10| raw:: html
 
     <a href="http://slack.opendatasicilia.it/" target="_blank">per iscriversi</a>
 
