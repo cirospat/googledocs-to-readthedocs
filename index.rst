@@ -102,19 +102,22 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 Community opendatasicilia
 =========================
 
+.. raw:: html
+   :file: \ |LINK5|\  
+
 \ |IMG3|\ 
 
-\ |LINK5|\ , [community sulla cultura dei dati aperti] → è una iniziativa civica condivisa da più persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volontà di contribuire a migliorare la qualità della vita della nostra comunità. Lo vogliamo fare con spirito di collaborazione e concretezza. 
+\ |LINK6|\ , [community sulla cultura dei dati aperti] → è una iniziativa civica condivisa da più persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volontà di contribuire a migliorare la qualità della vita della nostra comunità. Lo vogliamo fare con spirito di collaborazione e concretezza. 
 
 Canali di comunicazione di opendatasicilia:
 
-* la \ |LINK6|\  di lavoro (forum Google group);
+* la \ |LINK7|\  di lavoro (forum Google group);
 
-* il \ |LINK7|\ ;
+* il \ |LINK8|\ ;
 
-* il gruppo \ |LINK8|\ ;
+* il gruppo \ |LINK9|\ ;
 
-* il canale \ |LINK9|\  (\ |LINK10|\ ).
+* il canale \ |LINK10|\  (\ |LINK11|\ ).
 
 |REPLACE3|
 
@@ -206,25 +209,29 @@ Canali di comunicazione di opendatasicilia:
 
 .. |LINK5| raw:: html
 
-    <a href="http://opendatasicilia.it/" target="_blank">opendatasicilia</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/opendatasicilia.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/opendatasicilia.html</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank">mailing list</a>
+    <a href="http://opendatasicilia.it/" target="_blank">opendatasicilia</a>
 
 .. |LINK7| raw:: html
 
-    <a href="http://opendatasicilia.it/" target="_blank">blog</a>
+    <a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank">mailing list</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">Facebook</a>
+    <a href="http://opendatasicilia.it/" target="_blank">blog</a>
 
 .. |LINK9| raw:: html
 
-    <a href="http://opendatasicilia.slack.com/" target="_blank">Slack</a>
+    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">Facebook</a>
 
 .. |LINK10| raw:: html
+
+    <a href="http://opendatasicilia.slack.com/" target="_blank">Slack</a>
+
+.. |LINK11| raw:: html
 
     <a href="http://slack.opendatasicilia.it/" target="_blank">per iscriversi</a>
 
