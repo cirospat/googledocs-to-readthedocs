@@ -103,7 +103,7 @@ Community opendatasicilia
 =========================
 
 .. raw:: html
-   <src="https://github.com/cirospat/newproject/blob/master/docs/opendatasicilia.html”>    
+   <src="https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html”>    
 
 \ |IMG3|\ 
 
