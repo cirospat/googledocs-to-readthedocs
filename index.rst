@@ -108,7 +108,7 @@ Community opendatasicilia
 
 Canali di comunicazione di opendatasicilia:
 
-* la \ |LINK6|\  di lavoro (forum);
+* la \ |LINK6|\  di lavoro (forum Google group);
 
 * il \ |LINK7|\ ;
 
@@ -218,7 +218,7 @@ Canali di comunicazione di opendatasicilia:
 
 .. |LINK8| raw:: html
 
-    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">facebook</a>
+    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">Facebook</a>
 
 .. |LINK9| raw:: html
 
