@@ -103,7 +103,7 @@ Community opendatasicilia
 =========================
 
 .. raw:: html
-   :file: \ |LINK5|\  
+   :file: <\ |LINK5|\ > 
 
 \ |IMG3|\ 
 
