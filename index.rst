@@ -105,7 +105,7 @@ Community opendatasicilia
 .. raw:: html
 
     <embed>
-   <src=" https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html”>  
+   <src="https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html”>  
 
     </embed>  
 
