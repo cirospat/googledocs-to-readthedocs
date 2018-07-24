@@ -156,7 +156,7 @@ Canali di comunicazione di opendatasicilia:
 .. |REPLACE3| raw:: html
 
     <embed>
-    <src=" https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html”>  
+    <src="https://github.com/cirospat/newproject/blob/master/docs/opendatasicilia.html”>  
     </embed>  
 .. |REPLACE4| raw:: html
 
