@@ -102,19 +102,6 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 Community opendatasicilia
 =========================
 
-\ |IMG3|\ 
-
-\ |LINK5|\ , [community sulla cultura dei dati aperti] → è una iniziativa civica condivisa da più persone, che si propone di far conoscere e diffondere la cultura dell'open government e le prassi dell'open data nel nostro territorio e aprire una discussione pubblica partecipata. Un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volontà di contribuire a migliorare la qualità della vita della nostra comunità. Lo vogliamo fare con spirito di collaborazione e concretezza. 
-
-Canali di comunicazione di opendatasicilia:
-
-* la \ |LINK6|\  di lavoro (forum Google group);
-
-* il \ |LINK7|\ ;
-
-* il gruppo \ |LINK8|\ ;
-
-* il canale \ |LINK9|\  (\ |LINK10|\ ).
 
 |REPLACE3|
 
@@ -280,30 +267,6 @@ Canali di comunicazione di opendatasicilia:
 
     <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
 
-.. |LINK5| raw:: html
-
-    <a href="http://opendatasicilia.it/" target="_blank">opendatasicilia</a>
-
-.. |LINK6| raw:: html
-
-    <a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank">mailing list</a>
-
-.. |LINK7| raw:: html
-
-    <a href="http://opendatasicilia.it/" target="_blank">blog</a>
-
-.. |LINK8| raw:: html
-
-    <a href="https://www.facebook.com/groups/opendatasicilia" target="_blank">Facebook</a>
-
-.. |LINK9| raw:: html
-
-    <a href="http://opendatasicilia.slack.com/" target="_blank">Slack</a>
-
-.. |LINK10| raw:: html
-
-    <a href="http://slack.opendatasicilia.it/" target="_blank">per iscriversi</a>
-
 
 .. |IMG1| image:: static/index_1.png
    :height: 250 px
@@ -312,7 +275,3 @@ Canali di comunicazione di opendatasicilia:
 .. |IMG2| image:: static/index_2.png
    :height: 132 px
    :width: 216 px
-
-.. |IMG3| image:: static/index_3.png
-   :height: 110 px
-   :width: 96 px
