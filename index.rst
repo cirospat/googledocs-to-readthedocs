@@ -6,6 +6,8 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 Passando automaticamente da Github!
 
+\ |IMG1|\ 
+
 Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
@@ -35,7 +37,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 GGeditor
 ========
 
-\ |IMG1|\ 
+\ |IMG2|\ 
 
 \ |LINK4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
@@ -267,5 +269,9 @@ Community opendatasicilia
 
 
 .. |IMG1| image:: static/index_1.png
+   :height: 173 px
+   :width: 349 px
+
+.. |IMG2| image:: static/index_2.png
    :height: 132 px
    :width: 216 px
