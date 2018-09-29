@@ -270,6 +270,16 @@ copiando il codice dai rispettivi file.
 
 Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK7|\ . 
 
+E infine non dimenticare di inserire nel file ``conf.py`` alla fine delle righe, il seguente codice:
+
+
+.. code:: 
+
+    
+    templates_path = ['_templates']
+
+    
+
 |
 
 .. _h6631023425f4c283e54125761f485c:
