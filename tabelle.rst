@@ -101,7 +101,7 @@ E’ una soluzione che permette di esporre tabelle avendo un file Google spreads
 
 .. |REPLACE1| raw:: html
 
-    <img src="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png" />
+    <img src="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png" /> 
     L’uso di Google Spreadsheet di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale.
     Al fine di rendere l’uso di tabelle un'azione diffusa anche tra chi non ha consolidate esperienze nel campo della sintassi del linguaggio reStructuredText, le tabelle dei fogli Google rappresenta una via facile per l’esposizione su pagine HTML di Read the Docs.
 .. |REPLACE2| raw:: html
