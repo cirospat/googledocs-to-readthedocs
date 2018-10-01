@@ -10,15 +10,8 @@ Se la tabella è semplice, ad esempio costituita da poche colonne, l’uso di un
 
 Se le tabelle si devono editare nativamente con la sintassi rST, la cosa si fa più complicata, vedi questa spiegazione \ |LINK2|\ : 
 
-+---+---+---+
-| a | b | c |
-+===+===+===+
-| e | f | g |
-+---+---+---+
-| h | i | l |
-+---+---+---+
-| m | n | o |
-+---+---+---+
+editando questi caratteri
+
 
 .. code:: 
 
@@ -31,6 +24,18 @@ Se le tabelle si devono editare nativamente con la sintassi rST, la cosa si fa p
     +---+---+---+
     | m | n | o |
     +---+---+---+
+
+si ha il seguente risultato
+
++---+---+---+
+| a | b | c |
++===+===+===+
+| e | f | g |
++---+---+---+
+| h | i | l |
++---+---+---+
+| m | n | o |
++---+---+---+
 
 L’uso di Google Spreadsheet di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale.
 
