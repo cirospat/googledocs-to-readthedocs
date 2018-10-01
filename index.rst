@@ -127,7 +127,7 @@ Community opendatasicilia
 
 .. |REPLACE1| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" alt="" width="100 height="50" />
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
 .. |REPLACE2| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></p>
@@ -141,7 +141,7 @@ Community opendatasicilia
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span></p>
 .. |REPLACE3| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="100 height="50" />
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
 .. |REPLACE4| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
