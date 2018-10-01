@@ -8,7 +8,7 @@ Creare tabelle da esporre in pagina HTML su Read the Docs, utilizzando il lingua
 
 Se la tabella è semplice, ad esempio costituita da poche colonne, l’uso di un servizio online come \ |LINK1|\  può essere la soluzione più veloce. Terminato l’editing dentro le celle si procede con la selezione del tasto reStructuredText e si ottiene il testo già formattato per essere usato su un file formato rST.
 
-Se le tabelle si devono editare nativamente con la sintassi rST, la cosa si fa più complicata, vedi questa speiegazione \ |LINK2|\ : 
+Se le tabelle si devono editare nativamente con la sintassi rST, la cosa si fa più complicata, vedi questa spiegazione \ |LINK2|\ : 
 
 +---+---+---+
 | a | b | c |
@@ -46,7 +46,7 @@ La seconda azione da fare, dopo aver terminato l’editing nella tabella, è que
 
 * clicca su “\ |STYLE2|\ ” e seleziona “\ |STYLE3|\ ” 
 
-* seleziona e copia l’url generato: \ |LINK4|\  
+* seleziona e copia l’``indirizzo url`` generato: \ |LINK4|\  
 
 .. _h655b521a672a67c1e47f5c6d12d7b:
 
@@ -55,11 +55,13 @@ Con GGeditor Markup Panel si crea un blocco HTML
 
 per incorporare l’indirizzo URL sopra riportato nella pagina HTML, quindi si edita:
 
-<iframe width="100%" height="1900px" frameBorder="0" src=”``indirizzo url``”></iframe>
+<iframe width="100%" height="900px" frameBorder="0" src=”``indirizzo url``”></iframe>
 
 .. code:: 
 
-    <iframe width="100%" height="1900px" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrShxVf6VZYXPeHR9e3NXsYZ_x8nrE1gGTuhqao4ERRm1XDYuXBO7G4vqDkk4u96BfLRAjekwZPk3K/pubhtml?widget=true&amp;headers=false"></iframe>
+    <iframe width="100%" height="900px" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrShxVf6VZYXPeHR9e3NXsYZ_x8nrE1gGTuhqao4ERRm1XDYuXBO7G4vqDkk4u96BfLRAjekwZPk3K/pubhtml?widget=true&amp;headers=false"></iframe>
+
+dove ``100%`` rappresenta l’ampiezza (larghezza) della tabella, e ``900px`` rappresenta l’altezza della colonna in pixel che troverà  posto nella pagina HTML di Read the Docs.
 
 Il risultato sarà questo di seguito illustrato, cioè una tabella incorporata nella pagina HTML di Read the Docs.
 
