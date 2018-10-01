@@ -4,9 +4,9 @@
 Creare tabelle da esporre su Read the Docs
 ##########################################
 
-Creare tabelle da esporre in pagina HTML su Read the Docs, utilizzando il linguaggio rST è un argomento non molto semplice.
+Creare tabelle da esporre in pagina HTML su Read the Docs, utilizzando il linguaggio ``rST`` è un argomento non molto semplice.
 
-Se la tabella è semplice, ad esempio costituita da poche colonne, l’uso di un servizio online come \ |LINK1|\  può essere la soluzione più veloce. Terminato l’editing dentro le celle si procede con la selezione del tasto reStructuredText e si ottiene il testo già formattato per essere usato su un file formato rST.
+Se la tabella è elementare e piccola, ad esempio costituita da poche colonne, l’uso di un servizio online come \ |LINK1|\  può essere la soluzione più veloce. Terminato l’editing dentro le celle si procede con la selezione del tasto reStructuredText e si ottiene il testo già formattato per essere usato su un file formato rST.
 
 Se le tabelle si devono editare nativamente con la sintassi rST, la cosa si fa più complicata, vedi questa spiegazione \ |LINK2|\ : 
 
@@ -36,6 +36,9 @@ si ha il seguente risultato
 +---+---+---+
 | m | n | o |
 +---+---+---+
+
+
+|REPLACE1|
 
 L’uso di \ |LINK3|\  di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale.
 
@@ -84,7 +87,7 @@ Il risultato sarà questo di seguito illustrato, cioè una tabella incorporata n
 
 L’unica cosa a cui porre attenzione è selezionare il limite destro della tabella al fine di farla rientrare interamente nella pagina HTML. Con 2-3 prove da fare si capirà quale è il limite massimo oltre il quale non andare.
 
-|REPLACE1|
+|REPLACE2|
 
 E’ una soluzione che permette di esporre tabelle avendo un file Google spreadsheet di origine che possiamo aggiornare quando vogliamo, e che si aggiornerà automaticamente sempre sulle pagine HTML di Read the Docs.
 
@@ -101,6 +104,9 @@ E’ una soluzione che permette di esporre tabelle avendo un file Google spreads
 
 
 .. |REPLACE1| raw:: html
+
+    <img src="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png" />
+.. |REPLACE2| raw:: html
 
     <iframe width="100%" height="900px" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrShxVf6VZYXPeHR9e3NXsYZ_x8nrE1gGTuhqao4ERRm1XDYuXBO7G4vqDkk4u96BfLRAjekwZPk3K/pubhtml?widget=true&amp;headers=false"></iframe>
 
