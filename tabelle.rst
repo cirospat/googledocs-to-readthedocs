@@ -37,7 +37,7 @@ si ha il seguente risultato
 | m | n | o |
 +---+---+---+
 
-L’uso di Google Spreadsheet di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale.
+L’uso di \ |LINK3|\  di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale.
 
 Al fine di rendere l’uso di tabelle un'azione diffusa anche tra chi non ha consolidate esperienze nel campo della sintassi del linguaggio reStructuredText, le tabelle dei fogli Google rappresenta una via facile per l’esposizione su pagine HTML di Read the Docs.
 
@@ -48,7 +48,7 @@ Vediamo come.
 Crea la tabella su Google spreadsheet
 *************************************
 
-Chiunque è in grado di creare una tabella su Google spreadsheet. Utilizziamo liberamente anche i colori per delimitare le celle e per evidenziare il contenuto delle celle o del testo. Prendiamo ad esempio questa tabella: \ |LINK3|\  
+Chiunque è in grado di creare una tabella su Google spreadsheet. Utilizziamo liberamente anche i colori per delimitare le celle e per evidenziare il contenuto delle celle o del testo. Prendiamo ad esempio questa tabella: \ |LINK4|\  
 
 .. _h584ff595b30387a4114425f9184e2b:
 
@@ -63,7 +63,7 @@ La seconda azione da fare, dopo aver terminato l’editing nella tabella, è que
 
 * clicca su “\ |STYLE2|\ ” e seleziona “\ |STYLE3|\ ” 
 
-* seleziona e copia l’``indirizzo url`` generato: \ |LINK4|\  
+* seleziona e copia l’``indirizzo url`` generato: \ |LINK5|\  
 
 .. _h655b521a672a67c1e47f5c6d12d7b:
 
@@ -114,9 +114,13 @@ E’ una soluzione che permette di esporre tabelle avendo un file Google spreads
 
 .. |LINK3| raw:: html
 
-    <a href="https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0" target="_blank">https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0</a>
+    <a href="https://spreadsheets.google.com/" target="_blank">Google Spreadsheet</a>
 
 .. |LINK4| raw:: html
+
+    <a href="https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0" target="_blank">https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0</a>
+
+.. |LINK5| raw:: html
 
     <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrShxVf6VZYXPeHR9e3NXsYZ_x8nrE1gGTuhqao4ERRm1XDYuXBO7G4vqDkk4u96BfLRAjekwZPk3K/pubhtml" target="_blank">https://docs.google.com/spreadsheets/d/e/2PACX-1vRrShxVf6VZYXPeHR9e3NXsYZ_x8nrE1gGTuhqao4ERRm1XDYuXBO7G4vqDkk4u96BfLRAjekwZPk3K/pubhtml</a>
 
