@@ -6,7 +6,7 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 Passando automaticamente da Github!
 
-\ |IMG1|\ 
+ \ |IMG1|\ 
 
 Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
