@@ -37,12 +37,11 @@ si ha il seguente risultato
 | m | n | o |
 +---+---+---+
 
-
-|REPLACE1|
-
 L’uso di \ |LINK3|\  di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale.
 
 Al fine di rendere l’uso di tabelle un'azione diffusa anche tra chi non ha consolidate esperienze nel campo della sintassi del linguaggio reStructuredText, le tabelle dei fogli Google rappresenta una via facile per l’esposizione su pagine HTML di Read the Docs.
+
+|REPLACE1|
 
 Vediamo come.
 
