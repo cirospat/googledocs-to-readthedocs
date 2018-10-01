@@ -141,6 +141,7 @@ Community opendatasicilia
 .. |REPLACE3| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
+    <br>
 .. |REPLACE4| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
