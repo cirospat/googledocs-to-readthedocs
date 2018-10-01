@@ -93,6 +93,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     hypothesis-partecipazione
     pubblicare-su-docs-italia
     sintassi-rst
+    tabelle
     licenza
 
 --------
@@ -268,10 +269,10 @@ Community opendatasicilia
     <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
 
 
-.. |IMG1| image:: static/index_1.png
+.. |IMG1| image:: static/index_gdocs-rtdocs_1.png
    :height: 173 px
    :width: 349 px
 
-.. |IMG2| image:: static/index_2.jpeg
+.. |IMG2| image:: static/index_gdocs-rtdocs_2.jpeg
    :height: 140 px
    :width: 220 px
