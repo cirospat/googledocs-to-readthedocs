@@ -6,6 +6,9 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 Passando automaticamente da Github!
 
+
+|REPLACE1|
+
 Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
@@ -26,7 +29,7 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE1|\ ”:
 
-|REPLACE1|
+|REPLACE2|
 
 |
 
@@ -35,12 +38,15 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 GGeditor
 ========
 
+
+|REPLACE3|
+
 \ |LINK4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
 
-|REPLACE2|
+|REPLACE4|
 
 |
 
@@ -100,15 +106,15 @@ Community opendatasicilia
 =========================
 
 
-|REPLACE3|
+|REPLACE5|
 
 --------
 
 
-|REPLACE4|
+|REPLACE6|
 
 
-|REPLACE5|
+|REPLACE7|
 
 
 .. bottom of content
@@ -121,6 +127,9 @@ Community opendatasicilia
 
 .. |REPLACE1| raw:: html
 
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" alt="" width="100 height="50" />
+.. |REPLACE2| raw:: html
+
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></p>
     
     <p><span style="background-color: #105618; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Funzioni avanzate di ricerca testo</span></p>
@@ -130,11 +139,14 @@ Community opendatasicilia
     <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span></p>
     
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span></p>
-.. |REPLACE2| raw:: html
+.. |REPLACE3| raw:: html
+
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="100 height="50" />
+.. |REPLACE4| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE3| raw:: html
+.. |REPLACE5| raw:: html
 
     
     
@@ -219,7 +231,7 @@ Community opendatasicilia
     
     <p><a class="twitter-follow-button" href="https://twitter.com/opendatasicilia?ref_src=twsrc%5Etfw" data-show-count="false">Follow @opendatasicilia</a></p>
     
-.. |REPLACE4| raw:: html
+.. |REPLACE6| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -244,7 +256,7 @@ Community opendatasicilia
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE5| raw:: html
+.. |REPLACE7| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
