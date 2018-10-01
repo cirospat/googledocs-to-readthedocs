@@ -20,6 +20,18 @@ Se le tabelle si devono editare nativamente con la sintassi rST, la cosa si fa p
 | m | n | o |
 +---+---+---+
 
+.. code:: 
+
+    +---+---+---+
+    | a | b | c |
+    +===+===+===+
+    | e | f | g |
+    +---+---+---+
+    | h | i | l |
+    +---+---+---+
+    | m | n | o |
+    +---+---+---+
+
 L’uso di Google Spreadsheet di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale.
 
 Al fine di rendere l’uso di tabelle un'azione diffusa anche tra chi non ha consolidate esperienze nel campo della sintassi del linguaggio reStructuredText, le tabelle dei fogli Google rappresenta una via facile per l’esposizione su pagine HTML di Read the Docs.
