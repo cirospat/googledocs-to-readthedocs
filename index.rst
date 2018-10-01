@@ -269,7 +269,7 @@ Community opendatasicilia
     <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
 
 
-.. |IMG1| image:: static/index_1.jpeg
+.. |IMG1| image:: static/index_1.png
    :height: 170 px
    :width: 344 px
 
