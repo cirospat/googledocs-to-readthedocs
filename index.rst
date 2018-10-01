@@ -273,6 +273,6 @@ Community opendatasicilia
    :height: 170 px
    :width: 344 px
 
-.. |IMG2| image:: static/index_gdocs-rtdocs_2.jpeg
+.. |IMG2| image:: static/index_1.png
    :height: 140 px
    :width: 220 px
