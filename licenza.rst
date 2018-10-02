@@ -77,8 +77,15 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 |REPLACE1|
 
+.. raw:: html
+
+   :url: https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html
+
 
 |REPLACE2|
+
+
+|REPLACE3|
 
 
 .. bottom of content
@@ -100,6 +107,9 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 
 .. |REPLACE1| raw:: html
+
+    https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html
+.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -124,7 +134,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE2| raw:: html
+.. |REPLACE3| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
