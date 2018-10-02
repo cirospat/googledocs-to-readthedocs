@@ -77,10 +77,6 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 |REPLACE1|
 
-.. raw:: html
-
-   :url: https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html
-
 
 |REPLACE2|
 
@@ -108,7 +104,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |REPLACE1| raw:: html
 
-    https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html
+    <a href=”https://raw.githubusercontent.com/cirospat/newproject/master/docs/opendatasicilia.html”>
 .. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
