@@ -60,6 +60,14 @@ h1, h2, h3 {
 /* disattiva il testo "latest"  menu a sx */
 .wy-side-nav-search>div.version {    display: none;}
 
+
+/* disativa il testo "edit on Github" in alto a destra */
+.wy-breadcrumbs li.wy-breadcrumbs-aside {
+    float: right;
+    display: none;
+}
+
+
 /* #ccd8ab colore deciso per appattarlo al verdino della freccia, per versione mobile */
 /* quello di prima era il seguente */
 /* .wy-nav-top {background: linear-gradient(#ffaf05, #ffd105); } */
