@@ -21,6 +21,16 @@ pygments_style = 'sphinx'
 
 extlinks = {}
 
+# -- Version Control System Integration (https://docs.readthedocs.io/en/latest/vcs.html?highlight=conf_py_path) aggiunto 3_10_2018 ----
+html_context = {
+    "display_github": True, # Integrate GitHub
+    "github_user": "cirospat", # Username
+    "github_repo": "googledocs-to-readthedocs", # Repo name
+    "github_version": "master", # Version
+    "conf_py_path": "/googledocs-to-readthedocs/", # Path in the checkout to the docs root
+}
+
+
 # -- Options for HTML output ---------------------------------------------------
 
 html_theme = 'default'
