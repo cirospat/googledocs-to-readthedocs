@@ -14,7 +14,7 @@ __version__ = '1.0'
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'Da Google_Docs a Read_the_Docs'
-copyright = '[licenza CC-BY cirospat-SA]'
+copyright = '[cirospat - licenza CC-BY-SA]'
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -22,13 +22,13 @@ pygments_style = 'sphinx'
 extlinks = {}
 
 # -- Version Control System Integration (https://docs.readthedocs.io/en/latest/vcs.html?highlight=conf_py_path) aggiunto 3_10_2018 ----
-html_context = {
-    "display_github": True, # Integrate GitHub
-    "github_user": "cirospat", # Username
-    "github_repo": "googledocs-to-readthedocs", # Repo name
-    "github_version": "master", # Version
-    "conf_py_path": "/googledocs-to-readthedocs/", # Path in the checkout to the docs root
-}
+# html_context = {
+#    "display_github": True, # Integrate GitHub
+#    "github_user": "cirospat", # Username
+#    "github_repo": "googledocs-to-readthedocs", # Repo name
+#    "github_version": "master", # Version
+#    "conf_py_path": "/googledocs-to-readthedocs/", # Path in the checkout to the docs root
+# }
 
 
 # -- Options for HTML output ---------------------------------------------------
