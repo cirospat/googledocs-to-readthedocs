@@ -76,16 +76,8 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 |
 
-.. _ha26327d514b76321237563d3fe3666:
-
-Opendatasicilia
-===============
-
 
 |REPLACE1|
-
-
-|REPLACE2|
 
 
 .. bottom of content
@@ -107,9 +99,6 @@ Opendatasicilia
 
 
 .. |REPLACE1| raw:: html
-
-    <iframe width="100%" height="950px" frameBorder="0" src="https://cirospat.github.io/maps/opendatasicilia.html"></iframe>
-.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
