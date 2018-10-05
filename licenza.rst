@@ -72,10 +72,18 @@ Grazie Hsin Yuan Yeh!
 Che sia usato nella Pubblica Amministrazione
 ============================================
 
-Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs e con lo stile Docs Italia, al posto degli scomodi PDF. Per chi fosse interessato ad utilizzare questo strumento, sono disponibile a fornire aiuto: il mio contatto è  ``c.spataro@comune.palermo.it``.
+Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs e con lo stile Docs Italia, al posto degli scomodi PDF. Per chi fosse interessato ad utilizzare questo strumento, sono disponibile a fornire aiuto: il mio contatto è  \`\`\ |LINK10|\ \`\`.
+
+.. _ha26327d514b76321237563d3fe3666:
+
+Opendatasicilia
+===============
 
 
 |REPLACE1|
+
+
+|REPLACE2|
 
 
 .. bottom of content
@@ -97,6 +105,9 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 
 .. |REPLACE1| raw:: html
+
+    <iframe width="100%" height="800px" frameBorder="0" src="https://cirospat.github.io/maps/opendatasicilia.html"></iframe>
+.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -157,6 +168,10 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 .. |LINK9| raw:: html
 
     <a href="https://github.com/iapyeh/GGeditor/issues/1" target="_blank">https://github.com/iapyeh/GGeditor/issues/1</a>
+
+.. |LINK10| raw:: html
+
+    <a href="mailto:c.spataro@comune.palermo.it">c.spataro@comune.palermo.it</a>
 
 
 .. |IMG1| image:: static/licenza_1.png
