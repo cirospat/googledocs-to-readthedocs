@@ -80,6 +80,9 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 |REPLACE1|
 
 
+|REPLACE2|
+
+
 .. bottom of content
 
 
@@ -99,6 +102,9 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 
 .. |REPLACE1| raw:: html
+
+    <iframe src="https://cirospat.readthedocs.io/it/latest/opendatasicilia.html"></iframe>
+.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
