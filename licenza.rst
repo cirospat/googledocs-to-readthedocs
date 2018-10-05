@@ -106,7 +106,7 @@ Opendatasicilia
 
 .. |REPLACE1| raw:: html
 
-    <iframe width="100%" height="800px" frameBorder="0" src="https://cirospat.github.io/maps/opendatasicilia.html"></iframe>
+    <iframe width="100%" height="900px" frameBorder="1" src="https://cirospat.github.io/maps/opendatasicilia.html"></iframe>
 .. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
