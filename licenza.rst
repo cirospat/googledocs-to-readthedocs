@@ -74,6 +74,8 @@ Che sia usato nella Pubblica Amministrazione
 
 Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs e con lo stile Docs Italia, al posto degli scomodi PDF. Per chi fosse interessato ad utilizzare questo strumento, sono disponibile a fornire aiuto: il mio contatto è  \`\`\ |LINK10|\ \`\`.
 
+|
+
 .. _ha26327d514b76321237563d3fe3666:
 
 Opendatasicilia
