@@ -103,7 +103,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |REPLACE1| raw:: html
 
-    <iframe width="100%" height="1800px" frameBorder="0" src="https://cirospat.readthedocs.io/it/latest/opendatasicilia.html"></iframe>
+    <iframe width="90%" height="1800px" frameBorder="0" src="https://cirospat.readthedocs.io/it/latest/opendatasicilia.html"></iframe>
 .. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
