@@ -58,6 +58,36 @@ Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per at
 
 |
 
+.. _h163c547219793f2d94347267c23426:
+
+Funzionalità di collaborazione per le annotazioni di Hypothes.is
+****************************************************************
+
+A questo \ |LINK7|\  sono illustrate le funzionalità che abilitano alla collaborazione attraverso le annotazioni di Hypothes.is. Si tratta degli “\ |STYLE2|\ ” e “\ |STYLE3|\ ”.
+
+In sostanza ora sono disponibili: 
+
+* Public Layer 
+
+* Open Group 
+
+* Restricted Group 
+
+* Private Group
+
+
++-------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------+----------------------------+-------------------------------------------------------------------+
+|                         |Public Layer                                                                 |Open Group                                                                |Restricted Group            |Private Group                                                      |
++-------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------+----------------------------+-------------------------------------------------------------------+
+|Who can read annotations?|Anyone                                                                       |Anyone                                                                    |Anyone                      |Only logged-in group members                                       |
++-------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------+----------------------------+-------------------------------------------------------------------+
+|Who can post annotations?|Any logged-in user                                                           |Any logged-in user                                                        |Only logged-in group members|Only logged-in group members                                       |
++-------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------+----------------------------+-------------------------------------------------------------------+
+|Who can join?            |N/A as anyone who is logged in to Hypothesis can annotate in the Public Layer|N/A as anyone who is logged in to Hypothesis can annotate in an Open Group|Invite only                 |Invite only: Group creator can share a link for users to join group|
++-------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------+----------------------------+-------------------------------------------------------------------+
+
+The table above describes the configurations and permissions available to readers and annotators of the Public Layer and Open, Restricted, and Private Groups in Hypothesis.
+
 
 |REPLACE2|
 
@@ -68,6 +98,10 @@ Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per at
 .. |STYLE0| replace:: **C'è un feed RSS per le note di ogni pagina HTML**
 
 .. |STYLE1| replace:: **C'è anche in formato JSON**
+
+.. |STYLE2| replace:: **open group**
+
+.. |STYLE3| replace:: **restricted group**
 
 
 .. |REPLACE1| raw:: html
@@ -122,4 +156,8 @@ Sono diversi modi per seguire i commenti sulle pagine di Read the Docs, e per at
 .. |LINK6| raw:: html
 
     <a href="https://hypothes.is/api/search?url=" target="_blank">https://hypothes.is/api/search?url=</a>
+
+.. |LINK7| raw:: html
+
+    <a href="https://web.hypothes.is/blog/expanding-our-groups-capabilities/" target="_blank">link</a>
 
