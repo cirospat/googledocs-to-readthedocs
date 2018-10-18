@@ -106,7 +106,7 @@ The table above describes the configurations and permissions available to reader
 
 .. |REPLACE1| raw:: html
 
-    <iframe width="99%" height="600px" frameBorder="1" src="https://hypothes.is/stream.rss?uri=https://forumpa-librobianco-innovazione-2018.readthedocs.io/it/latest/2-nuovi-processi.html"></iframe>
+    <iframe width="99%" height="600px" frameBorder="0" src="https://hypothes.is/stream.rss?uri=https://forumpa-librobianco-innovazione-2018.readthedocs.io/it/latest/2-nuovi-processi.html"></iframe>
 .. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
