@@ -48,9 +48,6 @@ Le annotazioni su hypothes.is disponibili in tempo reale in un feed RSS o in un 
 
 Esempio di visualizzazione del feed rss dei commenti ad una pagina (html) del Libro bianco innovazione PA 2018 
 
-|REPLACE1|
-
-
 .. code:: 
 
     <?xml version="1.0"?>
@@ -292,7 +289,7 @@ In sostanza ora sono disponibili:
 The table above describes the configurations and permissions available to readers and annotators of the Public Layer and Open, Restricted, and Private Groups in Hypothesis.
 
 
-|REPLACE2|
+|REPLACE1|
 
 
 .. bottom of content
@@ -308,9 +305,6 @@ The table above describes the configurations and permissions available to reader
 
 
 .. |REPLACE1| raw:: html
-
-    <iframe width="99%" height="600px" frameBorder="0" src="https://hypothes.is/stream.rss?uri=https://forumpa-librobianco-innovazione-2018.readthedocs.io/it/latest/2-nuovi-processi.html"></iframe>
-.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
