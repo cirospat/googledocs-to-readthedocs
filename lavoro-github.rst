@@ -305,7 +305,7 @@ Procedura per inserire il popup eu-cookie nei progetti  "read the docs"
 
 (\ |STYLE3|\ )
 
-Per aggiungere il popup \ |STYLE4|\  per la privacy basta aggiungere i tre file script di seguito elencati nella cartella \ |STYLE5|\  del progetto Github:
+Per aggiungere il popup \ |STYLE4|\  per la privacy basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
 
 * \ |LINK9|\ 
 
@@ -323,15 +323,15 @@ Inserire nel file \ |LINK12|\  (nel blocco principale) il codice html:
     <script type="text/javascript" src="{{ pathto("_static/jquery-eu-cookie-law-popup.js", True) }}"></script>
     <link href="{{ pathto("_static/jquery-eu-cookie-law-popup.css", True) }}" rel="stylesheet" type="text/css" />
 
-Sempre nel file \ |STYLE6|\  inserire il seguente codice:
+Sempre nel file ``layout.html`` inserire il seguente codice:
 
 .. code:: 
 
     <div class="eupopup eupopup-top "></div>
 
-(riga 27 del file layout.html: \ |LINK13|\ ) 
+(il codice si trova alla riga 27 del file layout.html: \ |LINK13|\ ) 
 
-Per modificare il testo del popup apri il file \ |STYLE7|\  con notepad++ o  anche con il semplice notepad e cerca il blocco \ |STYLE8|\  e li modifichi url della pagina privacy ed il testo:
+Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE5|\ , e li modifichi ``url`` della pagina \ |STYLE6|\  ed il testo:
 
 .. code:: 
 
@@ -351,7 +351,7 @@ Per modificare il testo del popup apri il file \ |STYLE7|\  con notepad++ o  anc
     htmlMarkup : null
     };
 
-\ |STYLE9|\ \ |LINK14|\ \ |STYLE10|\ 
+\ |STYLE7|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK14|\ .
 
 |
 
@@ -421,17 +421,11 @@ il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi alt
 
 .. |STYLE4| replace:: **eu-cookie**
 
-.. |STYLE5| replace:: **static**
+.. |STYLE5| replace:: **PARAMETERS (MODIFY THIS PART)**
 
-.. |STYLE6| replace:: **layout.html**
+.. |STYLE6| replace:: **privacy**
 
-.. |STYLE7| replace:: **jquery-eu-cookie-law-popup.js**
-
-.. |STYLE8| replace:: **PARAMETERS (MODIFY THIS PART)**
-
-.. |STYLE9| replace:: **Ricordati che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'**
-
-.. |STYLE10| replace:: **.**
+.. |STYLE7| replace:: **Ricordati (!)**
 
 
 .. |REPLACE1| raw:: html
