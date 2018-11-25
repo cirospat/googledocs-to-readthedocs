@@ -298,6 +298,63 @@ e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) 
 
 |
 
+.. _hf36522c2b7d1121795852485a2a644e:
+
+Procedura per inserire il popup eu-cookie nei progetti  "read the docs"
+=======================================================================
+
+(\ |STYLE3|\ )
+
+Per aggiungere il popup \ |STYLE4|\  per la privacy basta aggiungere i tre file script di seguito elencati nella cartella \ |STYLE5|\  del progetto Github:
+
+* \ |LINK9|\ 
+
+* \ |LINK10|\ 
+
+* \ |LINK11|\ 
+
+Inserire nel file \ |LINK12|\  (nel blocco principale) il codice html:
+
+
+.. code:: 
+
+    <!--eu-cooki-lawt →
+    <script type="text/javascript" src="{{ pathto("_static/jquery-2.1.3.min.js", True) }}"></script>
+    <script type="text/javascript" src="{{ pathto("_static/jquery-eu-cookie-law-popup.js", True) }}"></script>
+    <link href="{{ pathto("_static/jquery-eu-cookie-law-popup.css", True) }}" rel="stylesheet" type="text/css" />
+
+Sempre nel file \ |STYLE6|\  inserire il seguente codice:
+
+.. code:: 
+
+    <div class="eupopup eupopup-top "></div>
+
+(riga 27 del file layout.html: \ |LINK13|\ ) 
+
+Per modificare il testo del popup apri il file \ |STYLE7|\  con notepad++ o  anche con il semplice notepad e cerca il blocco \ |STYLE8|\  e li modifichi url della pagina privacy ed il testo:
+
+.. code:: 
+
+    // PARAMETERS (MODIFY THIS PART) ///////////////////////
+    _self.params = {
+    cookiePolicyUrl : 'https://cirospat.readthedocs.io/it/latest/privacy.html',
+    popupPosition : 'top',
+    colorStyle : 'default',
+    compactStyle : false,
+    popupTitle : 'Questo sito web utilizza i cookie, anche di terze parti, per migliorare la vostra esperienza di navigazione web.',
+    popupText : 'Chiudendo questo banner, scorrendo questa pagina o cliccando su qualunque suo elemento acconsenti all&rsquo;uso dei cookie. Per maggiori informazioni o per negare il consenso a tutti o ad alcuni cookie, consulta l&rsquo;informativa.',
+    buttonContinueTitle : 'Chiudi!  ',
+    buttonLearnmoreTitle : 'Leggi l&rsquo;informativa',
+    buttonLearnmoreOpenInNewWindow : false,
+    agreementExpiresInDays : 30,
+    autoAcceptCookiePolicy : false,
+    htmlMarkup : null
+    };
+
+\ |STYLE9|\ \ |LINK14|\ \ |STYLE10|\ 
+
+|
+
 .. _h775782304944104a63b1778f5f7e:
 
 Cambiare il colore di sfondo del rettangolo in alto a sinistra
@@ -313,7 +370,7 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
         background-color: #7b90f9;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK9|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK15|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 ..  Attention:: 
 
@@ -336,7 +393,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 ..  Attention:: 
 
@@ -359,6 +416,22 @@ il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi alt
 .. |STYLE1| replace:: **Commit**
 
 .. |STYLE2| replace:: **addthis**
+
+.. |STYLE3| replace:: **istruzioni a cura di Giovan Battista Vitrano**
+
+.. |STYLE4| replace:: **eu-cookie**
+
+.. |STYLE5| replace:: **static**
+
+.. |STYLE6| replace:: **layout.html**
+
+.. |STYLE7| replace:: **jquery-eu-cookie-law-popup.js**
+
+.. |STYLE8| replace:: **PARAMETERS (MODIFY THIS PART)**
+
+.. |STYLE9| replace:: **Ricordati che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'**
+
+.. |STYLE10| replace:: **.**
 
 
 .. |REPLACE1| raw:: html
@@ -427,9 +500,33 @@ il codice “\ |LINK10|\ ” può essere cambiato con i codici di tantissimi alt
 
 .. |LINK9| raw:: html
 
-    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
 
 .. |LINK10| raw:: html
+
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
+
+.. |LINK11| raw:: html
+
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
+
+.. |LINK12| raw:: html
+
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
+
+.. |LINK13| raw:: html
+
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
+
+.. |LINK14| raw:: html
+
+    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
+
+.. |LINK15| raw:: html
+
+    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+
+.. |LINK16| raw:: html
 
     <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
