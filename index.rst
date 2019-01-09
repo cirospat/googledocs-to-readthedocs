@@ -102,7 +102,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 ..  Tip:: 
 
-    guarda il contenuto di questa pagina che state leggendo è in \ |LINK5|\ 
+    il contenuto di questa pagina che state leggendo è editato in \ |LINK5|\ 
 
 --------
 
