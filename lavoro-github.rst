@@ -450,7 +450,7 @@ Quindi la sua funzione è quella di facilitare l’editing del codice, non doven
 .. |REPLACE2| raw:: html
 
     <img src="https://schema-tipo.readthedocs.io/it/latest/_static/logo.jpg" width="250"/>
-    </br>
+    
     <span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Asino siciliano</span>
 .. |REPLACE3| raw:: html
 
