@@ -401,10 +401,10 @@ il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi alt
 
 |
 
-.. _h3c3b7a4c353f317b31f4b107e396dc:
+.. _h206b132a6447317f607c2b3751106c78:
 
-Uno schema tipo che raccoglie tutte le funzioni illustrate in questa pagina del tutorial
-========================================================================================
+Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in questa pagina del tutorial
+===========================================================================================================
 
 
 |REPLACE2|
