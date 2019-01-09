@@ -16,7 +16,7 @@ Il lavoro da fare su Github
 
 Creare il nome del progetto.
 
-Scrivere nel file ``READ.ME`` la descrizione di cosa contiene quel progetto (un po di metadatazione del progetto).
+Scrivere nel file ``READ.ME`` la descrizione di cosa contiene quel progetto (un po di metadatazione del progetto). Come nel caso del \ |LINK1|\ .
 
 Il nome del progetto sarà richiamato dal plugin GGeditor una volta richiamato l’account Github ed editati user e password. Appariranno su un pannello i vari repository Github del nostro account e si sceglierà quello a cui inviare i Google Doc ai quali lavoreremo. 
 
@@ -151,7 +151,7 @@ Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html 
     
     
 
-(guarda \ |LINK1|\ ).
+(guarda \ |LINK2|\ ).
 
 L’istruzione  ``.wy-nav-content {max-width: 1920px;}`` consente di estendere per tutta la larghezza del monitor lo spazio in cui viene visualizzato il testo, dando una sensazione grafica gradevole all’intero documento.
 
@@ -172,7 +172,7 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * un file ``README.md`` che è un file di descrizione del progetto, che provvediamo a editare noi su Github per far capire al lettore che cosa contiene il repository Github in questione. Questo file lo creiamo noi;
 
-* il file ``conf.py`` che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK2|\ . Basta creare un file nel repository Github, dargli il nome di ``conf.py`` e fare un copia  e incolla dal paragrafo del tutorial di GGeditor. Questo file lo creiamo noi;
+* il file ``conf.py`` che contiene il codice con indicazioni necessarie all’esposizione dei Google Docs sulla piattaforma di Read the Docs. \ |LINK3|\ . Basta creare un file nel repository Github, dargli il nome di ``conf.py`` e fare un copia  e incolla dal paragrafo del tutorial di GGeditor. Questo file lo creiamo noi;
 
 * una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE1|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``. Questa cartella ``static`` viene generata automaticamente dal plugin GGeditor;
 
@@ -258,17 +258,17 @@ Creare la cartella ``_templates`` e all’interno di essa creare il file ``layou
 
 Nella cartella ``static`` creare i file:
 
-* \ |LINK3|\ 
-
 * \ |LINK4|\ 
 
 * \ |LINK5|\ 
 
 * \ |LINK6|\ 
 
+* \ |LINK7|\ 
+
 copiando il codice dai rispettivi file.
 
-Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK7|\ . 
+Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK8|\ . 
 
 E infine non dimenticare di inserire nel file ``conf.py`` alla fine delle righe, il seguente codice:
 
@@ -287,7 +287,7 @@ E infine non dimenticare di inserire nel file ``conf.py`` alla fine delle righe,
 Inserire lateralmente icone per la condivisione delle pagine html di RTD sui social network
 ===========================================================================================
 
-Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK8|\ . Una volta creato l’account su \ |STYLE2|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
+Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK9|\ . Una volta creato l’account su \ |STYLE2|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
 
 .. code:: 
 
@@ -307,13 +307,13 @@ Procedura per inserire il popup eu-cookie nei progetti  "read the docs"
 
 Per aggiungere il popup \ |STYLE4|\  per la privacy basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
 
-* \ |LINK9|\ 
-
 * \ |LINK10|\ 
 
 * \ |LINK11|\ 
 
-Inserire nel file \ |LINK12|\  (nel blocco principale) il codice html:
+* \ |LINK12|\ 
+
+Inserire nel file \ |LINK13|\  (nel blocco principale) il codice html:
 
 
 .. code:: 
@@ -329,7 +329,7 @@ Sempre nel file ``layout.html`` inserire il seguente codice:
 
     <div class="eupopup eupopup-top "></div>
 
-(il codice si trova alla riga 27 del file layout.html: \ |LINK13|\ ) 
+(il codice si trova alla riga 27 del file layout.html: \ |LINK14|\ ) 
 
 Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE5|\ , e li modifichi ``url`` della pagina \ |STYLE6|\  ed il testo:
 
@@ -351,7 +351,7 @@ Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`
     htmlMarkup : null
     };
 
-\ |STYLE7|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK14|\ .
+\ |STYLE7|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK15|\ .
 
 |
 
@@ -370,7 +370,7 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
         background-color: #7b90f9;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK15|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK16|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 ..  Attention:: 
 
@@ -393,7 +393,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK17|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 ..  Attention:: 
 
@@ -409,9 +409,9 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 |REPLACE2|
 
-A questa pagina di Github \ |LINK17|\  si trova uno “schema tipo” la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK18|\ . 
+A questa pagina di Github \ |LINK18|\  si trova uno “schema tipo” la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK19|\ . 
 
-Il progetto Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni e che sono visibili nel relativo \ |LINK19|\ .
+Il progetto Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni e che sono visibili nel relativo \ |LINK20|\ .
 
 Quindi la sua funzione è quella di facilitare l’editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo progetto, testo, ecc).
 
@@ -483,77 +483,81 @@ Quindi la sua funzione è quella di facilitare l’editing del codice, non doven
 
 .. |LINK1| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-4-theme-overrides-css" target="_blank">qui</a>
+    <a href="https://github.com/cirospat/googledocs-to-readthedocs/blob/master/README.md" target="_blank">file READ.ME di questo tutorial</a>
 
 .. |LINK2| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-3-conf-py" target="_blank">Il codice del file “conf.py” viene fornito nel tutorial di GGeditor</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-4-theme-overrides-css" target="_blank">qui</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquerysctipttop.css" target="_blank">jquerysctipttop.css</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html#step-3-conf-py" target="_blank">Il codice del file “conf.py” viene fornito nel tutorial di GGeditor</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/backTop.css" target="_blank">backTop.css</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquerysctipttop.css" target="_blank">jquerysctipttop.css</a>
 
 .. |LINK5| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery.min.js" target="_blank">jquery.min.js</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/backTop.css" target="_blank">backTop.css</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery.backTop.min.js" target="_blank">jquery.backTop.min.js</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery.min.js" target="_blank">jquery.min.js</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery.backTop.min.js" target="_blank">jquery.backTop.min.js</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://www.addthis.com" target="_blank">https://www.addthis.com</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png</a>
 
 .. |LINK9| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
+    <a href="https://www.addthis.com" target="_blank">https://www.addthis.com</a>
 
 .. |LINK10| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
 
 .. |LINK11| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
 
 .. |LINK12| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
 
 .. |LINK15| raw:: html
 
-    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
 
 .. |LINK16| raw:: html
 
-    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
+    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
 
 .. |LINK17| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
 .. |LINK18| raw:: html
 
-    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
 
 .. |LINK19| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+
+.. |LINK20| raw:: html
 
     <a href="https://schema-tipo.readthedocs.io" target="_blank">progetto Read the Docs</a>
 
