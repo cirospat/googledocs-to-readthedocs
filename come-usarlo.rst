@@ -61,15 +61,34 @@ che ci consente di inserire sul documento in Google Doc:
 La costruzione dell’indice del documento
 ========================================
 
-Dal Markup Panel è possibile costruire l’indice del documento da visionare su Read the Docs.
+Dal Markup Panel di GGeditor è possibile costruire l’\ |STYLE0|\  del documento da visionare sulle pagine HTML del progetto su Read the Docs.
 
-Una volta inserita la maschera come di seguito rappresentato, basta editare il titolo delle altre pagine Google Doc che avete creato dentro la stessa directory di Google Drive. Sul file .rst che GGeditor crea verrà creato un indice che a sua volta verrà visualizzato su Read the Docs.
+Una volta inserita la maschera come di seguito rappresentato, basta editare il titolo delle altre pagine Google Doc che avete creato dentro la stessa directory di Google Drive. Sul file ``.rst`` che GGeditor crea verrà creato un indice che a sua volta verrà visualizzato su Read the Docs.
 
 La procedura è di estrema facilità. 
 
-Dopo ``:caption:`` è possibile scrivere il nome che si vuole dare all’indice, o semplicemente scrivere “indice”. Ogni volta che si crea un nuovo Google Doc da agganciare all’indice basta riportare il titolo del Google Doc in questa maschera.
+Dopo ``:caption:`` è possibile scrivere il nome che si vuole dare all’\ |STYLE1|\ , o semplicemente scrivere “indice”. Ogni volta che si crea un nuovo Google Doc da agganciare all’indice basta riportare il titolo del Google Doc in questa maschera.
 
 \ |IMG4|\ 
+
+la sintassi da editare per creare l’indice è la seguente
+
+.. code:: 
+
+    .. toctree:: 
+    :maxdepth: 3
+    :caption: Indice
+    gdocs-rtd
+    tutorial
+    come-usarlo
+    lavoro-github
+    lavoro-rtd
+    user-guide
+    hypothesis-partecipazione
+    pubblicare-su-docs-italia
+    sintassi-rst
+    tabelle
+    licenza
 
 |
 
@@ -236,7 +255,7 @@ Altre (tante) funzioni di GGeditor
 
 Inline Markups, Table, Image, Conversion.
 
-\ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE0|\ , quindi con la sintassi tipica di questo linguaggio.
+\ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE2|\ , quindi con la sintassi tipica di questo linguaggio.
 
 |
 
@@ -259,7 +278,11 @@ Il componente aggiuntivo GG editor permette anche la funzione di conversione del
 .. bottom of content
 
 
-.. |STYLE0| replace:: **conversione del contenuto del nostro Google Doc in un file formato RST**
+.. |STYLE0| replace:: **indice**
+
+.. |STYLE1| replace:: **indice**
+
+.. |STYLE2| replace:: **conversione del contenuto del nostro Google Doc in un file formato RST**
 
 
 .. |REPLACE1| raw:: html
