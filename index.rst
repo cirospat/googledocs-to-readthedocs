@@ -98,6 +98,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     sintassi-rst
     tabelle
     licenza
+    opendatasicilia
 
 
 ..  Tip:: 
