@@ -11,10 +11,18 @@ Opendatasicilia
 |REPLACE2|
 
 
+|REPLACE3|
+
+
 .. bottom of content
 
 
 .. |REPLACE1| raw:: html
+
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/Zj2Kosq-v6k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <span class="footer_small">Raduno della community di OpendataSicilia del 9 e 10 novembre 2018 a Palermo.</span>
+    
+.. |REPLACE2| raw:: html
 
     <h2><span style="font-size: 14px;"><a href="http://opendatasicilia.it" target="_blank" rel="noopener"> <img src="https://lh3.googleusercontent.com/zwfw9k4vxrCVft07wDWlOI1zvj9uwFci_qqgYw_iismQ4Mzy5DhpShKHSCe3LQpY8OI3JBhBHza6cttSdTy1pFulbUR0oRQmC8hsNgIl7PpkNIFq0Q0vQnzQ8nTInvSqT_8HwFPbkOVhHysNu8HJ0gDUJx2UM3mHmGosu79OuB-_z5FYoCeJCzrGauiYpsajp26ZdqUXkDrAEIIPQunaMOcFLOuXlo5mb-P7fM-OmfTrQPnUApXPwX5AY-VXxIdgXKMii1nAjutHE3Bk3owq5h8nyl0JVc-LKmzqGpcALq7FnfCXjdVicqqN5dN6INq1BdA_EfAz6B3BKQCIqXk-hge58dnP-lDUkkFl9HgMe4Xk4Yz5QRhcBdV1JZCU3k402sPE-Xi3xhD4-SWRwGbUUuiklRWSEg7262TdmSFb7wj2h-iB8tw308dZBEaIwHAbO7isHzgnSsGOEDdHZHCpl9SrYBxFVP15tUzaXJRqrE6wll67bMKkirzdRv4T0N2kgt_JudQZdhQ8n_LlXX5jyYhx4TKfSN8Alpq2nHsLCMhTG3xJXvuZOpChAaXYu0emQdXP0hClASLFcr7Pbpjb6VsRp3g58LvSexy0DOI=w781-h901-no" alt="" width="97" height="112" /></a>&nbsp;</span></h2>
     <p><strong><a href="http://opendatasicilia.it" target="_blank" rel="noopener">Opendatasicilia</a></strong>, community sulla cultura dei dati aperti &egrave; una iniziativa civica condivisa da pi&ugrave; persone, che si propone di far conoscere e diffondere la cultura dell&rsquo;open government e le prassi dell&rsquo;open data nel nostro territorio e aprire una discussione pubblica partecipata. Un gruppo di cittadini con diverse storie, competenze, professioni. Siamo accomunati dalla genuina volont&agrave; di contribuire a migliorare la qualit&agrave; della vita della nostra comunit&agrave;. Lo vogliamo fare con spirito di collaborazione e concretezza.&nbsp;</p>
@@ -38,7 +46,7 @@ Opendatasicilia
     <a href="https://twitter.com/opendatasicilia?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @opendatasicilia</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
-.. |REPLACE2| raw:: html
+.. |REPLACE3| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
