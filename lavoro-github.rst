@@ -401,11 +401,27 @@ il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi alt
 
 |
 
+.. _h3c3b7a4c353f317b31f4b107e396dc:
+
+Uno schema tipo che raccoglie tutte le funzioni illustrate in questa pagina del tutorial
+========================================================================================
+
 
 |REPLACE2|
 
+A questa pagina di Github \ |LINK17|\  si trova uno “schema tipo” la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK18|\ . 
+
+Il progetto Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni e che sono visibili nel relativo \ |LINK19|\ .
+
+Quindi la sua funzione è quella di facilitare l’editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo progetto, testo, ecc).
+
+|
+
 
 |REPLACE3|
+
+
+|REPLACE4|
 
 
 .. bottom of content
@@ -433,6 +449,9 @@ il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi alt
     Con il metodo proposto in questo tutorial, il lavoro che c’è da fare sull’account di &nbsp;&nbsp;<button class="btn btn-pill btn-info"type="button"><strong>Github</strong></button>&nbsp;&nbsp; è il seguente.
 .. |REPLACE2| raw:: html
 
+    <img src="https://schema-tipo.readthedocs.io/it/latest/_static/logo.jpg" width="250"/>
+.. |REPLACE3| raw:: html
+
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
     <div id="disqus_thread"></div>
@@ -456,7 +475,7 @@ il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi alt
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE3| raw:: html
+.. |REPLACE4| raw:: html
 
     <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -523,6 +542,18 @@ il codice “\ |LINK16|\ ” può essere cambiato con i codici di tantissimi alt
 .. |LINK16| raw:: html
 
     <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
+
+.. |LINK17| raw:: html
+
+    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+
+.. |LINK18| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+
+.. |LINK19| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">progetto Read the Docs</a>
 
 
 .. |IMG1| image:: static/lavoro-github_1.png
