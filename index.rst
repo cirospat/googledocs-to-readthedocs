@@ -99,6 +99,11 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     tabelle
     licenza
 
+
+..  Tip:: 
+
+    guarda il contenuto di questa pagina che state leggendo è in \ |LINK5|\ 
+
 --------
 
 .. _h76f5da654649526d52795a54407f13:
@@ -218,4 +223,8 @@ Community opendatasicilia
 .. |LINK4| raw:: html
 
     <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
+
+.. |LINK5| raw:: html
+
+    <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
