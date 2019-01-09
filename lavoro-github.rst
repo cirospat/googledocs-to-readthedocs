@@ -102,7 +102,7 @@ Se si vuole far visualizzare un logo sulla parte in alto a sinistra, si procede 
     latex_logo = "static/immagine.jpg"
     html_logo = "static/immagine.jpg"
 
-dove ``immagine.jpg`` sarà l’immagine da visualizzare, che metteremo dentro la cartella 'static'. 
+dove ``immagine.jpg`` sarà l’immagine da visualizzare in alto a sinistra (logo del nostro progetto), che metteremo dentro la cartella 'static'. 
 
 |
 
@@ -111,7 +111,7 @@ dove ``immagine.jpg`` sarà l’immagine da visualizzare, che metteremo dentro l
 3. Creare il file “theme_overrides.css” e inserirlo dentro la cartella “static”
 ===============================================================================
 
-Al fine di ottimizzare la visualizzazione delle tabelle ampie sulle pagine html di Read the Docs si crea questo file nella directory ``static``. Basta copiare il codice qui di seguito in un file che chiameremo, appunto, ``theme_overrides.css`` dentro la cartella ``static``.
+Al fine di ottimizzare, principalmente, la visualizzazione delle tabelle ampie sulle pagine HTML di Read the Docs si crea questo file nella directory ``static``. Basta copiare il codice qui di seguito in un file che chiameremo, appunto, ``theme_overrides.css`` dentro la cartella ``static``.
 
 .. code-block:: python
     :linenos:
@@ -189,7 +189,7 @@ Dalla descrizione di questi file si comprende come l’intero pacchetto su Githu
 Inserire un logo in alto a sinistra nel design Read the Docs 
 =============================================================
 
-Per inserire un immagine in alto a sinistra nel design di “Read the Docs” basta andare nel file ``conf.py`` e alla fine inserire questo codice:
+Per inserire un immagine in alto a sinistra nel design di “Read the Docs”, per creare il logo del nostro progetto, basta andare nel file ``conf.py`` e alla fine inserire questo codice:
 
 .. code:: 
 
@@ -200,7 +200,7 @@ avendo cura di caricare il file ``immagine.png`` nella cartella ``static``.
 
 ..  Attention:: 
 
-    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile \ |STYLE2|\ , ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
@@ -211,9 +211,9 @@ Inserire la freccia “back to the top” nella pagina html
 
 \ |IMG2|\ 
 
-Al fine di permettere di risalire rapidamente in alto nella pagina html, torna comoda l’icona a forma di freccia sulla parte destra in basso della stessa pagina. 
+Al fine di permettere di risalire rapidamente in alto nella pagina HTML, torna comoda l’icona a forma di freccia sulla parte destra in basso della stessa pagina. 
 
-Di seguito la procedura per ottenere la freccia “back to the top”.
+Di seguito la procedura per ottenere la freccia “back to the top” sulla pagina HTML.
 
 Creare la cartella ``_templates`` e all’interno di essa creare il file ``layout.html`` e copiare il seguente codice:
 
@@ -287,7 +287,7 @@ E infine non dimenticare di inserire nel file ``conf.py`` alla fine delle righe,
 Inserire lateralmente icone per la condivisione delle pagine html di RTD sui social network
 ===========================================================================================
 
-Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK9|\ . Una volta creato l’account su \ |STYLE2|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
+Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK9|\ . Una volta creato l’account su \ |STYLE3|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
 
 .. code:: 
 
@@ -303,9 +303,9 @@ e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) 
 Procedura per inserire il popup eu-cookie nei progetti  "read the docs"
 =======================================================================
 
-(\ |STYLE3|\ )
+(\ |STYLE4|\ )
 
-Per aggiungere il popup \ |STYLE4|\  per la privacy basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
+Per aggiungere il popup \ |STYLE5|\  per dare visibilità dei contenuti concernenti la privacy, basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
 
 * \ |LINK10|\ 
 
@@ -331,7 +331,7 @@ Sempre nel file ``layout.html`` inserire il seguente codice:
 
 (il codice si trova alla riga 27 del file layout.html: \ |LINK14|\ ) 
 
-Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE5|\ , e li modifichi ``url`` della pagina \ |STYLE6|\  ed il testo:
+Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE6|\ , e li modifichi ``url`` della pagina \ |STYLE7|\  ed il testo:
 
 .. code:: 
 
@@ -351,7 +351,7 @@ Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`
     htmlMarkup : null
     };
 
-\ |STYLE7|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK15|\ .
+\ |STYLE8|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK15|\ . Ovviamente questa pagina HTML sarà del testo preventivamente editato su un Google doc.
 
 |
 
@@ -370,11 +370,11 @@ Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si
         background-color: #7b90f9;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK16|\ . Ovviamente cambiando codice numerico (con il #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK16|\ . Ovviamente cambiando codice numerico (con  #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 ..  Attention:: 
 
-    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile \ |STYLE9|\ , ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
@@ -397,7 +397,7 @@ il codice “\ |LINK17|\ ” può essere cambiato con i codici di tantissimi alt
 
 ..  Attention:: 
 
-    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile Docs Italia, ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile \ |STYLE10|\ , ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
@@ -431,17 +431,23 @@ Quindi la sua funzione è quella di facilitare l’editing del codice, non doven
 
 .. |STYLE1| replace:: **Commit**
 
-.. |STYLE2| replace:: **addthis**
+.. |STYLE2| replace:: **Docs Italia**
 
-.. |STYLE3| replace:: **istruzioni a cura di Giovan Battista Vitrano**
+.. |STYLE3| replace:: **addthis**
 
-.. |STYLE4| replace:: **eu-cookie**
+.. |STYLE4| replace:: **istruzioni a cura di Giovan Battista Vitrano**
 
-.. |STYLE5| replace:: **PARAMETERS (MODIFY THIS PART)**
+.. |STYLE5| replace:: **eu-cookie**
 
-.. |STYLE6| replace:: **privacy**
+.. |STYLE6| replace:: **PARAMETERS (MODIFY THIS PART)**
 
-.. |STYLE7| replace:: **Ricordati (!)**
+.. |STYLE7| replace:: **privacy**
+
+.. |STYLE8| replace:: **Ricordati (!)**
+
+.. |STYLE9| replace:: **Docs Italia**
+
+.. |STYLE10| replace:: **Docs Italia**
 
 
 .. |REPLACE1| raw:: html
