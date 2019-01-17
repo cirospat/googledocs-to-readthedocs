@@ -50,6 +50,19 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 
 |
 
+.. _h31771703d4c464c26683c015a1:
+
+Web Analytics
+*************
+
+E’ possibile agganciare strumenti di web analytics ai progetti online di read the docs. Se si usa, ad esempio Google Analytics, una volta creato il progetto specifico su \ |LINK4|\ , si ottenuto il codice. Il codice va inserito nel progetto specifico nel pannello di Amministrazione di read the docs, seguendo questo percorso:
+
+Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino alla voce ``Codice Analytics``, quindi cliccare il testo ‘salva’.
+
+--------
+
+  
+
 
 |REPLACE1|
 
@@ -111,4 +124,8 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 .. |LINK3| raw:: html
 
     <a href="http://come-creare-guida.readthedocs.io/it/latest/index.html" target="_blank">Tutorial pubblicazione Read the Docs su DocsItalia</a>
+
+.. |LINK4| raw:: html
+
+    <a href="https://analytics.google.com/analytics/web" target="_blank">Google Analytics</a>
 
