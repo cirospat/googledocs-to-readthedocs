@@ -13,10 +13,10 @@ Questo tutorial viene rilasciato con licenza \ |LINK1|\ .
 
 |
 
-.. _h2b72783b52451b1466716442d68d:
+.. _hf5b2031567a394c245e7e192f6c7555:
 
-Chi sono e perché questo tutorial
-=================================
+Chi sono e perché nasce questo tutorial
+=======================================
 
 Sono \ |LINK2|\ , dipendente del Comune di Palermo impegnato su \ |LINK3|\  e digitalizzazione di processi e servizi. 
 
@@ -36,16 +36,16 @@ Iniziate le pubblicazioni su Read the Docs
 
 |
 
-.. _h2a134943434130395172b293d13a:
+.. _h67691b12324c7c5e4f5f49445cc11f:
 
-Un ringraziamento a Hsin Yuan Yeh
-=================================
+Un ringraziamento al creatore del componente aggiuntivo GGeditor, Hsin Yuan Yeh
+===============================================================================
 
 \ |IMG1|\ 
 
 \ |LINK8|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (\ |STYLE1|\ ), non madrelingua inglese.
 
-Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
+Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST, né la pazienza per apprenderlo.
 
 |
 
