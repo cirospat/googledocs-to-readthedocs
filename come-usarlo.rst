@@ -4,19 +4,19 @@
 Le funzioni su Google doc
 *************************
 
-.. _h79285c4e7257194524363d5a1e617d44:
+.. _h236ac45675e486e35e3a5f48334c:
 
-Per i principianti dei file RST
-===============================
+Uno strumento per i principianti dei file ‘rST’
+===============================================
 
-Se sei all’inizio della conoscenza dei file RST (restructuredText) e ti senti un po confuso sul come inserire i tuoi documenti sul portale di Read the Docs, questo strumento fa per te. Con GGeditor e questo piccolo tutorial tradotto in italiano dal tutorial originale, spero che potrai essere assistito nel realizzare il tuo lavoro in maniera facile e veloce. 
+Se sei all’inizio della conoscenza dei file con sintassi RST (reStructuredText) e ti senti un po confuso sul come inserire i tuoi documenti sul portale di Read the Docs, questo strumento fa sicuramente per te. Con il componente aggiuntivo GGeditor per Google doc e questo piccolo tutorial tradotto in italiano dal tutorial originale, spero che potrai essere assistito nel realizzare il tuo lavoro in maniera facile e veloce. Se dopo averlo letto ti è rimasto qualche dubbio, beh.. contattami: \ |LINK1|\ . 
 
 |
 
-.. _h665b13f663e6519330123b6940202c:
+.. _h7193d6f78166cc5466177a16623d68:
 
-Il plug-in di Google Doc
-========================
+Il plug-in di Google Doc, GGeditor
+==================================
 
 Per prima cosa da Google Doc si va su "Componenti aggiuntivi", si cerca  e si installa il plug-in “GGeditor”
 
@@ -39,10 +39,10 @@ L’operazione è molto semplice e alla portata di tutti perchè non richiede pa
 
 |
 
-.. _h96481b373011705e781746f262f0:
+.. _h601f746f763ac7b685709473b411e:
 
-Il Markup Panel
-===============
+Il ‘Markup Panel’ e le relative funzioni
+========================================
 
 Cliccando su su "Show Markup Panel" viene visualizzato questo pannello.\ |IMG3|\  
 
@@ -99,10 +99,10 @@ Blocchi di codice
 
 |
 
-.. _h577b282b652a133d475a216414d3a41:
+.. _h6232322f402c4424411c44237b365b1f:
 
-senza righe numerate
---------------------
+blocco di codice senza righe numerate
+-------------------------------------
 
 
 .. code:: 
@@ -141,10 +141,10 @@ senza righe numerate
 
 |
 
-.. _h477f4023e6f37514b3e5a371a681858:
+.. _h1947453a6f5842371b415a43c152270:
 
-con righe numerate
-------------------
+blocco di codice con righe numerate
+-----------------------------------
 
 
 .. code-block:: python
@@ -193,7 +193,7 @@ Se durante la procedura di commit dal Google doc a Github viene visualizzato rip
 
 andare in “\ |STYLE4|\ ”, poi “\ |STYLE5|\ ” e quindi su “\ |STYLE6|\ ” dove si trova un tasto rosso di “\ |STYLE7|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository. In effetti quello che avviene è una pulizia della cache, è come se si fosse appena installato il componente aggiuntivo GGeditor sul Google doc.
 
-In \ |LINK1|\  vengono illustrati anche i messaggi che possono apparire nel caso descritto.
+In \ |LINK2|\  vengono illustrati anche i messaggi che possono apparire nel caso descritto.
 
  
 
@@ -272,7 +272,7 @@ Altre (tante) funzioni di GGeditor
 
 Inline Markups, Table, Image, Conversion.
 
-\ |LINK2|\  e \ |LINK3|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE8|\ , quindi con la sintassi tipica di questo linguaggio.
+\ |LINK3|\  e \ |LINK4|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE8|\ , quindi con la sintassi tipica di questo linguaggio.
 
 |
 
@@ -281,7 +281,7 @@ Inline Markups, Table, Image, Conversion.
 Conversione di testo da Google doc a file .RST per il download
 ==============================================================
 
-Il componente aggiuntivo GG editor permette anche la funzione di conversione del testo in linguaggio .RST (vedi \ |LINK4|\  per le funzioni complete di conversione). Praticamente è possibile, tramite una finestra dedicata, far convertire a GGeditor testo direttamente in linguaggio .RST.  Si può convertire tutto il testo, una parte, o ad esempio una tabella. Ci sono delle regole di conversione già illustrate nella stessa finestra denominata “Conversion”. Una volta convertito il testo appare un messaggio di avvenuta conversione ed è possibile effettuare il download del testo convertito in formato .RST oppure selezionarlo e copiarlo in un editor testuale per un ulteriore riuso.
+Il componente aggiuntivo GG editor permette anche la funzione di conversione del testo in linguaggio .RST (vedi \ |LINK5|\  per le funzioni complete di conversione). Praticamente è possibile, tramite una finestra dedicata, far convertire a GGeditor testo direttamente in linguaggio .RST.  Si può convertire tutto il testo, una parte, o ad esempio una tabella. Ci sono delle regole di conversione già illustrate nella stessa finestra denominata “Conversion”. Una volta convertito il testo appare un messaggio di avvenuta conversione ed è possibile effettuare il download del testo convertito in formato .RST oppure selezionarlo e copiarlo in un editor testuale per un ulteriore riuso.
 
 \ |IMG6|\ 
 
@@ -345,17 +345,21 @@ Il componente aggiuntivo GG editor permette anche la funzione di conversione del
 
 .. |LINK1| raw:: html
 
-    <a href="https://googledocs.readthedocs.io/it/latest/licenza.html#un-messaggio-di-errore-facile-da-risolvere" target="_blank">questa parte del tutorial</a>
+    <a href="mailto:cirospat@gmail.com">cirospat@gmail.com</a>
 
 .. |LINK2| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html" target="_blank">Qui</a>
+    <a href="https://googledocs.readthedocs.io/it/latest/licenza.html#un-messaggio-di-errore-facile-da-risolvere" target="_blank">questa parte del tutorial</a>
 
 .. |LINK3| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/Examples.html" target="_blank">qui (esempi)</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html" target="_blank">Qui</a>
 
 .. |LINK4| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/Examples.html" target="_blank">qui (esempi)</a>
+
+.. |LINK5| raw:: html
 
     <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html#conversion" target="_blank">link</a>
 
