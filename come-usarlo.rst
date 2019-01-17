@@ -204,6 +204,8 @@ In \ |LINK1|\  vengono illustrati anche i messaggi che possono apparire nel caso
 Note colorate di vario tipo
 ===========================
 
+Attraverso il tasto ‘Show markup panel’ è possibile inserire nel doc, e quindi nel progetto “read the docs” alcuni box per attirare l’attenzione del lettore su alcuni contenuti della pubblicazione. Eccoli di seguito elencati.
+
 
 ..  Attention:: 
 
