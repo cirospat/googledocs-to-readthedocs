@@ -82,6 +82,11 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 --------
 
+.. toctree::
+  :maxdepth: 2
+
+  Home <https://googledocs.readthedocs.io>
+
 
 .. toctree:: 
     :maxdepth: 3
