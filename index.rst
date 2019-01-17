@@ -99,9 +99,9 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     lavoro-rtd
     user-guide
     hypothesis-partecipazione
-    pubblicare-su-docs-italia
-    sintassi-rst
     tabelle
+    sintassi-rst
+    pubblicare-su-docs-italia
     licenza
     opendatasicilia
 
