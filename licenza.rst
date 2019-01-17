@@ -47,30 +47,37 @@ Un ringraziamento a Hsin Yuan Yeh
 
 Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST.
 
-Un ringraziamento particolare va  a lui per l’assistenza che mi ha fornito durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un “undefined” messaggio e un messaggio di error in taiwanese) nella procedura di Commit del Google Doc a Github. 
+|
 
-Ho aperto una issue (\ |LINK9|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del componente aggiuntivo \ |STYLE2|\ . 
+.. _h75335c2c2416226121b76306b687836:
 
-Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo 
+Un messaggio  di errore, facile da risolvere
+============================================
+
+\ |STYLE2|\  ha fornito l’assistenza durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un messaggio di “\ |STYLE3|\ ” e un messaggio di error in lingua taiwanese) nella procedura di commit del Google Doc a Github. 
+
+Ho aperto una issue (\ |LINK9|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del componente aggiuntivo \ |STYLE4|\ . 
+
+Praticamente se dovesse capitare di leggere un messaggio “\ |STYLE5|\ ” o un messaggio in lingua taiwanese del tipo 
 
 ↓
 
  \ |IMG2|\ 
 
-la cosa da fare è andare in “\ |STYLE3|\ ”, poi “\ |STYLE4|\ ” e quindi su “\ |STYLE5|\ ” dove si trova un tasto rosso di “\ |STYLE6|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
+la cosa da fare è: andare in “\ |STYLE6|\ ”, poi “\ |STYLE7|\ ” e quindi su “\ |STYLE8|\ ” dove si trova un tasto rosso di “\ |STYLE9|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
 
 \ |IMG3|\ 
 
-L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github.
+L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github. Ovviamente bisogna ricollegare il componente aggiuntivo GGeditor all’account di Github per potere continuare a effettuare i commits.
 
-Grazie Hsin Yuan Yeh!
+Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema!
 
 |
 
-.. _h255a42478e181f05a20251656621c:
+.. _h201e64307e2a4c6e262680322d3324c:
 
-Che sia usato nella Pubblica Amministrazione
-============================================
+Un servizio da utilizzare nella pubblicazione di documenti delle Pubbliche Amministrazioni
+==========================================================================================
 
 Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs e con lo stile Docs Italia, al posto degli scomodi PDF. Per chi fosse interessato ad utilizzare questo strumento, sono disponibile a fornire aiuto: il mio contatto è  \`\`\ |LINK10|\ \`\`.
 
@@ -87,15 +94,21 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |STYLE1| replace:: **Hsin Yuan Yeh**
 
-.. |STYLE2| replace:: **GGeditor**
+.. |STYLE2| replace:: **Hsin Yuan Yeh**
 
-.. |STYLE3| replace:: **Componenti aggiuntivi**
+.. |STYLE3| replace:: **undefined**
 
 .. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **Setting**
+.. |STYLE5| replace:: **undefined**
 
-.. |STYLE6| replace:: **Reset**
+.. |STYLE6| replace:: **Componenti aggiuntivi**
+
+.. |STYLE7| replace:: **GGeditor**
+
+.. |STYLE8| replace:: **Setting**
+
+.. |STYLE9| replace:: **Reset**
 
 
 .. |REPLACE1| raw:: html
