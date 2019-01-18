@@ -33,6 +33,8 @@ dove l\ |STYLE0|\  è quello dove si trova caricata (online) l’immagine.
 
 E’ buona prassi caricare le immagini nella cartella ``static`` o in una cartella specificatamente dedicata, dentro il repository di Github, a raccogliere le immagini, e poi cliccando su ogni immagine, con tasto destro del mouse, cliccare su “copia l’indirizzo dell’immagine” e incollarlo nel box HTML dentro i doppi apici. Se si ha esigenza di dare all’immagine una misura in larghezza, dopo l’url dentro i doppi apici si inserirà ad esempio ``width=600`` dove 600 è il numero dei pixel in altezza dell’immagine dentro la pagina HTML del progetto Read the Docs.
 
+Inserendo immagini attraverso l’uso del box HTML le stesse verranno visualizzate nelle varie dimensioni dei display (pc desktop, tablet, smartphone) senza modifiche adattandosi automaticamente alle dimensioni.
+
 |
 
 .. _h3a515853385481e2c71204e67257357:
@@ -69,7 +71,7 @@ Nel caso di video di \ |STYLE2|\ , la stessa piattaforma fornisce un codice per 
 Inserimento di mappe interattive (embedding)
 ********************************************
 
-Per ottenere, nel documento da pubblicare, una mappa interattiva come questa di seguito mostrata, è necessario inserire un box HTML (tramite lo strumento del “Show Markup Panel” all’interno del quale inserire il seguente codice:
+Per ottenere, nel documento da pubblicare, una mappa interattiva come questa di seguito mostrata, è necessario inserire un box HTML (tramite lo strumento del “Show Markup Panel”) all’interno del quale inserire il seguente codice:
 
 .. code:: 
 
