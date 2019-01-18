@@ -9,14 +9,14 @@ Test
 Metadati
 ********
 
-:Autore del tutorial: Ciro Spataro
+:Autore del tutorial:Ciro Spataro
 :Supporto alla redazione del tutorial: Hsin Yuan Yeh, Andrea Borruso, 
 
    Giovan Battista Vitrano, Salvatore Fiandaca, 
 
    Pablo Persico.
 
-:Contatti: cirospat@gmail.com
+:Contatti:cirospat@gmail.com
 :Organizzazione: Comune di Palermo, Opendatasicilia community
 :Data di redazione del tutorial: maggio 2018
 :Status: Questo è un lavoro "in progress"
