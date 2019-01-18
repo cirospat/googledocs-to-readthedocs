@@ -11,17 +11,19 @@ Inserimento di immagini
 
 Il componente aggiuntivo GGeditor permette all’utente di inserire immagini nello stesso documento. Lo stesso GGeditor pensa a creare dei file immagine dentro la cartella ``static`` nel repository creato su Github.
 
+|REPLACE1|
+
 Tuttavia inserendo immagini in questa modalità, è stato riscontrato che nella visione da dispositivi mobili, le immagini tendono a comprimersi in maniera casuale, risultando non di gradevole impatto visivo.
 
 Per superare questa criticità la procedura da seguire per inserire immagini nel documento Google è la seguente:
 
 * cliccare “componenti aggiuntivi”,
 
-* cliccare GGeditor
+* cliccare “GGeditor”
 
-* cliccare Show Markup Panel
+* cliccare “Show Markup Panel”
 
-* cliccare sull’ultimo componente elencato, cioè “Embed HTML (tag,js…)
+* cliccare sull’ultimo componente elencato, cioè “Embed HTML (tag,js…)”
 
 A questo punto dentro il box di colore bianco, andrà inserito il codice seguente
 
@@ -31,7 +33,9 @@ A questo punto dentro il box di colore bianco, andrà inserito il codice seguent
 
 dove l\ |STYLE0|\  è quello dove si trova caricata (online) l’immagine.
 
-E’ buona prassi caricare le immagini nella cartella ``static`` o in una cartella specificatamente dedicata, dentro il repository di Github, a raccogliere le immagini, e poi cliccando su ogni immagine, con tasto destro del mouse, cliccare su “copia l’indirizzo dell’immagine” e incollarlo nel box HTML dentro i doppi apici. Se si ha esigenza di dare all’immagine una misura in larghezza, dopo l’url dentro i doppi apici si inserirà ad esempio ``width=600`` dove 600 è il numero dei pixel in altezza dell’immagine dentro la pagina HTML del progetto Read the Docs.
+E’ buona prassi caricare le immagini nella cartella ``static`` o in una cartella specificatamente dedicata, dentro il repository di Github, a raccogliere le immagini, e poi cliccando su ogni immagine, con tasto destro del mouse, cliccare su “copia l’indirizzo dell’immagine” e incollarlo nel box HTML dentro i doppi apici. 
+
+Se si ha esigenza di dare all’immagine una misura in larghezza, dopo l’url dentro i doppi apici si inserirà ad esempio ``width=600`` dove 600 è il numero dei pixel in altezza dell’immagine dentro la pagina HTML del progetto Read the Docs.
 
 Inserendo immagini attraverso l’uso del box HTML le stesse verranno visualizzate nelle varie dimensioni dei display (pc desktop, tablet, smartphone) senza modifiche adattandosi automaticamente alle dimensioni.
 
@@ -54,7 +58,7 @@ Nel caso di video di Youtube, l’azione da compiere è:
 
 * cliccare sull’ultimo componente elencato, cioè “Embed HTML (tag,js…)
 
-A questo punto dentro il box di colore bianco, andrà inserito il codice seguente
+A questo punto dentro il box HTML di colore bianco, andrà inserito il codice seguente
 
 .. code:: 
 
@@ -79,14 +83,14 @@ Per ottenere, nel documento da pubblicare, una mappa interattiva come questa di 
 
 dove ``height=”600px”`` indica l’altezza del riquadro che include la mappa, cioè quella mappa avrà un'altezza di 600 pixel e tale dato può essere variato in ragione delle esigenze del redattore del documento. 
 
-|REPLACE1|
+|REPLACE2|
 
 Ovviamente possono essere incorporate nel documento mappe provenienti da diverse piattaforme online (Google maps, uMap, Openstreetmap,...).
 
 |
 
 
-|REPLACE2|
+|REPLACE3|
 
 
 .. bottom of content
@@ -101,8 +105,11 @@ Ovviamente possono essere incorporate nel documento mappe provenienti da diverse
 
 .. |REPLACE1| raw:: html
 
-    <iframe width="100%" height="600px" frameBorder="0" allowfullscreen src="https://umap.openstreetmap.fr/it/map/spazi-verdi-fruibili-a-palermo-italia_14577#12/38.1529/13.3673?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=false"></iframe></br><a href="https://umap.openstreetmap.fr/es/map/spazi-verdi-fruibili-a-palermo-italia_14577">Visualizza a schermo intero</a>
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
 .. |REPLACE2| raw:: html
+
+    <iframe width="100%" height="600px" frameBorder="0" allowfullscreen src="https://umap.openstreetmap.fr/it/map/spazi-verdi-fruibili-a-palermo-italia_14577#12/38.1529/13.3673?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=false"></iframe></br><a href="https://umap.openstreetmap.fr/es/map/spazi-verdi-fruibili-a-palermo-italia_14577">Visualizza a schermo intero</a>
+.. |REPLACE3| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
