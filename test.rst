@@ -10,7 +10,11 @@ Metadati
 ********
 
 :Autore del tutorial: Ciro Spataro
-:Supporto alla redazione del tutorial: Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico.
+:Supporto alla redazione del tutorial: Hsin Yuan Yeh, Andrea Borruso, 
+
+   Giovan Battista Vitrano, Salvatore Fiandaca, 
+
+   Pablo Persico.
 
 :Contatti: cirospat@gmail.com
 :Organizzazione: Comune di Palermo, Opendatasicilia community
