@@ -81,6 +81,8 @@ dove ``height=”600px”`` indica l’altezza del riquadro che include la mappa
 
 |REPLACE1|
 
+Ovviamente possono essere incorporate nel documento mappe provenienti da diverse piattaforme online (Google maps, uMap, Openstreetmap,...).
+
 |
 
 
