@@ -409,11 +409,11 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 |REPLACE2|
 
-A questa pagina di Github \ |LINK18|\  si trova uno “schema tipo” la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK19|\ . 
+A questa pagina di Github \ |LINK18|\  si trova uno “\ |STYLE11|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK19|\ . 
 
-Il progetto Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni e che sono visibili nel relativo \ |LINK20|\ .
+Il progetto Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, e che sono visibili nel relativo \ |LINK20|\ .
 
-Quindi la sua funzione è quella di facilitare l’editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo progetto, testo, ecc).
+Quindi la sua funzione è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati nei Google doc.
 
 |
 
@@ -448,6 +448,8 @@ Quindi la sua funzione è quella di facilitare l’editing del codice, non doven
 .. |STYLE9| replace:: **Docs Italia**
 
 .. |STYLE10| replace:: **Docs Italia**
+
+.. |STYLE11| replace:: **schema tipo**
 
 
 .. |REPLACE1| raw:: html
