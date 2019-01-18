@@ -95,11 +95,12 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     gdocs-rtd
     tutorial
     come-usarlo
+    tabelle
+    inserire_immagini_video
     lavoro-github
     lavoro-rtd
     user-guide
     hypothesis-partecipazione
-    tabelle
     sintassi-rst
     pubblicare-su-docs-italia
     licenza
