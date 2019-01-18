@@ -44,7 +44,9 @@ L’operazione è molto semplice e alla portata di tutti perchè non richiede pa
 Il ‘Markup Panel’ e le relative funzioni
 ========================================
 
-Cliccando su su "Show Markup Panel" viene visualizzato questo pannello.\ |IMG3|\  
+Cliccando su su "Show Markup Panel" viene visualizzato questo pannello.
+
+\ |IMG3|\ 
 
 che ci consente di inserire sul documento in Google Doc:
 
@@ -92,10 +94,10 @@ la sintassi da editare per creare l’indice è la seguente
 
 |
 
-.. _h20557f3997523b367c672f10583f2a:
+.. _he522c10014793d3628295910674be:
 
-Blocchi di codice
-=================
+Inserimento di blocchi di codice
+================================
 
 |
 
@@ -184,10 +186,10 @@ blocco di codice con righe numerate
 
 |
 
-.. _h5f2b2e27681c4c1844223465377b5029:
+.. _hd7c7684b1f6f6938346a47481f335a:
 
-Messaggi di errore: ‘undefined’ o messaggio ‘in lingua taiwanese’. Come risolverli.
-===================================================================================
+Visualizzazione di messaggi di errore: ‘undefined’ o messaggio ‘in lingua taiwanese’. Come risolverli.
+======================================================================================================
 
 Se durante la procedura di commit dal Google doc a Github viene visualizzato ripetutamente  un messaggio di “\ |STYLE2|\ ” o un \ |STYLE3|\ , che non permette di portare a termine il commit, l’azione da compiere è la seguente:
 
@@ -199,10 +201,10 @@ In \ |LINK2|\  vengono illustrati anche i messaggi che possono apparire nel caso
 
 |
 
-.. _h5d535b7f2e655f2e1f3e4c6225335713:
+.. _h2d563d172468654f422b2867379527c:
 
-Note colorate di vario tipo
-===========================
+Inserire note colorate di vario tipo
+====================================
 
 Attraverso il tasto ‘Show markup panel’ è possibile inserire nel doc, e quindi nel progetto “read the docs” alcuni box per attirare l’attenzione del lettore su alcuni contenuti della pubblicazione. Eccoli di seguito elencati.
 
@@ -263,10 +265,10 @@ Attraverso il tasto ‘Show markup panel’ è possibile inserire nel doc, e qui
 
 |
 
-.. _h496a7729534b3e4c36782439686453:
+.. _h197257e5e191279c491115a55646:
 
-Altre (tante) funzioni di GGeditor
-==================================
+Altre (tante) utili funzioni di GGeditor
+========================================
 
 \ |IMG5|\ 
 
@@ -287,9 +289,6 @@ Il componente aggiuntivo GG editor permette anche la funzione di conversione del
 
 
 |REPLACE1|
-
-
-|REPLACE2|
 
 
 .. bottom of content
@@ -339,9 +338,6 @@ Il componente aggiuntivo GG editor permette anche la funzione di conversione del
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE2| raw:: html
-
-    <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 .. |LINK1| raw:: html
 
