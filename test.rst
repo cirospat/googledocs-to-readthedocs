@@ -11,8 +11,12 @@ Test
 
 
 .. lista:: titolo lista
+
     :option: value
     :option: value
+    
+
+    
     :Author: David Goodger
     :Address: 123 Example Street
               Example, EX  Canada
@@ -24,7 +28,10 @@ Test
     :status: This is a "work in progress"
     :revision: $Revision: 7302 $
     :version: 1
-    :copyright: This document has been placed in the public domain. You
+    :copyright: This document has been placed in the public domain. 
+    
+    
+    You
                 may do with it as you wish. You may copy, modify,
                 redistribute, reattribute, sell, buy, rent, lease,
                 destroy, or improve it, quote it at length, excerpt,
