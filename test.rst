@@ -4,22 +4,22 @@
 Test 
 #####
 
-.. _h4e1e645f2c7d12665443e5275226135:
+.. _h50c3d5f67636011072a5e1d1b759:
 
-List
-****
+Metadati
+********
 
-:Author: David Goodger
-:Address: 123 Example Street
-          Example, EX  Canada
-          A1B 2C3
-:Contact: docutils-develop@lists.sourceforge.net
-:Authors: Me; Myself; I
-:organization: humankind
-:date: $Date: 2012-01-03 19:23:53 +0000 (Tue, 03 Jan 2012) $
-:status: This is a "work in progress"
-:revision: $Revision: 7302 $
+:Autore del tutorial: Ciro Spataro
+:Supporto alla redazione del tutorial: Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico.
+
+:Contatti: cirospat@gmail.com
+:Organizzazione: Comune di Palermo, Opendatasicilia community
+:Data di redazione del tutorial: maggio 2018
+:Status: Questo è un lavoro "in progress"
+:revision: versione 4
 :version: 1
+
+:licenza di rilascio del tutorial: Creative Commons BY (attribuzione) SA (condividi allo stesso modo)
 
 
 .. bottom of content
