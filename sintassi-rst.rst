@@ -24,6 +24,14 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
     * \ |LINK6|\ , aspetti in comune tra il linguaggio RST e Markdown.
 
 
+|REPLACE1|
+
+
+|REPLACE2|
+
+\ |LINK7|\  a cura di \ |STYLE2|\  del \ |LINK8|\  
+
+
 .. bottom of content
 
 
@@ -31,6 +39,15 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
 
 .. |STYLE1| replace:: **Specifiche del linguaggio reStructuredText (RST). Guide, editor e convertitori online**
 
+.. |STYLE2| replace:: **Eric Holscher**
+
+
+.. |REPLACE1| raw:: html
+
+    <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/rst-cheatsheet.png" />
+.. |REPLACE2| raw:: html
+
+    <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/rst-cheatsheet-2.png" />
 
 .. |LINK1| raw:: html
 
@@ -55,4 +72,12 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
 .. |LINK6| raw:: html
 
     <a href="https://gist.github.com/dupuy/1855764" target="_blank">https://gist.github.com/dupuy/1855764</a>
+
+.. |LINK7| raw:: html
+
+    <a href="http://docs.sphinxdocs.com/en/latest/cheatsheet.html" target="_blank">Immagini</a>
+
+.. |LINK8| raw:: html
+
+    <a href="http://docs.sphinxdocs.com/en/latest/index.html" target="_blank">Sphinx Tutorial</a>
 
