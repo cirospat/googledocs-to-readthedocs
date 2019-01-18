@@ -1,15 +1,17 @@
 
-.. _he5567505f72221c7f79414b42127076:
+.. _h223d37b455402f3c487622362a7c2f:
 
-Sintassi del linguaggio reStructuredText (rST)
-##############################################
+Sintassi del linguaggio reStructuredText (reST)
+###############################################
 
-Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione \ |STYLE0|\ . Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio RST.
+Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione \ |STYLE0|\ . Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio ReST.
+
+Il reST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descrivere i dati e le istruzioni attraverso una formattazione specifica che utilizza i cosiddetti tag, cioè dei marcatori.
 
 
 ..  Hint:: 
 
-    \ |STYLE1|\ 
+    \ |STYLE2|\ 
     
     * \ |LINK1|\  guida alla sintassi del linguaggio RST, utile per capire nel dettaglio come funziona; 
     
@@ -21,7 +23,9 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
     
     * \ |LINK5|\ , estensione Markdown per tabelle su Google spreadsheet, converte tabelle in linguaggio Markdown; 
     
-    * \ |LINK6|\ , aspetti in comune tra il linguaggio RST e Markdown.
+    * \ |LINK6|\ , aspetti in comune tra il linguaggio RST e Markdown;
+    
+    * r\ |LINK7|\  (by Sphinx), breve introduzione ai concetti e sintassi del linguaggio reStructuredText (reST), per fornire agli utenti informazioni esaustive per creare produzione di documenti online.
 
 
 |REPLACE1|
@@ -29,17 +33,19 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
 
 |REPLACE2|
 
-\ |LINK7|\  a cura di \ |STYLE2|\  del \ |LINK8|\  
+\ |LINK8|\  a cura di \ |STYLE3|\  del \ |LINK9|\  
 
 
 .. bottom of content
 
 
-.. |STYLE0| replace:: **reStructuredText (RST)**
+.. |STYLE0| replace:: **reStructuredText (ReST)**
 
-.. |STYLE1| replace:: **Specifiche del linguaggio reStructuredText (RST). Guide, editor e convertitori online**
+.. |STYLE1| replace:: **markup language**
 
-.. |STYLE2| replace:: **Eric Holscher**
+.. |STYLE2| replace:: **Specifiche del linguaggio reStructuredText (RST). Guide, editor e convertitori online**
+
+.. |STYLE3| replace:: **Eric Holscher**
 
 
 .. |REPLACE1| raw:: html
@@ -75,9 +81,13 @@ Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a 
 
 .. |LINK7| raw:: html
 
-    <a href="http://docs.sphinxdocs.com/en/latest/cheatsheet.html" target="_blank">Immagini</a>
+    <a href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rst-primer" target="_blank">eStructuredTextPrimer</a>
 
 .. |LINK8| raw:: html
+
+    <a href="http://docs.sphinxdocs.com/en/latest/cheatsheet.html" target="_blank">Immagini</a>
+
+.. |LINK9| raw:: html
 
     <a href="http://docs.sphinxdocs.com/en/latest/index.html" target="_blank">Sphinx Tutorial</a>
 
