@@ -1,7 +1,7 @@
 
-.. _h445e187164e10447ade7b53442034:
+.. _he5567505f72221c7f79414b42127076:
 
-Sintassi del linguaggio reStructuredText (RST)
+Sintassi del linguaggio reStructuredText (rST)
 ##############################################
 
 Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione \ |STYLE0|\ . Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio RST.
