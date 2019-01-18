@@ -4,19 +4,10 @@
 Test 
 #####
 
-.. _h513622f6a535437603c6625543d6d7a:
+.. _h4e1e645f2c7d12665443e5275226135:
 
-“Generic Directives”
-********************
-
-
-.. name:: argument
-    :option: value
-    :option: value
-
-    content
-
-.. titolo (which also require a transform):
+List
+****
 
 :Author: David Goodger
 :Address: 123 Example Street
