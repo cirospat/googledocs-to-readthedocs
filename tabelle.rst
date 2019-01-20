@@ -39,7 +39,7 @@ si ha il seguente risultato
 
 ..  Hint:: 
 
-    You can set background-color for header rows by assign CSS in the following file:
+    You can set background-color for header rows by assign CSS in the following file inside Github repo:
     
     ``/docs/static/theme_overrides.css.`` 
     
