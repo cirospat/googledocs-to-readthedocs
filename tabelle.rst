@@ -36,6 +36,21 @@ si ha il seguente risultato
 | m | n | o |
 +---+---+---+
 
+|
+
+.. _h8039466e4d50665f3803d3b235c1719:
+
+Con ``GGeditor`` inseriamo tabelle nel Google doc
+*************************************************
+
+Con GGeditor possiamo inserire tabelle dentro il nostro documento Google, quindi nel momento del “commit” la tabella sarà automaticamente trasformata in sintassi rST dentro il file rST di Github.
+
+Al momento del “commit” ``GGeditor`` ci dà due possibilità:
+
+* Tables are converted to reStructuredText table markups.
+
+* \ |LINK3|\ . This option would generate table with HTML <TABLE>. Useful for those who utilizes the readthedocs.org as a blog system.
+
 
 ..  Hint:: 
 
@@ -50,23 +65,25 @@ si ha il seguente risultato
     
     }
 
-L’uso di \ |LINK3|\  di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale. Al fine di rendere l’uso di tabelle un'azione diffusa anche tra chi non ha consolidate esperienze nel campo della sintassi del linguaggio reStructuredText, la tabella del foglio Google rappresenta una via facile per l’esposizione su pagine HTML di Read the Docs.
+|
+
+.. _h101e4e179297547f62624d28137347:
+
+Creare la tabella su Google spreadsheet e poi importarla dentro Google doc
+**************************************************************************
+
+L’uso di \ |LINK4|\  di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale. Al fine di rendere l’uso di tabelle un'azione diffusa anche tra chi non ha consolidate esperienze nel campo della sintassi del linguaggio reStructuredText, la tabella del foglio Google rappresenta una via facile per l’esposizione su pagine HTML di Read the Docs.
 
 |REPLACE1|
 
 Vediamo come.
 
-.. _h5d337e262a2375619107a586767119:
-
-Crea la tabella su Google spreadsheet
-*************************************
-
-Chiunque è in grado di creare una tabella su Google spreadsheet. Utilizziamo liberamente anche i colori per delimitare le celle e per evidenziare il contenuto delle celle o del testo. Prendiamo ad esempio questa tabella: \ |LINK4|\  
+Chiunque è in grado di creare una tabella su Google spreadsheet. Utilizziamo liberamente anche i colori per delimitare le celle e per evidenziare il contenuto delle celle o del testo. Prendiamo ad esempio questa tabella: \ |LINK5|\  
 
 .. _h584ff595b30387a4114425f9184e2b:
 
 Pubblica la tabella sul web
-***************************
+===========================
 
 La seconda azione da fare, dopo aver terminato l’editing nella tabella, è quella di pubblicare la tabella sul web. Le operazioni da compiere sono:
 
@@ -76,14 +93,14 @@ La seconda azione da fare, dopo aver terminato l’editing nella tabella, è que
 
 * clicca su “\ |STYLE3|\ ” e seleziona “\ |STYLE4|\ ” 
 
-* seleziona e copia l’``indirizzo url`` generato: \ |LINK5|\  
+* seleziona e copia l’``indirizzo url`` generato: \ |LINK6|\  
 
-.. _h334e443b836b5713467754266211:
+.. _h1956172479502b736333c3d72e83:
 
-Con ``GGeditor`` Markup Panel si crea un blocco HTML 
-*****************************************************
+Con ``GGeditor`` Markup Panel si crea un box HTML 
+==================================================
 
-per incorporare l’indirizzo URL sopra riportato nella pagina HTML, quindi si edita:
+Si incorpora l’indirizzo URL sopra riportato nella pagina HTML, quindi si edita:
 
 <iframe width="100%" height="900px" frameBorder="0" src=”``indirizzo url``”></iframe>
 
@@ -132,13 +149,17 @@ E’ una soluzione che permette di esporre tabelle avendo un file Google spreads
 
 .. |LINK3| raw:: html
 
-    <a href="https://spreadsheets.google.com/" target="_blank">Google Spreadsheet</a>
+    <a href="https://ggeditor.readthedocs.io/en/latest/table_in_html.html" target="_blank">with HTML tags</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0" target="_blank">https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0</a>
+    <a href="https://spreadsheets.google.com/" target="_blank">Google Spreadsheet</a>
 
 .. |LINK5| raw:: html
+
+    <a href="https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0" target="_blank">https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit#gid=0</a>
+
+.. |LINK6| raw:: html
 
     <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrShxVf6VZYXPeHR9e3NXsYZ_x8nrE1gGTuhqao4ERRm1XDYuXBO7G4vqDkk4u96BfLRAjekwZPk3K/pubhtml" target="_blank">https://docs.google.com/spreadsheets/d/e/2PACX-1vRrShxVf6VZYXPeHR9e3NXsYZ_x8nrE1gGTuhqao4ERRm1XDYuXBO7G4vqDkk4u96BfLRAjekwZPk3K/pubhtml</a>
 
