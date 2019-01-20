@@ -1,8 +1,8 @@
 
-.. _hc7b2930471036563401d48693a206b:
+.. _h750645f49301867ace3d5a611ee:
 
-Creare tabelle da esporre su Read the Docs
-##########################################
+Inserimento di tabelle nel documento
+####################################
 
 Creare tabelle da esporre in pagina HTML su Read the Docs, utilizzando il linguaggio ``rST`` è un argomento non molto semplice.
 
