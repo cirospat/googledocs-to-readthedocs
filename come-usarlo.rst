@@ -9,20 +9,20 @@ Le funzioni su Google doc
 Uno strumento per i principianti dei file ‘rST’
 ===============================================
 
-Se sei all’inizio della conoscenza dei file con sintassi RST (reStructuredText) e ti senti un po confuso sul come inserire i tuoi documenti sul portale di Read the Docs, questo strumento fa sicuramente per te. Con il componente aggiuntivo GGeditor per Google doc e questo piccolo tutorial tradotto in italiano dal tutorial originale, spero che potrai essere assistito nel realizzare il tuo lavoro in maniera facile e veloce. Se dopo averlo letto ti è rimasto qualche dubbio, beh.. contattami: \ |LINK1|\ . 
+Se sei all’inizio della conoscenza dei file con sintassi RST (reStructuredText) e ti senti un po confuso sul come inserire i tuoi documenti sul portale di Read the Docs, questo strumento fa sicuramente per te. Con il componente aggiuntivo ``GGeditor`` per Google doc e questo piccolo tutorial tradotto in italiano dal tutorial originale, spero che potrai essere assistito nel realizzare il tuo lavoro in maniera facile e veloce. Se dopo averlo letto ti è rimasto qualche dubbio, beh.. contattami: \ |LINK1|\ . 
 
 |
 
-.. _h7193d6f78166cc5466177a16623d68:
+.. _h69720e657d494a1e311319c6d5a9:
 
-Il plug-in di Google Doc, GGeditor
-==================================
+Il plug-in di Google Doc, ``GGeditor``
+======================================
 
-Per prima cosa da Google Doc si va su "Componenti aggiuntivi", si cerca  e si installa il plug-in “GGeditor”
+Per prima cosa da Google Doc si va su "Componenti aggiuntivi", si cerca  e si installa il plug-in ``GGeditor``
 
 \ |IMG1|\  
 
-così si può cominciare ad usare il set di strumenti del menù che appare se clicchiamo su "componenti aggiuntivi", poi su "GGeditor" e poi ancora su "Show Markup Panel".
+così si può cominciare ad usare il set di strumenti del menu che appare se clicchiamo su "componenti aggiuntivi", poi su ``GGeditor`` e poi ancora su "Show Markup Panel".
 
 |
 
@@ -33,9 +33,9 @@ I settings dell’account Github
 
 \ |IMG2|\ 
 
-Dalla finestra “settings” è possibile agganciare il proprio account Github al plugin GGeditor in maniera tale che ogni volta che vogliamo commissionare un Google Doc su Gihub, cliccando su “Commit to Github” è possibile visualizzare l’elenco dei nostri repository su Github. Si seleziona quel repository che ci interessa sul quale intendiamo lavorare e si procede con l’azione di Commit del Google Doc.
+Dalla finestra “settings” è possibile agganciare il proprio account Github al plugin ``GGeditor`` in maniera tale che ogni volta che vogliamo commissionare un Google Doc su Gihub, cliccando su “Commit to Github” è possibile visualizzare l’elenco dei nostri repository su Github. Si seleziona quel repository che ci interessa sul quale intendiamo lavorare e si procede con l’azione di Commit del Google Doc.
 
-L’operazione è molto semplice e alla portata di tutti perchè non richiede particolari conoscenze specifiche.
+L’operazione è molto semplice e alla portata di tutti perché non richiede particolari conoscenze specifiche.
 
 |
 
@@ -63,9 +63,9 @@ che ci consente di inserire sul documento in Google Doc:
 La costruzione dell’indice del documento
 ========================================
 
-Dal Markup Panel di GGeditor è possibile costruire l’\ |STYLE0|\  del documento da visionare sulle pagine HTML del progetto su Read the Docs.
+Dal Markup Panel di ``GGeditor`` è possibile costruire l’\ |STYLE0|\  del documento da visionare sulle pagine HTML del progetto su Read the Docs.
 
-Una volta inserita la maschera come di seguito rappresentato, basta editare il titolo delle altre pagine Google Doc che avete creato dentro la stessa directory di Google Drive. Sul file ``.rst`` che GGeditor crea verrà creato un indice che a sua volta verrà visualizzato su Read the Docs.
+Una volta inserita la maschera come di seguito rappresentato, basta editare il titolo delle altre pagine Google Doc che avete creato dentro la stessa directory di Google Drive. Sul file ``.rst`` che ``GGeditor`` crea verrà creato un indice che a sua volta verrà visualizzato su Read the Docs.
 
 La procedura è di estrema facilità. 
 
@@ -193,7 +193,7 @@ Visualizzazione di messaggi di errore: ‘undefined’ o messaggio ‘in lingua 
 
 Se durante la procedura di commit dal Google doc a Github viene visualizzato ripetutamente  un messaggio di “\ |STYLE2|\ ” o un \ |STYLE3|\ , che non permette di portare a termine il commit, l’azione da compiere è la seguente:
 
-andare in “\ |STYLE4|\ ”, poi “\ |STYLE5|\ ” e quindi su “\ |STYLE6|\ ” dove si trova un tasto rosso di “\ |STYLE7|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository. In effetti quello che avviene è una pulizia della cache, è come se si fosse appena installato il componente aggiuntivo GGeditor sul Google doc.
+andare in “\ |STYLE4|\ ”, poi “\ |STYLE5|\ ” e quindi su “\ |STYLE6|\ ” dove si trova un tasto rosso di “\ |STYLE7|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository. In effetti quello che avviene è una pulizia della cache, è come se si fosse appena installato il componente aggiuntivo ``GGeditor`` sul Google doc.
 
 In \ |LINK2|\  vengono illustrati anche i messaggi che possono apparire nel caso descritto.
 
@@ -265,16 +265,16 @@ Attraverso il tasto ‘Show markup panel’ è possibile inserire nel doc, e qui
 
 |
 
-.. _h197257e5e191279c491115a55646:
+.. _h3a59e6864f77431c1e4a2506018a:
 
-Altre (tante) utili funzioni di GGeditor
-========================================
+Altre (tante) utili funzioni di ``GGeditor``
+============================================
 
 \ |IMG5|\ 
 
 Inline Markups, Table, Image, Conversion.
 
-\ |LINK3|\  e \ |LINK4|\  sono descritte molte funzioni che possono essere attivate con GGeditor, quale per esempio quella della \ |STYLE8|\ , quindi con la sintassi tipica di questo linguaggio.
+\ |LINK3|\  e \ |LINK4|\  sono descritte molte funzioni che possono essere attivate con ``GGeditor``, quale per esempio quella della \ |STYLE8|\ , quindi con la sintassi tipica di questo linguaggio.
 
 |
 
@@ -283,7 +283,7 @@ Inline Markups, Table, Image, Conversion.
 Conversione di testo da Google doc a file .RST per il download
 ==============================================================
 
-Il componente aggiuntivo GG editor permette anche la funzione di conversione del testo in linguaggio .RST (vedi \ |LINK5|\  per le funzioni complete di conversione). Praticamente è possibile, tramite una finestra dedicata, far convertire a GGeditor testo direttamente in linguaggio .RST.  Si può convertire tutto il testo, una parte, o ad esempio una tabella. Ci sono delle regole di conversione già illustrate nella stessa finestra denominata “Conversion”. Una volta convertito il testo appare un messaggio di avvenuta conversione ed è possibile effettuare il download del testo convertito in formato .RST oppure selezionarlo e copiarlo in un editor testuale per un ulteriore riuso.
+Il componente aggiuntivo ``GGeditor`` permette anche la funzione di conversione del testo in linguaggio .RST (vedi \ |LINK5|\  per le funzioni complete di conversione). Praticamente è possibile, tramite una finestra dedicata, far convertire a GGeditor testo direttamente in linguaggio .RST.  Si può convertire tutto il testo, una parte, o ad esempio una tabella. Ci sono delle regole di conversione già illustrate nella stessa finestra denominata “Conversion”. Una volta convertito il testo appare un messaggio di avvenuta conversione ed è possibile effettuare il download del testo convertito in formato .RST oppure selezionarlo e copiarlo in un editor testuale per un ulteriore riuso.
 
 \ |IMG6|\ 
 
