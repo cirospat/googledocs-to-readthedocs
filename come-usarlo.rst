@@ -265,6 +265,46 @@ Attraverso il tasto ‘Show markup panel’ è possibile inserire nel doc, e qui
 
 |
 
+.. _h707a11392e79362d3f1b15163c78603:
+
+Inserire in alcune pagine la possibilità di far lasciare commenti
+=================================================================
+
+In alcune pagine HTML del progetto Read the Docs, l’editore del documento da pubblicare online potrebbe avere l’esigenza di raccogliere commenti.
+
+In questo caso, cioè solo quando questa esigenza dei commenti è relativa ad alcune pagine HTML del documento e non in tutte, viene in aiuto il servizio online di \ |LINK3|\ . Si procede innanzitutto creando un account in questo servizio e successivamente si crea un progetto, fornendo un URL a cui agganciare il servizio di Disqus. Lo stesso Disqus fornisce un codice HTML che bisogna copiare e incollare dentro un box HTML all’interno del Google doc nel quale si desidera far lasciare commenti.
+
+Il codice Disqus di questa pagina ad esempio è il seguente ed è editato alla fine di questo Google doc che genera la pagina HTML sul progetto di Read the Docs: 
+
+.. code:: 
+
+    <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
+    
+    <div id="disqus_thread"></div>
+    <script>
+    
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://guida-readthedocs.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+|
+
 .. _h3a59e6864f77431c1e4a2506018a:
 
 Altre (tante) utili funzioni di ``GGeditor``
@@ -274,7 +314,7 @@ Altre (tante) utili funzioni di ``GGeditor``
 
 Inline Markups, Table, Image, Conversion.
 
-\ |LINK3|\  e \ |LINK4|\  sono descritte molte funzioni che possono essere attivate con ``GGeditor``, quale per esempio quella della \ |STYLE8|\ , quindi con la sintassi tipica di questo linguaggio.
+\ |LINK4|\  e \ |LINK5|\  sono descritte molte funzioni che possono essere attivate con ``GGeditor``, quale per esempio quella della \ |STYLE8|\ , quindi con la sintassi tipica di questo linguaggio.
 
 |
 
@@ -283,7 +323,7 @@ Inline Markups, Table, Image, Conversion.
 Conversione di testo da Google doc a file .RST per il download
 ==============================================================
 
-Il componente aggiuntivo ``GGeditor`` permette anche la funzione di conversione del testo in linguaggio .RST (vedi \ |LINK5|\  per le funzioni complete di conversione). Praticamente è possibile, tramite una finestra dedicata, far convertire a GGeditor testo direttamente in linguaggio .RST.  Si può convertire tutto il testo, una parte, o ad esempio una tabella. Ci sono delle regole di conversione già illustrate nella stessa finestra denominata “Conversion”. Una volta convertito il testo appare un messaggio di avvenuta conversione ed è possibile effettuare il download del testo convertito in formato .RST oppure selezionarlo e copiarlo in un editor testuale per un ulteriore riuso.
+Il componente aggiuntivo ``GGeditor`` permette anche la funzione di conversione del testo in linguaggio .RST (vedi \ |LINK6|\  per le funzioni complete di conversione). Praticamente è possibile, tramite una finestra dedicata, far convertire a GGeditor testo direttamente in linguaggio .RST.  Si può convertire tutto il testo, una parte, o ad esempio una tabella. Ci sono delle regole di conversione già illustrate nella stessa finestra denominata “Conversion”. Una volta convertito il testo appare un messaggio di avvenuta conversione ed è possibile effettuare il download del testo convertito in formato .RST oppure selezionarlo e copiarlo in un editor testuale per un ulteriore riuso.
 
 \ |IMG6|\ 
 
@@ -349,13 +389,17 @@ Il componente aggiuntivo ``GGeditor`` permette anche la funzione di conversione 
 
 .. |LINK3| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html" target="_blank">Qui</a>
+    <a href="https://disqus.com/" target="_blank">Disqus</a>
 
 .. |LINK4| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/Examples.html" target="_blank">qui (esempi)</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html" target="_blank">Qui</a>
 
 .. |LINK5| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/Examples.html" target="_blank">qui (esempi)</a>
+
+.. |LINK6| raw:: html
 
     <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html#conversion" target="_blank">link</a>
 
