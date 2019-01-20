@@ -421,9 +421,6 @@ Quindi la sua funzione è quella di facilitare tutte le procedure di editing del
 |REPLACE3|
 
 
-|REPLACE4|
-
-
 .. bottom of content
 
 
@@ -485,9 +482,6 @@ Quindi la sua funzione è quella di facilitare tutte le procedure di editing del
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-.. |REPLACE4| raw:: html
-
-    <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 .. |LINK1| raw:: html
 
