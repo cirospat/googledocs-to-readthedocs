@@ -36,10 +36,10 @@ Iniziate le pubblicazioni su Read the Docs
 
 |
 
-.. _h67691b12324c7c5e4f5f49445cc11f:
+.. _h186b2b1f107c6836f6f5948214c39a:
 
-Un ringraziamento al creatore del componente aggiuntivo GGeditor, Hsin Yuan Yeh
-===============================================================================
+Un ringraziamento al creatore del componente aggiuntivo ``GGeditor``, Hsin Yuan Yeh
+===================================================================================
 
 \ |IMG1|\ 
 
