@@ -111,6 +111,12 @@ Some inline reStructuredText markups can be used directly in the document. The t
 |A \|replacement\| markup   |A |replacement| markup |
 +---------------------------+-----------------------+
 
+That is converted from the source content in document:
+
+|REPLACE1|
+
+Please noted that if you manually put a substitution markup, you got to provide correct replacement markup manually too. Otherwise, the sphinx parser will raise exception.
+
 |
 
 .. _h2c1d74277104e41780968148427e:
@@ -352,7 +358,7 @@ Il componente aggiuntivo ``GGeditor`` permette anche la funzione di conversione 
 \ |IMG6|\ 
 
 
-|REPLACE1|
+|REPLACE2|
 
 
 .. bottom of content
@@ -378,6 +384,9 @@ Il componente aggiuntivo ``GGeditor`` permette anche la funzione di conversione 
 
 
 .. |REPLACE1| raw:: html
+
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/User_Guide_1.png" />
+.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
