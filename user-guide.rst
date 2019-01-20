@@ -4,10 +4,21 @@
 User-guide (gli step operativi)
 *******************************
 
-.. _h713143325814353613281e551531322a:
+.. _h32801285c597f272f3f1b6b70312c:
 
-Consegnare i file (da Google Doc) a Github
-==========================================
+L’importanza della formattazione corretta del testo su Google doc
+=================================================================
+
+La formattazione corretta nel testo del Google doc è la cosa più importante da seguire. Appare molto importante rispettare il “titolo”, il “sottotitolo”, l’”intestazione 1”, l’”intestazione 2”,  l’”intestazione 3”, e così via. Il resto del testo deve essere formattato come “testo normale”.
+
+Se non rispettate le regole (facili) della formattazione, il testo in HTML nel progetto Read the Docs ne risentirà, non permettendo una facile lettura.
+
+|
+
+.. _h5820635b5f5f117f713e4c421e3b1315:
+
+Consegnare i file da Google Doc a Github
+========================================
 
 Una volta effettuato l'accesso a Github (dall'interno di Google Doc) e terminata la compilazione del testo su Google Doc si passa all'operazione di commissionamento del file a Github. La finestra di GGeditor guida alla creazione del file di Google Doc dentro il progetto di Github. La procedura guidata dalla finestra di GGeditor è abbastanza intuitiva.
 
@@ -33,6 +44,8 @@ If you want to commit to a new file. Please
 Committing
 ----------
 
+L’azione di “committing” rappresenta il trasferimento del contenuto del Google doc al file in formato ``.rst`` dentro il repository di Github. In questo trasferimento il contenuto del Google doc viene trasformato automaticamente in linguaggio ``.rst``. Questo è il lavoro più prezioso che svolge il componente aggiuntivo ``GGeditor``!
+
 \ |IMG2|\ 
 
 [la finestra che ci indica il Google Doc che dobbiamo inviare in una cartella (".doc") del progetto su Github]
@@ -52,12 +65,17 @@ Committing
     
     Comunque se vedi immagini vecchie e non rispondenti all'ultima versione del Doc, elimina la cache del browser o controlla sul repository di Github la corrispondenza delle foto del Google doc con quelle nella cartella ``static`` su Github.
 
+
+..  seealso:: 
+
+    In merito all’inserimento delle immagini nel Google doc, vedere anche il paragrafo “\ |LINK1|\ ”
+
 .. _h534e17712232613c42586df1412f1b:
 
 Limitazioni 
 ============
 
-\ |LINK1|\  da Google Doc sui file reST:
+\ |LINK2|\  da Google Doc sui file reST:
 
 * Comments. This is not supported by the reST\ [#F1]_\ .
 
@@ -89,21 +107,21 @@ Strumenti per i più esperti
 Conversione
 ===========
 
-Per la \ |STYLE2|\  del testo da Google Doc al formato RST (e anche previsto il download del file RST) si fa riferimento a \ |LINK2|\ .
+Per la \ |STYLE2|\  del testo da Google Doc al formato RST (e anche previsto il download del file RST) si fa riferimento a \ |LINK3|\ .
 
 .. _h2b426234521b486d3a6d7e3d167d91b:
 
 Api Docs
 ========
 
-Per \ |STYLE3|\  si fa riferimento a \ |LINK3|\ .
+Per \ |STYLE3|\  si fa riferimento a \ |LINK4|\ .
 
 .. _h2e427c26763f767566236c4a5e2d6c14:
 
 Backend
 =======
 
-Documentazione specificata nel \ |LINK4|\ . Si fa \ |LINK5|\ .
+Documentazione specificata nel \ |LINK5|\ . Si fa \ |LINK6|\ .
 
 
 |REPLACE1|
@@ -155,21 +173,25 @@ Documentazione specificata nel \ |LINK4|\ . Si fa \ |LINK5|\ .
 
 .. |LINK1| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/Limitations.html" target="_blank">Funzioni non supportate</a>
+    <a href="https://googledocs.readthedocs.io/it/latest/inserire_immagini_video.html#inserimento-di-immagini" target="_blank">inserimento di video, immagini, ed embedding nel testo</a>
 
 .. |LINK2| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html#conversion" target="_blank">questo paragrafo del tutorial di GGeditor</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/Limitations.html" target="_blank">Funzioni non supportate</a>
 
 .. |LINK3| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">questo paragrafo del tutorial di GGeditor</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html#conversion" target="_blank">questo paragrafo del tutorial di GGeditor</a>
 
 .. |LINK4| raw:: html
 
-    <a href="http://google.github.io/styleguide/pyguide.html" target="_blank">Google Python Style Guide</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">questo paragrafo del tutorial di GGeditor</a>
 
 .. |LINK5| raw:: html
+
+    <a href="http://google.github.io/styleguide/pyguide.html" target="_blank">Google Python Style Guide</a>
+
+.. |LINK6| raw:: html
 
     <a href="http://ggeditor.readthedocs.io/en/latest/api/backend.html" target="_blank">riferimento a questo paragrafo del tutorial di GGeditor</a>
 
