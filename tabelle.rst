@@ -46,9 +46,7 @@ si ha il seguente risultato
     For example:
     
     \ |STYLE0|\ 
-    
        background-color: #f0f0f0;
-    
     
     }
 
