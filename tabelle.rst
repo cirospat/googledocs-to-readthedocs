@@ -10,8 +10,7 @@ Se la tabella è elementare e piccola, ad esempio costituita da poche colonne, l
 
 Se le tabelle si devono editare nativamente con la sintassi rST, la cosa si fa più complicata, vedi questa spiegazione \ |LINK2|\ : 
 
-editando questi caratteri
-
+editando questi caratteri:
 
 .. code:: 
 
@@ -36,6 +35,20 @@ si ha il seguente risultato
 +---+---+---+
 | m | n | o |
 +---+---+---+
+
+
+..  Hint:: 
+
+    You can set background-color for header rows by assign CSS in the 
+    
+    ``/docs/static/theme_overrides.css.`` 
+    
+    For example:
+    
+       .wy-table-responsive table th {
+    
+    
+    }
 
 L’uso di \ |LINK3|\  di Drive per incorporare tabelle sulle pagine HTML può offrire una soluzione comoda, anche se didatticamente non rappresenta la soluzione ideale. Al fine di rendere l’uso di tabelle un'azione diffusa anche tra chi non ha consolidate esperienze nel campo della sintassi del linguaggio reStructuredText, la tabella del foglio Google rappresenta una via facile per l’esposizione su pagine HTML di Read the Docs.
 
