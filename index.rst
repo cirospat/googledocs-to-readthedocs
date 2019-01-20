@@ -17,9 +17,9 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 
 .. admonition:: Per questo tutorial i seguenti ringraziamenti particolari
 
-    Ringraziare queste persone per me è importante perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
+    Ringraziare queste persone per me è importante, perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
     
-    Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico, Marina Bassi, Andrea Ivan Baldassarre, Daniele Rizzo, Maurizio Costa, Michela Stentella.
+    \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ .
 
 |
 
@@ -44,7 +44,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |
 
-\ |LINK4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+\ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
@@ -111,7 +111,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 ..  Tip:: 
 
-    il contenuto di questa pagina che state leggendo è editato in \ |LINK5|\ 
+    il contenuto di questa pagina che state leggendo è editato in \ |LINK15|\ 
 
 --------
 
@@ -192,9 +192,49 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 .. |LINK4| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
+    <a href="https://github.com/iapyeh" target="_blank">Hsin Yuan Yeh</a>
 
 .. |LINK5| raw:: html
+
+    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
+
+.. |LINK6| raw:: html
+
+    <a href="https://coseerobe.gbvitrano.it/" target="_blank">Giovan Battista Vitrano</a>
+
+.. |LINK7| raw:: html
+
+    <a href="https://pigrecoinfinito.wordpress.com/" target="_blank">Salvatore Fiandaca</a>
+
+.. |LINK8| raw:: html
+
+    <a href="https://twitter.com/pablopersico78" target="_blank">Pablo Persico</a>
+
+.. |LINK9| raw:: html
+
+    <a href="https://twitter.com/marinabbasta" target="_blank">Marina Bassi</a>
+
+.. |LINK10| raw:: html
+
+    <a href="https://twitter.com/AndyReMagio" target="_blank">Andrea Ivan Baldassarre</a>
+
+.. |LINK11| raw:: html
+
+    <a href="https://twitter.com/rizzodnl" target="_blank">Daniele Rizzo</a>
+
+.. |LINK12| raw:: html
+
+    <a href="https://twitter.com/CostaMaurizio4" target="_blank">Maurizio Costa</a>
+
+.. |LINK13| raw:: html
+
+    <a href="https://twitter.com/m_stentella" target="_blank">Michela Stentella</a>
+
+.. |LINK14| raw:: html
+
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
+
+.. |LINK15| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
