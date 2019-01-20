@@ -94,6 +94,30 @@ la sintassi da editare per creare l’indice è la seguente
 
 |
 
+.. _h462161427c28784e5856261530654d2a:
+
+Inline Markups - Marcatori in linea
+===================================
+
+Some inline reStructuredText markups can be used directly in the document. The table below shows the usage example of these inline markups.
+
++---------------------------+-----------------------+
+|In Google Docs document    |Rendered in HTML page  |
++===========================+=======================+
+|A \`single back-quote\`    |A `single back-quote`  |
++---------------------------+-----------------------+
+|A \`\`double back-quote\`\`|A ``double back-quote``|
++---------------------------+-----------------------+
+|A \|replacement\| markup   |A |replacement| markup |
++---------------------------+-----------------------+
+
+|
+
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
 .. _he522c10014793d3628295910674be:
 
 Inserimento di blocchi di codice
