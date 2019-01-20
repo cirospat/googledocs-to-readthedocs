@@ -68,7 +68,7 @@ L’azione di “committing” rappresenta il trasferimento del contenuto del Go
 
 ..  seealso:: 
 
-    In merito all’inserimento delle immagini nel Google doc, vedere anche il paragrafo “\ |LINK1|\ ”
+    In merito all’inserimento delle immagini nel Google doc, vedere anche il paragrafo “\ |LINK1|\ ”.
 
 .. _h534e17712232613c42586df1412f1b:
 
