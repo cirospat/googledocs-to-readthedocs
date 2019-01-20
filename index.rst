@@ -4,9 +4,11 @@
 Da Google Doc direttamente a Read the Docs con ``GGeditor``
 ###########################################################
 
-Passando automaticamente da Github!
 
 |REPLACE1|
+
+
+|REPLACE2|
 
 Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
@@ -28,7 +30,7 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE1|\ ”:
 
-|REPLACE2|
+|REPLACE3|
 
 |
 
@@ -38,7 +40,7 @@ GGeditor
 ========
 
 
-|REPLACE3|
+|REPLACE4|
 
 |
 
@@ -47,7 +49,7 @@ GGeditor
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
 
-|REPLACE4|
+|REPLACE5|
 
 |
 
@@ -114,7 +116,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 --------
 
 
-|REPLACE5|
+|REPLACE6|
 
 
 .. bottom of content
@@ -127,8 +129,11 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 .. |REPLACE1| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
 .. |REPLACE2| raw:: html
+
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
+.. |REPLACE3| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></p>
     
@@ -139,15 +144,15 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span></p>
     
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span></p>
-.. |REPLACE3| raw:: html
+.. |REPLACE4| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
     <br>
-.. |REPLACE4| raw:: html
+.. |REPLACE5| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE5| raw:: html
+.. |REPLACE6| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
