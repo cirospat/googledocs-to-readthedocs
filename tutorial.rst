@@ -1,8 +1,8 @@
 
-.. _h1173587464195a67462c6526383c69d:
+.. _h6c52547a65c33747d33332d693a6f49:
 
-Tutorial sull'uso di GGeditor
-#############################
+Tutorial sull'uso di ``GGeditor``
+#################################
 
 il tutorial è molto semplice nei passi da seguire, partendo innanzitutto da questo video:
 
@@ -10,16 +10,16 @@ il tutorial è molto semplice nei passi da seguire, partendo innanzitutto da que
 
 |
 
-.. _h62049d30623c1a1c5869257e287c7b:
+.. _h2f2b30171b482c554fb1c779f4372:
 
-Come installare GGeditor
-========================
+Come installare ``GGeditor``
+============================
 
 \ |LINK1|\ , oppure in un documento Google:
 
 #. Sul menu "componenti aggiuntivi" clicca “Installa componenti aggiuntivi”
 
-#. Nel box di ricerca edita “GGeditor”, e clicca sull'icona di GGeditor per installare.
+#. Nel box di ricerca edita ``GGeditor``, e clicca sull'icona di ``GGeditor`` per installare.
 
 L'editor GG parte da uno scenario composto da 2 situazioni:
 
@@ -31,29 +31,29 @@ Github e Readthedocs accettano formati RST o Markup. Hai bisogno di costruire la
 
 |
 
-.. _h674712443519d775f679124c276a2c:
+.. _h121e9641f422b72296c432f68601738:
 
-Il flusso di lavoro del processo che gestisce GGeditor
-======================================================
+Il flusso di lavoro del processo che gestisce ``GGeditor``
+==========================================================
 
-Questo è il flusso di lavoro con GGeditor per costruire la documentazione su Github:
+Questo è il flusso di lavoro con ``GGeditor`` per costruire la documentazione su Github:
 
 \ |IMG1|\ 
 
 |
 
-.. _h5f65204616512558169115d286b261d:
+.. _h654f3f505b234d7f635423f1be7b1c:
 
-Le azioni svolte da GGeditor
-============================
+Le azioni svolte da ``GGeditor``
+================================
 
 La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel processo che esso stesso gestisce. Ecco le fasi:
 
 #. iniziare creando un nuovo documento su Google Docs.
 
-#. Il nuovo file sarà nominato "Tutorial" (come nel caso di questa pagina che state leggendo). Il file contiene un'intestazione, un immagine e una nota creata dal sidebar di GGeditor.
+#. Il nuovo file sarà nominato "Tutorial" (come nel caso di questa pagina che state leggendo). Il file contiene un'intestazione, un'immagine e una nota creata dal sidebar di ``GGeditor``.
 
-#. Il nuovo file sarà compilato da GGeditor sul repository del progetto Github.
+#. Il nuovo file sarà compilato da ``GGeditor`` sul repository del progetto Github.
 
 #. Siccome questo è un file nuovo, un processo sarà avviato per costruire il legame agli altri documenti (es. index) nel repository Github. Il processo avviato include: 
 
@@ -67,9 +67,9 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 
 ..  Important:: 
 
-    #. Quando nomini il tuo documento Google Doc, il nome del documento non necessita del suffisso "\ |STYLE2|\ ".
+    #. Quando nomini il tuo documento Google Doc, il nome del documento non necessita del suffisso ``.rst``.
     
-    #. Per legare il file del Google Doc sul repository del progetto (Github), Github  ha bisogno del suffisso "\ |STYLE3|\ ". Il suffisso sarà automaticamente creato da GGeditor. Se nomini manualmente tu il file su Github allora aggiungi il suffisso "\ |STYLE4|\ " (sulla directory "docs" di Github).
+    #. Per legare il file del Google Doc sul repository del progetto (Github), Github  ha bisogno del suffisso ``.rst``. Il suffisso sarà automaticamente creato da GGeditor. Se nomini manualmente tu il file su Github allora aggiungi il suffisso ``.rst`` (sulla directory ``docs`` di Github).
 
 |
 
@@ -90,12 +90,6 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 .. |STYLE0| replace:: **Github**
 
 .. |STYLE1| replace:: **Readthedocs.org**
-
-.. |STYLE2| replace:: **.rst**
-
-.. |STYLE3| replace:: **.rst**
-
-.. |STYLE4| replace:: **.rst**
 
 
 .. |REPLACE1| raw:: html
