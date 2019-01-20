@@ -1,8 +1,8 @@
 
-.. _h596731762684c4e2874776566584d53:
+.. _h536951b201c66601516d7823355c44:
 
-Caratteristiche di GGeditor
-***************************
+Caratteristiche di ``GGeditor``
+*******************************
 
 .. _h403f631c642863610673372f386278:
 
@@ -32,10 +32,10 @@ Queste due criticità lo rendono un formato ormai vetusto nel 2018, non più ris
 
     ``GGeditor`` consente di compilare documenti sulla piattaforma di repository codice Github, che a sua volta serve per illustrare i documenti su Read the Docs in maniera gradevole, e strutturata per la fruizione dei contenuti indicizzati ad albero (capitoli, paragrafi, sotto-paragrafi).
 
-.. _h64552c6174542573751e1232e73f79:
+.. _h3323274429107a235f9f607458285e:
 
-GGeditor ed i file formato  .rst
-================================
+``GGeditor`` ed i file formato  .rst
+====================================
 
 \ |IMG2|\ 
 
@@ -46,24 +46,26 @@ GGeditor ed i file formato  .rst
 
 ..  Important:: 
 
-    \ |LINK2|\  é un plug-in di Google Docs, creato dal taiwanese Hsin Yuan Yeh, che serve a generare file \ |STYLE0|\  (\ |LINK3|\ ) direttamente da Google Docs. Il file RST generato può essere compilato nel repository di Github direttamente dall'editor GG. La documentazione così creata su Google Docs può essere ospitata da \ |LINK4|\  venendo aggiornata automaticamente ad ogni aggiornamento del Google Docs
+    \ |LINK2|\  é un plug-in di Google Docs, creato dal taiwanese Hsin Yuan Yeh, che serve a generare file \ |STYLE0|\  (\ |LINK3|\ ) direttamente da Google Docs. 
+    
+    Il file RST generato può essere compilato nel repository di Github direttamente dall'editor GG. La documentazione così creata su Google Docs può essere ospitata da \ |LINK4|\  venendo aggiornata automaticamente ad ogni aggiornamento del Google Docs
 
 |
 
-.. _h326df60552448603d593767751d0d:
+.. _h236a3f6c2d7b73685371247420625d67:
 
-Video tutorial di funzionamento di GGeditor
-===========================================
+Video tutorial di funzionamento di ``GGeditor``
+===============================================
 
 
 |REPLACE1|
 
 |
 
-.. _h5d92650581a8042635e3d4b2ef7d7d:
+.. _h48596c252d13f547d4213472019182b:
 
-Il processo che svolge GGeditor
-===============================
+Il processo che svolge ``GGeditor``
+===================================
 
 \ |IMG3|\ 
 
@@ -95,10 +97,10 @@ Read the Docs è la piattaforma che espone documenti con un efficace architettur
 
 |
 
-.. _h58156b41121c145b694d71b3e2a7618:
+.. _h5e2a1e2a4f447f24561440164c353069:
 
-I file che GGeditor genera automaticamente su Github
-====================================================
+I file che ``GGeditor`` genera automaticamente su Github
+========================================================
 
 \ |IMG8|\ 
 
