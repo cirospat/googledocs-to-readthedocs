@@ -17,9 +17,9 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 
 .. admonition:: Per questo tutorial i seguenti ringraziamenti particolari
 
-    Ringraziare queste persone è importante perché hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
+    Ringraziare queste persone per me è importante perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
     
-    Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico.
+    Hsin Yuan Yeh, Andrea Borruso, Giovan Battista Vitrano, Salvatore Fiandaca, Pablo Persico, Marina Bassi, Andrea Ivan Baldassarre, Daniele Rizzo, Maurizio Costa, Michela Stentella.
 
 |
 
@@ -34,10 +34,10 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |
 
-.. _h28105e656d4d48041184d771d3b4a1a:
+.. _h3b6913a3a806b6bb385d6a194b578:
 
-GGeditor
-========
+``GGeditor``, un componente aggiuntivo di Google doc
+====================================================
 
 
 |REPLACE4|
