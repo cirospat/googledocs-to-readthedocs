@@ -65,10 +65,10 @@ La seconda azione da fare, dopo aver terminato l’editing nella tabella, è que
 
 * seleziona e copia l’``indirizzo url`` generato: \ |LINK5|\  
 
-.. _h655b521a672a67c1e47f5c6d12d7b:
+.. _h334e443b836b5713467754266211:
 
-Con GGeditor Markup Panel si crea un blocco HTML 
-*************************************************
+Con ``GGeditor`` Markup Panel si crea un blocco HTML 
+*****************************************************
 
 per incorporare l’indirizzo URL sopra riportato nella pagina HTML, quindi si edita:
 
