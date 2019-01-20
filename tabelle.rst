@@ -39,13 +39,15 @@ si ha il seguente risultato
 
 ..  Hint:: 
 
-    You can set background-color for header rows by assign CSS in the 
+    You can set background-color for header rows by assign CSS in the following file:
     
     ``/docs/static/theme_overrides.css.`` 
     
     For example:
     
-       .wy-table-responsive table th {
+    \ |STYLE0|\ 
+    
+       background-color: #f0f0f0;
     
     
     }
@@ -70,11 +72,11 @@ Pubblica la tabella sul web
 
 La seconda azione da fare, dopo aver terminato l’editing nella tabella, è quella di pubblicare la tabella sul web. Le operazioni da compiere sono:
 
-* seleziona in alto “\ |STYLE0|\ ”
+* seleziona in alto “\ |STYLE1|\ ”
 
-* selezione “\ |STYLE1|\ ”
+* selezione “\ |STYLE2|\ ”
 
-* clicca su “\ |STYLE2|\ ” e seleziona “\ |STYLE3|\ ” 
+* clicca su “\ |STYLE3|\ ” e seleziona “\ |STYLE4|\ ” 
 
 * seleziona e copia l’``indirizzo url`` generato: \ |LINK5|\  
 
@@ -104,13 +106,15 @@ E’ una soluzione che permette di esporre tabelle avendo un file Google spreads
 .. bottom of content
 
 
-.. |STYLE0| replace:: **file**
+.. |STYLE0| replace:: **.wy-table-responsive table th {**
 
-.. |STYLE1| replace:: **pubblica sul web**
+.. |STYLE1| replace:: **file**
 
-.. |STYLE2| replace:: **link**
+.. |STYLE2| replace:: **pubblica sul web**
 
-.. |STYLE3| replace:: **pagina web**
+.. |STYLE3| replace:: **link**
+
+.. |STYLE4| replace:: **pagina web**
 
 
 .. |REPLACE1| raw:: html
