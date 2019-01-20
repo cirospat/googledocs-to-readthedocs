@@ -95,14 +95,14 @@ al posto di CHANGE-THIS (dentro gli apici) editare il tipo di licenza che si int
 
 \ |STYLE0|\ 
 
-Se si vuole far visualizzare un logo sulla parte in alto a sinistra, si procede in questo modo: alla fine del codice del file conf.py, bisogna scrivere: 
+Se si vuole far visualizzare un logo sulla parte in alto a sinistra, si procede in questo modo: alla fine del codice del file ``conf.py``, bisogna scrivere: 
 
 .. code:: 
 
     latex_logo = "static/immagine.jpg"
     html_logo = "static/immagine.jpg"
 
-dove ``immagine.jpg`` sarà l’immagine da visualizzare in alto a sinistra (logo del nostro progetto), che metteremo dentro la cartella 'static'. 
+dove ``immagine.jpg`` sarà l’immagine da visualizzare in alto a sinistra (logo del nostro progetto), che metteremo dentro la cartella ``static``. 
 
 |
 
@@ -111,7 +111,11 @@ dove ``immagine.jpg`` sarà l’immagine da visualizzare in alto a sinistra (log
 3. Creare il file “theme_overrides.css” e inserirlo dentro la cartella “static”
 ===============================================================================
 
-Al fine di ottimizzare, principalmente, la visualizzazione delle tabelle ampie sulle pagine HTML di Read the Docs si crea questo file nella directory ``static``. Basta copiare il codice qui di seguito in un file che chiameremo, appunto, ``theme_overrides.css`` dentro la cartella ``static``.
+Il file ``theme_overrides.css`` serve per andare a modificare la grafica base del file ``conf.py``.
+
+Serve anche per ottimizzare la visualizzazione delle tabelle ampie sulle pagine HTML di Read the Docs.
+
+Si crea questo file dentro la directory ``static``. Basta copiare il codice qui di seguito descritto in un file che chiameremo, appunto, ``theme_overrides.css`` dentro la cartella ``static``.
 
 .. code-block:: python
     :linenos:
@@ -162,13 +166,13 @@ L’istruzione  ``.wy-nav-content {max-width: 1920px;}`` consente di estendere p
 Una configurazione leggera ed efficace 
 =======================================
 
-Con le due azioni di sopra si conclude tutto il lavoro da svolgere su Github, quindi questa soluzione si presta a chi non ha dimestichezza con il linguaggio RST. 
+Con le tre azioni di sopra si conclude tutto il lavoro da svolgere su Github, quindi questa soluzione si presta a chi non ha dimestichezza con il linguaggio ``RST``. 
 
 Una configurazione del progetto Github molto leggera ma efficace in termini di risultati di pubblicazione di un documento sul design Read the Docs.
 
 \ |IMG1|\ 
 
-Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor direttamente nel repository Github abbiamo:
+Come si nota dall’elenco dei file che vengono generati dal plugin ``GGeditor`` direttamente nel repository Github abbiamo:
 
 * un file ``README.md`` che è un file di descrizione del progetto, che provvediamo a editare noi su Github per far capire al lettore che cosa contiene il repository Github in questione. Questo file lo creiamo noi;
 
@@ -176,11 +180,11 @@ Come si nota dall’elenco dei file che vengono generati dal plugin GGeditor dir
 
 * una directory ``static`` che contiene soltanto immagini ``.png`` che sono le immagini che incolliamo nel Google Doc e che nell’azione del “\ |STYLE1|\ ”, avviata dal plugin GGeditor, vengono generate automaticamente e inviate nella cartella ``static``. Questa cartella ``static`` viene generata automaticamente dal plugin GGeditor;
 
-* il file ``theme_overrides.css`` che creeremo noidentro la directory ``static``.
+* il file ``theme_overrides.css`` che creeremo dentro la directory ``static``.
 
 * i file ``.rst`` che sono i Google Doc convertiti automaticamente in file ``.rst`` dal plugin GGeditor e inviati nel repository Github. Questi file vengono generati dal componente aggiuntivo di Google doc, GGeditor;
 
-Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file ``conf.py`` e del file ``theme_overrides.css`` ma sono file che non dobbiamo nemmeno creare, perchè copiamo i contenuti dei file dal tutorial, andando a cambiare al suo interno solo il “nome” del documento da pubblicare e “il tipo di licenza” (questo solo nel file ``conf.py``).
+Dalla descrizione di questi file si comprende come l’intero pacchetto su Github è molto semplice come tipologia di file. L’unico più complesso da capire è il contenuto del file ``conf.py`` e del file ``theme_overrides.css`` ma sono file che non dobbiamo nemmeno creare, perchè copiamo i contenuti dei file dal tutorial, andando a cambiare al suo interno solo il “nome” del documento da pubblicare e “il tipo di licenza” (questo solo nel file ``conf.py``) e aggiungendo il nome del file immagine qualora volessimo creare un logo del progetto da far visualizzare in alto a sinistra sul progetto di Read the Docs.
 
 |
 
@@ -266,9 +270,9 @@ Nella cartella ``static`` creare i file:
 
 * \ |LINK7|\ 
 
-copiando il codice dai rispettivi file.
+copiando il codice dai rispettivi file dei link di sopra.
 
-Sempre dento la cartella ``static``, bisogna inserire un immagine come questa contenuta qui dentro:  \ |LINK8|\ . 
+Sempre dento la cartella ``static``, bisogna inserire un immagine (con la freccia in alto) come questa contenuta qui dentro:  \ |LINK8|\ . 
 
 E infine non dimenticare di inserire nel file ``conf.py`` alla fine delle righe, il seguente codice:
 
@@ -282,9 +286,9 @@ E infine non dimenticare di inserire nel file ``conf.py`` alla fine delle righe,
 
 |
 
-.. _h6631023425f4c283e54125761f485c:
+.. _h34123439147b2c6243c2b30762a182f:
 
-Inserire lateralmente icone per la condivisione delle pagine html di RTD sui social network
+Inserire lateralmente icone per la condivisione delle pagine HTML di RTD sui social network
 ===========================================================================================
 
 Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK9|\ . Una volta creato l’account su \ |STYLE3|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
@@ -298,10 +302,10 @@ e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) 
 
 |
 
-.. _hf36522c2b7d1121795852485a2a644e:
+.. _h1d174020704f7c333b244d404e247c:
 
-Procedura per inserire il popup eu-cookie nei progetti  "read the docs"
-=======================================================================
+Inserire il popup eu-cookie nei progetti  "read the docs"
+=========================================================
 
 (\ |STYLE4|\ )
 
@@ -411,9 +415,9 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 A questa pagina di Github \ |LINK18|\  si trova uno “\ |STYLE11|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK19|\ . 
 
-Il progetto Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, e che sono visibili nel relativo \ |LINK20|\ .
+Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK20|\ .
 
-Quindi la sua funzione è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati nei Google doc.
+Quindi la funzione dello schema tipo Github è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati direttamente dentro i Google doc.
 
 |
 
@@ -424,7 +428,7 @@ Quindi la sua funzione è quella di facilitare tutte le procedure di editing del
 .. bottom of content
 
 
-.. |STYLE0| replace:: **Logo**
+.. |STYLE0| replace:: **Creare il logo in alto a sinistra**
 
 .. |STYLE1| replace:: **Commit**
 
