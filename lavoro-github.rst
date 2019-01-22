@@ -405,6 +405,39 @@ il codice “\ |LINK17|\ ” può essere cambiato con i codici di tantissimi alt
 
 |
 
+.. _h435c1952197778195394ea405b2f43:
+
+Inserire una barra di scroll orizzontale in alto nella pagina
+=============================================================
+
+Al fine di far visualizzare al visitatore della pagina a che livello (sull’intera pagina) è arrivato nella lettura, torna utile inserire un piccolo sottile scroll orizzontale da posizionare in alto.
+
+Quello che bisogna fare è incollare nel file ``layout.html`` il seguente codice, prima della riga in cui si trova ``{% endblock %}``:
+
+.. code:: 
+
+    <!-- Reading Progress Bar on Scroll→
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.rawgit.com/mburakerman/prognroll/master/src/prognroll.js"></script>
+    <script>
+         $(function() {
+           $("body").prognroll({
+             height: 4, //Progress bar height in pixels
+             color: "#3337c4", //Progress bar background color
+           });
+        });
+    </script>
+
+dove
+
+* ‘\ |STYLE11|\ ’ è l’altezza della barra dell scroll
+
+* ‘\ |STYLE12|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll.
+
+Tutto qui, abbastanza semplice.
+
+|
+
 .. _h206b132a6447317f607c2b3751106c78:
 
 Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in questa pagina del tutorial
@@ -413,7 +446,7 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 |REPLACE2|
 
-A questa pagina di Github \ |LINK18|\  si trova uno “\ |STYLE11|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK19|\ . 
+A questa pagina di Github \ |LINK18|\  si trova uno “\ |STYLE13|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK19|\ . 
 
 Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK20|\ .
 
@@ -450,7 +483,11 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |STYLE10| replace:: **Docs Italia**
 
-.. |STYLE11| replace:: **schema tipo**
+.. |STYLE11| replace:: **height**
+
+.. |STYLE12| replace:: **color**
+
+.. |STYLE13| replace:: **schema tipo**
 
 
 .. |REPLACE1| raw:: html
