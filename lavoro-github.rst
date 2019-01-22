@@ -417,8 +417,8 @@ Quello che bisogna fare è incollare nel file ``layout.html`` il seguente codice
 .. code:: 
 
     <!-- Reading Progress Bar on Scroll -->
-    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
-    <script src="https://cdn.rawgit.com/mburakerman/prognroll/master/src/prognroll.js"></script>
+    <!-- vedere questo repo per progress bar: https://github.com/mburakerman/prognroll -->
+    <script type="text/javascript" src="{{ pathto("_static/prognroll.js", True) }}"></script>
     <script>
          $(function() {
            $("body").prognroll({
@@ -434,6 +434,8 @@ dove
 
 * ‘\ |STYLE12|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll.
 
+Seconda cosa da fare creare un file ``prognroll.js``  dove inserire \ |LINK18|\ .
+
 Tutto qui, abbastanza semplice.
 
 |
@@ -446,9 +448,9 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 |REPLACE2|
 
-A questa pagina di Github \ |LINK18|\  si trova uno “\ |STYLE13|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK19|\ . 
+A questa pagina di Github \ |LINK19|\  si trova uno “\ |STYLE13|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK20|\ . 
 
-Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK20|\ .
+Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK21|\ .
 
 Quindi la funzione dello schema tipo Github è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati direttamente dentro i Google doc.
 
@@ -594,13 +596,17 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK18| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+    <a href="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/prognroll.js" target="_blank">questo codice</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
 
 .. |LINK20| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+
+.. |LINK21| raw:: html
 
     <a href="https://schema-tipo.readthedocs.io" target="_blank">progetto Read the Docs</a>
 
