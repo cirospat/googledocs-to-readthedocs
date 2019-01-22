@@ -434,7 +434,7 @@ dove
 
 * ‘\ |STYLE12|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll.
 
-Seconda cosa da fare creare un file ``prognroll.js``  dove inserire \ |LINK18|\ .
+Seconda cosa da fare creare un file ``prognroll.js``  nella cartella ``static`` dove inserire \ |LINK18|\ .
 
 Tutto qui, abbastanza semplice.
 
