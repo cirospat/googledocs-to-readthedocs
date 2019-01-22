@@ -416,7 +416,7 @@ Quello che bisogna fare è incollare nel file ``layout.html`` il seguente codice
 
 .. code:: 
 
-    <!-- Reading Progress Bar on Scroll→
+    <!-- Reading Progress Bar on Scroll -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.rawgit.com/mburakerman/prognroll/master/src/prognroll.js"></script>
     <script>
