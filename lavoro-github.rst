@@ -412,7 +412,7 @@ Inserire una barra di scroll orizzontale in alto nella pagina
 
 Al fine di far visualizzare al visitatore della pagina a che livello (sull’intera pagina) è arrivato nella lettura, torna utile inserire un piccolo sottile scroll orizzontale da posizionare in alto.
 
-Quello che bisogna fare è incollare nel file ``layout.html`` il seguente codice, prima della riga in cui si trova ``{% endblock %}``:
+Bisogna fare due cose. Prima cosa: incollare nel file ``layout.html`` il seguente codice, prima della riga in cui si trova ``{% endblock %}``:
 
 .. code:: 
 
@@ -432,11 +432,9 @@ dove
 
 * ‘\ |STYLE11|\ ’ è l’altezza della barra dell scroll
 
-* ‘\ |STYLE12|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll.
+* ‘\ |STYLE12|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK18|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
 
-Seconda cosa da fare creare un file ``prognroll.js``  nella cartella ``static`` dove inserire \ |LINK18|\ .
-
-Tutto qui, abbastanza semplice.
+Seconda cosa da fare: creare un file ``prognroll.js``  nella cartella ``static`` dove inserire \ |LINK19|\ .
 
 |
 
@@ -448,9 +446,9 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 |REPLACE2|
 
-A questa pagina di Github \ |LINK19|\  si trova uno “\ |STYLE13|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK20|\ . 
+A questa pagina di Github \ |LINK20|\  si trova uno “\ |STYLE13|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK21|\ . 
 
-Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK21|\ .
+Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK22|\ .
 
 Quindi la funzione dello schema tipo Github è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati direttamente dentro i Google doc.
 
@@ -596,17 +594,21 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK18| raw:: html
 
-    <a href="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/prognroll.js" target="_blank">questo codice</a>
+    <a href="https://www.color-hex.com/" target="_blank">link</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+    <a href="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/prognroll.js" target="_blank">questo codice</a>
 
 .. |LINK20| raw:: html
 
-    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
 
 .. |LINK21| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+
+.. |LINK22| raw:: html
 
     <a href="https://schema-tipo.readthedocs.io" target="_blank">progetto Read the Docs</a>
 
