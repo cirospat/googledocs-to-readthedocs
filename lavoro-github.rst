@@ -434,7 +434,7 @@ dove
 
 * ‘\ |STYLE12|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK18|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
 
-Seconda cosa da fare: creare un file ``prognroll.js``  nella cartella ``static`` dove inserire \ |LINK19|\ .
+Seconda cosa da fare: creare un file Java Script ``prognroll.js`` nella cartella ``static`` dove inserire \ |LINK19|\ .
 
 |
 
@@ -598,7 +598,7 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK19| raw:: html
 
-    <a href="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/prognroll.js" target="_blank">questo codice</a>
+    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/prognroll.js" target="_blank">questo codice</a>
 
 .. |LINK20| raw:: html
 
