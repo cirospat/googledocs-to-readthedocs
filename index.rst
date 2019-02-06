@@ -32,6 +32,9 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |REPLACE3|
 
+
+|REPLACE4|
+
 |
 
 .. _h3b6913a3a806b6bb385d6a194b578:
@@ -40,7 +43,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 ====================================================
 
 
-|REPLACE4|
+|REPLACE5|
 
 |
 
@@ -49,7 +52,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
 
-|REPLACE5|
+|REPLACE6|
 
 |
 
@@ -116,7 +119,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 --------
 
 
-|REPLACE6|
+|REPLACE7|
 
 
 .. bottom of content
@@ -146,13 +149,16 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span></p>
 .. |REPLACE4| raw:: html
 
+    <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
+.. |REPLACE5| raw:: html
+
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
     <br>
-.. |REPLACE5| raw:: html
+.. |REPLACE6| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE6| raw:: html
+.. |REPLACE7| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
