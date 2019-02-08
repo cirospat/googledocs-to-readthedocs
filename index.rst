@@ -134,7 +134,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 .. |REPLACE1| raw:: html
 
-    <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%23ff8000&label=ultimo%20aggiornamento&style=plastic">
+    <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
 .. |REPLACE2| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
