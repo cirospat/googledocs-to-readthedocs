@@ -1,8 +1,8 @@
 
-.. _h3e63e31945c25375d716a744a5623:
+.. _h72692b4e5e11126b2f041791d12c38:
 
-Sintassi del linguaggio MarkDown (.MD) per le finalità di ‘Read the Docs’
-#########################################################################
+Sintassi del linguaggio MarkDown (MD) per le finalità di ‘Read the Docs’
+########################################################################
 
 Questa pagina illustra alcune guide online per i requisiti che i file di tipo \ |STYLE0|\  ``.MD`` devono possedere al fine di compilare le ‘builds’ su Read the Docs.
 
