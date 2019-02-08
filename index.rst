@@ -1,14 +1,16 @@
 
+|REPLACE1|
+
 .. _h305104c304e4b5e363d34c61406852:
 
 Da Google Doc direttamente a Read the Docs con ``GGeditor``
 ###########################################################
 
 
-|REPLACE1|
-
-
 |REPLACE2|
+
+
+|REPLACE3|
 
 Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
@@ -30,10 +32,10 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE1|\ ”:
 
-|REPLACE3|
-
-
 |REPLACE4|
+
+
+|REPLACE5|
 
 |
 
@@ -43,7 +45,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 ====================================================
 
 
-|REPLACE5|
+|REPLACE6|
 
 |
 
@@ -52,7 +54,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
 
-|REPLACE6|
+|REPLACE7|
 
 |
 
@@ -119,7 +121,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 --------
 
 
-|REPLACE7|
+|REPLACE8|
 
 
 .. bottom of content
@@ -132,11 +134,14 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 .. |REPLACE1| raw:: html
 
-    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
+    <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%23ff8000&label=ultimo%20aggiornamento&style=plastic">
 .. |REPLACE2| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
 .. |REPLACE3| raw:: html
+
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
+.. |REPLACE4| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></p>
     
@@ -147,18 +152,18 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span></p>
     
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span></p>
-.. |REPLACE4| raw:: html
+.. |REPLACE5| raw:: html
 
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
-.. |REPLACE5| raw:: html
+.. |REPLACE6| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
     <br>
-.. |REPLACE6| raw:: html
+.. |REPLACE7| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE7| raw:: html
+.. |REPLACE8| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
