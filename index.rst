@@ -53,7 +53,6 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
-
 |REPLACE7|
 
 |
@@ -117,8 +116,6 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 ..  Tip:: 
 
     il contenuto di questa pagina che state leggendo è editato in \ |LINK15|\ 
-
---------
 
 
 |REPLACE8|
