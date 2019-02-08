@@ -1,12 +1,12 @@
 
-.. _h223d37b455402f3c487622362a7c2f:
+.. _h445e187164e10447ade7b53442034:
 
-Sintassi del linguaggio reStructuredText (reST)
-###############################################
+Sintassi del linguaggio reStructuredText (RST)
+##############################################
 
-Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione \ |STYLE0|\ . Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio ReST.
+Questa pagina è un bonus nel contesto del tutorial. Vuole essere un supporto a coloro che intendono approfondire la conoscenza del linguaggio di programmazione \ |STYLE0|\ . Di seguito sono elencati alcuni strumenti (anche online) per facilitare la conversione di testo nel linguaggio RST.
 
-Il reST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descrivere i dati e le istruzioni attraverso una formattazione specifica che utilizza i cosiddetti tag, cioè dei marcatori.
+Il RST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descrivere i dati e le istruzioni attraverso una formattazione specifica che utilizza i cosiddetti tag, cioè dei marcatori.
 
 
 ..  Hint:: 
@@ -25,7 +25,7 @@ Il reST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descrive
     
     * \ |LINK6|\ , aspetti in comune tra il linguaggio RST e Markdown;
     
-    * r\ |LINK7|\  (by Sphinx), breve introduzione ai concetti e sintassi del linguaggio reStructuredText (reST), per fornire agli utenti informazioni esaustive per creare produzione di documenti online.
+    * r\ |LINK7|\  (by Sphinx), breve introduzione ai concetti e sintassi del linguaggio reStructuredText (RST), per fornire agli utenti informazioni esaustive per creare produzione di documenti online.
 
 
 |REPLACE1|
@@ -39,7 +39,7 @@ Il reST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descrive
 .. bottom of content
 
 
-.. |STYLE0| replace:: **reStructuredText (ReST)**
+.. |STYLE0| replace:: **reStructuredText (RST)**
 
 .. |STYLE1| replace:: **markup language**
 
