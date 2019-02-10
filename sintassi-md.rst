@@ -19,7 +19,7 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 
 \ |STYLE4|\ : \ |LINK4|\  
 
-\ |STYLE5|\ : \ |LINK5|\  
+\ |STYLE5|\ : \ |LINK5|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML).
 
 
 |REPLACE1|
