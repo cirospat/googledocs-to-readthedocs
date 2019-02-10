@@ -19,6 +19,8 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 
 \ |STYLE4|\ : \ |LINK4|\  
 
+\ |STYLE5|\ : \ |LINK5|\  
+
 
 |REPLACE1|
 
@@ -35,6 +37,8 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 .. |STYLE3| replace:: **Una breve guida al linguaggio MarkDown**
 
 .. |STYLE4| replace:: **Un tool online per editare codice in MarkDown**
+
+.. |STYLE5| replace:: **Una guida Read the Docs sul linguaggio MarkDown**
 
 
 .. |REPLACE1| raw:: html
@@ -78,4 +82,8 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 .. |LINK4| raw:: html
 
     <a href="https://stackedit.io/app#" target="_blank">https://stackedit.io/app#</a>
+
+.. |LINK5| raw:: html
+
+    <a href="https://markdown-guide.readthedocs.io" target="_blank">https://markdown-guide.readthedocs.io</a>
 
