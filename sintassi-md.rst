@@ -1,7 +1,7 @@
 
-.. _h72692b4e5e11126b2f041791d12c38:
+.. _h7c3078395a79661a4b65806a4d21442:
 
-Sintassi del linguaggio MarkDown (MD) per le finalità di ‘Read the Docs’
+Sintassi del linguaggio Markdown (MD) per le finalità di ‘Read the Docs’
 ########################################################################
 
 Questa pagina illustra alcune guide online per i requisiti che i file di tipo \ |STYLE0|\  ``.MD`` devono possedere al fine di compilare le ‘builds’ su Read the Docs.
@@ -21,6 +21,8 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 
 \ |STYLE5|\ : \ |LINK5|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML).
 
+\ |STYLE6|\ : \ |LINK6|\  
+
 
 |REPLACE1|
 
@@ -28,17 +30,19 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 .. bottom of content
 
 
-.. |STYLE0| replace:: **MarkDown**
+.. |STYLE0| replace:: **Markdown**
 
 .. |STYLE1| replace:: *per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi e per colmare un vuoto sulla guida online di QGIS con esempi e molti screenshot*
 
-.. |STYLE2| replace:: **Sintassi di base del linguaggio MarkDown**
+.. |STYLE2| replace:: **Sintassi di base del linguaggio Markdown**
 
-.. |STYLE3| replace:: **Una breve guida al linguaggio MarkDown**
+.. |STYLE3| replace:: **Una breve guida al linguaggio Markdown**
 
-.. |STYLE4| replace:: **Un tool online per editare codice in MarkDown**
+.. |STYLE4| replace:: **Un tool online per editare codice in Markdown**
 
-.. |STYLE5| replace:: **Una guida Read the Docs sul linguaggio MarkDown**
+.. |STYLE5| replace:: **Una guida Read the Docs sul linguaggio Markdown**
+
+.. |STYLE6| replace:: **Project documentation with Markdown**
 
 
 .. |REPLACE1| raw:: html
@@ -86,4 +90,8 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 .. |LINK5| raw:: html
 
     <a href="https://markdown-guide.readthedocs.io" target="_blank">https://markdown-guide.readthedocs.io</a>
+
+.. |LINK6| raw:: html
+
+    <a href="https://www.mkdocs.org" target="_blank">https://www.mkdocs.org</a>
 
