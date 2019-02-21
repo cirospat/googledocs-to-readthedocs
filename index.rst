@@ -22,10 +22,6 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
     Ringraziare queste persone per me è importante, perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
     
     \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ .
-    
-    .. raw::
-    
-       <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/help.jpg" />
 
 
 |REPLACE4|
