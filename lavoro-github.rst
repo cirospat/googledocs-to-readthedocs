@@ -111,7 +111,7 @@ dove ``immagine.jpg`` sarà l’immagine da visualizzare in alto a sinistra (log
 3. Creare il file “theme_overrides.css” e inserirlo dentro la cartella “static”
 ===============================================================================
 
-Il file ``theme_overrides.css`` serve per andare a modificare la grafica base del file ``conf.py``.
+Il file ``theme_overrides.css`` serve per modificare la grafica base del file ``conf.py``.
 
 Serve anche per ottimizzare la visualizzazione delle tabelle ampie sulle pagine HTML di Read the Docs.
 
@@ -208,9 +208,9 @@ avendo cura di caricare il file ``immagine.png`` nella cartella ``static``.
 
 |
 
-.. _h76707323ea2c4a39744e2f14a2a48:
+.. _h7811280507b551e41e535622522b68:
 
-Inserire la freccia “back to the top” nella pagina html
+Inserire la freccia “back to the top” nella pagina HTML
 =======================================================
 
 \ |IMG2|\ 
@@ -250,7 +250,7 @@ Creare la cartella ``_templates`` e all’interno di essa creare il file ``layou
                     $('#backTop').backTop({
                         'position' : 400,
                         'speed' : 300,
-                        'color' : 'green',
+                        'color' : 'green', <!-- lo sfondo freccia è di colore verde -->
     
     					                });
                 });
@@ -272,24 +272,23 @@ Nella cartella ``static`` creare i file:
 
 copiando il codice dai rispettivi file dei link di sopra.
 
-Sempre dento la cartella ``static``, bisogna inserire un immagine (con la freccia in alto) come questa contenuta qui dentro:  \ |LINK8|\ . 
+Sempre dento la cartella ``static``, bisogna inserire un'immagine (con la freccia in alto) come questa contenuta \ |LINK8|\ .  
 
 E infine non dimenticare di inserire nel file ``conf.py`` alla fine delle righe, il seguente codice:
 
 
 .. code:: 
 
-    
     templates_path = ['_templates']
 
     
 
 |
 
-.. _h34123439147b2c6243c2b30762a182f:
+.. _h7a6c7f326e4f7cd203675a6783f19:
 
-Inserire lateralmente icone per la condivisione delle pagine HTML di RTD sui social network
-===========================================================================================
+Inserire lateralmente icone per la condivisione delle pagine HTML di Read the Docs sui social network
+=====================================================================================================
 
 Al fine di permettere la condivisione delle pagine del documento Read the Docs sui social network, una delle soluzioni che graficamente si adatta meglio alla grafica delle pagine RTD è fornita dalla piattaforma gratuita \ |LINK9|\ . Una volta creato l’account su \ |STYLE3|\  è possibile creare icone personalizzate (colore, dimensione) per la visualizzazione delle stesse sulle pagine html di RTD. Una volta creato il banner, sempre nella piattaforma addthis andare su “get the code” e copiare il codice che viene fornito. Tale codice è di questo tipo
 
@@ -302,28 +301,47 @@ e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) 
 
 |
 
+.. _h131147592710157a6a6e625a7d526312:
+
+Inserire in fondo alla pagina HTML del progetto Read the Docs lo spazio Disqus per i commenti
+=============================================================================================
+
+È possibile inserire in fondo alla pagina HTML del progetto Read the Docs uno spazio destinato ai commenti degli utenti, come avviene per tantissimi blog.
+
+Uno dei servizi online gratuiti e molto diffusi è \ |LINK10|\ . È necessario creare un account su questo servizio e creare un progetto con lo stesso nome del progetto Read the Docs.
+
+Per ogni progetto creato su Disqus verrà fornito il seguente codice da inserire nella pagina ``layout.html``:
+
+.. code:: 
+
+    <script id="dsq-count-scr" src="//http-nomeprogettoreadthedocs-readthedocs-io-it-latest.disqus.com/count.js" async></script>
+
+dove la parte immediatamente successiva a \ |STYLE4|\  deve coincidere con il nome del progetto individuato per Read the Docs.
+
+|
+
 .. _h1d174020704f7c333b244d404e247c:
 
 Inserire il popup eu-cookie nei progetti  "read the docs"
 =========================================================
 
-(\ |STYLE4|\ )
+(\ |STYLE5|\ )
 
-Per aggiungere il popup \ |STYLE5|\  per dare visibilità dei contenuti concernenti la privacy, basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
-
-* \ |LINK10|\ 
+Per aggiungere il popup \ |STYLE6|\  per dare visibilità dei contenuti concernenti la privacy, basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
 
 * \ |LINK11|\ 
 
 * \ |LINK12|\ 
 
-Inserire nel file \ |LINK13|\  (nel blocco principale) il codice html:
+* \ |LINK13|\ 
+
+Inserire nel file \ |LINK14|\  (nel blocco principale) il codice html:
 
 
 .. code:: 
 
     <!--eu-cooki-lawt →
-    <script type="text/javascript" src="{{ pathto("_static/jquery-2.1.3.min.js", True) }}"></script>
+    <!-- <script type="text/javascript" src="{{ pathto("_static/jquery-2.1.3.min.js", True) }}"></script>  -->
     <script type="text/javascript" src="{{ pathto("_static/jquery-eu-cookie-law-popup.js", True) }}"></script>
     <link href="{{ pathto("_static/jquery-eu-cookie-law-popup.css", True) }}" rel="stylesheet" type="text/css" />
 
@@ -333,9 +351,9 @@ Sempre nel file ``layout.html`` inserire il seguente codice:
 
     <div class="eupopup eupopup-top "></div>
 
-(il codice si trova alla riga 27 del file layout.html: \ |LINK14|\ ) 
+(questo codice va scritto nella posizione precisa che si trova alla riga 27 del file layout.html: \ |LINK15|\ ) 
 
-Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE6|\ , e li modifichi ``url`` della pagina \ |STYLE7|\  ed il testo:
+Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE7|\ , e li modifichi ``url`` della pagina \ |STYLE8|\  ed il testo:
 
 .. code:: 
 
@@ -355,7 +373,7 @@ Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`
     htmlMarkup : null
     };
 
-\ |STYLE8|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK15|\ . Ovviamente questa pagina HTML sarà del testo preventivamente editato su un Google doc.
+\ |STYLE9|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK16|\ . Ovviamente questa pagina HTML sarà del testo preventivamente editato su un Google doc.
 
 |
 
@@ -364,21 +382,21 @@ Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`
 Cambiare il colore di sfondo del rettangolo in alto a sinistra
 ==============================================================
 
-Cambiare colore sul rettangolo superiore in alto è possibile. Qui di seguito si riporta il codice da inserire sul file ``theme_overrides.css`` che si trova dentro la cartella ``static``:
+Cambiare colore sul rettangolo superiore in alto a sinistra, dove è situato il nome del progetto, è possibile. Qui di seguito si riporta il codice da inserire sul file ``theme_overrides.css`` che si trova dentro la cartella ``static``:
 
 .. code:: 
 
     }
     
     .wy-side-nav-search {
-        background-color: #7b90f9;
+        background-color: #525e99;
     }
 
-il codice “#7b90f9“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link: \ |LINK16|\ . Ovviamente cambiando codice numerico (con  #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#525e99“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link:\ |LINK17|\ . Ovviamente cambiando codice numerico (con  #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 ..  Attention:: 
 
-    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile \ |STYLE9|\ , ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile \ |STYLE10|\ , ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
@@ -397,11 +415,11 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK17|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK18|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 ..  Attention:: 
 
-    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile \ |STYLE10|\ , ma solo ai documenti da pubblicare nello stile di base Read the Docs.
+    Queste istruzioni non possono essere dati ai documenti da pubblicare in stile \ |STYLE11|\ , ma solo ai documenti da pubblicare nello stile di base Read the Docs.
 
 |
 
@@ -430,11 +448,11 @@ Bisogna fare due cose. Prima cosa: incollare nel file ``layout.html`` il seguent
 
 dove
 
-* ‘\ |STYLE11|\ ’ è l’altezza della barra dell scroll
+* ‘\ |STYLE12|\ ’ è l’altezza della barra dell scroll
 
-* ‘\ |STYLE12|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK18|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
+* ‘\ |STYLE13|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK19|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
 
-Seconda cosa da fare: creare un file Java Script ``prognroll.js`` nella cartella ``static`` dove inserire \ |LINK19|\ .
+Seconda cosa da fare: creare un file Java Script ``prognroll.js`` nella cartella ``static`` dove inserire \ |LINK20|\ .
 
 |
 
@@ -446,9 +464,9 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 |REPLACE2|
 
-A questa pagina di Github \ |LINK20|\  si trova uno “\ |STYLE13|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK21|\ . 
+A questa pagina di Github \ |LINK21|\  si trova uno “\ |STYLE14|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK22|\ . 
 
-Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK22|\ .
+Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK23|\ .
 
 Quindi la funzione dello schema tipo Github è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati direttamente dentro i Google doc.
 
@@ -469,25 +487,27 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |STYLE3| replace:: **addthis**
 
-.. |STYLE4| replace:: **istruzioni a cura di Giovan Battista Vitrano**
+.. |STYLE4| replace:: **http-**
 
-.. |STYLE5| replace:: **eu-cookie**
+.. |STYLE5| replace:: **istruzioni a cura di Giovan Battista Vitrano**
 
-.. |STYLE6| replace:: **PARAMETERS (MODIFY THIS PART)**
+.. |STYLE6| replace:: **eu-cookie**
 
-.. |STYLE7| replace:: **privacy**
+.. |STYLE7| replace:: **PARAMETERS (MODIFY THIS PART)**
 
-.. |STYLE8| replace:: **Ricordati (!)**
+.. |STYLE8| replace:: **privacy**
 
-.. |STYLE9| replace:: **Docs Italia**
+.. |STYLE9| replace:: **Ricordati (!)**
 
 .. |STYLE10| replace:: **Docs Italia**
 
-.. |STYLE11| replace:: **height**
+.. |STYLE11| replace:: **Docs Italia**
 
-.. |STYLE12| replace:: **color**
+.. |STYLE12| replace:: **height**
 
-.. |STYLE13| replace:: **schema tipo**
+.. |STYLE13| replace:: **color**
+
+.. |STYLE14| replace:: **schema tipo**
 
 
 .. |REPLACE1| raw:: html
@@ -554,7 +574,7 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK8| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/static/hfctop.png</a>
+    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/top_bianca.png" target="_blank">qui dentro</a>
 
 .. |LINK9| raw:: html
 
@@ -562,53 +582,57 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK10| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
+    <a href="https://disqus.com/" target="_blank">Disqus</a>
 
 .. |LINK11| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
 
 .. |LINK12| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
 
 .. |LINK15| raw:: html
 
-    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
 
 .. |LINK16| raw:: html
 
-    <a href="http://www.color-hex.com/color/7b90f9" target="_blank">http://www.color-hex.com/color/7b90f9</a>
+    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
 
 .. |LINK17| raw:: html
 
-    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
+    <a href="https://www.color-hex.com/color/525e99" target="_blank">https://www.color-hex.com/color/525e99</a>
 
 .. |LINK18| raw:: html
 
-    <a href="https://www.color-hex.com/" target="_blank">link</a>
+    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/prognroll.js" target="_blank">questo codice</a>
+    <a href="https://www.color-hex.com/" target="_blank">link</a>
 
 .. |LINK20| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/prognroll.js" target="_blank">questo codice</a>
 
 .. |LINK21| raw:: html
 
-    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
 
 .. |LINK22| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+
+.. |LINK23| raw:: html
 
     <a href="https://schema-tipo.readthedocs.io" target="_blank">progetto Read the Docs</a>
 
