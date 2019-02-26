@@ -48,6 +48,10 @@ h1, h2, h3 {
 }
 
 
+/* setta il colore dell'area di sfondo dove è il menù menu a sx */
+.wy-nav-side  {background: #525e99;} 
+
+
 /* setta il colore del testo caption menu a sx */
 /* ricordarsi che il massimo dei caratteri per le voci di macro menù è di 30 */
 .wy-menu-vertical p.caption {
