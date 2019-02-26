@@ -54,6 +54,11 @@ h1, h2, h3 {
 color: #51bcbc;
 } 
 
+
+/* setta il colore del piccolo pannello sx in basso VERSION RTD (Download & Github) */
+.rst-versions .rst-current-version {background: #525e99;}
+
+
 /*background colore colonna sx */
 /* .wy-side-scroll {background: #1c300f;} */
 
