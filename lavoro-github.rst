@@ -348,6 +348,8 @@ Il codice sopra illustrato deve essere inserito nella pagina ``footer.html`` pri
     
     </footer>
 
+Guarda direttamente al file \`\`\ |LINK11|\ \`\` su GitHub per comprendere meglio.
+
 |
 
 .. _h1d174020704f7c333b244d404e247c:
@@ -359,13 +361,13 @@ Inserire il popup eu-cookie nei progetti  "read the docs"
 
 Per aggiungere il popup \ |STYLE6|\  per dare visibilità dei contenuti concernenti la privacy, basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
 
-* \ |LINK11|\ 
-
 * \ |LINK12|\ 
 
 * \ |LINK13|\ 
 
-Inserire nel file \ |LINK14|\  (nel blocco principale) il codice html:
+* \ |LINK14|\ 
+
+Inserire nel file \ |LINK15|\  (nel blocco principale) il codice html:
 
 
 .. code:: 
@@ -381,7 +383,7 @@ Sempre nel file ``layout.html`` inserire il seguente codice:
 
     <div class="eupopup eupopup-top "></div>
 
-(questo codice va scritto nella posizione precisa che si trova alla riga 27 del file layout.html: \ |LINK15|\ ) 
+(questo codice va scritto nella posizione precisa che si trova alla riga 27 del file layout.html: \ |LINK16|\ ) 
 
 Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE7|\ , e li modifichi ``url`` della pagina \ |STYLE8|\  ed il testo:
 
@@ -403,7 +405,7 @@ Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`
     htmlMarkup : null
     };
 
-\ |STYLE9|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK16|\ . Ovviamente questa pagina HTML sarà del testo preventivamente editato su un Google doc.
+\ |STYLE9|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK17|\ . Ovviamente questa pagina HTML sarà del testo preventivamente editato su un Google doc.
 
 |
 
@@ -422,7 +424,7 @@ Cambiare colore sul rettangolo superiore in alto a sinistra, dove è situato il 
         background-color: #525e99;
     }
 
-il codice “#525e99“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link:\ |LINK17|\ . Ovviamente cambiando codice numerico (con  #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#525e99“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link:\ |LINK18|\ . Ovviamente cambiando codice numerico (con  #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 ..  Attention:: 
 
@@ -445,7 +447,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK18|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK19|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 ..  Attention:: 
 
@@ -480,9 +482,9 @@ dove
 
 * ‘\ |STYLE12|\ ’ è l’altezza della barra dell scroll
 
-* ‘\ |STYLE13|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK19|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
+* ‘\ |STYLE13|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK20|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
 
-Seconda cosa da fare: creare un file Java Script ``prognroll.js`` nella cartella ``static`` dove inserire \ |LINK20|\ .
+Seconda cosa da fare: creare un file Java Script ``prognroll.js`` nella cartella ``static`` dove inserire \ |LINK21|\ .
 
 |
 
@@ -494,9 +496,9 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 
 |REPLACE2|
 
-A questa pagina di Github \ |LINK21|\  si trova uno “\ |STYLE14|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK22|\ . 
+A questa pagina di Github \ |LINK22|\  si trova uno “\ |STYLE14|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK23|\ . 
 
-Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK23|\ .
+Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK24|\ .
 
 Quindi la funzione dello schema tipo Github è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati direttamente dentro i Google doc.
 
@@ -616,53 +618,57 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK11| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
+    <a href="https://github.com/cirospat/rtd-schematipo/blob/master/_templates/footer.html" target="_blank">footer.html</a>
 
 .. |LINK12| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
 
 .. |LINK15| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
 
 .. |LINK16| raw:: html
 
-    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
 
 .. |LINK17| raw:: html
 
-    <a href="https://www.color-hex.com/color/525e99" target="_blank">https://www.color-hex.com/color/525e99</a>
+    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
 
 .. |LINK18| raw:: html
 
-    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
+    <a href="https://www.color-hex.com/color/525e99" target="_blank">https://www.color-hex.com/color/525e99</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://www.color-hex.com/" target="_blank">link</a>
+    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
 .. |LINK20| raw:: html
 
-    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/prognroll.js" target="_blank">questo codice</a>
+    <a href="https://www.color-hex.com/" target="_blank">link</a>
 
 .. |LINK21| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/prognroll.js" target="_blank">questo codice</a>
 
 .. |LINK22| raw:: html
 
-    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
 
 .. |LINK23| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+
+.. |LINK24| raw:: html
 
     <a href="https://schema-tipo.readthedocs.io" target="_blank">progetto Read the Docs</a>
 
