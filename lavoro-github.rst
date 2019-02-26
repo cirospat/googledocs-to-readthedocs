@@ -383,7 +383,7 @@ Sempre nel file ``layout.html`` inserire il seguente codice:
 
     <div class="eupopup eupopup-top "></div>
 
-(questo codice va scritto nella posizione precisa che si trova alla riga 27 del file layout.html: \ |LINK16|\ ) 
+Guarda il \ |LINK16|\  per il corretto inserimento del codice. 
 
 Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE7|\ , e li modifichi ``url`` della pagina \ |STYLE8|\  ed il testo:
 
@@ -638,7 +638,7 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK16| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html</a>
+    <a href="https://github.com/cirospat/rtd-schematipo/blob/master/_templates/layout.html" target="_blank">file su GitHub</a>
 
 .. |LINK17| raw:: html
 
