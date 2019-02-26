@@ -348,7 +348,7 @@ Il codice sopra illustrato deve essere inserito nella pagina ``footer.html`` pri
     
     </footer>
 
-Guarda direttamente al file \`\`\ |LINK11|\ \`\` su GitHub per comprendere meglio.
+Guarda direttamente al file \ |LINK11|\  su GitHub per comprendere meglio.
 
 |
 
