@@ -310,13 +310,43 @@ Inserire in fondo alla pagina HTML del progetto Read the Docs lo spazio Disqus p
 
 Uno dei servizi online gratuiti e molto diffusi è \ |LINK10|\ . È necessario creare un account su questo servizio e creare un progetto con lo stesso nome del progetto Read the Docs.
 
-Per ogni progetto creato su Disqus verrà fornito il seguente codice da inserire nella pagina ``layout.html``:
+Per ogni progetto creato su Disqus verrà fornito il seguente codice da inserire nella pagina ``footer.html``:
 
 .. code:: 
 
-    <script id="dsq-count-scr" src="//http-nomeprogettoreadthedocs-readthedocs-io-it-latest.disqus.com/count.js" async></script>
+    <p>
+    <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
+    <div id="disqus_thread"></div>
+    <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://guida-readthedocs.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
 
-dove la parte immediatamente successiva a \ |STYLE4|\  deve coincidere con il nome del progetto individuato per Read the Docs.
+dove la parte ``guida-readthedocs`` deve essere sostituita con il nome del progetto specifico individuato su \ |STYLE4|\  per il documento da pubblicare con lo stile “Read the Docs”.
+
+Il codice sopra illustrato deve essere inserito nella pagina ``footer.html`` prima delle seguenti righe di codice:
+
+.. code:: 
+
+        {%- block extrafooter %} {% endblock %}
+    
+    </footer>
 
 |
 
@@ -487,7 +517,7 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |STYLE3| replace:: **addthis**
 
-.. |STYLE4| replace:: **http-**
+.. |STYLE4| replace:: **Disqus**
 
 .. |STYLE5| replace:: **istruzioni a cura di Giovan Battista Vitrano**
 
