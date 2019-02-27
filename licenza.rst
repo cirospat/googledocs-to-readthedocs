@@ -18,7 +18,10 @@ Questo tutorial viene rilasciato con licenza \ |LINK1|\ .
 Chi sono e perché nasce questo tutorial
 =======================================
 
-Sono \ |LINK2|\ , dipendente del Comune di Palermo impegnato su \ |LINK3|\  e digitalizzazione di processi e servizi. 
+
+|REPLACE1|
+
+Sono \ |LINK2|\ , dipendente del Comune di Palermo impegnato su \ |LINK3|\  e digitalizzazione e innovazione di processi e servizi. 
 
 Civic hacker (\ |LINK4|\ ) con la passione della condivisione della conoscenza.
 
@@ -84,7 +87,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 |
 
 
-|REPLACE1|
+|REPLACE2|
 
 
 .. bottom of content
@@ -113,6 +116,9 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |REPLACE1| raw:: html
 
+    <img src="https://raw.githubusercontent.com/cirospat/newproject/master/docs/static/cirospat.jpg" width="300" />
+.. |REPLACE2| raw:: html
+
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
     <div id="disqus_thread"></div>
@@ -139,7 +145,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |LINK1| raw:: html
 
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="_blank">Creative Commons CC BY (attribuzione) SA (condividi allo stesso modo)</a>
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.it" target="_blank">Creative Commons CC BY 4.0 (attribuzione)</a>
 
 .. |LINK2| raw:: html
 
