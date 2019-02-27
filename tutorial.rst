@@ -76,7 +76,7 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 
 ..  Tip:: 
 
-    guarda il contenuto di questa pagina che state leggendo è in \ |LINK2|\ 
+    Il contenuto di questa pagina che stai leggendo è in \ |LINK2|\ 
 
 |
 
