@@ -57,6 +57,9 @@ Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la con
 Un messaggio  di errore, facile da risolvere
 ============================================
 
+
+|REPLACE2|
+
 \ |STYLE2|\  ha fornito l’assistenza durante alcune sessioni di utilizzo del suo plugin nelle quali ho incontrato qualche problema di funzionamento (un messaggio di “\ |STYLE3|\ ” e un messaggio di error in lingua taiwanese) nella procedura di commit del Google Doc a Github. 
 
 Ho aperto una issue (\ |LINK9|\ ) sul suo progetto Github e Hsin Yuan Yeh ha provveduto ad analizzare tempestivamente il problema. Ha fornito immediatamente una soluzione che è stata rilasciata da Google con una seconda release del componente aggiuntivo \ |STYLE4|\ . 
@@ -87,7 +90,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 |
 
 
-|REPLACE2|
+|REPLACE3|
 
 
 .. bottom of content
@@ -118,6 +121,9 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
     <img src="https://raw.githubusercontent.com/cirospat/newproject/master/docs/static/cirospat.jpg" width="300" />
 .. |REPLACE2| raw:: html
+
+    <img src="https://avatars3.githubusercontent.com/u/4695577" />
+.. |REPLACE3| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
