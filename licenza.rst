@@ -87,7 +87,7 @@ Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema!
 
 Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial possa stimolare i dipendenti e dirigenti pubblici, partendo da un Google Doc, a pubblicare documenti su Read the Docs e con lo stile Docs Italia, al posto degli scomodi PDF. Per chi fosse interessato ad utilizzare questo strumento, sono disponibile a fornire aiuto. Il mio contatto è:
 
-``c.spataro @ comune.palermo.it``, ``cirospat @ gmail.com``
+``c.spataro @ comune.palermo.it`` , ``cirospat @ gmail.com``
 
 |REPLACE3|
 
@@ -129,7 +129,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
     <img src="https://avatars3.githubusercontent.com/u/4695577" />
 .. |REPLACE3| raw:: html
 
-    <p><a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a></p>
+    <code>c.spataro@comune.palermo.it</code> , <code>cirospat@gmail.com</code> , <p><a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a></p>
     <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 .. |REPLACE4| raw:: html
 
