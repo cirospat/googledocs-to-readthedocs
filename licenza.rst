@@ -127,8 +127,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
     <img src="https://avatars3.githubusercontent.com/u/4695577" />
 .. |REPLACE3| raw:: html
 
-    <code>c.spataro@comune.palermo.it</code> , <code>cirospat@gmail.com</code> , <a href="https://twitter.com/cirospat?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cirospat</a>
-    <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <code>c.spataro@comune.palermo.it</code> , <code>cirospat@gmail.com</code> .
 .. |REPLACE4| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
