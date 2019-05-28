@@ -147,7 +147,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/help.jpg" />
 .. |REPLACE5| raw:: html
 
-    📱<p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span></p>
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> 📱 </p>
     
     <p><span style="background-color: #105618; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Funzioni avanzate di ricerca testo</span></p>
     
