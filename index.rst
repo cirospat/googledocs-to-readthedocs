@@ -141,7 +141,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
 .. |REPLACE2| raw:: html
 
-    <iframe src="https://giphy.com/embed/1nHvfJdtdCPHa" width="440" height="249" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <iframe src="https://giphy.com/embed/1nHvfJdtdCPHa" width="360" height="209" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 .. |REPLACE3| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
