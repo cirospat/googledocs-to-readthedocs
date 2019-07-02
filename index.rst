@@ -12,6 +12,9 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 |REPLACE3|
 
+
+|REPLACE4|
+
 Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
@@ -24,7 +27,7 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
     \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ .
 
 
-|REPLACE4|
+|REPLACE5|
 
 |
 
@@ -35,10 +38,10 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE1|\ ”:
 
-|REPLACE5|
-
-
 |REPLACE6|
+
+
+|REPLACE7|
 
 |
 
@@ -48,7 +51,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 ====================================================
 
 
-|REPLACE7|
+|REPLACE8|
 
 |
 
@@ -56,7 +59,7 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 
 Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
 
-|REPLACE8|
+|REPLACE9|
 
 |
 
@@ -122,7 +125,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     il contenuto di questa pagina che state leggendo è editato in \ |LINK15|\ 
 
 
-|REPLACE9|
+|REPLACE10|
 
 
 .. bottom of content
@@ -138,36 +141,39 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
 .. |REPLACE2| raw:: html
 
-    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
+    <iframe src="https://giphy.com/embed/1nHvfJdtdCPHa" width="460" height="259" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/meter-vu-1nHvfJdtdCPHa">via GIPHY</a></p>
 .. |REPLACE3| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
 .. |REPLACE4| raw:: html
 
-    <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/help.jpg" />
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
 .. |REPLACE5| raw:: html
 
-    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> 📱 </p>
-    
-    <p><span style="background-color: #105618; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Funzioni avanzate di ricerca testo</span> 🔎 </p>
-    
-    <p><span style="background-color: #14c9ab; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Fornisce testo in HTML, EPUB e PDF</span> 🗎 </p>
-    
-    <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span> 💻 </p>
-    
-    <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span> 👀 </p>
+    <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/help.jpg" />
 .. |REPLACE6| raw:: html
 
-    <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> </p>
+    
+    <p><span style="background-color: #105618; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Funzioni avanzate di ricerca testo</span> </p>
+    
+    <p><span style="background-color: #14c9ab; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Fornisce testo in HTML, EPUB e PDF</span> </p>
+    
+    <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span> </p>
+    
+    <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span> </p>
 .. |REPLACE7| raw:: html
+
+    <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
+.. |REPLACE8| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
     <br>
-.. |REPLACE8| raw:: html
+.. |REPLACE9| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE9| raw:: html
+.. |REPLACE10| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
