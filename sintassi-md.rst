@@ -13,15 +13,28 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 
     Questa pagina di tutorial nasce dall’esperienza vissuta nel costruire il tutorial \ |LINK1|\ , una guida “\ |STYLE1|\ ”. 
 
-* \ |STYLE2|\ : \ |LINK2|\  
 
-* \ |STYLE3|\ : \ |LINK3|\ . 
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+|Sintassi di base del linguaggio Markdown       |\ |LINK2|\                                                                             |
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+|Una breve guida al linguaggio Markdown         |\ |LINK3|\                                                                             |
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+|Un tool online per editare codice in Markdown  |\ |LINK4|\                                                                             |
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+|Una guida Read the Docs sul linguaggio Markdown|\ |LINK5|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML)|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+|Project documentation with Markdown            |\ |LINK6|\                                                                             |
++-----------------------------------------------+---------------------------------------------------------------------------------------+
 
-* \ |STYLE4|\ : \ |LINK4|\  
+* \ |STYLE2|\ : \ |LINK7|\  
 
-* \ |STYLE5|\ : \ |LINK5|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML).
+* \ |STYLE3|\ : \ |LINK8|\ . 
 
-* \ |STYLE6|\ : \ |LINK6|\  
+* \ |STYLE4|\ : \ |LINK9|\  
+
+* \ |STYLE5|\ : \ |LINK10|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML).
+
+* \ |STYLE6|\ : \ |LINK11|\  
 
 
 |REPLACE1|
@@ -92,6 +105,26 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
     <a href="https://markdown-guide.readthedocs.io" target="_blank">https://markdown-guide.readthedocs.io</a>
 
 .. |LINK6| raw:: html
+
+    <a href="https://www.mkdocs.org" target="_blank">https://www.mkdocs.org</a>
+
+.. |LINK7| raw:: html
+
+    <a href="https://www.markdownguide.org/basic-syntax" target="_blank">https://www.markdownguide.org/basic-syntax</a>
+
+.. |LINK8| raw:: html
+
+    <a href="https://www.html.it/articoli/markdown-guida-al-linguaggio" target="_blank">https://www.html.it/articoli/markdown-guida-al-linguaggio</a>
+
+.. |LINK9| raw:: html
+
+    <a href="https://stackedit.io/app#" target="_blank">https://stackedit.io/app#</a>
+
+.. |LINK10| raw:: html
+
+    <a href="https://markdown-guide.readthedocs.io" target="_blank">https://markdown-guide.readthedocs.io</a>
+
+.. |LINK11| raw:: html
 
     <a href="https://www.mkdocs.org" target="_blank">https://www.mkdocs.org</a>
 
