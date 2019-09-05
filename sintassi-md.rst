@@ -13,15 +13,15 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 
     Questa pagina di tutorial nasce dall’esperienza vissuta nel costruire il tutorial \ |LINK1|\ , una guida “\ |STYLE1|\ ”. 
 
-\ |STYLE2|\ : \ |LINK2|\  
+* \ |STYLE2|\ : \ |LINK2|\  
 
-\ |STYLE3|\ : \ |LINK3|\ . 
+* \ |STYLE3|\ : \ |LINK3|\ . 
 
-\ |STYLE4|\ : \ |LINK4|\  
+* \ |STYLE4|\ : \ |LINK4|\  
 
-\ |STYLE5|\ : \ |LINK5|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML).
+* \ |STYLE5|\ : \ |LINK5|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML).
 
-\ |STYLE6|\ : \ |LINK6|\  
+* \ |STYLE6|\ : \ |LINK6|\  
 
 
 |REPLACE1|
