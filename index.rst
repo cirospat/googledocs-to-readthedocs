@@ -52,7 +52,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |
 
-\ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Se non lo trovate (capita dall’agosto 2019) potete andare direttamente al \ |LINK15|\  e premere su “installa”.
+\ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Se non lo trovate (capita dall’agosto 2019) potete andare direttamente al \ |LINK15|\  e premere su “installa gratis”.
 
 Il componente aggiuntivo \ |STYLE4|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
