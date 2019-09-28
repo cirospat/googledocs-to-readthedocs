@@ -12,14 +12,14 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 |REPLACE3|
 
-Le spiegazioni contenute in questo documento rappresentano una via facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare Google doc, ed un componente aggiuntivo, per pubblicare documenti con lo stile di Read the Docs e con il design di \ |LINK2|\ .
+Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\  e con il design di \ |LINK2|\ .
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 
 
 .. admonition:: Per questo tutorial i seguenti ringraziamenti particolari
 
-    Ringraziare queste persone per me è importante, perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
+    Ringraziare queste persone è importante, perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
     
     \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ .
 
@@ -33,7 +33,7 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 Vantaggi dell’uso di “Read the Docs”
 ====================================
 
-L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE1|\ ”:
+L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE3|\ ”:
 
 |REPLACE5|
 
@@ -52,9 +52,11 @@ L’uso di “\ |STYLE0|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |
 
-\ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+\ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Se non lo trovate (capita dall’agosto 2019) potete andare direttamente al \ |LINK15|\  e premere su “installa”.
 
-Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di trasformare semplice testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di Github, che a sua volta permette la compilazione automatica dello stesso documento su Read the Docs.
+Il componente aggiuntivo \ |STYLE4|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE5|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE6|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE7|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK16|\  lo possono fare tutti.
 
 |REPLACE8|
 
@@ -119,7 +121,7 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 
 ..  Tip:: 
 
-    il contenuto di questa pagina che state leggendo è editato in \ |LINK15|\ 
+    il contenuto di questa pagina che state leggendo è editato in \ |LINK17|\ 
 
 
 |REPLACE9|
@@ -128,9 +130,21 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
 .. bottom of content
 
 
-.. |STYLE0| replace:: **Read the Docs**
+.. |STYLE0| replace:: **Google doc**
 
-.. |STYLE1| replace:: **PDF**
+.. |STYLE1| replace:: **Read the Docs**
+
+.. |STYLE2| replace:: **Read the Docs**
+
+.. |STYLE3| replace:: **PDF**
+
+.. |STYLE4| replace:: **GGeditor**
+
+.. |STYLE5| replace:: **GGeditor**
+
+.. |STYLE6| replace:: **Github**
+
+.. |STYLE7| replace:: **Read the Docs**
 
 
 .. |REPLACE1| raw:: html
@@ -250,6 +264,14 @@ Il lavoro principale che svolge il componente aggiuntivo GGeditor è quello di t
     <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor</a>
 
 .. |LINK15| raw:: html
+
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">link</a>
+
+.. |LINK16| raw:: html
+
+    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+
+.. |LINK17| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
