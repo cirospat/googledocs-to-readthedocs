@@ -52,11 +52,15 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |
 
-\ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. Se non lo trovate (capita dall’agosto 2019) potete andare direttamente al \ |LINK15|\  e premere su “installa gratis”.
+\ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. 
 
-Il componente aggiuntivo \ |STYLE4|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+..  Important:: 
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE5|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE6|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE7|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK16|\  lo possono fare tutti.
+    Se cliccando su “installa componente aggiuntivo” non trovate \ |STYLE4|\  - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\  e premere su “\ |STYLE5|\ ”.
+
+Il componente aggiuntivo \ |STYLE6|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE8|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE9|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK16|\  lo possono fare tutti.
 
 |REPLACE8|
 
@@ -140,11 +144,15 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE5|\  è quello 
 
 .. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **GGeditor**
+.. |STYLE5| replace:: **installa gratis**
 
-.. |STYLE6| replace:: **Github**
+.. |STYLE6| replace:: **GGeditor**
 
-.. |STYLE7| replace:: **Read the Docs**
+.. |STYLE7| replace:: **GGeditor**
+
+.. |STYLE8| replace:: **Github**
+
+.. |STYLE9| replace:: **Read the Docs**
 
 
 .. |REPLACE1| raw:: html
@@ -265,7 +273,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE5|\  è quello 
 
 .. |LINK15| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">link</a>
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">link del componente aggiuntivo GGeditor</a>
 
 .. |LINK16| raw:: html
 
