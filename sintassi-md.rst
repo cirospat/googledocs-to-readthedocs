@@ -14,17 +14,19 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
     Questa pagina di tutorial nasce dall’esperienza vissuta nel costruire il tutorial \ |LINK1|\ , una guida “\ |STYLE1|\ ”. 
 
 
-+-----------------------------------------------+---------------------------------------------------------------------------------------+
-|Sintassi di base del linguaggio Markdown       |\ |LINK2|\                                                                             |
-+-----------------------------------------------+---------------------------------------------------------------------------------------+
-|Una breve guida al linguaggio Markdown         |\ |LINK3|\                                                                             |
-+-----------------------------------------------+---------------------------------------------------------------------------------------+
-|Un tool online per editare codice in Markdown  |\ |LINK4|\                                                                             |
-+-----------------------------------------------+---------------------------------------------------------------------------------------+
-|Una guida Read the Docs sul linguaggio Markdown|\ |LINK5|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML)|
-+-----------------------------------------------+---------------------------------------------------------------------------------------+
-|Project documentation with Markdown            |\ |LINK6|\                                                                             |
-+-----------------------------------------------+---------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+|Sintassi di base del linguaggio Markdown                                                                                 |\ |LINK2|\                                                                             |
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+|Basic writing and formatting syntax. Create sophisticated formatting for your prose and code on GitHub with simple syntax|\ |LINK3|\                                                                             |
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+|Una breve guida al linguaggio Markdown                                                                                   |\ |LINK4|\                                                                             |
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+|Un tool online per editare codice in Markdown                                                                            |\ |LINK5|\                                                                             |
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+|Una guida Read the Docs sul linguaggio Markdown                                                                          |\ |LINK6|\  (con utili analisi comparative tra sintassi del linguaggio MarkDown e HTML)|
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+|Project documentation with Markdown                                                                                      |\ |LINK7|\                                                                             |
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 
 
 |REPLACE1|
@@ -74,17 +76,21 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 
 .. |LINK3| raw:: html
 
-    <a href="https://www.html.it/articoli/markdown-guida-al-linguaggio" target="_blank">https://www.html.it/articoli/markdown-guida-al-linguaggio</a>
+    <a href="https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#styling-text" target="_blank">https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#styling-text</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://stackedit.io/app#" target="_blank">https://stackedit.io/app#</a>
+    <a href="https://www.html.it/articoli/markdown-guida-al-linguaggio" target="_blank">https://www.html.it/articoli/markdown-guida-al-linguaggio</a>
 
 .. |LINK5| raw:: html
 
-    <a href="https://markdown-guide.readthedocs.io" target="_blank">https://markdown-guide.readthedocs.io</a>
+    <a href="https://stackedit.io/app#" target="_blank">https://stackedit.io/app#</a>
 
 .. |LINK6| raw:: html
+
+    <a href="https://markdown-guide.readthedocs.io" target="_blank">https://markdown-guide.readthedocs.io</a>
+
+.. |LINK7| raw:: html
 
     <a href="https://www.mkdocs.org" target="_blank">https://www.mkdocs.org</a>
 
