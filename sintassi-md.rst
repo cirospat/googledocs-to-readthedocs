@@ -28,6 +28,57 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 |Project documentation with Markdown                                                                                      |\ |LINK7|\                                                                             |
 +-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 
+|
+
+.. _h6c1f7a017361b2c2d521461f614336:
+
+Fare leggere i file in formato “.md” a Read the Docs
+****************************************************
+
+Come descritto in questa \ |LINK8|\ , si possono fare leggere file in formato  ``.md `` a Read the Docs.
+
+Azioni da effettuare:
+
+1. bisogna creare un file ``requirements.txt`` che ha il seguente contenuto:
+
+.. code-block:: python
+    :linenos:
+
+    sphinx-rtd-theme
+    sphinx
+    recommonmark
+    markdown
+    sphinx-markdown-tables
+
+2. bisogna aggiungere nel file ``conf.py`` le seguenti istruzioni.
+
+Dopo ``import sys, os`` inserire il seguente codice:
+
+.. code-block:: python
+    :linenos:
+
+    import recommonmark
+    from recommonmark.transform import AutoStructify
+    # Add any paths that contain templates here, relative to this directory.
+    templates_path = ['_templates']
+    html_static_path = ['static']
+    def setup(app):
+        # overrides for wide tables in RTD theme
+        app.add_stylesheet('theme_overrides.css') # path relative to static
+    
+    app.add_stylesheet('theme_overrides.css') # path relative to static
+    source_parsers = {
+        '.md': 'recommonmark.parser.CommonMarkParser',
+    }
+    
+    source_suffix = ['.rst', '.md']
+    
+    extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
+
+``source_suffix = '.rst'`` si trasformerà in ``source_suffix = ['.rst', '.md']`` 
+
+|
+
 
 |REPLACE1|
 
@@ -93,4 +144,8 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 .. |LINK7| raw:: html
 
     <a href="https://www.mkdocs.org" target="_blank">https://www.mkdocs.org</a>
+
+.. |LINK8| raw:: html
+
+    <a href="https://github.com/opendatasicilia/tansignari/issues/106" target="_blank">issue</a>
 
