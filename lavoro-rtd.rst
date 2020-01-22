@@ -62,7 +62,8 @@ Può capitare che durante la procedura di compilazione del progetto su RTD  appa
 
 .. admonition:: La causa
 
-    Currently all builds are failing because the automatic upgrade (since \ |LINK4|\  ) to pip 20.0 was buggy (see \ |LINK5|\  ). There's now a 20.0.1 release which seems to have fixed the problem for others ... but how can I force my readthedocs to also upgrade to the .1 version?
+    Currently all builds are failing because the automatic upgrade (since \ |LINK4|\ ) to pip 20.0 was buggy (see \ |LINK5|\ ). There's now a 20.0.1 release which seems to have fixed the problem for others ... but how can I force my readthedocs to also upgrade to the .1 version?
+    
     \ |LINK6|\ .
 
 \ |STYLE10|\ :
