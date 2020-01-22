@@ -50,10 +50,10 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 
 |
 
-.. _h64765f201f33704248136d5f4f173d3a:
+.. _h4f793e4041c1b5e3724a3d6af634b:
 
-Messaggio read-the-docs build fails: “cannot import name 'PackageFinder' from 'pip._internal.index'
-***************************************************************************************************
+Messaggio read-the-docs build fails: [cannot import name 'PackageFinder' from 'pip._internal.index']
+****************************************************************************************************
 
 Può capitare che durante la procedura di compilazione del progetto su RTD  appaia un messaggio: 
 
