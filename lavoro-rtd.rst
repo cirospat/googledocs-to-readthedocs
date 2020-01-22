@@ -66,7 +66,7 @@ Può capitare che durante la procedura di compilazione del progetto su RTD  appa
     
     \ |LINK6|\ .
 
-\ |STYLE10|\ :
+\ |STYLE10|\  (\ |LINK7|\ ):
 
 Sometimes it happen that your Builds start failing because the build environment where the documentation is created is stale or broken. This could happen for a couple of different reasons like pip not upgrading a package properly or a corrupted cached Python package.
 
@@ -101,7 +101,7 @@ Now you can re-build the version with a fresh build environment!
 Web Analytics
 *************
 
-E’ possibile agganciare strumenti di web analytics ai progetti online di read the docs. Se si usa, ad esempio Google Analytics, una volta creato il progetto specifico su \ |LINK7|\ , si ottenuto il codice. Il codice va inserito nel progetto specifico nel pannello di Amministrazione di read the docs, seguendo questo percorso:
+E’ possibile agganciare strumenti di web analytics ai progetti online di read the docs. Se si usa, ad esempio Google Analytics, una volta creato il progetto specifico su \ |LINK8|\ , si ottenuto il codice. Il codice va inserito nel progetto specifico nel pannello di Amministrazione di read the docs, seguendo questo percorso:
 
 Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino alla voce ``Codice Analytics``, quindi cliccare il testo ‘salva’.
 
@@ -206,6 +206,10 @@ Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino all
     <a href="https://github.com/readthedocs/readthedocs.org/issues/6554" target="_blank">Link all’issue del 20 gennaio 2020</a>
 
 .. |LINK7| raw:: html
+
+    <a href="https://docs.readthedocs.io/en/stable/guides/wipe-environment.html" target="_blank">da Read the Docs / Wiping a Build Environment</a>
+
+.. |LINK8| raw:: html
 
     <a href="https://analytics.google.com/analytics/web" target="_blank">Google Analytics</a>
 
