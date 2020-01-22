@@ -149,8 +149,11 @@ Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino all
 
     <span class="footer_small">
     Seguire questi passaggi per cancellare l'ambiente di compilazione:
+    
     Vai alle “Versioni”
+    
     Fare clic sul pulsante “Modifica” della versione che si desidera cancellare sul lato destro della pagina
+    
     Vai in fondo alla pagina e fai clic sul collegamento di cancellazione, accanto al pulsante "Salva"
     </span>
 .. |REPLACE4| raw:: html
