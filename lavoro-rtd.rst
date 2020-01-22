@@ -50,12 +50,45 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 
 |
 
+.. _h106a534b3d4b6722770576d184b377e:
+
+Messaggio read-the-docs build fails with “cannot import name 'PackageFinder' from 'pip._internal.index'”
+********************************************************************************************************
+
+Può capitare che durante la procedura di compilazione del progetto su RTD  appaia un messaggio: “\ |STYLE8|\ ”\ |STYLE9|\ 
+
+
+.. admonition:: La causa
+
+    Currently all builds are failing because the automatic upgrade (since \ |LINK4|\  ) to pip 20.0 was buggy (see \ |LINK5|\  ). There's now a 20.0.1 release which seems to have fixed the problem for others ... but how can I force my readthedocs to also upgrade to the .1 version?
+    \ |LINK6|\ .
+
+\ |STYLE10|\ :
+
+Sometimes it happen that your Builds start failing because the build environment where the documentation is created is stale or broken. This could happen for a couple of different reasons like pip not upgrading a package properly or a corrupted cached Python package.
+
+In any of these cases (and many others), the solution could be just wiping out the existing build environment files and allow Read the Docs to create a new fresh one.
+
+Follow these steps to wipe the build environment:
+
+* Go to Versions
+
+* Click on the Edit button of the version you want to wipe on the right side of the page
+
+* Go to the bottom of the page and click the wipe link, next to the “Save” button
+
+Note: By wiping the documentation build environment, all the ``rst``, ``md``, and ``code`` files associated with it will be removed but not the documentation already built (HTML and PDF files). Your documentation will still be online after wiping the build environment.
+
+Now you can re-build the version with a fresh build environment!
+
+|
+
 .. _h31771703d4c464c26683c015a1:
 
 Web Analytics
 *************
 
-E’ possibile agganciare strumenti di web analytics ai progetti online di read the docs. Se si usa, ad esempio Google Analytics, una volta creato il progetto specifico su \ |LINK4|\ , si ottenuto il codice. Il codice va inserito nel progetto specifico nel pannello di Amministrazione di read the docs, seguendo questo percorso:
+E’ possibile agganciare strumenti di web analytics ai progetti online di read the docs. Se si usa, ad esempio Google Analytics, una volta creato il progetto specifico su \ |LINK7|\ , si ottenuto il codice. Il codice va inserito nel progetto specifico nel pannello di Amministrazione di read the docs, seguendo questo percorso:
 
 Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino alla voce ``Codice Analytics``, quindi cliccare il testo ‘salva’.
 
@@ -85,6 +118,12 @@ Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino all
 .. |STYLE6| replace:: **Procedura con Errore: «failing»**
 
 .. |STYLE7| replace:: **failed**
+
+.. |STYLE8| replace:: *cannot import name 'PackageFinder' from 'pip._internal.index*
+
+.. |STYLE9| replace:: *.*
+
+.. |STYLE10| replace:: **La soluzione**
 
 
 .. |REPLACE1| raw:: html
@@ -126,6 +165,18 @@ Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino all
     <a href="http://come-creare-guida.readthedocs.io/it/latest/index.html" target="_blank">Tutorial pubblicazione Read the Docs su DocsItalia</a>
 
 .. |LINK4| raw:: html
+
+    <a href="https://github.com/readthedocs/readthedocs.org/issues/4823" target="_blank">#4823</a>
+
+.. |LINK5| raw:: html
+
+    <a href="https://github.com/pypa/pip/issues/7620" target="_blank">pypa/pip#7620</a>
+
+.. |LINK6| raw:: html
+
+    <a href="https://github.com/readthedocs/readthedocs.org/issues/6554" target="_blank">Link all’issue del 20 gennaio 2020</a>
+
+.. |LINK7| raw:: html
 
     <a href="https://analytics.google.com/analytics/web" target="_blank">Google Analytics</a>
 
