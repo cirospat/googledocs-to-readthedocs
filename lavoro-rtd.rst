@@ -148,14 +148,7 @@ Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino all
 .. |REPLACE3| raw:: html
 
     <span class="footer_small">
-    Seguire questi passaggi per cancellare l'ambiente di compilazione:
-    
-    Vai alle “Versioni”
-    
-    Fare clic sul pulsante “Modifica” della versione che si desidera cancellare sul lato destro della pagina
-    
-    Vai in fondo alla pagina e fai clic sul collegamento di cancellazione, accanto al pulsante "Salva"
-    </span>
+    Seguire questi passaggi per cancellare l'ambiente di compilazione: - 1) Vai alle “Versioni” - 2) Fare clic sul pulsante “Modifica” della versione che si desidera cancellare sul lato destro della pagina - 3) Vai in fondo alla pagina e fai clic sul collegamento di cancellazione, accanto al pulsante "Salva"</span>
 .. |REPLACE4| raw:: html
 
     <span class="footer_small">Nota: Pulendo l'ambiente di creazione della documentazione, verranno rimossi tutti i file `` rst``, `` md`` e `` code`` associati ma non la documentazione già creata (file HTML e PDF). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione. </span>
