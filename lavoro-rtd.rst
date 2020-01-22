@@ -55,7 +55,9 @@ Abbiamo completato tutte le procedure e ci possiamo godere il nostro documento n
 Messaggio read-the-docs build fails with “cannot import name 'PackageFinder' from 'pip._internal.index'”
 ********************************************************************************************************
 
-Può capitare che durante la procedura di compilazione del progetto su RTD  appaia un messaggio: “\ |STYLE8|\ ”\ |STYLE9|\ 
+Può capitare che durante la procedura di compilazione del progetto su RTD  appaia un messaggio: 
+
+“\ |STYLE8|\ ”\ |STYLE9|\ 
 
 
 .. admonition:: La causa
