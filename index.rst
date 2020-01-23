@@ -1,16 +1,19 @@
 
 |REPLACE1|
 
+
+|REPLACE2|
+
 .. _h305104c304e4b5e363d34c61406852:
 
 Da Google Doc direttamente a Read the Docs con ``GGeditor``
 ###########################################################
 
 
-|REPLACE2|
-
-
 |REPLACE3|
+
+
+|REPLACE4|
 
 Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\  e con il design di \ |LINK2|\ .
 
@@ -24,7 +27,7 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
     \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ .
 
 
-|REPLACE4|
+|REPLACE5|
 
 |
 
@@ -35,10 +38,10 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE3|\ ”:
 
-|REPLACE5|
-
-
 |REPLACE6|
+
+
+|REPLACE7|
 
 |
 
@@ -48,7 +51,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 ====================================================
 
 
-|REPLACE7|
+|REPLACE8|
 
 |
 
@@ -62,7 +65,7 @@ Il componente aggiuntivo \ |STYLE6|\  rappresenta uno strumento molto utile e co
 
 Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE8|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE9|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK16|\  lo possono fare tutti.
 
-|REPLACE8|
+|REPLACE9|
 
 |
 
@@ -128,7 +131,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello 
     ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK17|\ 
 
 
-|REPLACE9|
+|REPLACE10|
 
 
 .. bottom of content
@@ -160,14 +163,17 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello 
     <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
 .. |REPLACE2| raw:: html
 
-    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
+    <img src="https://img.shields.io/readthedocs/googledocs.svg?label=Read%20the%20Docs%20%28build%29&style=plastic" />
 .. |REPLACE3| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
 .. |REPLACE4| raw:: html
 
-    <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/help.jpg" />
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
 .. |REPLACE5| raw:: html
+
+    <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/help.jpg" />
+.. |REPLACE6| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> </p>
     
@@ -178,18 +184,18 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello 
     <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span> </p>
     
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span> </p>
-.. |REPLACE6| raw:: html
+.. |REPLACE7| raw:: html
 
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
-.. |REPLACE7| raw:: html
+.. |REPLACE8| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
     <br>
-.. |REPLACE8| raw:: html
+.. |REPLACE9| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE9| raw:: html
+.. |REPLACE10| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
