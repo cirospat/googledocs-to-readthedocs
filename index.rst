@@ -125,7 +125,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello 
 
 ..  Tip:: 
 
-    il contenuto di questa pagina che state leggendo è editato in \ |LINK17|\ 
+    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK17|\ 
 
 
 |REPLACE9|
