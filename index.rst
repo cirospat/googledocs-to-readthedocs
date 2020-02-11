@@ -274,7 +274,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello 
 
 .. |LINK15| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">link del componente aggiuntivo GGeditor</a>
+    <a href="https://chrome.google.com/webstore/detail/piedgdbcihbejidgkpabjhppneghbcnp/publish-accepted?authuser=0&hl=en" target="_blank">link del componente aggiuntivo GGeditor</a>
 
 .. |LINK16| raw:: html
 
