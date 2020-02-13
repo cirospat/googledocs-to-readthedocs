@@ -27,6 +27,8 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 +-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 |Project documentation with Markdown                                                                                      |\ |LINK7|\                                                                             |
 +-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+|markdown-it ``demo``                                                                                                     |\ |LINK8|\                                                                             |
++-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 
 |
 
@@ -35,7 +37,7 @@ Infatti oltre al formato ReStructuredText ``.RST`` anche il formato MarkDown  ``
 Fare leggere i file in formato “.md” a Read the Docs
 ****************************************************
 
-Come descritto in questa \ |LINK8|\ , si possono fare leggere file in formato  ``.md `` a Read the Docs.
+Come descritto in questa \ |LINK9|\ , si possono fare leggere file in formato  ``.md `` a Read the Docs.
 
 Azioni da effettuare:
 
@@ -146,6 +148,10 @@ Dopo ``import sys, os`` inserire il seguente codice:
     <a href="https://www.mkdocs.org" target="_blank">https://www.mkdocs.org</a>
 
 .. |LINK8| raw:: html
+
+    <a href="https://markdown-it.github.io/" target="_blank">https://markdown-it.github.io/</a>
+
+.. |LINK9| raw:: html
 
     <a href="https://github.com/opendatasicilia/tansignari/issues/106" target="_blank">issue</a>
 
