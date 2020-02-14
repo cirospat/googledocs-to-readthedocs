@@ -54,13 +54,16 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 \ |LINK14|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. 
 
+
 ..  Important:: 
 
     Se cliccando su “installa componente aggiuntivo” non trovate \ |STYLE4|\  - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\  e premere su “\ |STYLE5|\ ”.
+    
+    Le funzioni svolte da GGeditor possono anche essere assicurate creando una copia (sul proprio Google Drive) di \ |LINK16|\ . Il documento contiene uno script (del componente GGeditor) che, a seguito del comando “Commit to Github”, permette di creare un file in formato ``.RST`` su Github.
 
 Il componente aggiuntivo \ |STYLE6|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE8|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE9|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK16|\  lo possono fare tutti.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE8|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE9|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK17|\  lo possono fare tutti.
 
 |REPLACE8|
 
@@ -125,7 +128,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello 
 
 ..  Tip:: 
 
-    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK17|\ 
+    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK18|\ 
 
 
 |REPLACE9|
@@ -278,9 +281,13 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE7|\  è quello 
 
 .. |LINK16| raw:: html
 
-    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+    <a href="https://docs.google.com/document/d/14soShDfb2IoM5wSOHCSl6XwYmGJ2CK18jEwHXaWqWho" target="_blank">questo file</a>
 
 .. |LINK17| raw:: html
+
+    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+
+.. |LINK18| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
