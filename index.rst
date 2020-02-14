@@ -59,8 +59,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
     Se cliccando su “installa componente aggiuntivo” non trovate \ |STYLE4|\  - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\  e premere su “\ |STYLE5|\ ”.
     
-    \ |STYLE6|\ .
-    Le funzioni svolte da GGeditor possono anche essere assicurate creando una copia (sul proprio Google Drive) di \ |LINK16|\ . Il documento contiene uno script (del componente GGeditor) che, a seguito del comando “Commit to Github”, permette di creare un file in formato ``.RST`` su Github.
+    \ |STYLE6|\ . In alternativa all’installazione del componente aggiuntivo su Google doc, le funzioni svolte da GGeditor possono anche essere assicurate creando una copia (sul proprio Google Drive) di \ |LINK16|\ . Il documento contiene uno script con del codice (del componente GGeditor) che, a seguito del comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), permette di creare automaticamente un file in formato ``.RST`` su Github.
 
 Il componente aggiuntivo \ |STYLE7|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
@@ -150,7 +149,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE8|\  è quello 
 
 .. |STYLE5| replace:: **installa gratis**
 
-.. |STYLE6| replace:: **Aggiornamento 14 febbraio 2020**
+.. |STYLE6| replace:: **► Aggiornamento 14 febbraio 2020**
 
 .. |STYLE7| replace:: **GGeditor**
 
