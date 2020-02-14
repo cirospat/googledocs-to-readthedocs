@@ -149,7 +149,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE9|\  è quello 
 
 .. |STYLE5| replace:: **GGeditor**
 
-.. |STYLE6| replace:: **attiva gratis**
+.. |STYLE6| replace:: **add to Chrome**
 
 .. |STYLE7| replace:: **► Aggiornamento 14 febbraio 2020**
 
