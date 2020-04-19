@@ -63,17 +63,17 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     #. Vai alla \ |LINK17|\  e \ |STYLE12|\  in Github.com (\ |LINK18|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password (in pratica sostituisci la password con la quale accedi sull’account Github con il token generato).
-    
-    #. Il lavoro è già fatto.
+    Il lavoro è fatto.
 
+\ |STYLE13|\ 
 
 |REPLACE7|
 
 |
 
-Il componente aggiuntivo \ |STYLE13|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+Il componente aggiuntivo \ |STYLE14|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE14|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE15|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE16|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE15|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE16|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE17|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
 
 |REPLACE8|
 
@@ -173,13 +173,15 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE14|\  è quello
 
 .. |STYLE12| replace:: **crea un token di accesso personale**
 
-.. |STYLE13| replace:: **GGeditor**
+.. |STYLE13| replace:: **↓**
 
 .. |STYLE14| replace:: **GGeditor**
 
-.. |STYLE15| replace:: **Github**
+.. |STYLE15| replace:: **GGeditor**
 
-.. |STYLE16| replace:: **Read the Docs**
+.. |STYLE16| replace:: **Github**
+
+.. |STYLE17| replace:: **Read the Docs**
 
 
 .. |REPLACE1| raw:: html
@@ -213,7 +215,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE14|\  è quello
 .. |REPLACE7| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
-    <br>
+    <br><strong>Guarda gli step da seguire</strong>
 .. |REPLACE8| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
