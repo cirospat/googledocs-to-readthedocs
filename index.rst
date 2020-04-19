@@ -63,7 +63,6 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     #. Vai alla \ |LINK17|\  e \ |STYLE12|\  in Github.com (\ |LINK18|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password (in pratica sostituisci la password con la quale accedi sull’account Github con il token generato).
-    Il lavoro è fatto.
 
 \ |STYLE13|\ 
 
