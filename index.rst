@@ -64,17 +64,19 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password (in pratica sostituisci la password con la quale accedi sull’account Github con il token generato).
 
-<span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">\ |STYLE10|\  Guarda i passi da compiere nelle schermate di Github (aggiornamento 19_feb_2020)</span>
 
 |REPLACE6|
 
-|
-
-Il componente aggiuntivo \ |STYLE11|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
-
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE12|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE13|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE14|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
 
 |REPLACE7|
+
+|
+
+Il componente aggiuntivo \ |STYLE10|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE11|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE12|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE13|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
+
+|REPLACE8|
 
 |
 
@@ -140,7 +142,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE12|\  è quello
     ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK20|\ 
 
 
-|REPLACE8|
+|REPLACE9|
 
 
 .. bottom of content
@@ -166,15 +168,13 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE12|\  è quello
 
 .. |STYLE9| replace:: **crea un token di accesso personale**
 
-.. |STYLE10| replace:: **↓**
+.. |STYLE10| replace:: **GGeditor**
 
 .. |STYLE11| replace:: **GGeditor**
 
-.. |STYLE12| replace:: **GGeditor**
+.. |STYLE12| replace:: **Github**
 
-.. |STYLE13| replace:: **Github**
-
-.. |STYLE14| replace:: **Read the Docs**
+.. |STYLE13| replace:: **Read the Docs**
 
 
 .. |REPLACE1| raw:: html
@@ -203,12 +203,15 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE12|\  è quello
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
 .. |REPLACE6| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
+    <span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">↓ Guarda i passi da compiere nelle schermate di Github (aggiornamento 19_feb_2020)</span>
 .. |REPLACE7| raw:: html
+
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
+.. |REPLACE8| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE8| raw:: html
+.. |REPLACE9| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
