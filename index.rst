@@ -60,12 +60,25 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     \ |STYLE4|\ . Se da Google doc cliccando su “installa componente aggiuntivo” non trovate “\ |STYLE5|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\  e premere su “\ |STYLE6|\ ”.
     
     \ |STYLE7|\ . In alternativa all’installazione del componente aggiuntivo su Google doc, le funzioni svolte da GGeditor possono anche essere assicurate creando una copia (sul proprio Google Drive) di \ |LINK16|\ . Il documento contiene uno script con del codice (del componente GGeditor) che, a seguito del comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), permette di creare automaticamente un file in formato ``.RST`` su Github.
+    
+    \ |STYLE8|\ . Messaggio “Bad Credential” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per nome utente e password, che è la causa principale del problema del messaggio “Bad Credential”  ("Credenziali non valide"). \ |LINK17|\ , basta sostituire la password con cui si entra nell'account Github con il  "token di accesso personale" quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
+    
+    #. Vai alla \ |LINK18|\  e crea un token di accesso personale in Github.com. (\ |LINK19|\ ) e copia il token di accesso personale negli appunti.
+    
+    #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account con il token copiato come password (in pratica sostituisci la password con la quale accedi sull’account Github con il token generato).
+    
+    #. Il lavoro è già fatto.
 
-Il componente aggiuntivo \ |STYLE8|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
-
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE9|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE10|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE11|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK17|\  lo possono fare tutti.
 
 |REPLACE8|
+
+--------
+
+Il componente aggiuntivo \ |STYLE9|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE10|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE11|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE12|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK20|\  lo possono fare tutti.
+
+|REPLACE9|
 
 |
 
@@ -128,10 +141,10 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE9|\  è quello 
 
 ..  Tip:: 
 
-    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK18|\ 
+    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK21|\ 
 
 
-|REPLACE9|
+|REPLACE10|
 
 
 .. bottom of content
@@ -153,13 +166,15 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE9|\  è quello 
 
 .. |STYLE7| replace:: **► Aggiornamento 14 febbraio 2020**
 
-.. |STYLE8| replace:: **GGeditor**
+.. |STYLE8| replace:: **► Aggiornamento 19 aprile 2020**
 
 .. |STYLE9| replace:: **GGeditor**
 
-.. |STYLE10| replace:: **Github**
+.. |STYLE10| replace:: **GGeditor**
 
-.. |STYLE11| replace:: **Read the Docs**
+.. |STYLE11| replace:: **Github**
+
+.. |STYLE12| replace:: **Read the Docs**
 
 
 .. |REPLACE1| raw:: html
@@ -195,9 +210,13 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE9|\  è quello 
     <br>
 .. |REPLACE8| raw:: html
 
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="800 />
+    <br>
+.. |REPLACE9| raw:: html
+
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE9| raw:: html
+.. |REPLACE10| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -289,9 +308,21 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE9|\  è quello 
 
 .. |LINK17| raw:: html
 
-    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+    <a href="https://ggeditor.readthedocs.io/en/latest/GithubBadCredentials.html" target="_blank">La soluzione è facile</a>
 
 .. |LINK18| raw:: html
+
+    <a href="https://github.com/settings/tokens" target="_blank">pagina delle impostazioni in Github.com</a>
+
+.. |LINK19| raw:: html
+
+    <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line" target="_blank">How to by Github</a>
+
+.. |LINK20| raw:: html
+
+    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+
+.. |LINK21| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
