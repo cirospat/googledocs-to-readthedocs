@@ -44,7 +44,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 ``GGeditor``, un componente aggiuntivo di Google doc
 ====================================================
 
-\ |STYLE4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. 
+\ |STYLE4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive). 
 
 .. admonition:: Aggiornamento gen_2020
 
@@ -58,11 +58,11 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 .. admonition:: Aggiornamento 19_feb_2020
 
-    Messaggio “\ |STYLE7|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “nome utente” e “password”, che è la causa principale del problema del messaggio “Bad Credential”  ("Credenziali non valide"). \ |LINK16|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE8|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
+    Messaggio “\ |STYLE7|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE8|\ ” e “\ |STYLE9|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). \ |LINK16|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE10|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
     
-    #. Vai alla \ |LINK17|\  e \ |STYLE9|\  in Github.com (\ |LINK18|\ ). Quindi copia il token di accesso personale negli appunti.
+    #. Vai alla \ |LINK17|\  e \ |STYLE11|\  in Github.com (\ |LINK18|\ ). Quindi copia il token di accesso personale negli appunti.
     
-    #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password (in pratica sostituisci la password con la quale accedi sull’account Github con il token generato).
+    #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
 
 
 |REPLACE6|
@@ -72,9 +72,9 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |
 
-Il componente aggiuntivo \ |STYLE10|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+Il componente aggiuntivo \ |STYLE12|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE11|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE12|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE13|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE13|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE14|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE15|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
 
 |REPLACE8|
 
@@ -162,19 +162,23 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE11|\  è quello
 
 .. |STYLE6| replace:: **GGeditor**
 
-.. |STYLE7| replace:: *Bad Credential*
+.. |STYLE7| replace:: **Bad Credential**
 
-.. |STYLE8| replace:: **token di accesso personale**
+.. |STYLE8| replace:: *nome utente*
 
-.. |STYLE9| replace:: **crea un token di accesso personale**
+.. |STYLE9| replace:: *password*
 
-.. |STYLE10| replace:: **GGeditor**
+.. |STYLE10| replace:: **token di accesso personale**
 
-.. |STYLE11| replace:: **GGeditor**
+.. |STYLE11| replace:: **crea un token di accesso personale**
 
-.. |STYLE12| replace:: **Github**
+.. |STYLE12| replace:: **GGeditor**
 
-.. |STYLE13| replace:: **Read the Docs**
+.. |STYLE13| replace:: **GGeditor**
+
+.. |STYLE14| replace:: **Github**
+
+.. |STYLE15| replace:: **Read the Docs**
 
 
 .. |REPLACE1| raw:: html
