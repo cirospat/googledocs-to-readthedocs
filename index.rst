@@ -44,11 +44,6 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 ``GGeditor``, un componente aggiuntivo di Google doc
 ====================================================
 
-
-|REPLACE6|
-
-|
-
 \ |STYLE4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive) cercandolo nei componenti aggiuntivi e installandolo. 
 
 
@@ -66,7 +61,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 ↓ guarda i passi da compiere nelle schermate di Github (\ |LINK19|\ )
 
-|REPLACE7|
+|REPLACE6|
 
 |
 
@@ -74,7 +69,7 @@ Il componente aggiuntivo \ |STYLE13|\  rappresenta uno strumento molto utile e c
 
 Il lavoro principale che svolge il componente aggiuntivo \ |STYLE14|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE15|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE16|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK20|\  lo possono fare tutti.
 
-|REPLACE8|
+|REPLACE7|
 
 |
 
@@ -140,7 +135,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE14|\  è quello
     ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK21|\ 
 
 
-|REPLACE9|
+|REPLACE8|
 
 
 .. bottom of content
@@ -207,16 +202,12 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE14|\  è quello
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
 .. |REPLACE6| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" alt="" width="800 />
-    <br>
-.. |REPLACE7| raw:: html
-
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
-.. |REPLACE8| raw:: html
+.. |REPLACE7| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE9| raw:: html
+.. |REPLACE8| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
