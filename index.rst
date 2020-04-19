@@ -156,15 +156,15 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE15|\  è quello
 
 .. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **► Aggiornamento gennaio 2020**
+.. |STYLE5| replace:: **► Aggiornamento gen_2020**
 
 .. |STYLE6| replace:: *installa componente aggiuntivo*
 
 .. |STYLE7| replace:: **GGeditor**
 
-.. |STYLE8| replace:: **► Aggiornamento 14 febbraio 2020**
+.. |STYLE8| replace:: **► Aggiornamento 14_ feb_2020**
 
-.. |STYLE9| replace:: **► Aggiornamento 19 aprile 2020**
+.. |STYLE9| replace:: **► Aggiornamento 19_apr_2020**
 
 .. |STYLE10| replace:: *Bad Credential*
 
@@ -214,7 +214,6 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE15|\  è quello
 .. |REPLACE7| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
-    <br><strong>Guarda gli step da seguire</strong>
 .. |REPLACE8| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
