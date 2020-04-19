@@ -64,15 +64,15 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password (in pratica sostituisci la password con la quale accedi sull’account Github con il token generato).
 
-↓ guarda i passi da compiere nelle schermate di Github (\ |LINK19|\ )
+<span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">\ |STYLE10|\  Guarda i passi da compiere nelle schermate di Github (aggiornamento 19_feb_2020)</span>
 
 |REPLACE6|
 
 |
 
-Il componente aggiuntivo \ |STYLE10|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+Il componente aggiuntivo \ |STYLE11|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE11|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE12|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE13|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK20|\  lo possono fare tutti.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE12|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE13|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE14|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
 
 |REPLACE7|
 
@@ -137,7 +137,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE11|\  è quello
 
 ..  Tip:: 
 
-    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK21|\ 
+    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK20|\ 
 
 
 |REPLACE8|
@@ -166,13 +166,15 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE11|\  è quello
 
 .. |STYLE9| replace:: **crea un token di accesso personale**
 
-.. |STYLE10| replace:: **GGeditor**
+.. |STYLE10| replace:: **↓**
 
 .. |STYLE11| replace:: **GGeditor**
 
-.. |STYLE12| replace:: **Github**
+.. |STYLE12| replace:: **GGeditor**
 
-.. |STYLE13| replace:: **Read the Docs**
+.. |STYLE13| replace:: **Github**
+
+.. |STYLE14| replace:: **Read the Docs**
 
 
 .. |REPLACE1| raw:: html
@@ -306,13 +308,9 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE11|\  è quello
 
 .. |LINK19| raw:: html
 
-    <a href="https://github.com/settings/tokens" target="_blank">sezione setting</a>
-
-.. |LINK20| raw:: html
-
     <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
 
-.. |LINK21| raw:: html
+.. |LINK20| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
