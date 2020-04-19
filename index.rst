@@ -212,7 +212,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE14|\  è quello
     <br>
 .. |REPLACE7| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="800 />
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
     <br>
 .. |REPLACE8| raw:: html
 
