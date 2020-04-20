@@ -72,6 +72,11 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 |
 
+.. _h7f3a342a4be53407b632069722a6:
+
+L’utilità di ``GGeditor`` per i progetti di documentazione online
+=================================================================
+
 Il componente aggiuntivo \ |STYLE12|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
 Il lavoro principale che svolge il componente aggiuntivo \ |STYLE13|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE14|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE15|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK19|\  lo possono fare tutti.
@@ -85,7 +90,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE13|\  è quello
 
     * Facile inizio per chi non ha dimestichezza con i file RST, anche per chi non ha idea dei marcatori di RST.
     
-    * Alimentato da Google Docs. Quasi la totalità di quello che vedi su Google Docs è quello che ottieni su Readthedocs. Lo stesso è per l'intero gruppo di lavoro.
+    * Alimentato da Google Docs. Quasi la totalità di quello che vedi su Google Docs è quello che ottieni su Read the Docs. Lo stesso è per l'intero gruppo di lavoro.
     
     * Un click per commissionare il lavoro sul repository di Github.
     
@@ -101,9 +106,9 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE13|\  è quello
     
     * Supporta i link relativi ai file RST generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
     
-    * Supporta la tabella dei contenuti  (cross-document table of content (.. toctree::)) per fare generare l'indice a Readthedocs.
+    * Supporta la tabella dei contenuti  (cross-document table of content (.. toctree::)) per fare generare l'indice a Read The Docs.
     
-    * Supporta tutti gli stili di "admonitions" di Readthedocs.
+    * Supporta tutti gli stili di "admonitions" di Read The Docs.
     
     * Supporta account multipli per compilare i file nei repository di diversi account Github.
     
