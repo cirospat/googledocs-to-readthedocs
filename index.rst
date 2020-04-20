@@ -190,7 +190,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE13|\  è quello
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
 .. |REPLACE3| raw:: html
 
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_1.png" />
+    <img src="https://ggeditor.readthedocs.io/en/latest/_images/index_2.png" />
 .. |REPLACE4| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> </p>
