@@ -70,6 +70,10 @@ color: #51bcbc;
 .wy-nav-content {max-width: 1920px;} 
 
 
+/* assegnare il colore (bianco) allo sfondo del testo in tutte le pagine HTML del documento - è una prova riuscita del 29.01.2019  */
+.wy-nav-content {background: #ffffff; } 
+
+
 /* disattiva il testo "latest"  menu a sx */
 .wy-side-nav-search>div.version {    display: none;}
 
