@@ -351,6 +351,29 @@ e va incollato nella pagina ``layout.html`` (dentro la cartella ``_templates``) 
 
 |
 
+.. _h2305e72776d31f1e2261484a6a7828:
+
+Aggiungere un'immagine dinamica in stile Word Cloud (WordArt)
+=============================================================
+
+Con \ |LINK11|\  è possibile creare immagini composte da parole che al passaggio del mouse vengono evidenziate.
+
+Cosa fare per incorporare queste word cloud dentro una pagina HTML del progetto Read the Docs? 
+
+#. Attivare un account su \ |LINK12|\  e cominciare a creare un progetto. Si può importare l’elenco delle parole anche da una pagina web tramite l’URL.
+
+#. Nel file ``layout.html`` del progetto Github inserire lo script: ``<script src="//cdn.wordart.com/wordart.min.js" async defer></script>``.
+
+#. Nella pagina di Google doc di interesse inserite il codice che  \ |LINK13|\  vi dà dopo la creazione del vostro progetto. In ordine: Salvate il vostro progetto (save) - Andate su “share” quindi cliccate su “Embed on a webpage”.
+
+#. Copiate il codice, che dovrebbe essere di questo tipo ``<div style="width: 400px; height: 400px;" data-wordart-src="//cdn.wordart.com/json/e9h2wyb41pzf" data-wordart-show-attribution></div>``, sulla pagina Google doc tramite la funzione HTML del pannello Markup di GGeditor. Quindi fate il solito commit su GGeditor che trasmetterà la nuova funzione a Github e così automaticamente vedrete sulle pagine HTML di Read the Docs la vosytra nuova Word Cloud
+
+Ecco la Word Cloud
+
+|REPLACE2|
+
+|
+
 .. _h131147592710157a6a6e625a7d526312:
 
 Inserire in fondo alla pagina HTML del progetto Read the Docs lo spazio Disqus per i commenti
@@ -358,7 +381,7 @@ Inserire in fondo alla pagina HTML del progetto Read the Docs lo spazio Disqus p
 
 È possibile inserire in fondo alla pagina HTML del progetto Read the Docs uno spazio destinato ai commenti degli utenti, come avviene per tantissimi blog.
 
-Uno dei servizi online gratuiti e molto diffusi è \ |LINK11|\ . È necessario creare un account su questo servizio e creare un progetto con lo stesso nome del progetto Read the Docs.
+Uno dei servizi online gratuiti e molto diffusi è \ |LINK14|\ . È necessario creare un account su questo servizio e creare un progetto con lo stesso nome del progetto Read the Docs.
 
 Per ogni progetto creato su Disqus verrà fornito il seguente codice da inserire nella pagina ``footer.html``:
 
@@ -398,7 +421,7 @@ Il codice sopra illustrato deve essere inserito nella pagina ``footer.html`` pri
     
     </footer>
 
-Guarda direttamente al file \ |LINK12|\  su GitHub per comprendere meglio.
+Guarda direttamente al file \ |LINK15|\  su GitHub per comprendere meglio.
 
 |
 
@@ -411,13 +434,13 @@ Inserire il popup eu-cookie nei progetti  "read the docs"
 
 Per aggiungere il popup \ |STYLE6|\  per dare visibilità dei contenuti concernenti la privacy, basta aggiungere i tre file script di seguito elencati nella cartella ``static`` del progetto Github:
 
-* \ |LINK13|\ 
+* \ |LINK16|\ 
 
-* \ |LINK14|\ 
+* \ |LINK17|\ 
 
-* \ |LINK15|\ 
+* \ |LINK18|\ 
 
-Inserire nel file \ |LINK16|\  (nel blocco principale) il codice html:
+Inserire nel file \ |LINK19|\  (nel blocco principale) il codice html:
 
 
 .. code:: 
@@ -433,7 +456,7 @@ Sempre nel file ``layout.html`` inserire il seguente codice:
 
     <div class="eupopup eupopup-top "></div>
 
-Guarda il \ |LINK17|\  per il corretto inserimento del codice. 
+Guarda il \ |LINK20|\  per il corretto inserimento del codice. 
 
 Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`` con notepad++, o  anche con il semplice notepad, e cerca il blocco \ |STYLE7|\ , e li modifichi ``url`` della pagina \ |STYLE8|\  ed il testo:
 
@@ -455,7 +478,7 @@ Per modificare il testo del popup, apri il file ``jquery-eu-cookie-law-popup.js`
     htmlMarkup : null
     };
 
-\ |STYLE9|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK18|\ . Ovviamente questa pagina HTML sarà del testo preventivamente editato su un Google doc.
+\ |STYLE9|\  che devi aggiungere nel tuo progetto “Read the Docs” la pagina dell'\ |LINK21|\ . Ovviamente questa pagina HTML sarà del testo preventivamente editato su un Google doc.
 
 |
 
@@ -474,7 +497,7 @@ Cambiare colore sul rettangolo superiore in alto a sinistra, dove è situato il 
         background-color: #525e99;
     }
 
-il codice “#525e99“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link:\ |LINK19|\ . Ovviamente cambiando codice numerico (con  #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
+il codice “#525e99“ usato in questo caso (il colore del rettangolo in alto a sinistra del tutorial che state leggendo) corrisponde alla tonalità cromatica verificabile a questo link:\ |LINK22|\ . Ovviamente cambiando codice numerico (con  #iniziale) è possibile generare altre tonalità da applicare al caso specifico.
 
 ..  Attention:: 
 
@@ -497,7 +520,7 @@ Come prima, è anche possibile cambiare il colore dei titoli dei capitoli, parag
         color: #176a90 !important;
     }
 
-il codice “\ |LINK20|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
+il codice “\ |LINK23|\ ” può essere cambiato con i codici di tantissimi altri colori disponibili.
 
 ..  Attention:: 
 
@@ -532,9 +555,9 @@ dove
 
 * ‘\ |STYLE12|\ ’ è l’altezza della barra dell scroll
 
-* ‘\ |STYLE13|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK21|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
+* ‘\ |STYLE13|\ ’ è il codice del colore che vogliamo assegnare alla barra dello scroll. A questo \ |LINK24|\  è possibile scegliere i codici di una vasta gamma di colori da utilizzare.
 
-Seconda cosa da fare: creare un file Java Script ``prognroll.js`` nella cartella ``static`` dove inserire \ |LINK22|\ .
+Seconda cosa da fare: creare un file Java Script ``prognroll.js`` nella cartella ``static`` dove inserire \ |LINK25|\ .
 
 |
 
@@ -544,18 +567,18 @@ Uno schema tipo di progetto Github che raccoglie tutte le funzioni illustrate in
 ===========================================================================================================
 
 
-|REPLACE2|
+|REPLACE3|
 
-A questa pagina di Github \ |LINK23|\  si trova uno “\ |STYLE14|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK24|\ . 
+A questa pagina di Github \ |LINK26|\  si trova uno “\ |STYLE14|\ ” di repository la cui restituzione come progetto Read the Docs è disponibile qui: \ |LINK27|\ . 
 
-Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK25|\ .
+Lo schema tipo Github può essere clonato per creare un altro progetto Github che abbia le stesse impostazioni, che graficamente sono visibili nel relativo \ |LINK28|\ .
 
 Quindi la funzione dello schema tipo Github è quella di facilitare tutte le procedure di editing del codice, non dovendo pensare a crearlo da zero, e dando la possibilità all’utente di cambiare le personalizzazioni (titolo del progetto e versione della licenza nel file ``conf.py``, colore testo dei capitoli/paragrafi, colore del riquadro in alto a sinistra e altre impostazioni nel file ``theme_override.css`` dentro la cartella ``static``) e di concentrarsi maggiormente sui contenuti (testo, immagini, video,..) della pubblicazione che saranno editati direttamente dentro i Google doc.
 
 |
 
 
-|REPLACE3|
+|REPLACE4|
 
 
 .. bottom of content
@@ -597,10 +620,13 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
     Con il metodo proposto in questo tutorial, il lavoro che c’è da fare sull’account di &nbsp;&nbsp;<button class="btn btn-pill btn-info"type="button"><strong>Github</strong></button>&nbsp;&nbsp; è il seguente.
 .. |REPLACE2| raw:: html
 
+    <div style="width: 400px; height: 400px;" data-wordart-src="//cdn.wordart.com/json/e9h2wyb41pzf"></div>
+.. |REPLACE3| raw:: html
+
     <img src="https://schema-tipo.readthedocs.io/it/latest/_static/logo.jpg" width="250"/>
     
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Asino siciliano</span></p>
-.. |REPLACE3| raw:: html
+.. |REPLACE4| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -668,61 +694,73 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
 
 .. |LINK11| raw:: html
 
-    <a href="https://disqus.com/" target="_blank">Disqus</a>
+    <a href="https://wordart.com" target="_blank">https://wordart.com</a>
 
 .. |LINK12| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo/blob/master/_templates/footer.html" target="_blank">footer.html</a>
+    <a href="https://wordart.com" target="_blank">https://wordart.com</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
+    <a href="https://wordart.com" target="_blank">https://wordart.com</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
+    <a href="https://disqus.com/" target="_blank">Disqus</a>
 
 .. |LINK15| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
+    <a href="https://github.com/cirospat/rtd-schematipo/blob/master/_templates/footer.html" target="_blank">footer.html</a>
 
 .. |LINK16| raw:: html
 
-    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-2.1.3.min.js" target="_blank">jquery-2.1.3.min.js</a>
 
 .. |LINK17| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo/blob/master/_templates/layout.html" target="_blank">file su GitHub</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.js" target="_blank">jquery-eu-cookie-law-popup.js</a>
 
 .. |LINK18| raw:: html
 
-    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/static/jquery-eu-cookie-law-popup.css" target="_blank">jquery-eu-cookie-law-popup.css</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://www.color-hex.com/color/525e99" target="_blank">https://www.color-hex.com/color/525e99</a>
+    <a href="https://github.com/cirospat/newproject/blob/master/docs/_templates/layout.html" target="_blank">layout.html</a>
 
 .. |LINK20| raw:: html
 
-    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
+    <a href="https://github.com/cirospat/rtd-schematipo/blob/master/_templates/layout.html" target="_blank">file su GitHub</a>
 
 .. |LINK21| raw:: html
 
-    <a href="https://www.color-hex.com/" target="_blank">link</a>
+    <a href="https://cirospat.readthedocs.io/it/latest/privacy.html" target="_blank">informativa privacy</a>
 
 .. |LINK22| raw:: html
 
-    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/prognroll.js" target="_blank">questo codice</a>
+    <a href="https://www.color-hex.com/color/525e99" target="_blank">https://www.color-hex.com/color/525e99</a>
 
 .. |LINK23| raw:: html
 
-    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+    <a href="http://www.color-hex.com/color/176a90" target="_blank">#176a90</a>
 
 .. |LINK24| raw:: html
 
-    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+    <a href="https://www.color-hex.com/" target="_blank">link</a>
 
 .. |LINK25| raw:: html
+
+    <a href="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/prognroll.js" target="_blank">questo codice</a>
+
+.. |LINK26| raw:: html
+
+    <a href="https://github.com/cirospat/rtd-schematipo" target="_blank">https://github.com/cirospat/rtd-schematipo</a>
+
+.. |LINK27| raw:: html
+
+    <a href="https://schema-tipo.readthedocs.io" target="_blank">https://schema-tipo.readthedocs.io</a>
+
+.. |LINK28| raw:: html
 
     <a href="https://schema-tipo.readthedocs.io" target="_blank">progetto Read the Docs</a>
 
