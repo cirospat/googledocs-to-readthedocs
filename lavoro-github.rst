@@ -620,7 +620,7 @@ Quindi la funzione dello schema tipo Github è quella di facilitare tutte le pro
     Con il metodo proposto in questo tutorial, il lavoro che c’è da fare sull’account di &nbsp;&nbsp;<button class="btn btn-pill btn-info"type="button"><strong>Github</strong></button>&nbsp;&nbsp; è il seguente.
 .. |REPLACE2| raw:: html
 
-    <div style="width: 400px; height: 400px;" data-wordart-src="//cdn.wordart.com/json/e9h2wyb41pzf"></div>
+    <div style="width: 650px; height: 450px;" data-wordart-src="//cdn.wordart.com/json/e9h2wyb41pzf"></div>
 .. |REPLACE3| raw:: html
 
     <img src="https://schema-tipo.readthedocs.io/it/latest/_static/logo.jpg" width="250"/>
