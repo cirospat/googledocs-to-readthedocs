@@ -62,13 +62,13 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 
 .. admonition:: Aggiornamento 14_febbraio_2020
 
-    In alternativa all’installazione del componente aggiuntivo su Google doc, le funzioni svolte da GGeditor possono anche essere assicurate creando una copia (sul proprio Google Drive) di \ |LINK15|\ . Il documento contiene uno script con il codice (del componente GGeditor) che, a seguito del comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), permette di creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto del Google doc.
+    In alternativa all’installazione del componente aggiuntivo su Google doc (dall’elenco dei componenti aggiuntivi forniti da Google), le funzioni svolte da GGeditor possono anche essere assicurate creando un Google doc che contiene uno script con il codice del componente GGeditor. Una volta creato lo script (con la procedura di seguito illustrata) avviando il comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), è possibile creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto editato su Google doc.
     
     ↓
     
     \ |STYLE7|\ 
     
-    Lo script è costituito dai seguenti files che si trovano dentro il repository: \ |LINK16|\ :
+    Lo script è costituito dai seguenti files che si trovano dentro il repository \ |LINK15|\ :
     
     * conversion.html
     
@@ -86,15 +86,16 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     
     * sidebar.html
     
-    * 程式碼.gs   (``程式碼`` in cinese significa :guilabel:`codice`)
-    Per creare lo script su Google doc, andare su \ |STYLE8|\  / \ |STYLE9|\ . Nella pagina dello script copiare il codice dei file di cui al repository \ |LINK17|\ . Allo script creato dare il nome ``GGeditor``.
+    * 程式碼.gs   (:guilabel:`程式碼` in cinese significa :guilabel:`codice`)
+    
+    Per creare lo script su Google doc, andare su \ |STYLE8|\  / \ |STYLE9|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK16|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato dare il nome ``GGeditor``.
 
 
 .. admonition:: Aggiornamento 19_febbraio_2020
 
-    Messaggio “\ |STYLE10|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE11|\ ” e “\ |STYLE12|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). \ |LINK18|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE13|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
+    Messaggio “\ |STYLE10|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE11|\ ” e “\ |STYLE12|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). \ |LINK17|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE13|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
     
-    #. Vai alla \ |LINK19|\  e \ |STYLE14|\  in Github.com (\ |LINK20|\ ). Quindi copia il token di accesso personale negli appunti.
+    #. Vai alla \ |LINK18|\  e \ |STYLE14|\  in Github.com (\ |LINK19|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
 
@@ -113,7 +114,7 @@ L’utilità di ``GGeditor`` per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE15|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE16|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE17|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE18|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE16|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE17|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE18|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK20|\  lo possono fare tutti.
 
 |REPLACE8|
 
@@ -178,7 +179,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE16|\  è quello
 
 ..  Tip:: 
 
-    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK22|\ 
+    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK21|\ 
 
 
 |REPLACE9|
@@ -343,7 +344,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE16|\  è quello
 
 .. |LINK15| raw:: html
 
-    <a href="https://docs.google.com/document/d/14soShDfb2IoM5wSOHCSl6XwYmGJ2CK18jEwHXaWqWho" target="_blank">questo file</a>
+    <a href="https://github.com/cirospat/GGeditor_script" target="_blank">https://github.com/cirospat/GGeditor_script</a>
 
 .. |LINK16| raw:: html
 
@@ -351,25 +352,21 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE16|\  è quello
 
 .. |LINK17| raw:: html
 
-    <a href="https://github.com/cirospat/GGeditor_script" target="_blank">https://github.com/cirospat/GGeditor_script</a>
+    <a href="https://ggeditor.readthedocs.io/en/latest/GithubBadCredentials.html" target="_blank">La soluzione è facile</a>
 
 .. |LINK18| raw:: html
 
-    <a href="https://ggeditor.readthedocs.io/en/latest/GithubBadCredentials.html" target="_blank">La soluzione è facile</a>
+    <a href="https://github.com/settings/tokens" target="_blank">pagina delle impostazioni in Github.com</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://github.com/settings/tokens" target="_blank">pagina delle impostazioni in Github.com</a>
+    <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line" target="_blank">How to by Github</a>
 
 .. |LINK20| raw:: html
 
-    <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line" target="_blank">How to by Github</a>
-
-.. |LINK21| raw:: html
-
     <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
 
-.. |LINK22| raw:: html
+.. |LINK21| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
