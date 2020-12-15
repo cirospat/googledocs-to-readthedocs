@@ -51,12 +51,12 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     Se da Google doc cliccando su “\ |STYLE5|\ ” non trovate “\ |STYLE6|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK14|\ .
 
 
-.. sidebar:: Non scoraggiatevi!
-    :subtitle: Se vi serve un file Google doc contenente il codice del componente aggiuntivo GGeditor
+.. sidebar:: Non scoraggiatevi!😵😭
+    :subtitle: Se vi serve un file Google doc contenente il codice del componente aggiuntivo GGeditor ↓
 
-    inviate un'email a \ |LINK15|\  con oggetto: “Google doc con codice componente aggiuntivo GGeditor”
+    inviate un'email 👉 a \ |LINK15|\  con oggetto: “Google doc con codice componente aggiuntivo GGeditor”
     
-    .. rubric:: non vi lascerò soli...
+    .. rubric:: non vi lascerò soli...↓
     così come non mi hanno lasciato solo coloro che con pazienza mi hanno insegnato ad usare questi preziosi strumenti 😉
 
 
