@@ -54,7 +54,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
 .. admonition:: Aggiornamento 14_febbraio_2020
 
     In alternativa all’installazione del componente aggiuntivo su Google doc, le funzioni svolte da GGeditor possono anche essere assicurate creando una copia (sul proprio Google Drive) di \ |LINK15|\ . Il documento contiene uno script con il codice (del componente GGeditor) che, a seguito del comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), permette di creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto del Google doc.
-    
+    ↓
     \ |STYLE7|\ 
     Lo script è costituito dai seguenti files che si trovano dentro il repository: \ |LINK16|\ :
     
@@ -74,7 +74,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     
     * sidebar.html
     
-    * 程式碼.gs
+    * 程式碼.gs   (``程式碼`` in cinese significa :guilabel:`codice`)
     Per creare lo script su Google doc, andare su \ |STYLE8|\  / \ |STYLE9|\ . Nella pagina dello script copiare il codice dei file di cui al repository \ |LINK17|\ . Allo script creato dare il nome ``GGeditor``.
 
 
