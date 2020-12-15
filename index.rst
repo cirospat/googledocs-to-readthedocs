@@ -51,11 +51,23 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha 
     Se da Google doc cliccando su “\ |STYLE5|\ ” non trovate “\ |STYLE6|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK14|\ .
 
 
+.. sidebar:: Non scoraggiatevi
+    :subtitle: Se vi serve un file Google doc contenente il codice del componente aggiuntivo GGeditor
+
+    inviate un email a cirospat@gmail.com
+    
+    .. rubric:: non vi lascerò soli
+    Così come non mi hanno lasciato solo coloro che con pazienza mi hanno insegnato ad usare questi preziosi strumenti :)
+
+
 .. admonition:: Aggiornamento 14_febbraio_2020
 
     In alternativa all’installazione del componente aggiuntivo su Google doc, le funzioni svolte da GGeditor possono anche essere assicurate creando una copia (sul proprio Google Drive) di \ |LINK15|\ . Il documento contiene uno script con il codice (del componente GGeditor) che, a seguito del comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), permette di creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto del Google doc.
+    
     ↓
+    
     \ |STYLE7|\ 
+    
     Lo script è costituito dai seguenti files che si trovano dentro il repository: \ |LINK16|\ :
     
     * conversion.html
