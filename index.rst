@@ -34,7 +34,7 @@ L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti onl
 
 |REPLACE4|
 
-Per i nostalgici e dipendenti di documenti in formato :guilabel`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel`PDF` che :guilabel`EPUB`.
+Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel:`PDF` che :guilabel:`EPUB` che :guilabel:`HTML`.
 
 
 |REPLACE5|
