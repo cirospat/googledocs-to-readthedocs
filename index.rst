@@ -14,18 +14,18 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 .. class:: {tutorial}
 
-   \ |STYLE0|\ .
+   \ |STYLE0|\  \ |LINK1|\  \ |STYLE1|\ .
 
-Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE1|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE2|\  e con il design di \ |LINK2|\ .
+Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK2|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE2|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE3|\  e con il design di \ |LINK3|\ .
 
-Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
+Questo documento nasce subito dopo la produzione del tutorial “\ |LINK4|\ ”.
 
 
 .. admonition:: Per questo tutorial i seguenti ringraziamenti particolari
 
     Ringraziare queste persone è importante, perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
     
-    \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ .
+    \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ , \ |LINK14|\ .
 
 |
 
@@ -50,18 +50,18 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 ``GGeditor``, un componente aggiuntivo di Google doc
 ====================================================
 
-\ |STYLE3|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive). 
+\ |STYLE4|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive). 
 
 
 .. admonition:: Aggiornamento gennaio_2020
 
-    Se da Google doc cliccando su “\ |STYLE4|\ ” non trovate “\ |STYLE5|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK14|\ . Tuttavia a questo link non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate al successivo aggiornamento del 14_febbraio_2020.
+    Se da Google doc cliccando su “\ |STYLE5|\ ” non trovate “\ |STYLE6|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\ . Tuttavia a questo link non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate al successivo aggiornamento del 14_febbraio_2020.
 
 
 .. sidebar:: Non scoraggiatevi!😵😭
-    :subtitle: Se vi serve un file Google doc contenente lo \ |STYLE6|\  con il codice del componente aggiuntivo \ |STYLE7|\  ↓
+    :subtitle: Se vi serve un file Google doc contenente lo \ |STYLE7|\  con il codice del componente aggiuntivo \ |STYLE8|\  ↓
 
-    inviate un'email 👉 a \ |LINK15|\  con oggetto: “Google doc con script del componente aggiuntivo GGeditor”
+    inviate un'email 👉 a \ |LINK16|\  con oggetto: “Google doc con script del componente aggiuntivo GGeditor”
     
     .. rubric:: non vi lascerò soli...↓
     così come non mi hanno lasciato solo coloro che con pazienza mi hanno insegnato ad usare questo prezioso strumento 😉
@@ -73,9 +73,9 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
     
     ↓
     
-    \ |STYLE8|\ 
+    \ |STYLE9|\ 
     
-    Lo script è costituito dai seguenti files che si trovano dentro il repository \ |LINK16|\ :
+    Lo script è costituito dai seguenti files che si trovano dentro il repository \ |LINK17|\ :
     
     * conversion.html
     
@@ -95,20 +95,20 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
     
     * 程式碼.gs   (程式碼 in cinese significa :guilabel:`codice`)
     
-    Per creare lo script su Google doc, andare su \ |STYLE9|\  / \ |STYLE10|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK17|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato dare il nome ``GGeditor``.
+    Per creare lo script su Google doc, andare su \ |STYLE10|\  / \ |STYLE11|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK18|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato dare il nome ``GGeditor``.
 
 
 .. sidebar:: Si tratta di cambiare la password di Github!😷
-    :subtitle: cioè cambiare la password di Github sul componente aggiuntivo di Google doc \ |STYLE11|\  ↓
+    :subtitle: cioè cambiare la password di Github sul componente aggiuntivo di Google doc \ |STYLE12|\  ↓
 
     👉 una procedura abbastanza semplice, don’t panic, a tutto c’è la soluzione 😜
 
 
 .. admonition:: Aggiornamento 19_febbraio_2020
 
-    Messaggio “\ |STYLE12|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE13|\ ” e “\ |STYLE14|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). \ |LINK18|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE15|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
+    Messaggio “\ |STYLE13|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE14|\ ” e “\ |STYLE15|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). \ |LINK19|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE16|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
     
-    #. Vai alla \ |LINK19|\  e \ |STYLE16|\  in Github.com (\ |LINK20|\ ). Quindi copia il token di accesso personale negli appunti.
+    #. Vai alla \ |LINK20|\  e \ |STYLE17|\  in Github.com (\ |LINK21|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
 
@@ -125,9 +125,9 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 L’utilità di ``GGeditor`` per i progetti di documentazione online
 =================================================================
 
-Il componente aggiuntivo \ |STYLE17|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+Il componente aggiuntivo \ |STYLE18|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE19|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE20|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE20|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE21|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK22|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
 |REPLACE8|
 
@@ -138,7 +138,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
     * Facile inizio per chi non ha dimestichezza con i file ``RST``, anche per chi non ha idea dei marcatori di ``RST``.
     
-    * Alimentato da Google Docs. Quasi la totalità di quello che vedi su Google Docs è quello che ottieni su \ |STYLE21|\ . Lo stesso è per l'intero gruppo di lavoro.
+    * Alimentato da Google Docs. Quasi la totalità di quello che vedi su Google Docs è quello che ottieni su \ |STYLE22|\ . Lo stesso è per l'intero gruppo di lavoro.
     
     * Un click per commissionare il lavoro sul repository di Github.
     
@@ -156,7 +156,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
     
     * Supporta la tabella dei contenuti  (cross-document table of content ``(.. toctree::)``) per fare generare l'indice a Read The Docs.
     
-    * Supporta tutti gli stili di "admonitions" di \ |STYLE22|\ .
+    * Supporta tutti gli stili di "admonitions" di \ |STYLE23|\ .
     
     * Supporta account multipli per compilare i file nei repository di diversi account Github.
     
@@ -192,7 +192,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 ..  Tip:: 
 
-    \ |STYLE23|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio
+    \ |STYLE24|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK23|\  ♞ … dai un occhiata per capire meglio
 
 
 |REPLACE9|
@@ -201,53 +201,55 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 .. bottom of content
 
 
-.. |STYLE0| replace:: **questo tutorial nasce nel marzo 2017 e continua ad essere costantemente aggiornato**
+.. |STYLE0| replace:: **questo tutorial nasce nel**
 
-.. |STYLE1| replace:: **Google doc**
+.. |STYLE1| replace:: **e continua ad essere costantemente aggiornato**
 
-.. |STYLE2| replace:: **Read the Docs**
+.. |STYLE2| replace:: **Google doc**
 
-.. |STYLE3| replace:: **GGeditor**
+.. |STYLE3| replace:: **Read the Docs**
 
-.. |STYLE4| replace:: *installa componente aggiuntivo*
+.. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **GGeditor**
+.. |STYLE5| replace:: *installa componente aggiuntivo*
 
-.. |STYLE6| replace:: **script**
+.. |STYLE6| replace:: **GGeditor**
 
-.. |STYLE7| replace:: **GGeditor**
+.. |STYLE7| replace:: **script**
 
-.. |STYLE8| replace:: **I file contenuti nello script da creare su Google doc**
+.. |STYLE8| replace:: **GGeditor**
 
-.. |STYLE9| replace:: **menu strumenti**
+.. |STYLE9| replace:: **I file contenuti nello script da creare su Google doc**
 
-.. |STYLE10| replace:: **< > editor di script**
+.. |STYLE10| replace:: **menu strumenti**
 
-.. |STYLE11| replace:: **GGeditor**
+.. |STYLE11| replace:: **< > editor di script**
 
-.. |STYLE12| replace:: **Bad Credential**
+.. |STYLE12| replace:: **GGeditor**
 
-.. |STYLE13| replace:: *nome utente*
+.. |STYLE13| replace:: **Bad Credential**
 
-.. |STYLE14| replace:: *password*
+.. |STYLE14| replace:: *nome utente*
 
-.. |STYLE15| replace:: **token di accesso personale**
+.. |STYLE15| replace:: *password*
 
-.. |STYLE16| replace:: **crea un token di accesso personale**
+.. |STYLE16| replace:: **token di accesso personale**
 
-.. |STYLE17| replace:: **GGeditor**
+.. |STYLE17| replace:: **crea un token di accesso personale**
 
 .. |STYLE18| replace:: **GGeditor**
 
-.. |STYLE19| replace:: **Github**
+.. |STYLE19| replace:: **GGeditor**
 
-.. |STYLE20| replace:: **Read the Docs**
+.. |STYLE20| replace:: **Github**
 
 .. |STYLE21| replace:: **Read the Docs**
 
-.. |STYLE22| replace:: **Read The Docs**
+.. |STYLE22| replace:: **Read the Docs**
 
-.. |STYLE23| replace:: **⇒**
+.. |STYLE23| replace:: **Read The Docs**
+
+.. |STYLE24| replace:: **⇒**
 
 
 .. |REPLACE1| raw:: html
@@ -311,67 +313,67 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 .. |LINK1| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">tutorial GGeditor</a>
+    <a href="https://github.com/cirospat/googledocs-to-readthedocs/commit/b233078e9e25dfa8a87561583888370d323668f2" target="_blank">marzo 2017</a>
 
 .. |LINK2| raw:: html
 
-    <a href="http://googledocs.readthedocs.io/it/latest/pubblicare-su-docs-italia.html" target="_blank">Docs Italia</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">tutorial GGeditor</a>
 
 .. |LINK3| raw:: html
 
-    <a href="http://come-creare-guida.readthedocs.io/it/latest/" target="_blank">Come abbiamo creato un «Read the Docs» per pubblicare documenti pubblici su Docs Italia</a>
+    <a href="http://googledocs.readthedocs.io/it/latest/pubblicare-su-docs-italia.html" target="_blank">Docs Italia</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://github.com/iapyeh" target="_blank">Hsin Yuan Yeh</a>
+    <a href="http://come-creare-guida.readthedocs.io/it/latest/" target="_blank">Come abbiamo creato un «Read the Docs» per pubblicare documenti pubblici su Docs Italia</a>
 
 .. |LINK5| raw:: html
 
-    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
+    <a href="https://github.com/iapyeh" target="_blank">Hsin Yuan Yeh</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://coseerobe.gbvitrano.it/" target="_blank">Giovan Battista Vitrano</a>
+    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://pigrecoinfinito.wordpress.com/" target="_blank">Salvatore Fiandaca</a>
+    <a href="https://coseerobe.gbvitrano.it/" target="_blank">Giovan Battista Vitrano</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://twitter.com/pablopersico78" target="_blank">Pablo Persico</a>
+    <a href="https://pigrecoinfinito.wordpress.com/" target="_blank">Salvatore Fiandaca</a>
 
 .. |LINK9| raw:: html
 
-    <a href="https://twitter.com/marinabbasta" target="_blank">Marina Bassi</a>
+    <a href="https://twitter.com/pablopersico78" target="_blank">Pablo Persico</a>
 
 .. |LINK10| raw:: html
 
-    <a href="https://twitter.com/AndyReMagio" target="_blank">Andrea Ivan Baldassarre</a>
+    <a href="https://twitter.com/marinabbasta" target="_blank">Marina Bassi</a>
 
 .. |LINK11| raw:: html
 
-    <a href="https://twitter.com/rizzodnl" target="_blank">Daniele Rizzo</a>
+    <a href="https://twitter.com/AndyReMagio" target="_blank">Andrea Ivan Baldassarre</a>
 
 .. |LINK12| raw:: html
 
-    <a href="https://twitter.com/CostaMaurizio4" target="_blank">Maurizio Costa</a>
+    <a href="https://twitter.com/rizzodnl" target="_blank">Daniele Rizzo</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://twitter.com/m_stentella" target="_blank">Michela Stentella</a>
+    <a href="https://twitter.com/CostaMaurizio4" target="_blank">Maurizio Costa</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/piedgdbcihbejidgkpabjhppneghbcnp/publish-accepted?authuser=0&hl=en" target="_blank">link del componente aggiuntivo GGeditor</a>
+    <a href="https://twitter.com/m_stentella" target="_blank">Michela Stentella</a>
 
 .. |LINK15| raw:: html
 
-    <a href="mailto:cirospat@gmail.com">cirospat@gmail.com</a>
+    <a href="https://chrome.google.com/webstore/detail/piedgdbcihbejidgkpabjhppneghbcnp/publish-accepted?authuser=0&hl=en" target="_blank">link del componente aggiuntivo GGeditor</a>
 
 .. |LINK16| raw:: html
 
-    <a href="https://github.com/cirospat/GGeditor_script" target="_blank">https://github.com/cirospat/GGeditor_script</a>
+    <a href="mailto:cirospat@gmail.com">cirospat@gmail.com</a>
 
 .. |LINK17| raw:: html
 
@@ -379,21 +381,25 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 .. |LINK18| raw:: html
 
-    <a href="https://ggeditor.readthedocs.io/en/latest/GithubBadCredentials.html" target="_blank">La soluzione è facile</a>
+    <a href="https://github.com/cirospat/GGeditor_script" target="_blank">https://github.com/cirospat/GGeditor_script</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://github.com/settings/tokens" target="_blank">pagina delle impostazioni in Github.com</a>
+    <a href="https://ggeditor.readthedocs.io/en/latest/GithubBadCredentials.html" target="_blank">La soluzione è facile</a>
 
 .. |LINK20| raw:: html
 
-    <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line" target="_blank">How to by Github</a>
+    <a href="https://github.com/settings/tokens" target="_blank">pagina delle impostazioni in Github.com</a>
 
 .. |LINK21| raw:: html
 
-    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+    <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line" target="_blank">How to by Github</a>
 
 .. |LINK22| raw:: html
+
+    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+
+.. |LINK23| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
