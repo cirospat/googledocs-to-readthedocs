@@ -121,22 +121,22 @@ L’utilità di ``GGeditor`` per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE18|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE20|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE21|\ . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE20|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE21|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
 |REPLACE8|
 
 |
 
 
-.. admonition:: Le principali funzioni e punti di forza di GGeditor sono
+.. admonition:: Le principali funzioni e punti di forza di ``GGeditor`` sono
 
-    * Facile inizio per chi non ha dimestichezza con i file RST, anche per chi non ha idea dei marcatori di RST.
+    * Facile inizio per chi non ha dimestichezza con i file ``RST``, anche per chi non ha idea dei marcatori di ``RST``.
     
-    * Alimentato da Google Docs. Quasi la totalità di quello che vedi su Google Docs è quello che ottieni su Read the Docs. Lo stesso è per l'intero gruppo di lavoro.
+    * Alimentato da Google Docs. Quasi la totalità di quello che vedi su Google Docs è quello che ottieni su \ |STYLE22|\ . Lo stesso è per l'intero gruppo di lavoro.
     
     * Un click per commissionare il lavoro sul repository di Github.
     
-    * Puoi vedere in anteprima il file RST generato dall'interno di Google Docs e scaricarlo nel tuo PC.
+    * Puoi vedere in anteprima il file ``RST`` generato dall'interno di Google Docs e scaricarlo nel tuo PC.
     
     * Supporta headings, bold, italic, hyperlink, subscript e superscript.
     
@@ -146,15 +146,15 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello
     
     * Supporta i link interni ai bookmarks, headings e le Google Docs tabelle native di contenuti (in document table of contents).
     
-    * Supporta i link relativi ai file RST generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
+    * Supporta i link relativi ai file ``RS``T generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
     
-    * Supporta la tabella dei contenuti  (cross-document table of content (.. toctree::)) per fare generare l'indice a Read The Docs.
+    * Supporta la tabella dei contenuti  (cross-document table of content ``(.. toctree::)``) per fare generare l'indice a Read The Docs.
     
-    * Supporta tutti gli stili di "admonitions" di Read The Docs.
+    * Supporta tutti gli stili di "admonitions" di \ |STYLE23|\ .
     
     * Supporta account multipli per compilare i file nei repository di diversi account Github.
     
-    * Supporta la conversione di tabelle con i tags HTML to let look-and-feel e la stessa cosa è possibile per i blogger.
+    * Supporta la conversione di tabelle con i tags ``HTML`` to let look-and-feel e la stessa cosa è possibile per i blogger.
 
 --------
 
@@ -186,7 +186,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello
 
 ..  Tip:: 
 
-    ♞ il contenuto di questa pagina che staI leggendo è editato in \ |LINK22|\ 
+    \ |STYLE24|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio
 
 
 |REPLACE9|
@@ -238,6 +238,12 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello
 .. |STYLE20| replace:: **Github**
 
 .. |STYLE21| replace:: **Read the Docs**
+
+.. |STYLE22| replace:: **Read the Docs**
+
+.. |STYLE23| replace:: **Read The Docs**
+
+.. |STYLE24| replace:: **⇒**
 
 
 .. |REPLACE1| raw:: html
