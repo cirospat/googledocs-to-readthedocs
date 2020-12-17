@@ -30,9 +30,11 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 Vantaggi dell’uso di “Read the Docs”
 ====================================
 
-L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti ha i seguenti vantaggi sul formato “\ |STYLE3|\ ”:
+L’uso di “\ |STYLE2|\ ” come piattaforma di pubblicazione di documenti online ha i seguenti vantaggi sul formato “\ |STYLE3|\ ”:
 
 |REPLACE4|
+
+Per i nostalgici e dipendenti di documenti in formato :guilabel`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel`PDF` che :guilabel`EPUB`.
 
 
 |REPLACE5|
@@ -121,7 +123,7 @@ L’utilità di ``GGeditor`` per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE18|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.rST`` dentro il repository di \ |STYLE20|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE21|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE20|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE21|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
 |REPLACE8|
 
@@ -146,7 +148,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE19|\  è quello
     
     * Supporta i link interni ai bookmarks, headings e le Google Docs tabelle native di contenuti (in document table of contents).
     
-    * Supporta i link relativi ai file ``RS``T generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
+    * Supporta i link relativi ai file ``RST`` generati dai Google Docs all'interno della stessa directory e sotto-directory Google Docs.
     
     * Supporta la tabella dei contenuti  (cross-document table of content ``(.. toctree::)``) per fare generare l'indice a Read The Docs.
     
