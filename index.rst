@@ -12,6 +12,8 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 |REPLACE3|
 
+.. class:: :guilabel:`tutorial`
+
 Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\  e con il design di \ |LINK2|\ .
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
