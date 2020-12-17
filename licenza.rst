@@ -9,7 +9,7 @@ Licenza, chi sono e ringraziamenti
 Licenza per questo tutorial
 ===========================
 
-Questo tutorial viene rilasciato con licenza \ |LINK1|\ .
+Questo tutorial viene rilasciato con licenza \ |LINK1|\ . Chiunque può utilizzarne e riusarne i contenuti con la sola condizione di citare l’autore.
 
 |
 
@@ -25,7 +25,7 @@ Sono \ |LINK2|\ , dipendente del Comune di Palermo impegnato su \ |LINK3|\  e di
 
 Civic hacker (\ |LINK4|\ ) con la passione della condivisione della conoscenza.
 
-Mi piace moltissimo \ |LINK5|\  e \ |LINK6|\  quale piattaforma per la pubblicazione di documenti, ed è il motivo per il quale ho realizzato questo tutorial.
+Mi piace moltissimo \ |LINK5|\  e \ |LINK6|\  quale stile di piattaforma per la pubblicazione di documenti online, ed è il motivo per il quale ho realizzato questo :guilabel:`tutorial`.
 
 |
 
@@ -46,16 +46,18 @@ Un ringraziamento al creatore del componente aggiuntivo ``GGeditor``, Hsin Yuan 
 
 \ |IMG1|\ 
 
-\ |LINK8|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (\ |STYLE1|\ ), non madrelingua inglese.
+\ |LINK8|\  espone le funzioni svolte dal \ |STYLE0|\  abbastanza bene. L’inglese adottato nel tutorial per le spiegazioni è anche di facile comprensione in quanto scritto da un bravo sviluppatore di Taiwan (\ |STYLE1|\ ).
 
 Ha fatto un gran lavoro facilitando la vita a molte persone che non hanno la conoscenza del linguaggio RST, né la pazienza per apprenderlo.
 
+Ha risolto alcuni problemi da me segnalati, che sono descritti nell’homepage di questo tutorial nei box “aggiornamenti”.
+
 |
 
-.. _h75335c2c2416226121b76306b687836:
+.. _h524b3f5c21425868335f173f282147:
 
-Un messaggio  di errore, facile da risolvere
-============================================
+Un messaggio di errore “undefined”, facile da risolvere
+=======================================================
 
 
 |REPLACE2|
@@ -176,7 +178,7 @@ Mi auguro che la semplicità d’uso di questo strumento descritto nel tutorial 
 
 .. |LINK6| raw:: html
 
-    <a href="https://docs.developers.italia.it/" target="_blank">Docs Italia</a>
+    <a href="https://docs.italia.it/" target="_blank">Docs Italia</a>
 
 .. |LINK7| raw:: html
 
