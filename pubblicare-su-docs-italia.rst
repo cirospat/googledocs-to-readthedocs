@@ -186,6 +186,21 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 
 |
 
+.. _h7a216451573b174c791d7c625cb5c:
+
+Aggiornamento 2020 
+*******************
+
+AGID e il Dipartimento Trasformazione Digitale del Ministero Innovazione Tecnologica e Digitalizzazione hanno stabilito che:
+
+* \ |LINK10|\  è la versione finale della piattaforma di pubblicazione della documentazione della Pubblica Amministrazione;
+
+* la piattaforma \ |LINK11|\  può essere usata solamente per la pubblicazione di documenti prodotti dall’AGID e dal Ministero Innovazione Tecnologica e Digitalizzazione.
+
+Ciò significa che qualsiasi altra Pubblica Amministrazione non può ospitare i propri documenti sulla piattaforma \ |LINK12|\ . Quindi qualunque PA può usare ``Read the Docs`` \ |LINK13|\   per pubblicare documentazione e manuali online.
+
+|
+
 
 |REPLACE1|
 
@@ -285,6 +300,22 @@ Se sul sito Read the Docs avete dato, ad esempio, al progetto il titolo  “\ |S
 .. |LINK9| raw:: html
 
     <a href="https://readthedocs.org/projects/joppy/builds/7397980/" target="_blank">https://readthedocs.org/projects/joppy/builds/7397980</a>
+
+.. |LINK10| raw:: html
+
+    <a href="https://docs.italia.it/" target="_blank">https://docs.italia.it/</a>
+
+.. |LINK11| raw:: html
+
+    <a href="https://docs.italia.it/" target="_blank">https://docs.italia.it/</a>
+
+.. |LINK12| raw:: html
+
+    <a href="https://docs.italia.it/" target="_blank">https://docs.italia.it/</a>
+
+.. |LINK13| raw:: html
+
+    <a href="https://readthedocs.org/" target="_blank">https://readthedocs.org</a>
 
 
 .. |IMG1| image:: static/pubblicare-su-docs-italia_1.png
