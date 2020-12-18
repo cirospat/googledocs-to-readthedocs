@@ -59,6 +59,7 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 .. admonition:: Aggiornamento gennaio_2020
 
     Se da Google doc cliccando su “\ |STYLE3|\ ” non trovate “\ |STYLE4|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK14|\ . 
+    
     Tuttavia al link - già dal 2019 - non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate alla procedura del successivo aggiornamento del 14_febbraio_2020.
 
 |
