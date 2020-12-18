@@ -96,12 +96,12 @@ Now you can re-build the version with a fresh build environment!
 
 |
 
-.. _h31771703d4c464c26683c015a1:
+.. _h293e4169463ab176578393f43d4e69:
 
-Web Analytics
-*************
+Web Analytics - inserire il codice su
+*************************************
 
-E’ possibile agganciare strumenti di web analytics ai progetti online di read the docs. Se si usa, ad esempio Google Analytics, una volta creato il progetto specifico su \ |LINK8|\ , si ottenuto il codice. Il codice va inserito nel progetto specifico nel pannello di Amministrazione di read the docs, seguendo questo percorso:
+E’ possibile agganciare strumenti di web analytics ai progetti online di Read the docs. Se si usa, ad esempio Google Analytics, una volta creato il progetto specifico su \ |LINK8|\ , si ottenuto il codice. Il codice va inserito nel progetto specifico nel pannello di Amministrazione di read the docs, seguendo questo percorso:
 
 Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino alla voce ``Codice Analytics``, quindi cliccare il testo ‘salva’.
 
@@ -141,20 +141,20 @@ Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino all
 
 .. |REPLACE1| raw:: html
 
-    <span class="footer_small">A volte capita che le tue build inizino a fallire perché l'ambiente di build in cui viene creata la documentazione è obsoleto o danneggiato.</span>
+    <span class="footer_small"><b>A volte capita che le tue build inizino a fallire perché l'ambiente di build in cui viene creata la documentazione è obsoleto o danneggiato.</b></span>
 .. |REPLACE2| raw:: html
 
-    <span class="footer_small">In uno di questi casi (e molti altri), la soluzione potrebbe essere semplicemente cancellare i file dell'ambiente di build esistente e consentire a Leggi i documenti di crearne uno nuovo.</span>
+    <span class="footer_small"><b>In uno di questi casi (e molti altri), la soluzione potrebbe essere semplicemente cancellare i file dell'ambiente di build esistente e consentire a Leggi i documenti di crearne uno nuovo.</b></span>
 .. |REPLACE3| raw:: html
 
     <span class="footer_small">
-    Seguire questi passaggi per cancellare l'ambiente di compilazione: - 1) Vai alle “Versioni” - 2) Fare clic sul pulsante “Modifica” della versione che si desidera cancellare sul lato destro della pagina - 3) Vai in fondo alla pagina e fai clic sul collegamento di cancellazione, accanto al pulsante "Salva"</span>
+    <b>Seguire questi passaggi per cancellare l'ambiente di compilazione: - 1) Vai alle “Versioni” - 2) Fare clic sul pulsante “Modifica” della versione che si desidera cancellare sul lato destro della pagina - 3) Vai in fondo alla pagina e fai clic sul collegamento di cancellazione, accanto al pulsante "Salva"</b></span>
 .. |REPLACE4| raw:: html
 
-    <span class="footer_small">Nota: Pulendo l'ambiente di creazione della documentazione, verranno rimossi tutti i file `` rst``, `` md`` e `` code`` associati ma non la documentazione già creata (file HTML e PDF). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione. </span>
+    <span class="footer_small"><b>Nota: Pulendo l'ambiente di creazione della documentazione, verranno rimossi tutti i file `` rst``, `` md`` e `` code`` associati ma non la documentazione già creata (file HTML e PDF). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione.</b> </span>
 .. |REPLACE5| raw:: html
 
-    <span class="footer_small">Ora puoi ricostruire la versione con un nuovo ambiente di compilazione!</span>
+    <span class="footer_small"><b>Ora puoi ricostruire la versione con un nuovo ambiente di compilazione!</b></span>
 .. |REPLACE6| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
