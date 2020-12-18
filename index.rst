@@ -55,6 +55,12 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 \ |STYLE2|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive). 
 
 
+.. sidebar:: Dal 2020 non si può più scaricare come componente aggiuntivo direttamente da Google doc!😌
+    :subtitle: per una policy di Google che non accetta più il codice sorgente di alcuni componenti aggiuntivi di terze parti 
+
+    👉 quindi bisogna seguire le procedure descritte all’aggiornamento del 14_febbraio_2020, vai giù.
+
+
 .. admonition:: Aggiornamento gennaio_2020
 
     Se da Google doc cliccando su “\ |STYLE3|\ ” non trovate “\ |STYLE4|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\ . Tuttavia a questo link non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate al successivo aggiornamento del 14_febbraio_2020.
