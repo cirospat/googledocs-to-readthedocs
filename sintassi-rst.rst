@@ -19,13 +19,11 @@ Il RST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descriver
     
     * \ |LINK3|\  editor di tabelle per più linguaggi di programmazione, per esempio con Markdown; 
     
-    * \ |LINK4|\  editor di testo per linguaggio RST; 
+    * \ |LINK4|\  editor di testo per linguaggio RST;  → link :class:`deprecato` 
     
-    * \ |LINK5|\ , estensione Markdown per tabelle su Google spreadsheet, converte tabelle in linguaggio Markdown; 
+    * \ |LINK5|\ , aspetti in comune tra il linguaggio RST e Markdown;
     
-    * \ |LINK6|\ , aspetti in comune tra il linguaggio RST e Markdown;
-    
-    * r\ |LINK7|\  (by Sphinx), breve introduzione ai concetti e sintassi del linguaggio reStructuredText (RST), per fornire agli utenti informazioni esaustive per creare produzione di documenti online.
+    * r\ |LINK6|\  (by Sphinx), breve introduzione ai concetti e sintassi del linguaggio reStructuredText (RST), per fornire agli utenti informazioni esaustive per creare produzione di documenti online.
 
 
 |REPLACE1|
@@ -33,7 +31,7 @@ Il RST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descriver
 
 |REPLACE2|
 
-\ |LINK8|\  a cura di \ |STYLE3|\  del \ |LINK9|\  
+\ |LINK7|\  a cura di \ |STYLE3|\  del \ |LINK8|\  
 
 
 .. bottom of content
@@ -73,21 +71,17 @@ Il RST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descriver
 
 .. |LINK5| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/markdowntablemaker/cofkbgfmijanlcdooemafafokhhaeold" target="_blank">MarkdownTableMaker</a>
+    <a href="https://gist.github.com/dupuy/1855764" target="_blank">https://gist.github.com/dupuy/1855764</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://gist.github.com/dupuy/1855764" target="_blank">https://gist.github.com/dupuy/1855764</a>
+    <a href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rst-primer" target="_blank">eStructuredTextPrimer</a>
 
 .. |LINK7| raw:: html
 
-    <a href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rst-primer" target="_blank">eStructuredTextPrimer</a>
-
-.. |LINK8| raw:: html
-
     <a href="http://docs.sphinxdocs.com/en/latest/cheatsheet.html" target="_blank">Immagini</a>
 
-.. |LINK9| raw:: html
+.. |LINK8| raw:: html
 
     <a href="http://docs.sphinxdocs.com/en/latest/index.html" target="_blank">Sphinx Tutorial</a>
 
