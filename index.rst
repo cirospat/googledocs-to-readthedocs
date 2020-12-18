@@ -106,6 +106,8 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
     
     Per creare lo script su Google doc, andare su \ |STYLE8|\  / \ |STYLE9|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK18|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato dare il nome ``GGeditor``.
 
+|
+
 
 .. sidebar:: Si tratta di cambiare la password di Github!😷
     :subtitle: cioè cambiare la password di Github sul componente aggiuntivo di Google doc \ |STYLE10|\  ↓
