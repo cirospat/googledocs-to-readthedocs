@@ -12,20 +12,18 @@ Da Google Doc direttamente a Read the Docs con ``GGeditor``
 
 .. class:: {tutorial}
 
-   questo tutorial nasce nel \ |LINK1|\  e continua ad essere costantemente aggiornato.
-
 |REPLACE3|
 
-Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK2|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\  e con il design di \ |LINK3|\ .
+Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\  e con il design di \ |LINK2|\ .
 
-Questo documento nasce subito dopo la produzione del tutorial “\ |LINK4|\ ”.
+Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 
 
 .. admonition:: Per questo tutorial i seguenti ringraziamenti particolari
 
     Ringraziare queste persone è importante, perché con i loro approfondimenti hanno permesso di ampliare le possibilità d’uso di ``Read the Docs`` come piattaforma di pubblicazione documentale:
     
-    \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ , \ |LINK14|\ .
+    \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ , \ |LINK13|\ .
 
 |
 
@@ -60,7 +58,7 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
 .. admonition:: Aggiornamento gennaio_2020
 
-    Se da Google doc cliccando su “\ |STYLE3|\ ” non trovate “\ |STYLE4|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\ . Tuttavia a questo link - già dal 2019 - non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate alla procedura del successivo aggiornamento del 14_febbraio_2020.
+    Se da Google doc cliccando su “\ |STYLE3|\ ” non trovate “\ |STYLE4|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK14|\ . Tuttavia a questo link - già dal 2019 - non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate alla procedura del successivo aggiornamento del 14_febbraio_2020.
 
 |
 
@@ -68,7 +66,7 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 .. sidebar:: Non scoraggiatevi!😵😭
     :subtitle: Se vi serve un file Google doc contenente lo \ |STYLE5|\  con il codice del componente aggiuntivo \ |STYLE6|\  ↓
 
-    inviate un'email 👉 a \ |LINK16|\  con oggetto: “Google doc con script del componente aggiuntivo GGeditor”
+    inviate un'email 👉 a \ |LINK15|\  con oggetto: “Google doc con script del componente aggiuntivo GGeditor”
     
     .. rubric:: non vi lascerò soli...↓
     così come non mi hanno lasciato solo coloro che con pazienza mi hanno insegnato ad usare questo prezioso strumento 😉
@@ -82,7 +80,7 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
     
     \ |STYLE8|\ 
     
-    Lo script è costituito dai seguenti files che si trovano dentro il repository \ |LINK17|\ :
+    Lo script è costituito dai seguenti files che si trovano dentro il repository \ |LINK16|\ :
     
     * conversion.html
     
@@ -102,7 +100,7 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
     
     * 程式碼.gs   (程式碼 in cinese significa :guilabel:`codice`)
     
-    Per creare lo script su Google doc, andare su \ |STYLE9|\  / \ |STYLE10|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK18|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato dare il nome ``GGeditor``.
+    Per creare lo script su Google doc, andare su \ |STYLE9|\  / \ |STYLE10|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK17|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato dare il nome ``GGeditor``.
 
 |
 
@@ -115,9 +113,9 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
 .. admonition:: Aggiornamento 19_febbraio_2020
 
-    Messaggio “\ |STYLE12|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE13|\ ” e “\ |STYLE14|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). \ |LINK19|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE15|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
+    Messaggio “\ |STYLE12|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE13|\ ” e “\ |STYLE14|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). \ |LINK18|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE15|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
     
-    #. Vai alla \ |LINK20|\  e \ |STYLE16|\  in Github.com (\ |LINK21|\ ). Quindi copia il token di accesso personale negli appunti.
+    #. Vai alla \ |LINK19|\  e \ |STYLE16|\  in Github.com (\ |LINK20|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
 
@@ -136,7 +134,7 @@ L’utilità di ``GGeditor`` per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE17|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE19|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE20|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK22|\  lo possono fare tutti, con un po di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE19|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE20|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
 |REPLACE8|
 
@@ -201,7 +199,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 ..  Tip:: 
 
-    \ |STYLE23|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK23|\  ♞ … dai un occhiata per capire meglio
+    \ |STYLE23|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio
 
 
 |REPLACE9|
@@ -267,7 +265,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
     <img src="https://googledocs.readthedocs.io/it/latest/_images/gdocs-rtd_1.png" />
 .. |REPLACE3| raw:: html
 
-    <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
+    questo tutorial nasce nel marzo 2017 e continua ad essere costantemente aggiornato. <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
 .. |REPLACE4| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> </p>
@@ -320,67 +318,67 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 .. |LINK1| raw:: html
 
-    <a href="https://github.com/cirospat/googledocs-to-readthedocs/commit/b233078e9e25dfa8a87561583888370d323668f2" target="_blank">marzo 2017</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">tutorial GGeditor</a>
 
 .. |LINK2| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">tutorial GGeditor</a>
+    <a href="http://googledocs.readthedocs.io/it/latest/pubblicare-su-docs-italia.html" target="_blank">Docs Italia</a>
 
 .. |LINK3| raw:: html
 
-    <a href="http://googledocs.readthedocs.io/it/latest/pubblicare-su-docs-italia.html" target="_blank">Docs Italia</a>
+    <a href="http://come-creare-guida.readthedocs.io/it/latest/" target="_blank">Come abbiamo creato un «Read the Docs» per pubblicare documenti pubblici su Docs Italia</a>
 
 .. |LINK4| raw:: html
 
-    <a href="http://come-creare-guida.readthedocs.io/it/latest/" target="_blank">Come abbiamo creato un «Read the Docs» per pubblicare documenti pubblici su Docs Italia</a>
+    <a href="https://github.com/iapyeh" target="_blank">Hsin Yuan Yeh</a>
 
 .. |LINK5| raw:: html
 
-    <a href="https://github.com/iapyeh" target="_blank">Hsin Yuan Yeh</a>
+    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
+    <a href="https://coseerobe.gbvitrano.it/" target="_blank">Giovan Battista Vitrano</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://coseerobe.gbvitrano.it/" target="_blank">Giovan Battista Vitrano</a>
+    <a href="https://pigrecoinfinito.wordpress.com/" target="_blank">Salvatore Fiandaca</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://pigrecoinfinito.wordpress.com/" target="_blank">Salvatore Fiandaca</a>
+    <a href="https://twitter.com/pablopersico78" target="_blank">Pablo Persico</a>
 
 .. |LINK9| raw:: html
 
-    <a href="https://twitter.com/pablopersico78" target="_blank">Pablo Persico</a>
+    <a href="https://twitter.com/marinabbasta" target="_blank">Marina Bassi</a>
 
 .. |LINK10| raw:: html
 
-    <a href="https://twitter.com/marinabbasta" target="_blank">Marina Bassi</a>
+    <a href="https://twitter.com/AndyReMagio" target="_blank">Andrea Ivan Baldassarre</a>
 
 .. |LINK11| raw:: html
 
-    <a href="https://twitter.com/AndyReMagio" target="_blank">Andrea Ivan Baldassarre</a>
+    <a href="https://twitter.com/rizzodnl" target="_blank">Daniele Rizzo</a>
 
 .. |LINK12| raw:: html
 
-    <a href="https://twitter.com/rizzodnl" target="_blank">Daniele Rizzo</a>
+    <a href="https://twitter.com/CostaMaurizio4" target="_blank">Maurizio Costa</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://twitter.com/CostaMaurizio4" target="_blank">Maurizio Costa</a>
+    <a href="https://twitter.com/m_stentella" target="_blank">Michela Stentella</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://twitter.com/m_stentella" target="_blank">Michela Stentella</a>
+    <a href="https://chrome.google.com/webstore/detail/piedgdbcihbejidgkpabjhppneghbcnp/publish-accepted?authuser=0&hl=en" target="_blank">link del componente aggiuntivo GGeditor</a>
 
 .. |LINK15| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/piedgdbcihbejidgkpabjhppneghbcnp/publish-accepted?authuser=0&hl=en" target="_blank">link del componente aggiuntivo GGeditor</a>
+    <a href="mailto:cirospat@gmail.com">cirospat@gmail.com</a>
 
 .. |LINK16| raw:: html
 
-    <a href="mailto:cirospat@gmail.com">cirospat@gmail.com</a>
+    <a href="https://github.com/cirospat/GGeditor_script" target="_blank">https://github.com/cirospat/GGeditor_script</a>
 
 .. |LINK17| raw:: html
 
@@ -388,25 +386,21 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 .. |LINK18| raw:: html
 
-    <a href="https://github.com/cirospat/GGeditor_script" target="_blank">https://github.com/cirospat/GGeditor_script</a>
+    <a href="https://ggeditor.readthedocs.io/en/latest/GithubBadCredentials.html" target="_blank">La soluzione è facile</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://ggeditor.readthedocs.io/en/latest/GithubBadCredentials.html" target="_blank">La soluzione è facile</a>
+    <a href="https://github.com/settings/tokens" target="_blank">pagina delle impostazioni in Github.com</a>
 
 .. |LINK20| raw:: html
 
-    <a href="https://github.com/settings/tokens" target="_blank">pagina delle impostazioni in Github.com</a>
+    <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line" target="_blank">How to by Github</a>
 
 .. |LINK21| raw:: html
 
-    <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line" target="_blank">How to by Github</a>
-
-.. |LINK22| raw:: html
-
     <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
 
-.. |LINK23| raw:: html
+.. |LINK22| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
