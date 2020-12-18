@@ -32,7 +32,7 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK3|\ ”.
 Vantaggi dell’uso di “Read the Docs”
 ====================================
 
-L’uso di ``Read the Docs`` come piattaforma di pubblicazione di documenti online ha i seguenti vantaggi sul formato :guilabel:`PDF`:
+L’uso di ``Read the Docs`` come piattaforma di pubblicazione di documenti online ha i seguenti vantaggi rispetto al formato :guilabel:`PDF`:
 
 |REPLACE4|
 
@@ -58,7 +58,8 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
 .. admonition:: Aggiornamento gennaio_2020
 
-    Se da Google doc cliccando su “\ |STYLE3|\ ” non trovate “\ |STYLE4|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK14|\ . Tuttavia a questo link - già dal 2019 - non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate alla procedura del successivo aggiornamento del 14_febbraio_2020.
+    Se da Google doc cliccando su “\ |STYLE3|\ ” non trovate “\ |STYLE4|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK14|\ . 
+    Tuttavia al link - già dal 2019 - non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate alla procedura del successivo aggiornamento del 14_febbraio_2020.
 
 |
 
@@ -134,7 +135,7 @@ L’utilità di ``GGeditor`` per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE17|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE19|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE20|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE19|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE20|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
 |REPLACE8|
 
