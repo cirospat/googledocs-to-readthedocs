@@ -200,7 +200,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 ..  Tip:: 
 
-    \ |STYLE23|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio
+    \ |STYLE23|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
 |REPLACE9|
