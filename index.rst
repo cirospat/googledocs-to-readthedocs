@@ -1,22 +1,20 @@
 
-|REPLACE1|
-
 .. _h305104c304e4b5e363d34c61406852:
 
 Da Google Doc direttamente a Read the Docs con ``GGeditor``
 ###########################################################
 
 
+|REPLACE1|
+
+
 |REPLACE2|
-
-
-|REPLACE3|
 
 .. class:: {tutorial}
 
    questo tutorial nasce nel \ |LINK1|\  e continua ad essere costantemente aggiornato.
 
-|REPLACE4|
+|REPLACE3|
 
 Le spiegazioni contenute in questo documento rappresentano una via piuttosto facile per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK2|\ . Fondamentalmente il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\  e con il design di \ |LINK3|\ .
 
@@ -38,12 +36,12 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di ``Read the Docs`` come piattaforma di pubblicazione di documenti online ha i seguenti vantaggi sul formato :guilabel:`PDF`:
 
-|REPLACE5|
+|REPLACE4|
 
 Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel:`PDF` che :guilabel:`EPUB` che :guilabel:`HTML`.
 
 
-|REPLACE6|
+|REPLACE5|
 
 |
 
@@ -124,10 +122,10 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
 
 
+|REPLACE6|
+
+
 |REPLACE7|
-
-
-|REPLACE8|
 
 |
 
@@ -140,7 +138,7 @@ Il componente aggiuntivo \ |STYLE16|\  rappresenta uno strumento molto utile e c
 
 Il lavoro principale che svolge il componente aggiuntivo \ |STYLE17|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE18|\ . Github a sua volta permette la compilazione automcatica dello stesso documento su \ |STYLE19|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK22|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
-|REPLACE9|
+|REPLACE8|
 
 |
 
@@ -206,7 +204,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE17|\  è quello
     \ |STYLE22|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK23|\  ♞ … dai un occhiata per capire meglio
 
 
-|REPLACE10|
+|REPLACE9|
 
 
 .. bottom of content
@@ -261,17 +259,14 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE17|\  è quello
 
 .. |REPLACE1| raw:: html
 
-    <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
 .. |REPLACE2| raw:: html
 
-    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
+    <img src="https://googledocs.readthedocs.io/it/latest/_images/gdocs-rtd_1.png" />
 .. |REPLACE3| raw:: html
 
-    <img src="https://googledocs.readthedocs.io/it/latest/_images/gdocs-rtd_1.png" />
-.. |REPLACE4| raw:: html
-
     <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
-.. |REPLACE5| raw:: html
+.. |REPLACE4| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> </p>
     
@@ -282,20 +277,20 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE17|\  è quello
     <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span> </p>
     
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span> </p>
-.. |REPLACE6| raw:: html
+.. |REPLACE5| raw:: html
 
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
-.. |REPLACE7| raw:: html
+.. |REPLACE6| raw:: html
 
     <span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">↓ Guarda i passi da compiere nelle schermate di Github (aggiornamento 19_feb_2020)</span>
-.. |REPLACE8| raw:: html
+.. |REPLACE7| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
-.. |REPLACE9| raw:: html
+.. |REPLACE8| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE10| raw:: html
+.. |REPLACE9| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
