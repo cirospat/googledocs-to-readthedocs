@@ -64,6 +64,8 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
     Se da Google doc cliccando su “\ |STYLE3|\ ” non trovate “\ |STYLE4|\ ” - cercando sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google) - potete cliccare direttamente sul \ |LINK15|\ . Tuttavia a questo link non è possibile più fare l’installazione del componente aggiuntivo GGeditor, quindi passate al successivo aggiornamento del 14_febbraio_2020.
 
+|
+
 
 .. sidebar:: Non scoraggiatevi!😵😭
     :subtitle: Se vi serve un file Google doc contenente lo \ |STYLE5|\  con il codice del componente aggiuntivo \ |STYLE6|\  ↓
