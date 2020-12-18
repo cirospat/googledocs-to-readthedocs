@@ -23,7 +23,7 @@ Il RST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descriver
     
     * \ |LINK5|\ , aspetti in comune tra il linguaggio RST e Markdown;
     
-    * r\ |LINK6|\  (by Sphinx), breve introduzione ai concetti e sintassi del linguaggio reStructuredText (RST), per fornire agli utenti informazioni esaustive per creare produzione di documenti online.
+    * \ |LINK6|\  (by Sphinx), breve introduzione ai concetti e sintassi del linguaggio reStructuredText (RST), per fornire agli utenti informazioni esaustive per creare produzione di documenti online.
 
 
 |REPLACE1|
@@ -75,7 +75,7 @@ Il RST è un \ |STYLE1|\ , un linguaggio di marcatura, che permette di descriver
 
 .. |LINK6| raw:: html
 
-    <a href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rst-primer" target="_blank">eStructuredTextPrimer</a>
+    <a href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rst-primer" target="_blank">reStructuredTextPrimer</a>
 
 .. |LINK7| raw:: html
 
