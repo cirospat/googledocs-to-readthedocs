@@ -56,9 +56,8 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
 
 .. sidebar:: Dal 2020 non si può più scaricare come componente aggiuntivo direttamente da Google doc!😌
-    :subtitle: per una policy di Google che non accetta più il codice sorgente di alcuni componenti aggiuntivi di terze parti 
 
-    👉 quindi bisogna seguire le procedure descritte all’aggiornamento del 14_febbraio_2020, vai giù.
+    per una policy di Google che non accetta più il codice sorgente di alcuni componenti aggiuntivi di terze parti … 👉 quindi bisogna seguire le procedure descritte all’aggiornamento del 14 febbraio 2020, vai giù.
 
 
 .. admonition:: Aggiornamento gennaio_2020
