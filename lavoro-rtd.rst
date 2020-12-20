@@ -151,7 +151,7 @@ Amministrazione / Impostazioni avanzate, e andando in fondo alla pagina fino all
     <b>Seguire questi passaggi per cancellare l'ambiente di compilazione: - 1) Vai alle “Versioni” - 2) Fare clic sul pulsante “Modifica” della versione che si desidera cancellare sul lato destro della pagina - 3) Vai in fondo alla pagina e fai clic sul collegamento di cancellazione, accanto al pulsante "Salva"</b></span>
 .. |REPLACE4| raw:: html
 
-    <span class="footer_small"><b>Nota: Pulendo l'ambiente di creazione della documentazione, verranno rimossi tutti i file <code>rst</code>, <code>md</code> e <code>code</code> associati ma non la documentazione già creata (file <code>HTML</code> e <code>PDF</code>). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione.</b> </span>
+    <span class="footer_small"><b>Nota: Pulendo l'ambiente di creazione della documentazione (azione chiamata ``wipe``, verranno rimossi tutti i file <code>rst</code>, <code>md</code> e <code>code</code> associati ma non la documentazione già creata (file <code>HTML</code> e <code>PDF</code>). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione.</b> </span>
 .. |REPLACE5| raw:: html
 
     <span class="footer_small"><b>Ora puoi ricostruire la versione con un nuovo ambiente di compilazione!</b></span>
