@@ -1,8 +1,8 @@
 
-.. _h305104c304e4b5e363d34c61406852:
+.. _h17587624141332763a4b3226dc2513:
 
-Da Google Doc direttamente a Read the Docs con ``GGeditor``
-###########################################################
+Da Google Doc direttamente a Read-the-Docs con "GGeditor"
+#########################################################
 
 
 |REPLACE1|
@@ -107,7 +107,7 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 |
 
 
-.. sidebar:: Si tratta di cambiare la password di Github!
+.. sidebar:: Si tratta di cambiare la password di Github
     :subtitle: cioè cambiare la password di Github sul componente aggiuntivo di Google doc \ |STYLE11|\  ↓
 
     👉 una procedura abbastanza semplice, don’t panic, a tutto c’è la soluzione 
