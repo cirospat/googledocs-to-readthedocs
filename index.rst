@@ -51,7 +51,7 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 \ |STYLE2|\  è un componente plugin che si installa direttamente da Google Doc (della suite di Google Drive). 
 
 
-.. sidebar:: Dal 2019 non si può più scaricare come componente aggiuntivo direttamente da Google doc!😌
+.. sidebar:: Dal 2019 non si può più scaricare come componente aggiuntivo direttamente da Google doc!
 
     per una policy di Google che non accetta più il codice sorgente di alcuni componenti aggiuntivi di terze parti … 👉 quindi bisogna seguire le procedure descritte all’aggiornamento del 14 febbraio 2020, vai giù.
 
@@ -65,13 +65,13 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 |
 
 
-.. sidebar:: Non scoraggiatevi!😵😭
+.. sidebar:: Non scoraggiatevi!
     :subtitle: Se vi serve un file Google doc contenente lo \ |STYLE5|\  con il codice del componente aggiuntivo \ |STYLE6|\  ↓
 
     inviate un'email 👉 a \ |LINK15|\  con oggetto: “Google doc con script del componente aggiuntivo GGeditor”
     
     .. rubric:: non vi lascerò soli...↓
-    così come non mi hanno lasciato solo coloro che con pazienza mi hanno insegnato ad usare questo prezioso strumento 😉
+    così come non mi hanno lasciato solo coloro che con pazienza mi hanno insegnato ad usare questo prezioso strumento 
 
 
 .. admonition:: Aggiornamento 14_febbraio_2020
@@ -107,10 +107,10 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 |
 
 
-.. sidebar:: Si tratta di cambiare la password di Github!😷
+.. sidebar:: Si tratta di cambiare la password di Github!
     :subtitle: cioè cambiare la password di Github sul componente aggiuntivo di Google doc \ |STYLE11|\  ↓
 
-    👉 una procedura abbastanza semplice, don’t panic, a tutto c’è la soluzione 😜
+    👉 una procedura abbastanza semplice, don’t panic, a tutto c’è la soluzione 
 
 
 .. admonition:: Aggiornamento 19_febbraio_2020
