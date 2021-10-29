@@ -129,6 +129,32 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
 |
 
+.. _h5d72f21a48101e512453b781469:
+
+Non compilazione su readthedocs.org e soluzione(news di fine ottobre 2021)
+==========================================================================
+
+Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (build failed) legata alla versione di Sphinx. La soluzione è la seguente:
+
+inserire il seguente codice nel file `requirements.txt`
+
+.. code-block:: python
+    :linenos:
+
+    docutils<0.18
+
+ed avere un file `.readthedocs.yaml` con il seguente contenuto:
+
+.. code-block:: python
+    :linenos:
+
+    version: 2
+    python:
+       install:
+       - requirements: docs/requirements.txt
+
+|
+
 .. _h7f3a342a4be53407b632069722a6:
 
 L’utilità di ``GGeditor`` per i progetti di documentazione online
