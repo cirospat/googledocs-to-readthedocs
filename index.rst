@@ -153,6 +153,19 @@ ed avere un file ``.readthedocs.yaml``  con il seguente contenuto:
        install:
        - requirements: docs/requirements.txt
 
+nel caso di questo progetto \ |LINK21|\  nel file ``.readthedocs.yaml``  avremo il seguente contenuto:
+
+
+.. code-block:: python
+    :linenos:
+
+    version: 2
+    python:
+       install:
+       - requirements: requirements.txt
+
+perché non esiste (in questo progetto) la cartella ``docs`
+
 |
 
 .. _h7f3a342a4be53407b632069722a6:
@@ -162,7 +175,7 @@ L’utilità di ``GGeditor`` per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE17|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE19|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE20|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK21|\  lo possono fare tutti, con un po di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE19|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE20|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK22|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
 |REPLACE8|
 
@@ -227,7 +240,7 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 ..  Tip:: 
 
-    \ |STYLE23|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
+    \ |STYLE23|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK23|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
 |REPLACE9|
@@ -427,9 +440,13 @@ Il lavoro principale che svolge il componente aggiuntivo \ |STYLE18|\  è quello
 
 .. |LINK21| raw:: html
 
-    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+    <a href="https://googledocs.readthedocs.io/" target="_blank">https://googledocs.readthedocs.io/</a>
 
 .. |LINK22| raw:: html
+
+    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+
+.. |LINK23| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
