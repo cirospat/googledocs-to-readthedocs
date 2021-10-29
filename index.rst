@@ -129,10 +129,10 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
 |
 
-.. _h5d72f21a48101e512453b781469:
+.. _h277879357f632f74602c185f582876:
 
-Non compilazione su readthedocs.org e soluzione(news di fine ottobre 2021)
-==========================================================================
+Non compilazione su readthedocs.org e soluzione (news di fine ottobre 2021)
+===========================================================================
 
 Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (build failed) legata alla versione di Sphinx. La soluzione è la seguente:
 
