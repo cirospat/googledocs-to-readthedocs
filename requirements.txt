@@ -1,0 +1,6 @@
+sphinx-rtd-theme
+sphinx
+recommonmark
+markdown
+sphinx-markdown-tables
+docutils<0.18
