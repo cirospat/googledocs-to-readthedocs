@@ -136,14 +136,14 @@ Non compilazione su readthedocs.org e soluzione (news di fine ottobre 2021)
 
 Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (build failed) legata alla versione di Sphinx. La soluzione è la seguente:
 
-inserire il seguente codice nel file `requirements.txt`
+inserire il seguente codice nel file ``requirements.txt``
 
 .. code-block:: python
     :linenos:
 
     docutils<0.18
 
-ed avere un file `.readthedocs.yaml` con il seguente contenuto:
+ed avere un file ``.readthedocs.yaml``  con il seguente contenuto:
 
 .. code-block:: python
     :linenos:
