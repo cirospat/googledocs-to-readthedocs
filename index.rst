@@ -164,7 +164,7 @@ nel caso di questo progetto \ |LINK21|\  nel file ``.readthedocs.yaml``  avremo 
        install:
        - requirements: requirements.txt
 
-perché non esiste (in questo progetto) la cartella ``docs`
+perché non esiste (in questo progetto) la cartella ``docs``
 
 Guarda anche la relativa \ |LINK22|\ .
 
