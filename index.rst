@@ -4,10 +4,11 @@
 Da Google Doc → via GitHub → a Read-the-Docs con "GGeditor"
 ###########################################################
 
+.. class:: {tutorial}
+
 
 |REPLACE1|
 
-.. class:: {tutorial}
 
 |REPLACE2|
 
