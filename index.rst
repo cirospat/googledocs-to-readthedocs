@@ -153,7 +153,7 @@ L’utilità di GGeditor per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE16|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE17|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE18|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE19|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK20|\  lo possono fare tutti, con un pò di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE17|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE18|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE19|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK20|\  lo possono fare tutti, con un pizzico di pazienza e curiosità.
 
 |REPLACE7|
 
