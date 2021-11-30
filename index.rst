@@ -110,7 +110,7 @@ Changelog
 
     Messaggio di “non compilazione” del progetto su readthedocs.org e soluzione (news di fine ottobre 2021).
     
-    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE15|\ ) legata alla versione di ``Sphinx`` La soluzione è di seguito illustrata.
+    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE15|\ ) legata alla versione di ``Sphinx``.  La soluzione è di seguito illustrata.
     
     Guarda anche la relativa \ |LINK18|\ .
 
