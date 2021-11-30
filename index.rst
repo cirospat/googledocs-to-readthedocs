@@ -1,20 +1,17 @@
 
-.. _h781d102c3d5348256e21761c8305e28:
+.. _h2be501640602f6f3030322035291d5:
 
-Da Google Doc a Read-the-Docs con "GGeditor"
-############################################
+Da Google Doc → via GitHub → a Read-the-Docs con "GGeditor"
+###########################################################
 
 
 |REPLACE1|
 
+.. class:: {tutorial}
 
 |REPLACE2|
 
-.. class:: {tutorial}
-
-|REPLACE3|
-
-Le spiegazioni contenute in questo tutorial rappresentano una via per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\ .
+Le spiegazioni contenute in questo tutorial rappresentano una via per migliorare la qualità dei documenti pubblicati sul web e sono la traduzione in italiano del \ |LINK1|\ . Il tutorial spiega come usare lo strumento di \ |STYLE0|\ , ed un componente aggiuntivo, per pubblicare documenti con lo stile di \ |STYLE1|\  utilizzando anche \ |STYLE2|\ .
 
 Questo documento nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
 
@@ -34,12 +31,12 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di ``Read the Docs`` come piattaforma di pubblicazione di documenti online ha i seguenti vantaggi rispetto al formato :guilabel:`PDF`:
 
-|REPLACE4|
+|REPLACE3|
 
 Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel:`PDF` che :guilabel:`EPUB` che :guilabel:`HTML`.
 
 
-|REPLACE5|
+|REPLACE4|
 
 |
 
@@ -51,18 +48,18 @@ Changelog
 
 .. admonition:: Aggiornamento N. 1 - gennaio_2020
 
-    Su Google doc cliccando su “\ |STYLE2|\ ” non trovate più  “\ |STYLE3|\ ” neanche sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google). Passate alla procedura del successivo aggiornamento.
+    Su Google doc cliccando su “\ |STYLE3|\ ” non trovate più  “\ |STYLE4|\ ” neanche sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google). Passate alla procedura del successivo aggiornamento.
 
 |
 
 
 .. admonition:: Aggiornamento N.2 - 14_febbraio_2020
 
-    In alternativa all’installazione del componente aggiuntivo su Google doc (dall’elenco dei componenti aggiuntivi forniti da Google), le funzioni svolte da GGeditor possono anche essere assicurate creando un Google doc che contiene uno script con il codice sorgente del componente \ |STYLE4|\ . Una volta creato lo script (con la procedura di seguito illustrata) avviando il comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), è possibile creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto editato su Google doc.
+    In alternativa all’installazione del componente aggiuntivo su Google doc (dall’elenco dei componenti aggiuntivi forniti da Google), le funzioni svolte da GGeditor possono anche essere assicurate creando un Google doc che contiene uno script con il codice sorgente del componente \ |STYLE5|\ . Una volta creato lo script (con la procedura di seguito illustrata) avviando il comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), è possibile creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto editato su Google doc.
     
     ↓
     
-    \ |STYLE5|\ 
+    \ |STYLE6|\ 
     
     Lo script è costituito dai seguenti files che si trovano dentro il repository \ |LINK13|\ :
     
@@ -84,26 +81,26 @@ Changelog
     
     * 程式碼.gs   (程式碼 in cinese significa :guilabel:`codice`)
     
-    Per creare lo script su Google doc, andare su \ |STYLE6|\  / \ |STYLE7|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK14|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato date il nome ``GGeditor``.
+    Per creare lo script su Google doc, andare su \ |STYLE7|\  / \ |STYLE8|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK14|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato date il nome ``GGeditor``.
 
 |
 
 
 .. admonition:: Aggiornamento N.3 - 19_febbraio_2020
 
-    Messaggio “\ |STYLE8|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE9|\ ” e “\ |STYLE10|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). 
+    Messaggio “\ |STYLE9|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE10|\ ” e “\ |STYLE11|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). 
     
-    \ |LINK15|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE11|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
+    \ |LINK15|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE12|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
     
-    #. Vai alla \ |LINK16|\  e \ |STYLE12|\  in Github.com (\ |LINK17|\ ). Quindi copia il token di accesso personale negli appunti.
+    #. Vai alla \ |LINK16|\  e \ |STYLE13|\  in Github.com (\ |LINK17|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
 
 
+|REPLACE5|
+
+
 |REPLACE6|
-
-
-|REPLACE7|
 
 |
 
@@ -112,7 +109,7 @@ Changelog
 
     Messaggio di “non compilazione” del progetto su readthedocs.org e soluzione (news di fine ottobre 2021).
     
-    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE13|\ ) legata alla versione di ``Sphinx`` La soluzione è di seguito illustrata.
+    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE14|\ ) legata alla versione di ``Sphinx`` La soluzione è di seguito illustrata.
     
     Guarda anche la relativa \ |LINK18|\ .
 
@@ -153,11 +150,11 @@ in quanto non esiste (in questo progetto) la cartella ``docs``
 L’utilità di GGeditor per i progetti di documentazione online
 =============================================================
 
-Il componente aggiuntivo \ |STYLE14|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+Il componente aggiuntivo \ |STYLE15|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE15|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE16|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE17|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK20|\  lo possono fare tutti, con un po di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE16|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE17|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE18|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK20|\  lo possono fare tutti, con un pò di pazienza e curiosità.
 
-|REPLACE8|
+|REPLACE7|
 
 |
 
@@ -222,10 +219,10 @@ Le principali funzioni e punti di forza di GGeditor
 
 ..  Tip:: 
 
-    \ |STYLE18|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK21|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
+    \ |STYLE19|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK21|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
-|REPLACE9|
+|REPLACE8|
 
 
 .. bottom of content
@@ -233,54 +230,53 @@ Le principali funzioni e punti di forza di GGeditor
 
 .. |STYLE0| replace:: **Google doc**
 
-.. |STYLE1| replace:: **Read the Docs**
+.. |STYLE1| replace:: **Read the Docs,**
 
-.. |STYLE2| replace:: *installa componente aggiuntivo*
+.. |STYLE2| replace:: **GitHub**
 
-.. |STYLE3| replace:: **GGeditor**
+.. |STYLE3| replace:: *installa componente aggiuntivo*
 
 .. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **I file contenuti nello script da creare su Google doc**
+.. |STYLE5| replace:: **GGeditor**
 
-.. |STYLE6| replace:: **menu strumenti**
+.. |STYLE6| replace:: **I file contenuti nello script da creare su Google doc**
 
-.. |STYLE7| replace:: **< > editor di script**
+.. |STYLE7| replace:: **menu strumenti**
 
-.. |STYLE8| replace:: **Bad Credential**
+.. |STYLE8| replace:: **< > editor di script**
 
-.. |STYLE9| replace:: *nome utente*
+.. |STYLE9| replace:: **Bad Credential**
 
-.. |STYLE10| replace:: *password*
+.. |STYLE10| replace:: *nome utente*
 
-.. |STYLE11| replace:: **token di accesso personale**
+.. |STYLE11| replace:: *password*
 
-.. |STYLE12| replace:: **crea un token di accesso personale**
+.. |STYLE12| replace:: **token di accesso personale**
 
-.. |STYLE13| replace:: **build failed**
+.. |STYLE13| replace:: **crea un token di accesso personale**
 
-.. |STYLE14| replace:: **GGeditor**
+.. |STYLE14| replace:: **build failed**
 
 .. |STYLE15| replace:: **GGeditor**
 
-.. |STYLE16| replace:: **Github**
+.. |STYLE16| replace:: **GGeditor**
 
-.. |STYLE17| replace:: **Read the Docs**
+.. |STYLE17| replace:: **Github**
 
-.. |STYLE18| replace:: **⇒**
+.. |STYLE18| replace:: **Read the Docs**
+
+.. |STYLE19| replace:: **⇒**
 
 
 .. |REPLACE1| raw:: html
 
-    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Passando automaticamente da Github!</span></p>
-.. |REPLACE2| raw:: html
-
     <img src="https://googledocs.readthedocs.io/it/latest/_images/gdocs-rtd_1.png" />
-.. |REPLACE3| raw:: html
+.. |REPLACE2| raw:: html
 
     <img src="https://img.shields.io/badge/data_inizio_tutorial-marzo_2017-blue.svg?style=popout&logo=Read%20the%20Docs" />
     <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
-.. |REPLACE4| raw:: html
+.. |REPLACE3| raw:: html
 
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> </p>
     
@@ -291,20 +287,20 @@ Le principali funzioni e punti di forza di GGeditor
     <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span> </p>
     
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span> </p>
-.. |REPLACE5| raw:: html
+.. |REPLACE4| raw:: html
 
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
-.. |REPLACE6| raw:: html
+.. |REPLACE5| raw:: html
 
     <span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">↓ Guarda i passi da compiere nelle schermate di Github (aggiornamento N. 3 - 19_febbraio_2020)</span>
-.. |REPLACE7| raw:: html
+.. |REPLACE6| raw:: html
 
     <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
-.. |REPLACE8| raw:: html
+.. |REPLACE7| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE9| raw:: html
+.. |REPLACE8| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
