@@ -43,13 +43,6 @@ Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non acces
 
 |
 
-.. _h5903d5a39d5f1459686a383a586f23:
-
-GGeditor, componente aggiuntivo di Google doc
-=============================================
-
-\ |STYLE2|\  è un componente plugin che si installa direttamente da Google Doc (suite di Google Drive). 
-
 .. _h3c6f7e24c7a7047332e107b3d623a39:
 
 Changelog
@@ -58,18 +51,18 @@ Changelog
 
 .. admonition:: Aggiornamento N. 1 - gennaio_2020
 
-    Su Google doc cliccando su “\ |STYLE3|\ ” non trovate più  “\ |STYLE4|\ ” neanche sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google). Passate alla procedura del successivo aggiornamento.
+    Su Google doc cliccando su “\ |STYLE2|\ ” non trovate più  “\ |STYLE3|\ ” neanche sul Marketplace di Google (capita dall’agosto 2019 per una ridefinizione dei termini d’uso di Google). Passate alla procedura del successivo aggiornamento.
 
 |
 
 
 .. admonition:: Aggiornamento N.2 - 14_febbraio_2020
 
-    In alternativa all’installazione del componente aggiuntivo su Google doc (dall’elenco dei componenti aggiuntivi forniti da Google), le funzioni svolte da GGeditor possono anche essere assicurate creando un Google doc che contiene uno script con il codice sorgente del componente \ |STYLE5|\ . Una volta creato lo script (con la procedura di seguito illustrata) avviando il comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), è possibile creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto editato su Google doc.
+    In alternativa all’installazione del componente aggiuntivo su Google doc (dall’elenco dei componenti aggiuntivi forniti da Google), le funzioni svolte da GGeditor possono anche essere assicurate creando un Google doc che contiene uno script con il codice sorgente del componente \ |STYLE4|\ . Una volta creato lo script (con la procedura di seguito illustrata) avviando il comando “Commit to Github” (percorso: componenti aggiuntivi / GGeditor / Commit to Github), è possibile creare automaticamente un file in formato ``.RST`` su Github partendo dal contenuto editato su Google doc.
     
     ↓
     
-    \ |STYLE6|\ 
+    \ |STYLE5|\ 
     
     Lo script è costituito dai seguenti files che si trovano dentro il repository \ |LINK13|\ :
     
@@ -91,18 +84,18 @@ Changelog
     
     * 程式碼.gs   (程式碼 in cinese significa :guilabel:`codice`)
     
-    Per creare lo script su Google doc, andare su \ |STYLE7|\  / \ |STYLE8|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK14|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato date il nome ``GGeditor``.
+    Per creare lo script su Google doc, andare su \ |STYLE6|\  / \ |STYLE7|\ . Nella pagina dello script copiare il codice dei 9 file di cui al repository \ |LINK14|\  dando lo stesso nome dei 9 file di cui sopra. Allo script così creato date il nome ``GGeditor``.
 
 |
 
 
 .. admonition:: Aggiornamento N.3 - 19_febbraio_2020
 
-    Messaggio “\ |STYLE9|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE10|\ ” e “\ |STYLE11|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). 
+    Messaggio “\ |STYLE8|\ ” (“Credenziali errate di Github”) su GGeditor. Github ha deprecato la sua API di autenticazione per “\ |STYLE9|\ ” e “\ |STYLE10|\ ”, che è la causa principale del problema del messaggio “Bad Credential” ("Credenziali non valide"). 
     
-    \ |LINK15|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE12|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
+    \ |LINK15|\ , basta sostituire la password con cui si entra nell'account Github con il  "\ |STYLE11|\ " quando si esegue il commit in GGEditor nel Google doc. I passi da seguire sono i seguenti:
     
-    #. Vai alla \ |LINK16|\  e \ |STYLE13|\  in Github.com (\ |LINK17|\ ). Quindi copia il token di accesso personale negli appunti.
+    #. Vai alla \ |LINK16|\  e \ |STYLE12|\  in Github.com (\ |LINK17|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
 
@@ -119,7 +112,7 @@ Changelog
 
     Messaggio di “non compilazione” del progetto su readthedocs.org e soluzione (news di fine ottobre 2021).
     
-    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE14|\ ) legata alla versione di ``Sphinx`` La soluzione è di seguito illustrata.
+    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE13|\ ) legata alla versione di ``Sphinx`` La soluzione è di seguito illustrata.
     
     Guarda anche la relativa \ |LINK18|\ .
 
@@ -160,9 +153,9 @@ in quanto non esiste (in questo progetto) la cartella ``docs``
 L’utilità di GGeditor per i progetti di documentazione online
 =============================================================
 
-Il componente aggiuntivo \ |STYLE15|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+Il componente aggiuntivo \ |STYLE14|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE16|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE17|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE18|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK20|\  lo possono fare tutti, con un po di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE15|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE16|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE17|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma posso assicurare che se lo faccio \ |LINK20|\  lo possono fare tutti, con un po di pazienza e curiosità.
 
 |REPLACE8|
 
@@ -229,7 +222,7 @@ Le principali funzioni e punti di forza di GGeditor
 
 ..  Tip:: 
 
-    \ |STYLE19|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK21|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
+    \ |STYLE18|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK21|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
 |REPLACE9|
@@ -242,41 +235,39 @@ Le principali funzioni e punti di forza di GGeditor
 
 .. |STYLE1| replace:: **Read the Docs**
 
-.. |STYLE2| replace:: **GGeditor**
+.. |STYLE2| replace:: *installa componente aggiuntivo*
 
-.. |STYLE3| replace:: *installa componente aggiuntivo*
+.. |STYLE3| replace:: **GGeditor**
 
 .. |STYLE4| replace:: **GGeditor**
 
-.. |STYLE5| replace:: **GGeditor**
+.. |STYLE5| replace:: **I file contenuti nello script da creare su Google doc**
 
-.. |STYLE6| replace:: **I file contenuti nello script da creare su Google doc**
+.. |STYLE6| replace:: **menu strumenti**
 
-.. |STYLE7| replace:: **menu strumenti**
+.. |STYLE7| replace:: **< > editor di script**
 
-.. |STYLE8| replace:: **< > editor di script**
+.. |STYLE8| replace:: **Bad Credential**
 
-.. |STYLE9| replace:: **Bad Credential**
+.. |STYLE9| replace:: *nome utente*
 
-.. |STYLE10| replace:: *nome utente*
+.. |STYLE10| replace:: *password*
 
-.. |STYLE11| replace:: *password*
+.. |STYLE11| replace:: **token di accesso personale**
 
-.. |STYLE12| replace:: **token di accesso personale**
+.. |STYLE12| replace:: **crea un token di accesso personale**
 
-.. |STYLE13| replace:: **crea un token di accesso personale**
+.. |STYLE13| replace:: **build failed**
 
-.. |STYLE14| replace:: **build failed**
+.. |STYLE14| replace:: **GGeditor**
 
 .. |STYLE15| replace:: **GGeditor**
 
-.. |STYLE16| replace:: **GGeditor**
+.. |STYLE16| replace:: **Github**
 
-.. |STYLE17| replace:: **Github**
+.. |STYLE17| replace:: **Read the Docs**
 
-.. |STYLE18| replace:: **Read the Docs**
-
-.. |STYLE19| replace:: **⇒**
+.. |STYLE18| replace:: **⇒**
 
 
 .. |REPLACE1| raw:: html
