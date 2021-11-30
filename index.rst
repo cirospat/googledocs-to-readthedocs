@@ -32,7 +32,7 @@ L’uso di ``Read the Docs`` come piattaforma di pubblicazione di documenti onli
 
 |REPLACE3|
 
-Per i nostalgici e dipendenti di documenti in formato :guilabel:`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel:`PDF` che :guilabel:`EPUB` che :guilabel:`HTML`.
+Per i nostalgici e dipendenti da documenti in formato :guilabel:`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel:`PDF` che :guilabel:`EPUB` oltre che :guilabel:`HTML`.
 
 
 |REPLACE4|
