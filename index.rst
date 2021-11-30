@@ -146,14 +146,39 @@ in quanto non esiste (in questo progetto) la cartella ``docs``
 
 |
 
+
+.. admonition:: Messaggio di errore “undefined”, soluzione
+
+    Nelle azioni di commit sul componente GGeditor potrebbe comparire un messaggio di “\ |STYLE16|\ ” ed un messaggio di error in lingua taiwanese.
+    
+    Ho aperto una issue (\ |LINK20|\ ) sul suo progetto Github e Hsin Yuan Yeh (autore di GGeditor) ha provveduto ad analizzare tempestivamente il problema ed ha fornito immediatamente una soluzione che è stata implementata nel codice sorgente di \ |STYLE17|\ .  
+
+Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo 
+
+↓
+
+ \ |IMG1|\ 
+
+La cosa da fare è: 
+
+andare in “\ |STYLE18|\ ”, poi “\ |STYLE19|\ ” e quindi su “\ |STYLE20|\ ” dove si trova un tasto rosso di “\ |STYLE21|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
+
+\ |IMG2|\ 
+
+L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github. Ovviamente bisogna ricollegare il componente aggiuntivo GGeditor all’account di Github per poter continuare a effettuare i commits.
+
+Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema.
+
+|
+
 .. _h5b7fc263f61617c4bc66273d6a13c:
 
 L’utilità di GGeditor per i progetti di documentazione online
 =============================================================
 
-Il componente aggiuntivo \ |STYLE16|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
+Il componente aggiuntivo \ |STYLE22|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE17|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE18|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE19|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK20|\  lo possono fare tutti, con un pizzico di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE23|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE24|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE25|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK21|\  lo possono fare tutti, con un pizzico di pazienza e curiosità.
 
 |REPLACE7|
 
@@ -220,7 +245,7 @@ Le principali funzioni e punti di forza di GGeditor
 
 ..  Tip:: 
 
-    \ |STYLE20|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK21|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
+    \ |STYLE26|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
 |REPLACE8|
@@ -261,15 +286,27 @@ Le principali funzioni e punti di forza di GGeditor
 
 .. |STYLE15| replace:: **build failed**
 
-.. |STYLE16| replace:: **GGeditor**
+.. |STYLE16| replace:: **undefined**
 
 .. |STYLE17| replace:: **GGeditor**
 
-.. |STYLE18| replace:: **Github**
+.. |STYLE18| replace:: **Componenti aggiuntivi**
 
-.. |STYLE19| replace:: **Read the Docs**
+.. |STYLE19| replace:: **GGeditor**
 
-.. |STYLE20| replace:: **⇒**
+.. |STYLE20| replace:: **Setting**
+
+.. |STYLE21| replace:: **Reset**
+
+.. |STYLE22| replace:: **GGeditor**
+
+.. |STYLE23| replace:: **GGeditor**
+
+.. |STYLE24| replace:: **Github**
+
+.. |STYLE25| replace:: **Read the Docs**
+
+.. |STYLE26| replace:: **⇒**
 
 
 .. |REPLACE1| raw:: html
@@ -408,9 +445,21 @@ Le principali funzioni e punti di forza di GGeditor
 
 .. |LINK20| raw:: html
 
-    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+    <a href="https://github.com/iapyeh/GGeditor/issues/1" target="_blank">https://github.com/iapyeh/GGeditor/issues/1</a>
 
 .. |LINK21| raw:: html
 
+    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+
+.. |LINK22| raw:: html
+
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
+
+.. |IMG1| image:: static/index_gdocs-rtdocs_1.png
+   :height: 192 px
+   :width: 430 px
+
+.. |IMG2| image:: static/index_gdocs-rtdocs_2.png
+   :height: 194 px
+   :width: 601 px
