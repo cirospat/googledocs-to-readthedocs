@@ -4,8 +4,6 @@
 Da Google Doc con "GGeditor" → via GitHub → a Read-the-Docs 
 ############################################################
 
-.. class:: {tutorial}
-
 
 |REPLACE1|
 
@@ -275,6 +273,7 @@ Le principali funzioni e punti di forza di GGeditor
     <img src="https://googledocs.readthedocs.io/it/latest/_images/gdocs-rtd_1.png" />
 .. |REPLACE2| raw:: html
 
+    <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 1px 5px; border-radius: 5px;"><small>Tutorial</small></span></p> 
     <img src="https://img.shields.io/badge/data_inizio_tutorial-marzo_2017-blue.svg?style=popout&logo=Read%20the%20Docs" />
     <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
 .. |REPLACE3| raw:: html
