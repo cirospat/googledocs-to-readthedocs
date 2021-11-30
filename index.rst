@@ -1,8 +1,8 @@
 
-.. _h2be501640602f6f3030322035291d5:
+.. _h6a7a1e645a337922f59342e6d452959:
 
-Da Google Doc → via GitHub → a Read-the-Docs con "GGeditor"
-###########################################################
+Da Google Doc con "GGeditor" → via GitHub → a Read-the-Docs 
+############################################################
 
 .. class:: {tutorial}
 
