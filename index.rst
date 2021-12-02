@@ -108,13 +108,18 @@ Changelog
 
     Messaggio di “non compilazione” del progetto su readthedocs.org e soluzione (news di fine ottobre 2021). Guarda anche la relativa \ |LINK18|\ .
     
-    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE15|\ ) legata alla versione di ``Sphinx``.  La soluzione è di seguito illustrata.
+    Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE15|\ ) legata alla versione di ``Sphinx``.  La soluzione è inserire nel file ``requirements.txt`` : ``docutils<0.18`` come di seguito illustrato.
 
 1- avere un file denominato ``requirements.txt`` con il seguente codice:
 
 .. code-block:: python
     :linenos:
 
+    sphinx-rtd-theme
+    sphinx
+    recommonmark
+    markdown
+    sphinx-markdown-tables
     docutils<0.18
 
 2- avere un file ``.readthedocs.yaml``  con il seguente codice: 
