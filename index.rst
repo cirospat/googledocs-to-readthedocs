@@ -96,6 +96,7 @@ Changelog
     #. Vai alla \ |LINK16|\  e \ |STYLE14|\  in Github.com (\ |LINK17|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
+    
     Guarda i passi da compiere nelle schermate di Github: \ |IMG1|\ 
 
 |
