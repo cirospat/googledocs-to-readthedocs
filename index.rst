@@ -97,7 +97,9 @@ Changelog
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
     
-    Guarda i passi da compiere nelle schermate di Github: \ |IMG1|\ 
+    Guarda i passi da compiere nelle schermate di Github: 
+    
+    \ |IMG1|\ 
 
 |
 
