@@ -162,8 +162,9 @@ in quanto non esiste (in questo progetto) la cartella ``docs``
     
     andare in “\ |STYLE18|\ ”, poi “\ |STYLE19|\ ” e quindi su “\ |STYLE20|\ ” dove si trova un tasto rosso di “\ |STYLE21|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
     
-    \ |IMG2|\ L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github. Ovviamente bisogna ricollegare il componente aggiuntivo GGeditor all’account di Github per poter continuare a effettuare i commits.
-    Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema.
+    \ |IMG2|\ 
+    
+    Tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github. Ovviamente bisogna ricollegare il componente aggiuntivo GGeditor all’account di Github per poter continuare a effettuare i commits. Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema.
 
  |
 
