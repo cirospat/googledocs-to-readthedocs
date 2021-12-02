@@ -152,24 +152,20 @@ in quanto non esiste (in questo progetto) la cartella ``docs``
     Nelle azioni di commit sul componente GGeditor potrebbe comparire un messaggio di “\ |STYLE16|\ ” ed un messaggio di error in lingua taiwanese.
     
     Ho aperto una issue (\ |LINK20|\ ) sul suo progetto Github e Hsin Yuan Yeh (autore di GGeditor) ha provveduto ad analizzare tempestivamente il problema ed ha fornito immediatamente una soluzione che è stata implementata nel codice sorgente di \ |STYLE17|\ .  
+    
+    Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo 
+    ↓
+    
+    \ |IMG1|\ 
+    
+    La cosa da fare è: 
+    
+    andare in “\ |STYLE18|\ ”, poi “\ |STYLE19|\ ” e quindi su “\ |STYLE20|\ ” dove si trova un tasto rosso di “\ |STYLE21|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
+    
+    \ |IMG2|\ L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github. Ovviamente bisogna ricollegare il componente aggiuntivo GGeditor all’account di Github per poter continuare a effettuare i commits.
+    Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema.
 
-Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo 
-
-↓
-
- \ |IMG1|\ 
-
-La cosa da fare è: 
-
-andare in “\ |STYLE18|\ ”, poi “\ |STYLE19|\ ” e quindi su “\ |STYLE20|\ ” dove si trova un tasto rosso di “\ |STYLE21|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
-
-\ |IMG2|\ 
-
-L’ho provato e tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github. Ovviamente bisogna ricollegare il componente aggiuntivo GGeditor all’account di Github per poter continuare a effettuare i commits.
-
-Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema.
-
-|
+ |
 
 .. _h5b7fc263f61617c4bc66273d6a13c:
 
@@ -461,5 +457,5 @@ Le principali funzioni e punti di forza di GGeditor
    :width: 430 px
 
 .. |IMG2| image:: static/index_gdocs-rtdocs_2.png
-   :height: 194 px
-   :width: 601 px
+   :height: 189 px
+   :width: 586 px
