@@ -117,7 +117,7 @@ Changelog
 
     docutils<0.18
 
-2- avere un file ``.readthedocs.yaml``  con il seguente contenuto: 
+2- avere un file ``.readthedocs.yaml``  con il seguente codice: 
 
 .. code-block:: python
     :linenos:
