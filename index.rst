@@ -96,23 +96,16 @@ Changelog
     #. Vai alla \ |LINK16|\  e \ |STYLE14|\  in Github.com (\ |LINK17|\ ). Quindi copia il token di accesso personale negli appunti.
     
     #. Apri un documento Google e rimuovi tutte le credenziali archiviate precedentemente in GGEditor, quindi aggiungi un nuovo account Github con il token copiato come password.
-
-
-|REPLACE5|
-
-
-|REPLACE6|
+    Guarda i passi da compiere nelle schermate di Github: \ |IMG1|\ 
 
 |
 
 
 .. admonition:: Aggiornamento N. 4 - ottobre_2021
 
-    Messaggio di “non compilazione” del progetto su readthedocs.org e soluzione (news di fine ottobre 2021).
+    Messaggio di “non compilazione” del progetto su readthedocs.org e soluzione (news di fine ottobre 2021). Guarda anche la relativa \ |LINK18|\ .
     
     Da fine ottobre 2021 su readthedocs.org compare una non compilazione del progetto (\ |STYLE15|\ ) legata alla versione di ``Sphinx``.  La soluzione è di seguito illustrata.
-    
-    Guarda anche la relativa \ |LINK18|\ .
 
 1- avere un file denominato ``requirements.txt`` con il seguente codice:
 
@@ -156,13 +149,13 @@ in quanto non esiste (in questo progetto) la cartella ``docs``
     Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo 
     ↓
     
-    \ |IMG1|\ 
+    \ |IMG2|\ 
     
     La cosa da fare è: 
     
     andare in “\ |STYLE18|\ ”, poi “\ |STYLE19|\ ” e quindi su “\ |STYLE20|\ ” dove si trova un tasto rosso di “\ |STYLE21|\ ” che cancella tutte le informazioni di collegamento agli account Github e ai relativi file nel repository.
     
-    \ |IMG2|\ 
+    \ |IMG3|\ 
     
     Tutto ritorna in ordine e funziona correttamente nella procedura di Commit da Google Doc a Github. Ovviamente bisogna ricollegare il componente aggiuntivo GGeditor all’account di Github per poter continuare a effettuare i commits. Grazie Hsin Yuan Yeh per questa tempestiva soluzione al problema.
 
@@ -177,7 +170,7 @@ Il componente aggiuntivo \ |STYLE22|\  rappresenta uno strumento molto utile e c
 
 Il lavoro principale che svolge il componente aggiuntivo \ |STYLE23|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE24|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE25|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK21|\  lo possono fare tutti, con un pizzico di pazienza e curiosità.
 
-|REPLACE7|
+|REPLACE5|
 
 |
 
@@ -245,7 +238,7 @@ Le principali funzioni e punti di forza di GGeditor
     \ |STYLE26|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK22|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
-|REPLACE8|
+|REPLACE6|
 
 
 .. bottom of content
@@ -330,15 +323,9 @@ Le principali funzioni e punti di forza di GGeditor
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
 .. |REPLACE5| raw:: html
 
-    <span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">↓ Guarda i passi da compiere nelle schermate di Github (aggiornamento N. 3 - 19_febbraio_2020)</span>
-.. |REPLACE6| raw:: html
-
-    <img src="https://ggeditor.readthedocs.io/en/latest/_images/Github_Bad_Credentials_1.png" alt="" width="650 />
-.. |REPLACE7| raw:: html
-
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE8| raw:: html
+.. |REPLACE6| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -454,9 +441,13 @@ Le principali funzioni e punti di forza di GGeditor
 
 
 .. |IMG1| image:: static/index_gdocs-rtdocs_1.png
+   :height: 413 px
+   :width: 586 px
+
+.. |IMG2| image:: static/index_gdocs-rtdocs_2.png
    :height: 192 px
    :width: 430 px
 
-.. |IMG2| image:: static/index_gdocs-rtdocs_2.png
+.. |IMG3| image:: static/index_gdocs-rtdocs_3.png
    :height: 189 px
    :width: 586 px
