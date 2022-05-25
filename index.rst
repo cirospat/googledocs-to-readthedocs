@@ -135,11 +135,18 @@ Changelog
 |
 
 
+.. admonition:: Aggiornamento N. 5 - maggio_2022
+
+    Fortunatamente il :guilabel:`componente aggiuntivo` per Google Doc  ``GG editor`` è di nuovo disponibile nello store di Google per l’installazione. Vai al seguente link: \ |LINK21|\ 
+
+|
+
+
 .. admonition:: Messaggio di errore “undefined”, soluzione
 
     Nelle azioni di commit sul componente GGeditor potrebbe comparire un messaggio di “\ |STYLE16|\ ” ed un messaggio di error in lingua taiwanese.
     
-    Ho aperto una issue (\ |LINK21|\ ) sul suo progetto Github e Hsin Yuan Yeh (autore di GGeditor) ha provveduto ad analizzare tempestivamente il problema ed ha fornito immediatamente una soluzione che è stata implementata nel codice sorgente di \ |STYLE17|\ .  
+    Ho aperto una issue (\ |LINK22|\ ) sul suo progetto Github e Hsin Yuan Yeh (autore di GGeditor) ha provveduto ad analizzare tempestivamente il problema ed ha fornito immediatamente una soluzione che è stata implementata nel codice sorgente di \ |STYLE17|\ .  
     
     Praticamente se dovesse capitare di leggere un messaggio “undefined” o un messaggio in lingua taiwanese del tipo 
     ↓
@@ -163,7 +170,7 @@ L’utilità di GGeditor per i progetti di documentazione online
 
 Il componente aggiuntivo \ |STYLE22|\  rappresenta uno strumento molto utile e comodo in quanto i servizi di Google Drive oggi sono molto usati anche nelle Pubbliche Amministrazioni, oltre che dai privati, per la facilità d’uso e per la funzionalità di condivisione dei documenti in gruppo.
 
-Il lavoro principale che svolge il componente aggiuntivo \ |STYLE23|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE24|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE25|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK22|\  lo possono fare tutti, con un pizzico di pazienza e curiosità.
+Il lavoro principale che svolge il componente aggiuntivo \ |STYLE23|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE24|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE25|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK23|\  lo possono fare tutti, con un pizzico di pazienza e curiosità.
 
 |REPLACE5|
 
@@ -230,7 +237,7 @@ Le principali funzioni e punti di forza di GGeditor
 
 ..  Tip:: 
 
-    \ |STYLE26|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK23|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
+    \ |STYLE26|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK24|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
 |REPLACE6|
@@ -428,13 +435,17 @@ Le principali funzioni e punti di forza di GGeditor
 
 .. |LINK21| raw:: html
 
-    <a href="https://github.com/iapyeh/GGeditor/issues/1" target="_blank">https://github.com/iapyeh/GGeditor/issues/1</a>
+    <a href="https://workspace.google.com/u/1/marketplace/app/ggeditor/644886139871" target="_blank">https://workspace.google.com/u/1/marketplace/app/ggeditor/644886139871</a>
 
 .. |LINK22| raw:: html
 
-    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+    <a href="https://github.com/iapyeh/GGeditor/issues/1" target="_blank">https://github.com/iapyeh/GGeditor/issues/1</a>
 
 .. |LINK23| raw:: html
+
+    <a href="https://cirospat.readthedocs.io" target="_blank">io</a>
+
+.. |LINK24| raw:: html
 
     <a href="https://docs.google.com/document/d/1L53rUYYMd5-UJUv6nj87uE6giZXHb9n4BsRemodCevI/" target="_blank">questo Google Doc</a>
 
