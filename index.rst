@@ -21,6 +21,9 @@ Questo documento nasce subito dopo la produzione del tutorial “\ |LINK2|\ ”.
     
     \ |LINK3|\ , \ |LINK4|\ , \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , \ |LINK8|\ , \ |LINK9|\ , \ |LINK10|\ , \ |LINK11|\ , \ |LINK12|\ .
 
+
+|REPLACE3|
+
 |
 
 .. _h387bd41572c6e60811453b41204663:
@@ -30,12 +33,12 @@ Vantaggi dell’uso di “Read the Docs”
 
 L’uso di ``Read the Docs`` come piattaforma di pubblicazione di documenti online ha i seguenti vantaggi rispetto al formato :guilabel:`PDF`:
 
-|REPLACE3|
+|REPLACE4|
 
 Per i nostalgici e dipendenti da documenti in formato :guilabel:`PDF` (non accessibili comodamente da dispositivi mobili), la documentazione esposta su ``Read the Docs`` permette di scaricare il contenuto dell’intero documento pubblicato online sia in formato :guilabel:`PDF` che :guilabel:`EPUB` oltre che :guilabel:`HTML`.
 
 
-|REPLACE4|
+|REPLACE5|
 
 |
 
@@ -176,7 +179,7 @@ Il componente aggiuntivo \ |STYLE22|\  rappresenta uno strumento molto utile e c
 
 Il lavoro principale che svolge il componente aggiuntivo \ |STYLE23|\  è quello di trasformare il testo editato su un foglio di Google doc in un file con linguaggio ``.RST`` dentro il repository di \ |STYLE24|\ . Github a sua volta permette la compilazione automatica dello stesso documento su \ |STYLE25|\  in pagine ``HTML`` . Sembra una cosa difficile nella descrizione, ma se lo faccio \ |LINK23|\  lo possono fare tutti, con un pizzico di pazienza e curiosità.
 
-|REPLACE5|
+|REPLACE6|
 
 |
 
@@ -244,7 +247,7 @@ Le principali funzioni e punti di forza di GGeditor
     \ |STYLE26|\  il contenuto di questa pagina che stai leggendo è editato in \ |LINK24|\  ♞ … dai un occhiata per capire meglio come il testo di Google doc viene esposto su pagine ``HTML`` di :guilabel:`Read the Docs`
 
 
-|REPLACE6|
+|REPLACE7|
 
 
 .. bottom of content
@@ -315,6 +318,9 @@ Le principali funzioni e punti di forza di GGeditor
     <img alt="undefined" src="https://img.shields.io/github/last-commit/cirospat/googledocs-to-readthedocs.svg?colorB=%2300bfff&label=ultimo%20aggiornamento&style=flat">
 .. |REPLACE3| raw:: html
 
+    <img src="https://raw.githubusercontent.com/cirospat/googledocs-to-readthedocs/master/static/ods.png" />
+.. |REPLACE4| raw:: html
+
     <p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Responsive</span> </p>
     
     <p><span style="background-color: #105618; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Funzioni avanzate di ricerca testo</span> </p>
@@ -324,14 +330,14 @@ Le principali funzioni e punti di forza di GGeditor
     <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Codice sorgente del testo online</span> </p>
     
     <p><span style="background-color: #c914c0; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">E’ elegante e bello da vedere</span> </p>
-.. |REPLACE4| raw:: html
+.. |REPLACE5| raw:: html
 
     <img src="https://raw.githubusercontent.com/cirospat/rtd-schematipo/master/static/robin_batman.PNG" />
-.. |REPLACE5| raw:: html
+.. |REPLACE6| raw:: html
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/5O2D4h5hI18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Breve video introduttivo (2’10”)
-.. |REPLACE6| raw:: html
+.. |REPLACE7| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
