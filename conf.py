@@ -2,6 +2,10 @@
 
 from __future__ import unicode_literals
 import sys, os
+import re
+
+from sphinx_rtd_theme import __version__ as theme_version
+from sphinx_rtd_theme import __version_full__ as theme_version_full
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
@@ -33,9 +37,11 @@ extlinks = {}
 
 # -- Options for HTML output ---------------------------------------------------
 
-html_theme = 'default'
+html_theme = 'sphinx_rtd_theme'
 
 html_static_path = ['static']
+
+extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
 
 def setup(app):
     # overrides for wide tables in RTD theme
