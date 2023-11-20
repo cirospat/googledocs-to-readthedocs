@@ -7,6 +7,11 @@ import re
 from sphinx_rtd_theme import __version__ as theme_version
 from sphinx_rtd_theme import __version_full__ as theme_version_full
 
+# dal conf.py di tansignari 
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 sys.path.append(os.path.abspath(os.pardir))
